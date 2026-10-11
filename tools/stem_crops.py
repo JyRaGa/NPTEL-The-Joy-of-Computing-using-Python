@@ -8,7 +8,7 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
-POINTS_AT = re.compile(r"\b(following|below|given|above)\b", re.I)
+POINTS_AT = re.compile(r"\b(following|below|given|above)\b|\bthis (code|program|snippet)\b", re.I)
 GREY = range(110, 230)
 OVERRIDES = ROOT / "index" / "stem_overrides.json"  # {crop path: y to cut at | [top, bottom] | null = no stem from this crop}, checked before the heuristic
 
