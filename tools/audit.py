@@ -71,7 +71,7 @@ def check(g):
         ans = g["answer"] if isinstance(g["answer"], list) else []
         if not ans:
             out.append(("low", "no answer"))
-    if g.get("broken_image") and not g["images"] and not g["crops"]:  # a screenshot on the card replaces the lost embed
+    if g.get("broken_image") and not g["images"] and not g["crops"] and not any(o.get("code") for o in opts):  # a screenshot on the card replaces the lost embed
         out.append(("high", "source image link is broken"))
     return out
 
