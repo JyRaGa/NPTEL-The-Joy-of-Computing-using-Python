@@ -6,7 +6,7 @@ Every past weekly quiz of NPTEL's **The Joy of Computing using Python** (IIT Rop
 
 ## Features
 
-- **2,334 questions** from 17 sessions, merged into 1,999 cards. A question asked in several sessions appears once, tagged with each session and an "Asked N×" count.
+- **2,135 questions** from 17 sessions, merged into 1,953 cards. A question asked in several sessions appears once, tagged with each session and an "Asked N×" count.
 - **Instant feedback.** Single-answer questions check on click; multi-answer questions have a Submit button; typed answers have a Check button.
 - **Every answer says where it came from:** official NPTEL key, course PDF, verified by running the code, reviewed, or unverified.
 - **Filters and order:** by session; all, unanswered, wrong or saved; most repeated, newest or oldest first. Search covers every week.
@@ -17,24 +17,24 @@ Every past weekly quiz of NPTEL's **The Joy of Computing using Python** (IIT Rop
 
 | Session | Weeks | Questions | Official answer | Other answers |
 |---|---|--:|--:|---|
-| 2018 Jul–Oct | 1–6, 8–10 | 109 | 94% | 1 verified by running, 5 reviewed, 1 no answer |
-| 2019 Jan–Apr | 3–12 | 94 | 30% | 2 verified by running, 63 reviewed, 1 unverified |
+| 2018 Jul–Oct | 1–6, 8–10 | 90 | 100% | — |
+| 2019 Jan–Apr | 3–12 | 94 | 32% | 2 verified by running, 62 reviewed |
 | 2019 Jul–Oct | 1–12 | 109 | 93% | 8 reviewed |
-| 2020 Jan–Apr | 1–12 | 119 | 100% | — |
-| 2020 Sep–Dec | 1–12 | 120 | 97% | 2 reviewed, 2 no answer |
-| 2021 Jan–Apr | 0–12 | 250 | 70% | 1 verified by running, 64 reviewed, 3 unverified, 6 no answer |
-| 2021 Jul–Oct | 0–12 | 130 | 5% | 114 reviewed, 9 unverified |
-| 2022 Jan–Apr | 0–12 | 130 | 35% | 82 reviewed, 3 unverified |
-| 2022 Jul–Oct | 0–12 | 130 | 99% | 1 reviewed |
-| 2023 Jan–Apr | 0–12 | 130 | 30% | 8 verified by running, 83 reviewed |
-| 2023 Jul–Oct | 1–12 | 182 | 93% | 6 reviewed, 2 unverified, 4 no answer |
-| 2024 Jan–Apr | 0–12 | 131 | 1% | 7 verified by running, 115 reviewed, 6 unverified, 2 no answer |
+| 2020 Jan–Apr | 1–12 | 119 | 97% | 4 no answer |
+| 2020 Sep–Dec | 1–12 | 120 | 94% | 2 reviewed, 5 no answer |
+| 2021 Jan–Apr | 0–12 | 130 | 84% | 20 reviewed, 1 unverified |
+| 2021 Jul–Oct | 0–12 | 130 | 7% | 113 reviewed, 8 unverified |
+| 2022 Jan–Apr | 0–12 | 130 | 35% | 85 reviewed |
+| 2022 Jul–Oct | 0–12 | 130 | 100% | — |
+| 2023 Jan–Apr | 0–12 | 130 | 31% | 8 verified by running, 82 reviewed |
+| 2023 Jul–Oct | 1–12 | 122 | 93% | 3 verified by running, 4 reviewed, 1 unverified, 1 no answer |
+| 2024 Jan–Apr | 0–12 | 131 | 1% | 7 verified by running, 115 reviewed, 8 unverified |
 | 2024 Jul–Oct | 0–12 | 130 | 100% | — |
-| 2025 Jan–Apr | 1–12 | 120 | 100% | — |
-| 2025 Jul–Oct | 5 | 30 | 0% | 4 verified by running, 26 reviewed |
+| 2025 Jan–Apr | 1–12 | 120 | 99% | 1 no answer |
+| 2025 Jul–Oct | 5 | 30 | 0% | 5 verified by running, 25 reviewed |
 | 2026 Jan–Apr | 1–12 | 180 | 0% | 23 verified by running, 156 reviewed, 1 unverified |
-| 2026 Jul–Oct | 1–12 | 240 | 0% | 220 course PDF, 20 reviewed |
-| **All** | | **2334** | **55%** | |
+| 2026 Jul–Oct | 1–12 | 240 | 83% | 40 reviewed |
+| **All** | | **2135** | **63%** | |
 
 Counts are per session; when a repeated question has an official key from any session, every copy uses it. "Reviewed" answers were worked out from the question, and "unverified" ones are only a video uploader's pick. Missing sessions and weeks had no source we could find.
 

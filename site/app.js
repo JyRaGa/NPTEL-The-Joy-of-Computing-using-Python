@@ -341,7 +341,7 @@ $("#import").addEventListener("change", async (e) => {
     const d = JSON.parse(await e.target.files[0].text());
     if (!d || typeof d.a !== "object") throw new Error("not a progress file");
     Object.assign(store.a, d.a); Object.assign(store.s, d.s || {}); persist(); render();
-  } catch (err) { alert("That file is not a JOC progress export."); }
+  } catch (err) { alert("That file is not a JoC progress export."); }
   e.target.value = "";
 });
 window.addEventListener("hashchange", () => {
