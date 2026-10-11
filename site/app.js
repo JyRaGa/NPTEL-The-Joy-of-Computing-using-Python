@@ -48,21 +48,21 @@ let meta = { weeks: {} };
 const loadWeek = (w) => (cache[w] ??= fetch(`data/week-${String(w).padStart(2, "0")}.json`).then((r) => r.json()));
 
 /* ---------- view state <-> URL ---------- */
-const state = { w: 0, years: new Set(), f: "all", s: "rep", q: "", g: "" };
+const state = { w: 0, years: new Set(), f: "all", s: "new", q: "", g: "" };
 function readHash() {
   const [path, qs] = location.hash.slice(1).split("?");
   const p = new URLSearchParams(qs || "");
   state.w = Math.min(12, Math.max(0, parseInt((path || "w0").slice(1), 10) || 0));
   state.years = new Set((p.get("y") || "").split(",").filter(Boolean));
   state.f = p.get("f") || "all";
-  state.s = p.get("s") || "rep";
+  state.s = p.get("s") || "new";
   state.g = p.get("g") || "";
 }
 function writeHash(replace) {
   const p = new URLSearchParams();
   if (state.years.size) p.set("y", [...state.years].join(","));
   if (state.f !== "all") p.set("f", state.f);
-  if (state.s !== "rep") p.set("s", state.s);
+  if (state.s !== "new") p.set("s", state.s);
   const h = `#w${state.w}` + (p.toString() ? "?" + p.toString().replace(/%2C/g, ",") : "");
   if (h !== location.hash) history[replace ? "replaceState" : "pushState"](null, "", h);
 }
@@ -80,11 +80,10 @@ const img = (p, alt) => `<img class="zoomable" src="${esc(imgSrc(p))}" alt="${es
 function renderQ(g, idx) {
   const rec = store.a[g.gid];
   const sess = g.terms.map(termLabel).join(" · ");
-  const rep = g.terms.length > 1 ? `<span class="rep">Asked ${g.terms.length}×</span>` : "";
   const wk = state.q ? `<span class="wk-tag">Week ${g.week}</span>` : "";
   let h = `<article class="q" id="g-${g.gid}" data-gid="${g.gid}" tabindex="-1" aria-labelledby="t-${g.gid}">
     <div class="q-head"><a class="q-id" href="#w${g.week}?g=${g.gid}">Q${idx}<span class="pil">¶</span></a>${wk}
-    <span class="sess">${sess}</span>${rep}
+    <span class="sess">${sess}</span>
     <button class="icon-btn save" type="button" aria-pressed="${!!store.s[g.gid]}" aria-label="Save question" data-save>${ICON.save}</button></div>`;
   if (g.context && (g.context.text || g.context.code || g.context.images)) {
     h += `<details class="ctx"${idx === 1 || !g.context.text || g.context.images ? " open" : ""}><summary>${g.context.text ? "Scenario" : "Code for this question"}</summary><div class="ctx-body">${rich(g.context.text)}` +
@@ -206,8 +205,7 @@ function summary(base) {
   const answered = base.filter((g) => store.a[g.gid]);
   const ok = answered.filter((g) => store.a[g.gid].ok === true).length;
   const bad = answered.filter((g) => store.a[g.gid].ok === false).length;
-  const repeats = base.filter((g) => g.terms.length > 1).length;
-  $("#summary").textContent = `${base.length} questions · ${repeats} asked in more than one session · ${answered.length} answered, ${ok} correct`;
+  $("#summary").textContent = `${base.length} questions · ${answered.length} answered, ${ok} correct`;
   $("#bar-ok").style.width = (base.length ? (ok / base.length) * 100 : 0) + "%";
   $("#bar-bad").style.width = (base.length ? (bad / base.length) * 100 : 0) + "%";
 }

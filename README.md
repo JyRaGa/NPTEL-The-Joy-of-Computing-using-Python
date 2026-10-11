@@ -20,7 +20,6 @@ exams/                         final-exam recollection (+ OCR text), online prog
 practice/                      IMP-question sets, topic lists, small MCQ banks
 sources/ licenses/             where each file came from; upstream licences; mirrored-image list
 _reference/                    low-trust material kept for reference only
-STEP3_INSTRUCTIONS.md          brief for the next step (topic index, repeats, verified flag)
 ```
 
 Session rule: Week 1 in Dec/Jan = **Jan** session (Jan–Apr); Week 1 in Jul/Aug = **Jul** session (Jul–Oct).
@@ -58,7 +57,4 @@ Known gaps: 2019-jan Wk1–2 (no source found); 2018-jul Wk7, 11, 12 (not in the
 
 ## Still to do
 
-- **Step 3** (topic index, repeat frequency, verified flag): see [STEP3_INSTRUCTIONS.md](STEP3_INSTRUCTIONS.md).
 - Parse the OCR text of the scanned Jul-2022 print and the other image-only PDFs into week files; extract the Jul-2023 notebooks' screenshots.
-- Decide the licence (see [licenses/](licenses/)): the code sources are MIT; quiz content is NPTEL course material.
-- Detach the fork or push to a fresh repo.

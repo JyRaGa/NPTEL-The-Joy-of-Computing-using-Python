@@ -134,7 +134,6 @@ main > * { max-width: 780px; }
 .q-id:hover .pil { opacity: 1; }
 .pil { opacity: 0; margin-left: .15rem; }
 .sess { font-variant-numeric: tabular-nums; }
-.rep { padding: .05rem .45rem; border-radius: 9px; background: var(--blue-wash); color: var(--blue-ink); font-weight: 600; }
 .wk-tag { color: var(--ink-3); }
 .save { margin-left: auto; align-self: center; height: 28px; min-width: 28px; }
 .save[aria-pressed="true"] svg { fill: var(--blue); stroke: var(--blue); }
