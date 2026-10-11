@@ -224,6 +224,17 @@ def main():
                 if g["answer"] and g["answer"] != [run] and g["answer_source"] == "reviewed":
                     flags.append(f"- `{gid}` ({rep['id']}): reviewed answer {g['answer']} but running the code matches option {run}")
                 g["answer"], g["answer_source"] = [run], "run"
+        # a typed answer the uploader entered becomes a checkable (unverified) answer instead of text that gives it away
+        m = re.search(r"Answer (?:entered|box)[^`\n]*`([^`]+)`", g["text"] or "")
+        if g["type"] == "reveal" and m and not g["answer"]:
+            g["type"], g["answer"], g["answer_source"] = "numeric", m.group(1).strip(), "uploader"
+        # transcriber notes in italics, e.g. *(author first clicked "1", then changed to "-1")*, are not for learners
+        # only notes that read like notes: "*(red, green)*" inside "**(...)**" is real content
+        note = re.compile(r"\s*(?<!\*)\*\((?:author|appears|right edge|not visible|taken from|cut off|unclear|partly)[^)]*\)\*(?!\*)", re.I)
+        # markdown hard breaks from the second repo: "question?**\" + newline (the opening ** was eaten by the parser)
+        g["text"] = re.sub(r"(?:\*\*)?\\(?=\n)", "", g["text"] or "")
+        g["text"] = note.sub("", g["text"])
+        g["options"] = [dict(o, text=note.sub("", o["text"])) for o in g["options"]]
         if g["type"] == "numeric" and g["text"]:
             # the uploader's typed entry would give the answer away once the card is answerable
             g["text"] = re.sub(r"\n?Answer (?:entered|box)[^\n]*", "", g["text"]).strip()

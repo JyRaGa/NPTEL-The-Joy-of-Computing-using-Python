@@ -35,7 +35,10 @@ const termKey = (t) => +t.slice(0, 4) * 100 + ({ jan: 1, jul: 7, sep: 9 }[t.slic
 const imgSrc = (p) => (/^https?:/.test(p) ? p : "../" + p);
 const LETTERS = "ABCDEFGH";
 // sources carry a few inline tags (<br>, <sup>); allow only those, everything else stays escaped
-const rich = (s) => esc(s).replace(/&lt;(\/?)(br|sup|sub|b|i|em|strong|code)\s*\/?&gt;/gi, (m, c, t) => (t.toLowerCase() === "br" ? "\n" : `<${c}${t}>`));
+const rich = (s) => esc(s).replace(/&lt;(\/?)(br|sup|sub|b|i|em|strong|code)\s*\/?&gt;/gi, (m, c, t) => (t.toLowerCase() === "br" ? "\n" : `<${c}${t}>`))
+  // source markdown: `code` and **bold**; star patterns such as "*****" have no text inside and are left alone
+  .replace(/`([^`\n]+)`/g, "<code>$1</code>")
+  .replace(/(?<![*\w])\*\*(?=[^\s*])([^*\n]+?)\*\*(?![*\w])/g, "<b>$1</b>");
 
 /* ---------- progress store (browser only) ---------- */
 let store = { a: {}, s: {} };
