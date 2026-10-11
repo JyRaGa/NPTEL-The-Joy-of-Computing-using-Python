@@ -200,7 +200,7 @@ async function render() {
   empty.hidden = groups.length > 0;
   empty.textContent = state.f === "wrong" ? "Nothing answered wrong here. Nice." : state.f === "saved" ? "No saved questions in this view yet." : state.f === "todo" ? "Every question in this view is answered." : "No questions match.";
   // segmented control + sort
-  document.querySelectorAll("#status button").forEach((b) => b.setAttribute("aria-checked", String(b.dataset.f === state.f)));
+  document.querySelectorAll("#status button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.f === state.f)));
   $("#sort").value = state.s;
   summary(base);
   renderToc();
@@ -211,7 +211,7 @@ function summary(base) {
   const ok = answered.filter((g) => store.a[g.gid].ok === true).length;
   const bad = answered.filter((g) => store.a[g.gid].ok === false).length;
   const repeats = base.filter((g) => g.terms.length > 1).length;
-  $("#summary").textContent = `${base.length} questions · ${repeats} asked in more than one session · ${answered.length} answered, ${ok} correct`;
+  $("#summary").textContent = `${base.length} question${base.length === 1 ? "" : "s"} · ${repeats} asked in more than one session · ${answered.length} answered, ${ok} correct`;
   $("#bar-ok").style.width = (base.length ? (ok / base.length) * 100 : 0) + "%";
   $("#bar-bad").style.width = (base.length ? (bad / base.length) * 100 : 0) + "%";
 }
@@ -346,12 +346,14 @@ $("#import").addEventListener("change", async (e) => {
 window.addEventListener("hashchange", () => {
   const prevW = state.w;
   readHash();
+  if (state.w !== prevW && state.q) { state.q = ""; $("#q").value = ""; } // a week change ends the search, however it was reached
   const jump = state.g;
   render().then(() => { if (!jump && state.w !== prevW) window.scrollTo(0, 0); });
 });
 
 (async function init() {
   readHash();
+  $("#q").value = ""; // browsers restore form text on reload; state.q starts empty
   try { meta = await fetch("data/meta.json").then((r) => r.json()); } catch (e) { /* counts only */ }
   if (!location.hash) writeHash(true);
   await render();

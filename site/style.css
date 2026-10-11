@@ -7,7 +7,7 @@
   --bg-2: #f6f8fa;
   --ink: #1d232b;
   --ink-2: #4c5663;
-  --ink-3: #6b7480;
+  --ink-3: #5f6874;
   --rule: #dde3ea;
   --rule-2: #c7d0da;
   --blue: #306998;
@@ -21,12 +21,12 @@
   --bad-wash: #fdeced;
   --code-bg: #f3fbe4;
   --code-rule: #d2e5b0;
-  --code-gutter: #8a9a6e;
+  --code-gutter: #5e6d45;
   --warn-wash: #fdf1e6;
   --warn: #a35200;
   /* pygments, after the classic Sphinx palette */
-  --t-kw: #007020; --t-str: #4070a0; --t-num: #208050; --t-com: #408090;
-  --t-fn: #06287e; --t-bi: #007020; --t-op: #666666; --t-cls: #0e84b5; --t-dec: #555555;
+  --t-kw: #007020; --t-str: #4070a0; --t-num: #208050; --t-com: #3a7584;
+  --t-fn: #06287e; --t-bi: #007020; --t-op: #666666; --t-cls: #0b6f98; --t-dec: #555555;
   --mono: "JetBrains Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
   --sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   --r: 3px;
@@ -120,7 +120,7 @@ main > * { max-width: 780px; }
 .seg { display: inline-flex; border: 1px solid var(--rule-2); border-radius: var(--r); overflow: hidden; }
 .seg button { border: 0; border-right: 1px solid var(--rule-2); background: var(--bg); padding: .3rem .75rem; cursor: pointer; font-size: .85rem; color: var(--ink-2); }
 .seg button:last-child { border-right: 0; }
-.seg button[aria-checked="true"] { background: var(--blue-wash); color: var(--blue-ink); font-weight: 600; }
+.seg button[aria-pressed="true"] { background: var(--blue-wash); color: var(--blue-ink); font-weight: 600; }
 .sort { display: flex; align-items: center; gap: .45rem; font-size: .85rem; color: var(--ink-3); }
 .sort select { height: 32px; border: 1px solid var(--rule-2); border-radius: var(--r); background: var(--bg); padding: 0 .4rem; }
 .hint { margin: .3rem 0 0; font-size: .8rem; color: var(--ink-3); }
@@ -238,5 +238,6 @@ dialog .close { position: absolute; top: .3rem; right: .3rem; background: var(--
   .chips { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px; padding: 0 16px 2px; scrollbar-width: none; }
   .chip { flex: none; }
 }
+@media (pointer: coarse) { .icon-btn, .save, .chip, .seg button, .sort select, .btn { min-height: 44px; } .save { min-width: 44px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 @media (max-width: 420px) { .brand > span { display: none; } }
