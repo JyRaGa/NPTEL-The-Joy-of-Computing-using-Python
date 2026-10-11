@@ -27,7 +27,8 @@ def base_id(i):
 
 
 def has_visual(g):
-    return bool(g["images"] or g["crops"] or g["code"] or any(o.get("img") for o in g["options"]))
+    c = g.get("context") or {}
+    return bool(g["images"] or g["crops"] or g["code"] or c.get("code") or c.get("images") or any(o.get("img") for o in g["options"]))
 
 
 def check(g):
