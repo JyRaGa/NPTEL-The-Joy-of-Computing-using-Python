@@ -71,11 +71,12 @@ function writeHash(replace) {
 }
 
 /* ---------- rendering helpers ---------- */
-function codePanel(code, html) {
+function codePanel(code, html, copy = true) {
   const n = code.split("\n").length;
   const gut = Array.from({ length: n }, (_, i) => i + 1).join("\n");
   return `<div class="code"><pre class="gut" aria-hidden="true">${gut}</pre><pre data-code>${html || esc(code)}</pre>` +
-    `<button class="copy" type="button" data-copy>Copy</button></div>`;
+    // no Copy button inside an option: a button nested in the option button breaks the card's markup
+    (copy ? `<button class="copy" type="button" data-copy>Copy</button>` : "") + `</div>`;
 }
 const looksLikeOutput = (t) => t.length < 160 && /[\[\]{}()=_'"*]|^\s*-?\d/.test(t) && !/\s(the|is|of|and|to|will|it|by)\s/i.test(t);
 const img = (p, alt) => `<img class="zoomable" src="${esc(imgSrc(p))}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
@@ -102,7 +103,7 @@ function renderQ(g, idx) {
     const outQ = /output|print/i.test(g.text) && (g.code || g.images.length || g.context?.code);
     h += `<ol class="opts">` + g.options.map((o, i) => {
       const body = (o.text ? `<span class="otext${looksLikeOutput(o.text) || (outQ && o.text.length < 80) ? " mono" : ""}">${rich(o.text)}</span>` : "") +
-        (o.img ? img(o.img, `Option ${LETTERS[i]}`) : "") + (o.code ? codePanel(o.code, o.code_html) : "");
+        (o.img ? img(o.img, `Option ${LETTERS[i]}`) : "") + (o.code ? codePanel(o.code, o.code_html, false) : "");
       return `<li><button class="opt" type="button" data-i="${i}" aria-pressed="false"><span class="letter">${LETTERS[i]}</span><span>${body}</span><span class="mk"></span></button></li>`;
     }).join("") + `</ol>`;
   }
@@ -154,7 +155,7 @@ function paint(el, g) {
   else verdict = `<span class="verdict na">No checked answer for this one yet.</span>`;
   const badge = known(g) ? `<span class="badge ${g.answer_source}">${BADGE[g.answer_source] || ""}</span>` : "";
   let h = `<div><span class="prompt">&gt;&gt;&gt;</span> ${esc(call)}</div><div class="verdict-row">${verdict}${badge}<button class="link-btn again" type="button" data-again>Try again</button></div>`;
-  if (g.note) h += `<div class="adm warn"><p class="adm-t">About the official answer</p><p>${esc(g.note)}</p></div>`;
+  if (g.note) h += `<div class="adm warn"><p class="adm-t">${g.answer_source === "official" ? "About the official answer" : "About this answer"}</p><p>${esc(g.note)}</p></div>`;
   if (g.explanation) h += `<div class="adm"><p class="adm-t">Explanation</p><p>${esc(g.explanation)}</p></div>`;
   res.innerHTML = h;
   if (g.type === "reveal") { const s = $(".src", el); if (s) s.open = true; }

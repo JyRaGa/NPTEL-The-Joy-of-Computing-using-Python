@@ -185,3 +185,4 @@ id	answer	badge	note	type
 2024-jan/w05/q03	3	reviewed		
 2024-jan/w07/q01	213	reviewed		numeric
 2024-jan/w08/q04	2	reviewed		
+2022-jan/w10/q08	1,2	reviewed	The quiz allowed one answer, but two options are correct. b.transpose() calls the transpose method; b.T is the transpose attribute (no brackets). Both give [[1, 3], [2, 4]]. b.T() fails because b.T is an array, not a function, and b.transpose without brackets prints the method itself.	multi
