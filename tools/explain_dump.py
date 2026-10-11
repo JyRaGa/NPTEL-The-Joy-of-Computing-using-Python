@@ -8,6 +8,7 @@ Snippets in a card's code are run with `python -I` (stdin closed, 5 s limit) and
 card; a line "RUN MATCHES OPTION X" is added when stdout equals an option text.
 """
 import json, subprocess, sys, tempfile
+from urllib.parse import unquote
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -37,10 +38,16 @@ def run(code):
         return p.stdout, p.stderr.strip().splitlines()[-1] if p.stderr.strip() else ""
 
 
+_ctx = [None]
+
+
 def show(n, g):
     print(f"=== Q{n} id={g['id']} type={g['type']} src={g['answer_source']} terms={len(g['terms'])}")
     c = g.get("context")
-    if c:
+    if c and c == _ctx[0]:
+        print("[ctx: same as the previous card]")
+    elif c:
+        _ctx[0] = c
         if c.get("text"):
             print("[ctx]", c["text"])
         if c.get("code"):
@@ -56,7 +63,7 @@ def show(n, g):
         print("[stem/crops]", g["stem"] or g["crops"])
     for i, o in enumerate(g["options"]):
         extra = (" [code] " + o["code"].replace("\n", "\\n")) if o.get("code") else ""
-        extra += f" [img {o['img']}]" if o.get("img") else ""
+        extra += f" [img {unquote(o['img'])}]" if o.get("img") else ""
         print(f"  {LET[i]}. {o['text']}{extra}")
     ans = g["answer"]
     print("ANSWER:", ans if g["type"] == "numeric" else ",".join(LET[i] for i in ans))
@@ -142,7 +149,8 @@ def main():
     w = int(a[0])
     start = int(a[1]) if len(a) > 1 else 1
     count = int(a[2]) if len(a) > 2 else 20
-    have = {m for d in overlay(w) for m in [d["id"]]}
+    sk = ROOT / "index" / "explain" / "skipped.tsv"  # id<TAB>reason: cards left unexplained on purpose (disagreements etc.)
+    have = {d["id"] for d in overlay(w)} | ({l.split("	")[0] for l in sk.read_text(encoding="utf-8").splitlines()} if sk.exists() else set())
     cards = week(w)
     pending = [(n, g) for n, g in enumerate(cards, 1) if eligible(g) and not (set(g["members"]) & have)]
     skipped = [(n, g) for n, g in enumerate(cards, 1) if not eligible(g)]
