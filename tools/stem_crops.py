@@ -3,13 +3,14 @@
 The full crop also prints "Accepted Answers", so it cannot be shown before the user answers. Writes <crop>-stem.png next to
 each crop; cluster.py attaches them as g["stem"]. Run after cluster.py, then run cluster.py again.
 """
-import json, re
+import json, re, sys
 from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 POINTS_AT = re.compile(r"\b(following|below|given|above)\b", re.I)
 GREY = range(110, 230)
+OVERRIDES = ROOT / "index" / "stem_overrides.json"  # {crop path: y to cut at | null = no stem from this crop}, checked before the heuristic
 
 
 def first_radio(im):
@@ -93,27 +94,38 @@ def bare(g):
     return not (g["code"] or g["images"] or c.get("code") or c.get("images") or any(o.get("img") or o.get("code") for o in g["options"]))
 
 
-def main():
+def main(weeks=None):
+    """weeks: optional list of week numbers; only those are deleted and rewritten (a full run takes minutes)"""
+    ov = json.loads(OVERRIDES.read_text(encoding="utf-8")) if OVERRIDES.exists() else {}
+    tag = [f"w{w:02d}-" for w in weeks] if weeks is not None else None
     for old in ROOT.glob("quizzes/*/img/**/*-stem.png"):
-        old.unlink()
+        if tag is None or old.name.startswith(tuple(tag)):
+            old.unlink()
     made, missed, text_only = 0, [], 0
     for f in sorted((ROOT / "site" / "data").glob("week-*.json")):
+        if weeks is not None and int(f.stem[5:]) not in weeks:
+            continue
         for g in json.loads(f.read_text(encoding="utf-8")):
-            if not (bare(g) and g["crops"] and POINTS_AT.search(g["text"] or "")):
+            forced = any(isinstance(ov.get(p), int) for p in g["crops"])
+            if not (bare(g) and g["crops"] and (forced or POINTS_AT.search(g["text"] or ""))):
                 continue
-            stems = []  # (path, image) of everything above the first option radio
+            stems, skipped = [], False  # (path, image) of everything above the first option radio
             for p in g["crops"]:
                 im = Image.open(ROOT / p)
-                y, done = cut_at(im.convert("L"))
+                if p in ov and ov[p] is None:
+                    skipped = True
+                    continue
+                y, done = (ov[p], ov[p] < im.height) if p in ov else cut_at(im.convert("L"))  # cutting at the full height = the stem goes on onto the next crop
                 stems.append((p, im if y is None else im.crop((0, 0, im.width, max(y, 0)))))
                 if done:
                     break
             else:
-                missed.append(g["id"])
-                continue
+                if not skipped:
+                    missed.append(g["id"])
+                    continue
             stems = [(p, tidy(im, top=k > 0)) for k, (p, im) in enumerate(stems)]
             stems = [(p, im) for p, im in stems if im.height > 20 and ink_rows(im.convert("L")) > 10]  # drop blank page tails
-            if not any(b[1] - b[0] >= 50 for _, im in stems for b in bands(im.convert("L"))):
+            if not any(b[1] - b[0] >= 50 for _, im in stems for b in bands(im.convert("L"))) and not forced:
                 text_only += 1  # the stem is just the question's own words
                 continue
             for p, im in stems:
@@ -124,4 +136,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main([int(a) for a in sys.argv[1:]] or None)  # python tools/stem_crops.py 2 3
