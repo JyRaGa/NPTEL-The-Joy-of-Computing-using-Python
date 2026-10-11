@@ -100,7 +100,8 @@ def main():
     for f in [rv, *sorted((ROOT / "index" / "review").glob("*.tsv"))]:
         if f.exists():
             for row in csv.DictReader(open(f, encoding="utf-8"), delimiter="\t"):
-                review[row["id"]] = row
+                if review.get(row["id"], {}).get("badge") != "official":  # an official key is never overwritten
+                    review[row["id"]] = row
 
     fixes = {}
     for f in sorted((ROOT / "index" / "fixes").glob("*.jsonl")):
@@ -150,7 +151,9 @@ def main():
             out = [pos.get(norm(src["options"][i]["text"])) for i in idx if i < len(src["options"])]
             return out if out and None not in out else idx
 
-        rk = next((k for k in [gid, *g["members"]] if k in review), None)
+        keys = [k for k in [gid, *g["members"]] if k in review]
+        # an official key on any member beats a reviewed answer on another member
+        rk = next((k for k in keys if review[k].get("badge") == "official"), keys[0] if keys else None)
         rw = review.get(rk)
         if rw:
             if rw.get("type"):
@@ -175,7 +178,7 @@ def main():
                 # an option that is a picture keeps its picture; a recovered text description never replaces it
                 g["options"] = [old[i] if i < len(old) and old[i].get("img") else {"text": t, "img": None}
                                 for i, t in enumerate(fx["options"])]
-            if "answer" in fx:
+            if "answer" in fx and not (rw and rw.get("badge") == "official"):  # recovered text never overrides an official key
                 g["answer"] = fx["answer"] if "options" in fx or not isinstance(fx["answer"], list) else remap(fx["answer"], fk)
                 g["answer_source"] = fx.get("badge", "reviewed")
         if isinstance(g["answer"], list) and g["answer"] and (not g["options"] or max(g["answer"]) >= len(g["options"])):

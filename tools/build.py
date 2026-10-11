@@ -74,7 +74,7 @@ cp("_incoming/_sources.tsv","sources/scribd_sources.tsv")
 cp("_incoming/youtube/_candidates_dated.tsv","sources/youtube_candidates_dated.tsv")
 cp("LICENSE","licenses/LICENSE-upstream-gxuxhxm-MIT")
 cp(S2+"/LICENSE","licenses/LICENSE-kishanrajput23-MIT")
-cp("structure.md","structure.md")
+cp("structure.md","docs/structure.md")
 with open(os.path.join(O,"_manifest.tsv"),"w",encoding="utf-8") as fh:
     fh.write("source\tcopied_to\n"+"\n".join(f"{a}\t{b}" for a,b in log))
 print(len(log),"files copied")

@@ -1,60 +1,66 @@
-# JRG JOC: NPTEL "The Joy of Computing using Python" past questions and answers
+# Joy of Computing — past quizzes
 
-Past weekly quizzes (and some programming assignments and exam material) for the IIT Ropar course, organised by NPTEL session. Everything here is **copied or derived** from the surrounding repo; nothing was deleted from the originals. Audit and per-file verdicts: [structure.md](structure.md). Every copied file is listed in [_manifest.tsv](_manifest.tsv); every markdown file with its source kind and trust level is in [inventory.tsv](inventory.tsv). Scripts that built this folder: [tools/](tools/).
+Every past weekly quiz of NPTEL's **The Joy of Computing using Python** (IIT Ropar), 2018–2026, as one practice site. Questions are grouped by course week; pick an option and see right or wrong at once.
 
-Quiz questions, options and official answers are the course material of NPTEL / IIT Ropar and are reproduced here for study only. Upstream code licences are in [licenses/](licenses/).
+## Features
 
-## Layout
-
-```
-quizzes/<year>-<jan|jul>/
-    week-NN.md                 one file per week (source differs by term, see inventory.tsv)
-    week-NN-portal-print.md    second source for the same week, parsed from an NPTEL portal printout
-    week-NN.pdf                2026-jul only: the owner's case-study PDFs
-    *.pdf, *.ocr.txt           whole-term PDFs; OCR text of scanned PDFs (machine-read)
-    extra-sources/             extra Scribd printouts for that term
-    img/                       images the week files refer to (mirrored swayam images, page crops, figures)
-    notebooks/, chatgpt-converted-md/   Jul-2023 only
-programming-assignments/<term>/week-NN/*.py      solution code (Jan-2021, Jul-2021, Jan-2022)
-exams/                         final-exam recollection (+ OCR text), online programming test, exam patterns
-practice/                      IMP-question sets, topic lists, small MCQ banks
-sources/ licenses/             where each file came from; upstream licences; mirrored-image list
-_reference/                    low-trust material kept for reference only
-```
-
-Session rule: Week 1 in Dec/Jan = **Jan** session (Jan–Apr); Week 1 in Jul/Aug = **Jul** session (Jul–Oct).
-
-## Conventions in the `week-NN.md` files
-
-- Question text, all options and code are verbatim; `[x]` = the option shown ticked or marked in the source.
-- **Trust differs by source.** In `*portal print*` files (`Week N: portal print` header), `[x]` = NPTEL's own Accepted Answer, and each question has a cropped page image (`img/wNN-qNN-pP.png`) that is the ground truth when the parsed text is noisy or the options are images. In video transcriptions and second-repo markdown, a tick is only the uploader's pick; Jul-2019 files carry an official-answers section that overrides it. In 2026-jul, answers are as printed in the owner's PDFs.
-- Images that could not be transcribed are described in text; swayam-hosted images were downloaded into `img/` and the links made relative.
-- OCR text (`*.ocr.txt`) is machine-read: spacing and some characters are wrong.
+- **2,334 questions** from 17 sessions, merged into 1,999 cards. A question asked in several sessions appears once, tagged with each session and an "Asked N×" count.
+- **Instant feedback.** Single-answer questions check on click; multi-answer questions have a Submit button; typed answers have a Check button.
+- **Every answer says where it came from:** official NPTEL key, course PDF, verified by running the code, reviewed, or unverified.
+- **Filters and order:** by session; all, unanswered, wrong or saved; most repeated, newest or oldest first. Search covers every week.
+- **Progress stays in your browser,** with export and import. Keyboard shortcuts, dark mode and adjustable text size.
+- Code is shown verbatim with syntax highlighting; questions that were images keep the original page crop.
 
 ## Coverage
 
-| Session | Quiz files in this folder |
-|---|---|
-| 2018-jul | portal print Wk1–6, 8–10 (88 accepted answers) + `JOC 2018.pdf`; video transcriptions Wk1–2 (Wk2 Q1 missing) |
-| 2019-jan | week-03 … week-12 (video) |
-| 2019-jul | week-01 … week-12 (video), checked against the official review page |
-| 2020-jan | portal print Wk1–12 (Wk8 parsed 9 of 10 questions) + PDF + scrambled Scribd printouts |
-| 2020-sep | portal print Wk1–12 + PDF; decoded answer sheets Wk1–12 (`extra-sources/`) |
-| 2021-jan | week-00 … week-12 (md, second repo) + portal print Wk1–12; solutions in `programming-assignments/` |
-| 2021-jul | week-00 … week-12 (md); solutions |
-| 2022-jan | week-00 … week-12 (md); solutions |
-| 2022-jul | week-00 … week-12 (video); scanned portal print of the same term (due 2022-08-10) with OCR text |
-| 2023-jan | week-00 … week-12 (video) |
-| 2023-jul | week-07 … week-12 (video); Wk1–12 ChatGPT-converted md and notebooks with screenshots; Wk1–6 Scribd printout |
-| 2024-jan | week-00 … week-12 (video) + Scribd extras |
-| 2024-jul | portal print Wk0–12 (every question has an Accepted Answer) |
-| 2025-jan | portal print Wk1–12 + two PDFs + Scribd printouts (Wk2–6) |
-| 2025-jul | Scribd answers + explanations Wk1–12 (no Wk5); week-05 (video) |
-| 2026-jan | week-01 … week-12 (video, 15 questions per week) + Scribd extras |
-| 2026-jul | week-01 … week-12 from the owner's `2026 Assignments/` PDFs (only source used for this session); Wk1–10 text + figures, Wk11–12 scanned pages with OCR text |
+| Session | Weeks | Questions | Official answer | Other answers |
+|---|---|--:|--:|---|
+| 2018 Jul–Oct | 1–6, 8–10 | 109 | 94% | 1 verified by running, 5 reviewed, 1 no answer |
+| 2019 Jan–Apr | 3–12 | 94 | 30% | 2 verified by running, 63 reviewed, 1 unverified |
+| 2019 Jul–Oct | 1–12 | 109 | 93% | 8 reviewed |
+| 2020 Jan–Apr | 1–12 | 119 | 100% | — |
+| 2020 Sep–Dec | 1–12 | 120 | 97% | 2 reviewed, 2 no answer |
+| 2021 Jan–Apr | 0–12 | 250 | 70% | 1 verified by running, 64 reviewed, 3 unverified, 6 no answer |
+| 2021 Jul–Oct | 0–12 | 130 | 5% | 114 reviewed, 9 unverified |
+| 2022 Jan–Apr | 0–12 | 130 | 35% | 82 reviewed, 3 unverified |
+| 2022 Jul–Oct | 0–12 | 130 | 99% | 1 reviewed |
+| 2023 Jan–Apr | 0–12 | 130 | 30% | 8 verified by running, 83 reviewed |
+| 2023 Jul–Oct | 1–12 | 182 | 93% | 6 reviewed, 2 unverified, 4 no answer |
+| 2024 Jan–Apr | 0–12 | 131 | 1% | 7 verified by running, 115 reviewed, 6 unverified, 2 no answer |
+| 2024 Jul–Oct | 0–12 | 130 | 100% | — |
+| 2025 Jan–Apr | 1–12 | 120 | 100% | — |
+| 2025 Jul–Oct | 5 | 30 | 0% | 4 verified by running, 26 reviewed |
+| 2026 Jan–Apr | 1–12 | 180 | 0% | 23 verified by running, 156 reviewed, 1 unverified |
+| 2026 Jul–Oct | 1–12 | 240 | 0% | 220 course PDF, 20 reviewed |
+| **All** | | **2334** | **55%** | |
 
-Known gaps: 2019-jan Wk1–2 (no source found); 2018-jul Wk7, 11, 12 (not in the PDF); 2023-jul Wk1–6 have no per-week transcription of their own beyond the ChatGPT md and notebooks; 2020-jul probably does not exist (2020 ran off-cycle as Sep-2020).
+Counts are per session; when a repeated question has an official key from any session, every copy uses it. "Reviewed" answers were worked out from the question, and "unverified" ones are only a video uploader's pick. Missing sessions and weeks had no source we could find.
 
-## Still to do
+## Run it locally
 
-- Parse the OCR text of the scanned Jul-2022 print and the other image-only PDFs into week files; extract the Jul-2023 notebooks' screenshots.
+The site is static (HTML, CSS and plain JavaScript; no build step to view it).
+
+```bash
+python -m http.server 8765
+```
+
+Then open <http://localhost:8765/site/>.
+
+## Rebuild the data
+
+Needs Python 3 and Pygments.
+
+```bash
+python tools/build_dataset.py && python tools/run_check.py && python tools/cluster.py
+```
+
+- `quizzes/<session>/week-NN.md`: the transcribed quizzes, text kept verbatim.
+- `index/review/`, `index/answers_review.tsv`: answer overlays (official keys and reviewed answers).
+- `index/fixes/`: text, code and images recovered from videos and screenshots.
+- `site/`: the website; `site/data/` is generated.
+
+Source notes and conventions are in [docs/SOURCES.md](docs/SOURCES.md).
+
+## Credits
+
+Quiz questions, options and official answers are course material of NPTEL / IIT Ropar, reproduced for study. Parts of the source material came from public repositories under the MIT licence; see [licenses/](licenses/).
