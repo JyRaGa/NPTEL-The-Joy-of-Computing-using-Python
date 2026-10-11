@@ -1,0 +1,329 @@
+OCR (RapidOCR, 200 dpi) of JOC Jan-2022 Wk1 quiz (image-only).pdf; machine-read, check against the PDF.
+
+
+=== page 1 ===
+swayan (https:/swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+nishantwarule2002@gmail.comy
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL)  The Joy of Computing usingPython (course)
+Course Week 1: Assignment 1
+outline
+The due date for submitting this assignment has passed.
+How does an Dueon2022-02-09,23:59IST.
+NPTEL online
+course work? Assignmentsubmittedon2022-02-09,21:12IsT
+1)Which of the following set of instructions will make the sprite(the cat) move ina 1 point
+Week 0 () triangle?
+(Finaland initial position,as well as the angle of the cat,should bethe same)
+Week 1 0
+Introduction to
+Programming
+(unit?
+unit=17&lesson=18)
+Why
+Programming?
+(unit?
+unit=17&lesson=19j
+Programming
+for Everybody
+(unit?
+unit=17&lesson=20
+Any
+Prerequisites?
+uun)
+unit=17&lesson=21)
+Where to start?
+(unit?
+
+=== page 2 ===
+unit=17&lesson=22)
+Why do we
+have somany 60 degrees
+languages?
+(unit?
+unit=17&lesson=23) Wat. secods
+OHowtogo 200
+about
+programming? wat
+unit=17&lesson=24 120
+Why to learn
+programming? Wad seoonos
+(unit?
+unit=17&lesson=25) ove 100 steps
+What is
+programming? seoonds
+(unit?
+unit=17&lesson=26) -120 degrees
+How to give
+instructions? Wat seoonds
+(unit?
+unit=17&lesson=27) 200 steps
+Introduction to
+Scratch (unit? seoonds
+unit=17&lesson=28)
+tum 180
+Introduction to
+Loops (unit?
+unit=17&lesson=29)
+More about
+Loops (unit?
+unit=17&lesson=30)
+Solution to
+Looping
+Problem (unit?
+unit=17&lesson=31)
+Scratch :
+Animation 1
+(unit?
+unit=17&lesson=32)
+Scratch :
+Animation2
+(unit?
+unit=17&lesson=33)
+
+=== page 3 ===
+Scratch :
+Animation3
+(unit? tum 60 degrees
+unit=17&lesson=34)
+More on wan
+Scratch (unit?
+unit=17&lesson=35)
+move 100 steps
+Quiz: Week 1:
+Assignment 1
+wall Secos
+[assessment?
+name=286)
+tum 120 degrees
+Week 1
+Feedback
+Form: The Joy wall seconds
+of Computing
+using Python move 100 steps
+(unit?
+unit=17&lesson=36)
+secords
+Week 2 0)
+tum -120
+Week 3 0
+Wail seoonds
+week 4 ()
+move 100 steps
+Week 5 0
+all seconds
+Week 6 0
+90 saajbap
+Week 7 0
+Week80
+Week 9 0
+Week 10 0
+Week 11 0)
+Week 12 0
+Text
+Transcripts O
+Download
+
+=== page 4 ===
+Books ()
+Live Session tum 60 degrees
+wa seoonds
+Programming
+test -Session move 100 steps
+1(April 17
+2022-10AMto
+1 PM) 0 War seuonds
+Programming tum 120 degrees
+test -Session
+2 (April 17 want seconos
+2022-8PMto
+11 PM) 0 move 100
+secos
+-120
+Wal
+move 100 steps
+seoonds
+tum 180
+
+=== page 5 ===
+tum 60 degrees
+wait
+move 100 steps
+wait seconds
+tum -60
+wail seoonds
+move 100 steps
+wad seronds
+tum 60 degrees
+wat seconds
+move 100 steps
+wail
+tum -60 degrees
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+
+=== page 6 ===
+tumy 60 saaifap
+wart
+move 100 steps
+wait seoonds
+tum 120
+walt seoonos
+move 100 steps
+wait
+tum -120 degrees
+Wan
+move 100 steps
+wa seoonds
+tum 180 degrees
+2) What will be the value of my variable at the end of the loop 1 point
+set mnyvanable
+repeat 10
+change myvariable
+change my varable
+
+=== page 7 ===
+50
+40
+49
+Yes,the answer is correct.
+Score:1
+AcceptedAnswers:
+40
+3) What will be the value of my variable? 1 point
+set my vanable 10
+repeal 10
+wal seconds
+change imy vanable 10
+set my vanable
+20
+10
+22
+25
+Yes,the answer is correct.
+Score: 1
+AcceptedAnswers:
+22
+4) What the sprite(the cat) will say? 1 point
+
+=== page 8 ===
+set
+repeatuntil
+say
+change by
+Wait SPUOOOS
+0,1,2,3,4,5
+1,2,3, 4,5
+1,2,3,4,5,6
+None of the above
+Yes,theansweris correct.
+Score: 1
+Accepted Answers:
+0,1, 2, 3, 4, 5
+5) What should be a set of instructions to make our sprite(cat) say a table of 5? 1 point
+
+=== page 9 ===
+sel
+set
+repeal 10
+Aes
+aoueu
+wan seconds
+ser
+se
+repeal 10
+change
+
+=== page 10 ===
+sel
+repeat
+Aes
+change
+walt seonds
+set
+sel
+repeat
+Aes
+change
+wai seconds
+No,the answer is incorrect.
+Score: 0
+AcceptedAnswers:
+
+=== page 11 ===
+sel
+set
+set
+repeat 10
+Aes
+change
+wall seoonds
+sel
+6)Imagine acricketballasoursprite,theball will movein 1 point
+tum degrees
+move 30 steps
+a straight line
+Circularmotion.
+Curve path.
+Up and Down
+Yes,theansweris correct.
+Score:1
+AcceptedAnswers:
+Circularmotion.
+7) Imagine sprite to be a scooter. How many times scooter will move forward? 1 point
+
+=== page 12 ===
+sel
+set
+repeat 10
+then
+move 10 steps
+change
+change
+Wan
+Yes,theansweriscorrect.
+Score: 1
+AcceptedAnswers:
+upwardmomentand downward movement ofthe ball.
+
+=== page 13 ===
+20 degrees tum 60 degrees
+move 100 steps move 100 steps
+wall seoonds wait seonmos
+20 degrees tun 40 degrees
+move 100 steps move 100 steps
+SecnNs wai secohds
+Left Block representsdownwardmovement andtherightblockrepresentsupward
+movement.
+Left Block represents upward movement and the right block represents downward
+movement.
+Both blocks represent upwardmovement.
+Bothblocks representdowward movement.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Left Block represents upward movement and the right block represents downward movement.
+9) Which of the following statements is true about the following block of code? 1 point
+set pickrandom 10
+change
+wan seoonds
+sirowvanable
+This code block is adding 7 random numbers between 1-10 to x
+
+=== page 14 ===
+This code block is adding 10 random numbers between 1-10 to x.
+This code block is adding 7 random numbers between 1 - 10 to t.
+This code block is adding 10 random numbers between 1 - 10 to t.
+Yes,the answeris correct.
+Score:1
+Accepted Answers:
+This code block isadding7randomnumbersbetween 1-10tox
+1oj Which ofthefollowing istrueaboutscratch? 1point
+We can not add sound to our animations
+We can not make a picture disappear.
+We can run a foreverloop
+We can notmake new variables.
+Yes,the answer is correct.
+Score:1
+Accepted Answers:
+Wecanrunaforeverloop

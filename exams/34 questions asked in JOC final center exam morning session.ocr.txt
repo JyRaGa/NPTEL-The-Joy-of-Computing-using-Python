@@ -1,0 +1,853 @@
+OCR (RapidOCR, 200 dpi) of 34 questions asked in JOC final center exam morning session.pdf; machine-read, check against the PDF.
+
+
+=== page 1 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+Question 1
+Assignment 3
+The due date for submitting this assignment has passed. Due on 2020-02-19, 23:59 IST.
+As per our records you have not submitted this assignment.
+1) Which of the following displays a code which iterates from numbers 1 to 1oo, displays "fizz' if 1 point
+the number is divisible by a but not b, displays
+"buzz" if the number is divisible by b but not a and displays "fizzbuzz" if the number is divisible by
+both a and b. a and b are
+inputs taken from the user.
+intCinputc"Enter the valueof a")
+b= int(inputC"Enter value of b")
+for i in range(l.lol):
+if(i%a==0):
+print("fizz")
+if(i%b==0):
+print("buzz"
+else:
+print("fizzbuzz
+int(input"Enter thevalueofa")
+b=int(input（"Enter thevalueofb"))
+foriin range(l,lol):
+if(i%a==0):
+if(i%b!=0):
+print("fizz")
+if(i%b==0):
+if(i%a!=0):
+print("buzz")
+10 else:
+11 print("fizzbuzz"
+int(input("Enter thevalueof a"))
+b= int(input("Enter the valueof b"))
+for iin range(l,lol):
+if（i%a==0):
+if(i%b!=0):
+print("fizz")
+if（i%b==0):
+if(i%a!=0):
+print("buzz")
+10 else:
+11 print("fizzbuzz"
+
+=== page 2 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group t.me/getpytho (This link will be opened only in Goggle Crome)
+=int(input("Enter thevalue of a"))
+b= int(input("Enterlthe value lof b"))
+foriinrange(l,lol):
+if (i%a==0):
+if(i%b!=0):
+print("fizz")
+else :
+if(i%al=0):
+print("buzz")
+10 else:
+print("fizzbuzz"
+No,theanswerisincorect.
+Score:0
+No, the answer is incorrect.
+Score: o
+Accepted Answers:
+ac.innoc20 cs3/uni2unit396assessment262
+The Joy of Computing using Python - - Unit 5 - Week 3
+Ia = int(inputc"Enter the value of a"))
+b= int(input"Enter the value of b"))
+for i in range(l.lol):
+if(i%a==0):
+if(i%bl=0):
+print("fizz")
+if(i%b==0):
+ifi%al=0):
+print"buzz"
+else:
+printr"fizzbuzz"
+
+=== page 3 ===
+GET PYTHON CODE E CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+Question 2
+Assignment 4
+The due date for submitting this assignment has passed. Due on 2020-02-26, 23:59 IST.
+As per our records you have not submitted this assignment.
+1) What does the check_ magic() function in the following code do 1 point
+def check_magic():
+num=[1,2,3,4,5,6,7,8,9]
+a00=0
+a01=0
+a10=0
+a11=0
+fori inrange(0,9):
+for j in range(o,9):
+for k in range(o,9):
+10 for l in range(o,9):
+11 a00=num[i]
+12 a01=num[j]
+13 a10=num[k]
+14 a11=num[1]
+15 1=[a00,a01,a10,a11]
+16
+17 print a00,'\t',a0l,'In',alo,'\t',all
+18 print 'In'
+displays all 2 × 2 matrices where elements are from 1 to 9.
+displays all 2 x 2 matrices where elements are from 1 to 9.
+displays all 2 x 2 matrices where elements are from 1 to 9 but no element is repeated
+in/noc20 cs35/unit7unit=59&assessment=263
+The Joy of Computing using Python - - Unit 6 - week 4
+displays magic squares of size 2
+none of the above
+No, the answer is incorrect.
+Score: 0
+Acceplted Answers:
+displays all 2 x 2 matrices where elements are from 1 to 9.
+
+=== page 4 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+Question 3
+3j Leap years are the years point
+1. which divisible by 4 but not divisible by 1oo, and, those
+2. divisible by 400
+Which of the following code does not represent a code displaying all the leap years from 1 to 2oo0.
+1 d4=[]
+=001P
+d400=[]
+fori in range(l,2ool):
+if(i%4==0):
+d4.append(i)
+if（i%100==0):
+d100.append(i)
+if（i%400==0):
+10 d4o0.append(i)
+ly =[]
+12 for each in d4:
+13 if each not in dloo:
+14 ly.append(each)
+13 for each in d400:
+16 ly.append(each)
+print(ly)
+
+=== page 5 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group t.me/getpytho (This link will be opened only in Goggle Crome)
+ly =[]
+for i in range(1,20o1):
+if(i%4==0):
+if（i%100l=0):
+ly.append(i)
+else:
+if（i%400==0):
+ly.append(i)
+print(ly)
+ly =[]
+for i in range(l,2ool):
+if（i%400==0):
+ly.append(i)
+else:
+if(i%4==0):
+ly.append(i)
+print(ly)
+ly =[]
+for i in range(1l.20o1):
+if（i%400==0 or（i%100!=0 andi%4==0):
+ly.append(i)
+print(ly)
+No., the answer is incorrect.
+Score: 0
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+ly =[]
+for i in range(l.200l):
+if(i%400==0):
+ly.append(i)
+else:
+if(i%4==0):
+ly.append(i)
+print(ly)
+Question 4
+
+=== page 6 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode  email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+1o Assume a drunkard whose movement is defined on the number line, i.e. he can either move 1 point
+forward or backward. Assume he is
+standing at a position p. He takes 2 steps forward followed by 4 steps backward. He falls into the
+pit as soon as he steps
+on the position zero. Which of the following codes corecltly represents his walk? A.
+p=int(input())
+while (p >0):
+p=p+2
+Print ("Location=".P)
+pp-4
+print("Location=".P)
+p rin t (Fell in pit at location".P)
+p=int(input())
+while (p >0):
+pp-2
+Prin t(" Location =".p)
+p=p+4
+print ("Location".P)
+prin t ("Fell inpitat location".P)
+p=int(input())
+while (p >0):
+for i in range ( 2 ) :
+p=p+1
+print("Loc=".P)
+
+=== page 7 ===
+GET PYTHON CODE E CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+i fp==0):
+break
+for i in range (4 ) :
+pP-1
+Print("Loc=".P)
+if(p ==oj:
+break
+print("Fellinpitatlocation".p)
+none of these
+No.the answerIs incorrect.
+Score: 0
+Accepted Answers:
+p=intrinputJ
+Whlle (p ≥0j:
+for i in range f 2 J :
+Printr"Loc=".PJ
+Ifpao]:
+break
+foriin range f 4J :
+PP-1
+Printr"Loc=".PJ
+break
+Printr"Fellinpitat location".pj
+Question 5
+1)Whatdoesthefollowingcodedo?
+importrandom
+def get_gates :
+r=random.randint(0.2)
+rl=random:randint(0,2)
+while(r==rl):
+r=random.randint(0.2)
+1[r]=
+I[rl]='c
+10 ind=[0,1.,2]
+for each in ind:
+if(each!=rl and eachl=r):
+13 I[each]='g
+14 print(1)
+get_gates0)
+creates a list wheretworandom elements are'cand theotherelement is'g
+creates a list where two random elements areg'and the otherelement is'c'
+createsalistwhereone random elements isc'andtheotherelement is'g
+noneoftheabove
+No,theanswerisincorrect.
+Score: 0
+AcceptedAnswers:
+
+=== page 8 ===
+GET PYTHON CODE  CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+in/noc20 cs35/unit7unit=846a5ses5ment=264
+The Joy of Computing using Python - - Unit 7 - Week 5
+creates a list where two random elements are 'c'and the other element is 'g
+Question 6
+8)
+def find(listl,num):
+for each in listl:
+if(each!=num):
+print(each)
+else:
+break
+[]= 1
+foriinrange(looooo):
+t.append(i)
+find(t,99999)
+TheabovecodegeneratesInumbersfrom
+Oto99999
+0to100000
+0to99998
+1to99998
+No,theanswerisincorrect.
+Score:0
+AcceptedAnswers:
+0to99998
+Question 7
+
+=== page 9 ===
+GET PYTHON CODE  CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+1) Predict the output
+1=[[1.2,3].[4,5,6].[7,8,9]]
+ f=1
+forjin range(3):
+if (f==l):
+for i in range(3):
+print(l[i][j],end="
+f=0
+if(f==0):
+foriin range(2,-l,-1):
+10 print(l[ij[j],end="")
+f=1
+741147258852369963
+147258369
+147852369
+147741258852369963
+No,theanswerisincorrect.
+Score:0
+AcceptedAnswers:
+147741258852369963
+Question 8
+4) Which of the following libraries is required to work with Google maps in Python?
+googleplot
+gmplot
+none of these
+No, the answer Is Incorrect.
+Score: 0
+Accepted Answers:
+10/du6
+Question 9
+
+=== page 10 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+5) Which of the following codes represent a correct version of a board game where the user has 1 point
+to move from block 1 to block 1oo?
+The game initialises only when the user gets a 1 or 6 on the dice and ends once he reaches 1oo or
+gets a number which makes
+him reach beyond 100 (i.e. the player wins if he is at 99 and gets a 4).
+import random
+def play(psn):
+r = random.randint(1.6)
+if(psn==0):
+if(r==l or r==6):
+psn=l
+else:
+psn=psn+r
+print("Position=".psn)
+10 if(psn>=1oo):
+print("You won"
+12 return
+13 play(psn)
+Position=
+print("Position=".position)
+play(position)
+import random
+import random
+def play(psn):
+def play(psn):
+r = random.randint(i.6)
+r = random.randint(1,6) Print("Dice rolled:".r)
+print("Dice rolled;",r) inputO
+if(psn==0): if(psn==0):
+if(r==l or r==6): if(r==1 or r==6):
+psn=1 psn=1
+else: else:
+psn=psn+r psn=psn+r
+print("Position=",psn) 13 print("Position=" .psn)
+if (psn>=100): if(psn>=100):
+print("You won") print("You won"
+return 16
+play(psn) play(psn)
+19
+position=0 Position=0
+print("Position=".position) print("Position=".Position)
+play(position) play(position)
+
+=== page 11 ===
+GET PYTHON CODE : CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+import random
+defplay(psn):
+in/noc20_cs35/unit?unit=121&assessment=277
+TheJoyofComputingusingPython--Unit9-Week7
+print("Dice rolled:"2)
+if(psn==0):
+psn=1
+else:
+psn=psn+2
+print("Position=".psn)
+if(psn>=100):
+print("You won")
+play(psn)
+position=0
+print("Position=".position)
+play(position)
+No,the answerisincorrect.
+Score:0
+AcceptedAnswers:
+No,theanswerisincorrect.
+Score: 0
+AcceptedAnswers:
+import random
+def play(psn):
+r = random.randint(l,6)
+print("Dicerolled",r)
+if(psn==0):
+if(r==l or r==6):
+psn=1
+else:
+psn=psn+r
+print("Position=".psn)
+if(psn>=100):
+print("You won"
+return
+play(psn)
+position=0
+print("Position=".position)
+play(position)
+
+=== page 12 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode e email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+Question 10
+1) Which of the following options correclly represent the full form of acronyms NLTK and VADER 1 point
+NLTK: Normal Language Toolkit, VADER: Valence Aware Dictionary and Emotional Reasoner
+NLTK: Natural Language Toolkit, VADER: Valence Aware Diclilonary and Sentiment Reasoner
+NLTK: Normal Language Toolkit, VADER: Valence Aware Dictionary and Sentiment Reasoner
+Natural Language Toolkit, VADER: Valence Aware Dictionary and Emotional Reasoner
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+NLTK: Natural Language Toolkit, VADER: Valence Aware Dictionary and Sentiment Reasoner
+Question 11
+Which of the scenarios in the options does the following code
+represent?
+import random
+ dict_age=()
+dict_age【"Arun"]=20
+dict_age["Bhima"]=10
+s dict_age["Chirag"J=40
+l=list(dict_age.values))
+dict1=()
+I_name=dict_age.keys()
+1=0
+prev=0
+for each lin dict_age:
+15 dictl[each]=prev+l[i]
+16 prev=dictl[each]
+i=i+1
+print(dictl)
+20 r=random.randint(O,sum(dict_age.values())
+print(r)
+for each in dictl:
+if(r<dictl[eachl):
+24 print("Give all money to",each)
+break
+Allmoneyisgiventotheoldestperson
+Allmoney isgiventotheyoungest person
+Moneyisgiven toapersonwithaprobabilityproportional tohis/herage
+No,theansweris incorrect
+No. the answer is incorrect.
+Score: 0
+Accepted Answers:
+Money is given to a person with a probability proportlonal to his/herage
+
+=== page 13 ===
+GET PYTHON CODE  CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group t.me/getpytho (This link will be opened only in Goggle Crome)
+Question 12
+4) Predict the output
+import networkx as nx
+2 G=nx-gnp_random_graph(1oo.1)
+print(nx.is_connected(G))
+True
+False
+"connecled"
+can not say
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+True
+Question 13
+najtPredict the output
+import numpyasnp
+:a=np.array([1.2.31)
+sb=np.array([[1】.[2].[3]l)
+ment? Print(a*b)
+[1.4.9]
+[2.4.6]
+ment?
+[123]
+in/noc20 cs35/unit7unit=1896assessment:286
+The Joy of Computing using Python - - Unit :
+[246]
+[369]]
+error
+No. the answer is incorrect.
+Score: 0
+Accepted Answers:
+/123]
+[246]
+[369]
+
+=== page 14 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+Question 14
+9) What is the output of the following code ?
+print('ab".isalphaO)
+True
+False
+None
+Error
+c.in/noc20 cs35/unit7unit=189assessment=286
+The Joy of Computing using Python -
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+True
+Question 15
+1) Which Python library is used for browser automation?
+networkx
+numpy
+nltk
+selenium
+No, the answer is incorrect.
+Score: 0
+Accepted Answers:
+selenium
+Question 16
+The numbers of edges of complete graph having nodes as
+1,2,3,4,5,6,7,8,9,10 is
+Option A- 45 Option B- 90 Option C- 30 Option D- 60
+According to me answer is 45 .reson is given below:
+
+=== page 15 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode  email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+The total number of possible edges in a complete graph of N vertices can be given as,
+Totalnumberofedgesin a completegraphof Nvertices=(n*(n-1))/2
+So, for 10 vertices we have (10*9)/2=45
+Question 17
+A code was given and the aim of the code was to check wheather we can
+use touple as key of dictionary
+Ans Yes
+L Python 3.8.4 Shell
+File Edit Shell Debug Options Window Help
+Python 3.8.4 (tags/v3.8.4:dfa645a, 
+tel)j on win32
+Type "help", "copyright", "credits"
+>>> dictionary=dict()
+>>> dictionary[(l,2,3)]="apple"
+>>> print(dictionary)
+((l, 2, 3): 'apple'}
+Question 18
+What is the output of the following code:
+for i in range(5,-1,-1):
+print(i)
+option 1-
+Option
+Option 3
+Error
+Option 4
+None of these
+
+=== page 16 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode e email - amazonking616@gmail.com
+telegram group t.me/getpytho (This link will be opened only in Goggle Crome)
+Answer
+>>> for i in range(5,-l,-l):
+print(i)
+Question 19
+Which numbers from 1 to 1oo does the following code print?
+i=0
+while(i<=50):
+f=0
+for j in range(2,i):
+if(i%j==0) :
+f=1
+break
+if(f==1):
+print(i)
+i=i+1
+option 1-prime numbers
+option 2- composite number
+option 2-perfect nmber
+option 3- none of these
+Answer is composite numbers
+
+=== page 17 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode  email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+joc.py - C:/Users/abhis/Desktop/joc.py (3.8.4)
+File Edit Format Run Options Window Help
+i=0
+while(i<=50) :
+f=0
+for j in range(2,i):
+if(ij-0):
+f=1
+break
+if(f-l):
+print(i)
+i=i+1
+Python 3.8.4 Shell
+File  P3 Shell Debug Options Window Help
+50
+>>>
+joc.Py
+10
+12
+14
+Question 20
+If 570 candidates vote for 1000 then how much vote for 20,000?
+Option 1- 11400
+Option 2- 1140
+Option 3- 2000
+Option 4- 1000
+Answer is 11400
+Because (570/1000)x20000=11400
+Question 21
+If COMPUTER is PLAMETUSOV and SCIENCE is WMAOLEPTY,then what PYTHON is?
+QUESTION 22
+What does the following code do?
+Numpy.array([1,2,3,4])
+Option 1- creates an array
+Option 2- shows syntax error
+
+=== page 18 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode  email - amazonking616@gmail.com
+telegram group- t.me/getpytho(This link will be opened only in Goggle Crome)
+Option 3- none of these
+Option 4- creates a touple
+ANSwER IS shows syntax error
+>>> import numpy
+>>> print(Numpy.array([l,2,3,4l))
+Traceback (most recent call last) :
+File "<pyshell#3>", line l, in <module>
+print(Numpy.array([1,2,3,4l))
+NameError: name 'Numpy' is not defined
+>>>
+Question 23
+There was a question like:
+A function of barbelgraph was given and was asked how many nodes it will
+produce?
+I can't remember that question code and options given for it
+Question 24
+The following pattern was given and was asked :
+Choose the code required to produce this pattern
+**
+***
+****
+*****
+I can't remember the options
+Question 25
+What is the output of the following code?
+import matplotlib.pyplot as plt
+X=[1,2,3,4,5]
+y=[1,4,9,16,25]
+plt.plot(x,y,'ro')
+plt.show()
+options 1 ,2 and 3 are given below in 1 figure
+
+=== page 19 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+option 4
+25
+20
+15
+10
+1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0
+Answer is option 4 (see the below images for proof)
+
+=== page 20 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+joc.py - C:/Users/abhis/Desktop/joc.py (3.8.4)
+File Edit Format Run Options Window Help
+import matplotlib-Pyplot as plt
+X=[1.2.3.4.5]
+Y=[1.4.9,16.25]
+plt-plot(x,Y,'ro')
+plt.show()
+W Figure 1
+25
+20
+15
+10
+1.0 1.5 2.0 2.5 3.0 3.5 4.0 4.5 5.0
+Question 26(Scratch question)
+Choose the scratch code for gling a ball:
+ can't remember the options.
+Question 27(Scratch question)
+REPEAT N
+ROTATE 18 DEGREE
+Above red lines was written in scratch format
+Question : For what value of n in the following code ,the spirit will do a
+complete rotation?
+
+=== page 21 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+Option 1-30
+Option 2-20
+Option 3-10
+Option 4-15
+ACCORDING TO ME ANSWER IS 20  (BECAUSE 360/18=20)
+Question 28(Turtle question
+A turtle code was given .
+Question :what is the output of the following code?
+Option 1 Option2
+Option 3 Option 4
+1st thing ,I can not remember the turtle code given for it and I have doubt
+in option number 4
+
+=== page 22 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode e email - amazonking616@gmail.com
+telegram group- t.me/getpytho  (This link will be opened only in Goggle Crome)
+Question 29
+graph for a lottery was shown in which:
+Y axis was Account money
+X axis was Number of turns
+Question : Will you gamble?
+Option 1- Yes
+Option 2- No
+Option 3- can't tell
+Option 4- None of these
+Answer According to me ,the answer is No because data is insufficient
+Question 30
+What does the following code returns for positive and as well negavtive
+values of n?
+def num(n):
+if n>0:
+return(-n)
+else:
+return(-n*-1)
+Option 1- Absolute value of n
+Option 2- Negative vale of n
+Option 3- Absolute negative vale of n
+Option 4- Same number
+Answer Absolute negative value of n
+Reason Let us consider two numbers one positive and the other negative that
+is 8 and -8.So for 8 n=-8|=-8 and for -8 n=-|-8=-8
+Question 31
+What does the following code do?
+j="".join(random.sample(word,random.randint(0, len(word))))
+Option 1- produces runtime error
+Option 2- gives correct output for any length of the word
+Option 3- may or may not gives output for any length of word
+
+=== page 23 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode  email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+Option 4- prints nothing
+word
+joc.py - CAUserstabhis/Desktop,joc.py (3.8.4)
+File Edit Format Run Options Window Help
+import random
+word-"aPple"
+j="".join (random. sample (word, random.randint (O, len (word))))
+print(j)
+Python 3.8.4 Shell
+File  Edit Shell Debug Options Window Help
+Python 3.8.4 (tags/v3.8.4:dfa645ar Jul 13 2020, 16:30:28)
+tel)l on win32
+Type
+>>>
+RESTART: C:UsersabhisDesktopVjoC-PY
+>>>
+joc.py - CAUserslabhis/Desktop,joc.py (3.8.4)
+File Edit Format Run Options Window Help
+import random
+word="aPple"
+j="".join (random.sample (word, random.randint (O, len(word))))
+Print(j)
+Python 3.8.4 Shell
+File Shell Debug Options Window Help
+Python 3.8.4 (tags/v3.8.4:dfa645ar Jul 13 2020. 16:30:28)
+tel)J on win32
+>>>
+RESTART: C:UsersabhisVDesktopijoc.PY
+pa
+>>>
+Question 32
+What is the output of the following code?
+List=["hi","we","are","the","elements","in","the","list"]
+print(List[-5:-1])
+Option 1-［'the'，'elements'，'in'，'the']
+[,t. ,saaa, ,a. - otdo
+Option 3-[]
+Option 4-［'elements'，'in'，'the']
+[.at. ,t. ,sauaaa. ,at. Jamsu
+
+=== page 24 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode  email - amazonking616@gmail.com
+telegram group t.me/getpytho (This link will be opened only in Goggle Crome)
+joc.py - C:Usershabhis/Desktop/joc.py (3.8.4)
+File  Edit Format Run Options Window Help
+List=r"hi"."we","are","the""elements"."in""the","list"!
+Print(List[-5:-ll)
+Python 3.8.4 Shell
+File Shell Debug Options Window  Help
+Python 3.8.4 (tags/v3.8.4:dfa645a, Jul 13 2020, 16:30:28)
+tel) on win32
+>>>
+RESTART: C:UsersabhisDesktoPjoc.PY
+'the'. ,'elements','in','the'
+>>>
+Question 33
+What is the output of the following code?
+S="hello"
+print(s.index('ells'))
+Option 1- 0
+Option 2- 1
+Option 3- error
+Option 4- 2
+Answer error
+joc.py - C: (Users abhis (Desktop joc.py (3.8.4)
+File Edit Format Run Options Window  Help
+s="hello"
+print(s.index('ells'))
+Python 3.8.4 Shell
+File Edit Shell Debug Options Window Help
+Python 3.8.4 (tags/v3.8.4:dfa645a, Jul 13 2020, 16:30:28)
+tel)l on win32
+Type "help", "copyright", "credits" or "license()" for more
+VVV
+RESTART: C:\Users\abhis\Desktop\joC.PY
+Traceback (most recent call last) :
+File "c:\Users\abhis\Desktopljoc.py", line 2, in <module>
+print(s.index('ells'))
+ValueError: substring not found
+>>>
+
+=== page 25 ===
+GET PYTHON CODE CONTACT US AT: Channel link-youtube.com/c/getpythoncode email - amazonking616@gmail.com
+telegram group- t.me/getpytho (This link will be opened only in Goggle Crome)
+Question 34
+Everthing was same like below question just the string was changed
+If GOLD is encoded as FNKC,then how is PLATINUM encoded?
+NKYRGLSK
+OKZSHMUL
+NJYRGLSK
+OKZSHMTL
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+OKZSHMTL
+THESE WERE THE QUESTIONS DURING FINAL CENTER EXAM OF JOY OF COMPUTING USING
+PYTHON ON 13TH DECEMBER  FROM 9 AM TO 12PM(MORNING SESSION)
+Credits goes to my subscribers who discussed these questions
+and
+my memory of this exam
+THANKS

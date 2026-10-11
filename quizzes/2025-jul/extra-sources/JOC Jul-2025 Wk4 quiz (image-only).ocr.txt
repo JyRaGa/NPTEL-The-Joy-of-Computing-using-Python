@@ -1,0 +1,283 @@
+OCR (RapidOCR, 200 dpi) of JOC Jul-2025 Wk4 quiz (image-only).pdf; machine-read, check against the PDF.
+
+
+=== page 1 ===
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL]
+mdrifath932@gmail.comv
+NPTEL (https:/swayam.gov.in/explorer?ncCode=NPTEL)The Joy of Computing using Python (course)
+Click to register for Certification exam
+(https://examform.nptel.ac.in/2025_10/exam_form/dashboard)
+If already registered, click to check your payment status
+Course outline
+AboutNPTEL O
+How does an NPTEL online course work? O
+Week 1 0
+Week20
+Week 3 0
+week 40
+Practice is thekey (unit?unit=78&lesson=79)
+Magic Square: Hit and Trial 01 (unit?unit=78&lesson=80)
+Magic Square:Hit and Trial 02 (unit?unit=-78&lesson=81)
+Magic Square:Hit and Trial 03 (unit?unit=78&lesson=82)
+Magic Square: Hit and Trial 04 (unit?unit=78&lesson=83)
+DMagicSquare:HitandTrial05(unit?unit=78&lesson=84)
+O Let's program and play (unit?unit=78&lesson=85)
+DobbleGame-Spot thesimilarity01 (unit?unit=78&lesson=86)
+ODobble Game-Spot the similarity 02 (unit?unit=78&lesson=87)
+ODobble Game-Spotthesimilarity03 (unit?unit=78&lesson=88)
+
+=== page 2 ===
+PDobble Game-Spot the similarity 04 (unit?unit=78&lesson=89)
+What is your date of birth? (unit?unit=78&lesson=90)
+Birthday Paradox - Find your twin 01 (unit?unit=78&lesson=91)
+Birthday Paradox -Find your twin 02 (unit?unit=78&lesson=92)
+Birthday Paradox-Find your twin 03 (unit?unit=78&lesson=93)
+Birthday Paradox -Find your twin 04 (unit?unit=78&lesson=94)
+Birthday Paradox -Find your twin 05 (unit?unit=78&lesson=95)
+What's your favourite movie? (unit?unit=78&lesson=96)
+Guess the Movie Name 01 (unit?unit=78&lesson=97)
+Guess the Movie Name 02 (unit?unit=78&lesson=98)
+OGuess the Movie Name 03 (unit?unit=78&lesson=99)
+GuesstheMovie Name04(unit?unit=78&lesson=100)
+Guess the Movie Name 05 (unit?unit=78&lesson=101)
+-Guess the Movie Name 06 (unit?unit=-78&lesson=102)
+Week 4Feedback Form:The Joyof Computing using Python (unit?unit=78&lesson=103)
+Quiz: Week 4:Assignment4 (assessment?name=571)
+Week 4:PrograrmmingAssignment 1 (/noc25_cs103/progassignment?name=572)
+Week4:ProgrammingAssignment2(/noc25_cs103/progassignment?name=573)
+Week4:ProgrammingAssignment3(/noc25_cs103/progassignment?name=574)
+Week 50
+TextTranscripts O
+Download Videos O
+ProblemSolvingSession-July20250
+Week 4 : Assignment 4
+Yourlastrecorded submissionwas on2025-08-19,20:05IsT Due date:2025-08-20,23:59IST.
+During the weekend lab, students in the Joy of Computing course created a mini game called Guess the
+Character. The idea is simple: take a famous movie or cartoon character's narme, shuffle the letters, and let the
+user guess who it is
+But instead of doing this manually every time, the instructor asked the students to automate it using Python
+Here's the code skeleton they were given:
+
+=== page 3 ===
+def junble word(word):
+word letters = list(word)
+random.shuffle(word letters)
+return ".join(wordletters
+def  guess_the_characterO:
+characters - ["Ironman", "elsa" epoA.. "Moana "Harry "simba"
+original = random.choice(characters
+jumbled = jumble_word(original)
+print("Guess the character from this jumble: " jumbled)
+guess = input("Your guess:
+if guess.lower() == original.lower
+print("correct!")
+else:
+print("oops! The correct answer was:", original)
+guess the character
+1) What is the output type of the function jumble_word(Moana')? I point
+OList
+OTuple
+ODictionary
+String
+2) Why do we use list(word) before shuffling in jumble_word? I point
+Strings are immutable,so we convertto list
+Ostrings can be shuffled directly
+OIt converts all characters to uppercase
+Oit reversestheword
+3) Consider the line: if guess.lowero == original.lowerO: 1 point
+Whatwill happen if we remove.lowerO fromboth sides?
+Oit will make the comparisonmore accurate
+OThe game will stop working entirely
+It may incorrectly mark right answers as wrong if case differs
+OThe original variable will change
+
+=== page 4 ===
+Which function is used to randomize the order of items in a list in the given code? 1 point
+random.choiceo
+random.shuffle0
+random.sorto
+random.sampleo
+What issue can occur with this line: jumbled = jumble_word(original)? 1 point
+It may return the original word in thesame order
+OIt willalways return the original word
+Itcausesasyntaxerror
+Oit deletes a letter from the word
+6): Which modification ensures that the jumbled word is not the same as the original? 1 point
+OAdd.lowero after shuffle0
+Ocanvert it to uppercase
+OUse reverse0 instead of shuffleo
+Add a loop to reshuffle until different
+7) Suppose the word is "Yoda". Which of the following is the least desirable output of 1 point
+jumble_word("Yoda'),if the goal is to challenge the user?
+'odYa"
+"Yoda"
+"dayo"
+O"oday"
+8)What is the purpose of random.choice(characters)? 1 point
+To select a character randomly from the list
+OTo jumble all characters
+OTo sort the characters alphabetically
+OTo pick all characters one by one
+9)What will happen if the characters list is empty? 1 point
+The program will crash with IndexError
+OThe program will continue running without error
+OThe program will print a blank string
+OThe program will crash with ValueError
+
+=== page 5 ===
+10) Which of the following is the best way to score the user if you want to turn this into a 5-round I point
+game?
+OAdd5 to score after everyround
+Createalistof 5questionsandloopwithascorevariable
+Oprint the score inside the jumble_word function
+Ouse break instead of score
+In Python, a matrix is not a special built-in type. It is usually represented as a list of lists, where each inner list
+representsarowofthematrix.
+For example, if we want to createa 3x3 matrixfilled with zeros,we can do it like this:
+matrix =
+for row in range(3):
+new row = []
+for col in range(3):
+new_row.append(e)
+matrix.append(new row)
+for row in matrix:
+print(row)
+This code will output:
+[0, 0, 0]
+[0, 0, 0]
+[0, 0, 0]
+Each sublist represents a row,and each element inside the sublist is a column element. Python gives you full
+flexibility,rows can even be of different lengths
+11)Whatwillbetheoutputofthefollowingcode? 1 point
+matrix
+for i in range(3):
+matrix.appendCrow
+matrix[e][e] 99
+print(matrix)
+[99, 0, 0]. [99, 0, 0], [99, 0, 0]
+[99, 0, 0], [0, 0, 0], [0, 0, 0]
+[99, 0, 0], [99, 0, 0],[0, 0, 0]]
+O[0, 0, 0], [0, 0, 0] [0, 0, 0]]
+
+=== page 6 ===
+12) What does line matrix.append([0] * 3)do insidea loop? 1 point
+OAdds thesame listmultipletimes
+Createsanewlisteachtimeandappends it
+OAppends 0 three times
+OAdds a tuple to the matrix
+13) What is the result of this code? I point
+matrix = [[i + j forj in range(3)] for i in range 3]
+print(matrix[2][1]]
+O1
+02
+14) Which of the following correctly creates a 2x2 matrix of zeros? 1 point
+O[0, 0] [0, 0]
+[0, 0, 0, 0]
+O[0]*2]*2
+Both a and c
+15) Which of these statements access the last element of the first row , in the matrix [o, 0, 0] [0, 0, 0] 1 point
+[0, 0, 0]]
+Omatrix[0][0]
+matrix[1[2]
+matrix[o][2]
+Omatrix[2[0]
+16) What does the following code do? I point
+matrix=
+for i in range(2):
+row=
+for j in range(3):
+row.append(i + j)
+matrix.append(row)
+Ocreates a 2x3 matrix with each row flled with i
+OAddsonlyane row
+Creates a 2x3matrixwith values increasing across rows
+
+=== page 7 ===
+Ocreates a 3x2 matrix
+17) Which Python structure is best to represent a 3x3 grid of numbers? 1 point
+OList of strings
+OListof tuples
+List of lists
+Opictionary
+1 point
+matrix-[[1]*3foriin range(3)]
+Createsa1x3matrix
+Createsa3x3matrixwithallvaluesas1
+Gives an error
+Ocreatesa3x1matrix
+19) Which of the following will raise an IndexError for a 2x2 matrix? 1 point
+Omatrix[1[1]
+matrix[2][0]
+Omatrix[0][1]
+Omatrix[1][0]
+20) What will bethe outputof the following code? 1 point
+matrix=[[1,2,3]
+[4,5,6]]
+result = []
+for col in range(3) :
+temp[]
+for row in range(2) :
+temp.append(matrix[row][col])
+result.append(temp)
+print(result)
+[1, 4], [2, 5]. [3, 6]
+[1, 2, 3] [4, 5, 6]
+O1,4,2,5,3,6
+O[1, 2] [4, 5] [3, 6]
+
+=== page 8 ===
+Maya, a beginner Python programrmer,has recently learned how to create lists using loops. Her mentor
+introduces her to list comprehension,a powerful and compact way to build lists using a single line of code
+Maya isespeciallyinterested in2D lists (matrices)andwantsto:
+Create a matrix of zeroes
+Generate addition tables
+Fill custom values using formulae
+Performtransposition
+Applyfiltering (likecollecting evennumbers)
+Her rmentor shows her the following code snippet:
+zeros for col in range(3)] for row in range(3))
+add table for c in range(3)] for r in range(3))
+rows, cols
+matrix = ie + c for c in range(cols)l forr in range(rows)
+transpose matrix[ri[c] for r in range(rows)] for c in rangeccols)
+evens = [x for xinrange(i0) if x%2 =-
+21] What is the value of zeros[1][2]? I point
+OError
+22) What is the length of the list evens? I point
+010
+23) What is the type of add_table? I point
+Integer
+List
+Ostring
+Opictionary
+24) What does matrix[1] evaluate to? 1 point
+[10,11.12]
+
+=== page 9 ===
+O[0,1.,2]
+O[1,2, 3]
+O[11,12, 13]
+25) What isthe shape (rows x cols) of thetranspose list? 1 point
+x3
+3x2
+O2x2
+O3x3
+26] What is the value of add_table[2][2]? I point
+27] What is the value of transpose[o[1]? 1 point
+10
+01
+O11
+28) What is the last elerment of the list evens? 1 point
+10
+29) Which formula was used to generate the values in the matrix list? 1 point
+Or+c
+Or*c
+r±10+C
+Or+c*10
+30] What is the sum of all values in transpose[1]? 1 point
+011
+12
+
+=== page 10 ===
+O114
+SubmitAnswers

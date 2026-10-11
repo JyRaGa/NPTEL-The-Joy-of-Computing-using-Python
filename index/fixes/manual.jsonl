@@ -1,0 +1,1 @@
+{"gid": "2023-jul/w06/q03", "text": "Which of the following is true about recursion?", "options": ["Recursion always performs better than non-recursive code.", "Recursive code is easier to debug.", "The base case is necessary for recursion.", "Recursive code can be shorter than non-recursive code"], "answer": [1, 2, 3], "badge": "official", "type": "multi"}

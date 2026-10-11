@@ -1,0 +1,300 @@
+OCR (RapidOCR, 200 dpi) of JOC Jan-2026 Wk7 quiz (not submitted, no answers, image-only).pdf; machine-read, check against the PDF.
+
+
+=== page 1 ===
+swayam
+adityasanskar555@gmail.com
+NPTEL  The Joy of Computing using Python
+Click to register for Certification exam
+If already registered, click to check your payment
+status
+Course outline
+AbOut NPTEL
+How does an NPTEL online course work?
+Week 1
+Week2
+Week 3
+week 4
+Week5
+Week6
+Week 7
+OSnakes and Ladders-Not on the Board
+OSnakes and Ladders-Not on the Board-Part 01
+Snakes and Ladders-Not on the Board -Part o2
+DSnakes and Ladders-Not on the Board-Part o3
+OSnakes and Ladders-Not on the Board-Part O4
+OSnakes and Ladders-Not on the Board-Part O5
+Snakes and Ladders-Not on the Board-Part 06
+C Spiral Traversing -Let's Animate
+Spiral Traversing-Let's Animate -Part 01
+Spiral Traversing -Let's Animate -Part 02
+Spiral Traversing -Let's Animate-Part o3
+Spiral Traversing -Let's Animate -Part 04
+Spiral Traversing -Let's Animate -Part 05
+OSpiral Traversing-Let's Animate-Part 06
+CSpiral Traversing -Let's Animate-Part 07
+DGPS-Track the route
+OGPS-Tracktheroute-Part01
+GPs-Trackthe route-Part02
+oGPS-Tracktheroute-Parto3
+CyGPS-Tracktheroute-Part04
+Week 7 Feedback Form: The Joy of Computing using
+Python
+Quiz: Week 7 : Assignment 7
+Week 7:Programming Assignment 1
+DWeek 7 :Programming Assignment 2
+Week 7 :Programming Assignment 3
+Text Transcripts
+Download Videos
+Week 7 :
+Assignment 7
+Assignment not Due date:2026-03-11.23:59 IST.
+submilted
+Case Study: Ariun and the Archivist's Rules
+Arjun was an apprentice archivist in the City of Timelines.
+a place where knowledge was preserved under strict rules.
+Every object stored in the archive followed a data
+discipline; nothing was random, and nothing was
+accidental.
+One afternoon, the Chief Archivist handed Arjun two
+enchanted records.
+"These are not just containers," she said.
+They decide how information behaves."
+Record One:The Chronicle Scroll
+The first record was called the Chronicle Scroll.
+"This scroll preserves history exactly as it is written,"said
+the Archivist.
+"Once sealed, its contents can never be altered."
+The Archivist explained that the Chronicle Scroll works like
+a Tuple.
+Chronicle Scroll = Tuple
+Arjun recorded the sequence of royal events:
+chronicle = ("Coronation',"War Declared","Peace Treaty")
+He reviewed the entries!
+print(chronicle[1D
+Output:
+War Declared
+Encouraged, Arjun tried to revise history:
+chronicle[1]="Secret Negotiation"
+The archive rejected the change immediately.
+What Arjun Observed
+Events stayed in the same order
+Each event had a fixed position
+Once recorded, entries could not be changed
+The scroll allowed repeated events if history
+demanded it
+Inference:
+Tuples preserve order, are immutable, and can store
+duplicates.
+They use round brackets 0
+Record Two:The Artifact Vault
+Thesecondrecordwas caledthe ArtifactVault
+"This vault only cares about what exists, not how it is
+arranged," said the Archivist.
+"And it never keeps the same artifact twice.
+The vault behaves like a Set.
+Artifact Vault = Set
+Arjun logged collected artifacts:
+artifacts =f"ring","amulet,"ring","scroll"
+When he checked the vault, he saw:
+print(artifacts)
+Output (order may vary):
+l'ring','amulet','scroll'}
+The duplicate artifact had vanished.
+Managing the Artifact Vault
+Unlike the Chronicle Scroll, the vault was flexible.
+Arjun added a new artifact:
+artifacts.add('crystal")
+Later, he removed one:
+artifacts.remove("ring")
+The vault updated instantly
+What Arjun Observed
+Order was unpredictable
+Duplicate artifacts were automatically ignored
+Items could be added or removed freely
+The vault focused only on uniqueness
+Inference:
+Sets are unordered, mutable, and store only unigue
+elements.
+They use curly brackets 0
+1) Arjun attempted to change an entry inside the 1 point
+Chronicle Scroll using:
+chronicle[1]="Secret Negotiation
+Why did this action fail?
+Because tuples do not support indexing
+Because the element did not exist
+O Because the Chronicle Scroll preserves order only
+OBecause the Chronicle Scroll is immutable
+2) When Arjun created the Artifact Vault as: 1 point
+artifacts=f"ring',"amulet,"ring,"scroll"}
+Why did the final vault contain fewer items than expected?
+Because sets automatically sort items
+OBecause duplicate elements are ignored
+Because only strings are allowed
+OBecause indexing is not supported
+3) Which operation was possible on the Artifact 1 point
+Vault but impossible onthe Chronicle Scroll?
+OAccessing an element using index
+OPreserving insertion order
+O Modifying the container after creation
+OAllowing duplicate values
+4) Arjun noticed that printing the Artifact Vault 1 point
+showed items in an unpredictable order. What caused this
+behavior?
+OThe vault was empty initially
+OPython randomly shuffles set elements
+O Sets do not maintain insertion order
+ODuplicate elements change ordering
+5) Which of the following would raise an error if 1 point
+attempted on the Chronicle Scroll?
+OChecking length
+OAccessing an element
+O iterating through elements
+OUpdating an existing element
+6) Why was the Artifact Vault more suitable for 1 point
+tracking collected artifacts?
+OIt supports indexing
+Oit allows duplicates
+O It guarantees uniqueness
+OIt preserves historical order
+7) If Arjun needed to ensure that historical 1 point
+records could never be altered, which structure was most
+appropriate?
+O List
+O Set
+ODictionary
+OTuple
+8) Which staterment about indexing is TRUE 1 point
+based on the case study?
+O Both tuples and sets support indexing
+Oonly sets support indexing
+Oonly tuples support indexing
+ONeither supports indexing
+9) Arjun removed an item from the Artifact Vault 1 point
+successfully. Why was this operation safe?
+Because sets allow modification
+Because tuples allow removal
+Because removal works only on strings
+OBecause indexing was used
+1ojWhich inference correctly matches both 1 point
+records used by Arjun?
+O Chronicle Scroll → unordered, mutable
+OArtifact Vault→ ordered, immutable
+OChronicle Scroll -→ ordered, immutable
+OArtifact Vault→ ordered,duplicate-allowed
+Meera and the Community Learning
+Center
+Meera volunteered at a community learning center that
+offered short-term courses such as Python Basics,Data
+Analysis,and Web Development.
+The center faced a recurring problem every month:
+ Student registrations came from different sources
+Course details were fixed once announced
+Attendance had to be tracked per student
+Records needed to be stored permanently for audits
+Meera was asked to build a simple data system in
+Python that could manage all this information reliably.
+Step 1: Fixed Course Information (Tuples)
+At the start of the month, course details were finalized
+and never changed afterward.
+Each course had:
+Course ID
+Course Name
+Duration (weeks)
+Meera stored this data as tuples.
+Python_course (1al,"python Bastcs,6)
+datacourse a(ie2, "Data Analysis 8]
+web_course (1e3,"web Developnent",1e)
+Step 2: Managing Student Registrations (Lists)
+Student registrations arrived daily, and new names had to
+be added continuously
+Meera maintained a list of registered students.
+students  ["Aarav" "Neha","Ishaan"
+students.append"Mehui"
+students.appendC"Neha"
+Step 3: Mapping Students to Courses (Dictionary)
+Each student enrolled in one course only,and Meera
+needed a clear mapping
+She used a dictionary where:
+Key-Student name
+Value-→Course tuple
+enrollaentse
+"Aaray": python course.
+"Neha"s data course,
+"Ishaan": python_course.
+"Hehul': web course
+Step 4: Tracking Attendance per Student
+(Dictionary +List)
+Attendance changed every day, so Meera needed
+a mutable structure.
+She decided:
+ Each student would have a list of attended session
+numbers
+attendance
+"Aarav":
+Neha"：1.
+"Ishaan
+"Mehul"
+Laterupdates:
+attendance["Mehul"Jappend(1)
+attendance["Neha"J.append(3)
+Step 5: Saving Records to a File (File Handling)
+At the end of the week, Meera needed to store enrollment
+data permanently.
+She wrote student-course mappings to a file.
+uith openc enrollnents.tut uas file:
+foe student, course En enrollnents.dtens
+file.vritecf'student-fcourse ih fcourse2weeksjn
+Step 6:Reading Stored Records Later
+During an audit, Meera retrieved the saved data.
+with opent"enrollnents.tat, file:
+records  file.readlinest
+fop line sn records:
+print(line.strip)
+11)Suppose the following change is made before 1point
+writing to the file:
+Python_course = (1e1, "Python Basics", 6)
+Python course[2
+What would be the first issue encountered in the program?
+OThe file will store incorrect duration
+OA runtime error will occur due to tuple immutability
+OThe dictionary enrollments will update automatically
+OThe list students will change size
+12jConsider this code is added after reading 1 point
+from the file:
+records  file.readlines()
+records.appendC Rohan -Python Basics c6 Meeksn"
+Which statement is TRUE?
+OA file write error occurs
+OThe file content changes automatically
+O The new record is saved permanently in
+enrollments.txt
+OOnly the in-memory list is modified
+13)Assumethiscodeisexecuted: 1 point
+enrollnents[Aarav"] =(iei, "Python Basics",
+Which statement best explains what happens?
+OBoth operations fail
+OBoth operations succeed
+OAttendance succeeds, enrollment fails
+OEnrollment succeeds,attendance fails
+14jif Meera replaces this line: I point
+studentsaLAarav."Neha"Ishaan"
+Wth:
+students CAaray "Neha Ishaan"
+students.append(Mehul")
+What is the correct outcome?
+OThe student is added successfully
+OAruntime error occurs due to unsupported
+operation
+OThe tuple expands automatically
+OThe enrollment file updates
+15)Which design choice in the case study most 1point
+directly protects course data from accidental
+modification?
+OUsing formatted strings while writing files
+OUsing lists for attendance tracking
+OReading files using readlines()
+O Storing course details as tuples inside dictionaries
+You may submit any number of times before the due date.
+The final submission will be considered for grading.
+Submit Answers

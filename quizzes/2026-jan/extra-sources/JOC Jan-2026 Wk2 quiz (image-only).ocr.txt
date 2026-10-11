@@ -1,0 +1,174 @@
+OCR (RapidOCR, 200 dpi) of JOC Jan-2026 Wk2 quiz (image-only).pdf; machine-read, check against the PDF.
+
+
+=== page 1 ===
+Week 2: Assignment 2
+Your last recorded submission was on 2026-01-31,14:10 IsT Due date:2026-02-04,23:59IST.
+Ravi's Nested Loop Implementation
+Ravi is asked to print the following pattern using Python:
+333
+4444
+55555
+He knows that a single loop controls the number of lines, so he decides to use nested for loops.Ravi writes the following code:
+for i in rangec1, 6):
+for j in range(l,i):
+print(i)
+The code runs without errors and prints multiple values on the screen. Ravi assumes that because the inner loop runs multiple times, the digit will automatically
+appear the required number of times on the same line. However, when the output is observed,the pattern does not match the required format.
+The instructor uses Ravi's code as a learning case. Learners are expected to analyze how the outer loop controls the number of rows, how the inner loop
+controls repetition, and why the current placement of the printo statement leads to an incorrect output format.
+1) How many times does the outer loop execute? 1 point
+04
+06
+ODepends on the innerloop
+2) Why does Ravi's code print each number on a new line instead of the same line? 1 point
+Because printo moves the cursor to the next line by default
+OBecause fangeO creates new lines.
+OBecausethe inner loop executes first
+OBecause nested loops cannot print patterns
+1 point
+O The outer loop does not include the final value required for printing the last line
+OThe inner loop variable is declared but not explicitly used in the print statement
+The print statement is placed inside the inner loop instead of after it
+OThe inner loop executes onefewer iteration than required foreach value ofi
+4) After correcting the inner loop to execute the required number of times, Ravi observes that the digits are still printed on separate lines. Which 1point
+change is necessary to ensure that each digit appears on the same line before moving to the next line?
+O Replace print(i) with printo inside the inner loop
+O Move the print(o) statement outside the inner loop
+Modify the print statement to suppress the default newline character
+1point
+To move the cursor to the next line after printing all digits for the current value ofi
+OTo reset the value of the loop variable before the next iteration begins
+OTo ensure the inner loop terminates before the outer loop continules
+OTo prevent the digits printed in different iterations from overlapping
+6) Which of the following Python code snippets correctly produces the required output? 1point
+333
+4444
+55555
+for i in range(1, 6):
+for j in rangecl.i):
+print(i.end-"")
+printo
+for i in rangeci. 6):
+for j in rangecl, i + ):
+printj.end-"-)
+printo
+for 1 in rangecl. 6):
+print(i)
+for j in rangect, i):
+print(i,end-"")
+for 1 in rangecl. 6):
+for j in rangeci.i +:
+printi, end-"")
+printo
+Palindrome Number Checker in Python
+Ravi is learning Python and is currently practicing loops and arithmetic operations.
+As part of his practice,he is given a task to check whether a given number is a palindrome.
+A palindrome number is a number that reads the same forward and backward.
+Examples:
+121-→Palindrome
+456-NotaPalindrome
+ while loops
+Modulus (%) operator
+ Integer division ()
+def Is palindrone(n):
+original -n
+reverse 0
+while n o:
+reverse = reverse * 10 + (n % 10)
+n//=10
+return reverse ss original
+7)What is the final value of reverse when the function is called as: ipoint
+is palindrome(12e)
+O210
+Q120
+21
+O12
+8y What will the function return forthe input: 1 point
+is.palindrome(7)
+OErrorbecauselooprunsonlyonce
+True
+OFalse
+ONone
+9) How many times does the while loop execute when the function is called as: 1 point
+is palindrome(10e1)
+01
+1o) Suppose the loopconditionis changed to: 1point
+while n >=0:
+What will happen when the function is called with is palindrome(5)?
+It enters an infinite loop
+OIt returns False afterone iteration
+OItcorrecty returnsTrue
+Olt raises a runtime error
+Smart Discount Calculator
+A retail store introduces a Smart Discount Calculatorto ensure that discounts are applied in a consistent and predictable manner. Every billis processed by
+following a fixed logical sequence. Once a condition is satisfied,the system proceeds forward without revisiting previous checks.
+Purchase Amount Based Discount
+If the total purchase amount is less than 1.ooo, no discount is applied.
+If the total purchase amount is 1,oo0 or more,a 1o% purchasebased discount becomes eligible
+Only one purchase-amount condition is checked.Afterthis step, the system moves to customer evaluation.
+Customer Type Based Discount
+If the customer is a regular customer, no customer-type discount is considered.
+If the customeris apremiumcustomer,the system checks whether the purchase amount isat least x2,ooo
+If the customer is premium andthe purchase amount is below 2,ooo,thepremium discount is ignored.
+If the customeris premium and the purchase amount is 2,ooo ormore,a5%premium discount becomes eligible.
+Final Discount Selection Rule
+If no discount is eligible from either scheme,the final payable amount remains equal to the purchase amount.
+If exactly one discount is eligible, that discount is applied.
+if both purchase-based and premium discounts are eligible,the system compares the discount values and applies only the one that results in the higher
+benefit.
+At no point are both discounts applied together.
+Safety Rules
+if the calculated discount exceeds the purchase amount, the discountis limited to the purchase amount.
+Iif the final payable amount becomes negative, it is reset to zero.
+Output Generation
+The system displays the original purchase amount, the selected discount, and the final payable amount.
+The calculator always produces the same output for the same input, ensuring fairness and transparency in billing.
+1i) Acustomer is a regular customer and makes a purchase of 85o. Which code fragment correctly represents the discount logic applied by the ipoint
+calculator?
+discount -e
+if amount >-1000:
+discount anount -.1e
+if anount <-1eoe:
+discount  anount 0.10
+else:
+discount =e
+discount = amount * e.ie
+if amount > 10o0:
+discount = a
+12)Apremiumcustomermakes a purchase of1,500. 1 point
+Which discount will the system finally apply?
+O5%premiumdiscount
+ONo discount
+10% purchase-based discount
+OBoth10%and5%discounts
+13)Apremiumcustomermakesapurchaseof2,500. 1point
+Which logic ensures that only one discount is applied?
+discount: .anount * e.ie + amount  e.es
+discount e nax(anount  e.io, amount t e.es)
+if premiun:
+discount = anount e.es
+discount = anount * e,ie
+if premiun and amount 2= 2aaa:
+discount  amount e.es
+14) Apremium customermakes a purchase of 2,o00 exactly 1 point
+Which discount amountis applied?
+弄200
+Q天300
+15)Apremiumcustomermakesapurchaseof1,800. 1 point
+Which of the following code fragments correctly produces the
+discount applied by the Smart Discount Calculator?
+if premium:
+discount =amount → 8.85
+if amount >= 2000:
+discount = amount * .10
+if premium and amount >= 20o0:
+discount amount  8.85
+else:
+discount = e
+if preniun and amount 3- 2ooe:
+discount - anount  8.os
+elif amount >- 1000:
+discount  anount  o.io
+You may submit any number of times before the due date.The final submission will be considered for grading
+Submit Answers

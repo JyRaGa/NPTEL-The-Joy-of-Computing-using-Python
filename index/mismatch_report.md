@@ -1,0 +1,87 @@
+# Parse mismatch report
+
+2334 questions from 215 files. Types: {'single': 2112, 'reveal': 87, 'multi': 128, 'numeric': 7}. Answer sources: {'uploader': 1294, 'official': 800, 'pdf': 240}.
+
+81 files with issues:
+
+- `quizzes/2018-jul/week-01-portal-print.md`: no answer: Q9
+- `quizzes/2018-jul/week-03.md`: no answer: Q3
+- `quizzes/2018-jul/week-04.md`: no answer: Q2; no parsed options (reveal): Q6
+- `quizzes/2018-jul/week-08.md`: no answer: Q4
+- `quizzes/2018-jul/week-09.md`: no answer: Q10
+- `quizzes/2018-jul/week-10.md`: no answer: Q3, Q8
+- `quizzes/2019-jul/week-06.md`: no answer: Q5
+- `quizzes/2020-jan/week-01.md`: no parsed options (reveal): Q1, Q7
+- `quizzes/2020-jan/week-03.md`: no parsed options (reveal): Q1, Q5
+- `quizzes/2020-jan/week-04.md`: no answer: Q3
+- `quizzes/2020-jan/week-06.md`: no answer: Q3, Q5
+- `quizzes/2020-jan/week-07.md`: no answer: Q6, Q7; no parsed options (reveal): Q2, Q3, Q5, Q9, Q10
+- `quizzes/2020-jan/week-08.md`: 9 questions, expected 10; no answer: Q3, Q4; no parsed options (reveal): Q5, Q6
+- `quizzes/2020-jan/week-10.md`: no answer: Q6
+- `quizzes/2020-sep/week-01.md`: no answer: Q5, Q7, Q10; no parsed options (reveal): Q3, Q4
+- `quizzes/2020-sep/week-02.md`: no answer: Q10; no parsed options (reveal): Q3, Q6, Q7
+- `quizzes/2020-sep/week-03.md`: no parsed options (reveal): Q2, Q10
+- `quizzes/2020-sep/week-04.md`: no answer: Q10
+- `quizzes/2020-sep/week-05.md`: no answer: Q2
+- `quizzes/2020-sep/week-06.md`: no answer: Q3
+- `quizzes/2020-sep/week-07.md`: no answer: Q1, Q3, Q7; no parsed options (reveal): Q4, Q5
+- `quizzes/2020-sep/week-08.md`: no answer: Q3, Q8
+- `quizzes/2020-sep/week-09.md`: no parsed options (reveal): Q6
+- `quizzes/2020-sep/week-10.md`: no answer: Q4, Q6; no parsed options (reveal): Q3, Q8
+- `quizzes/2020-sep/week-11.md`: no parsed options (reveal): Q7
+- `quizzes/2020-sep/week-12.md`: no answer: Q3; no parsed options (reveal): Q2, Q5
+- `quizzes/2021-jan/week-03-portal-print.md`: no parsed options (reveal): Q1, Q6, Q8, Q9
+- `quizzes/2021-jan/week-03.md`: no answer: Q7
+- `quizzes/2021-jan/week-04-portal-print.md`: no parsed options (reveal): Q7
+- `quizzes/2021-jan/week-05-portal-print.md`: no answer: Q6; no parsed options (reveal): Q7
+- `quizzes/2021-jan/week-05.md`: no answer: Q6
+- `quizzes/2021-jan/week-06-portal-print.md`: no parsed options (reveal): Q7, Q8
+- `quizzes/2021-jan/week-06.md`: no parsed options (reveal): Q7
+- `quizzes/2021-jan/week-07-portal-print.md`: no parsed options (reveal): Q5, Q6, Q7
+- `quizzes/2021-jan/week-08-portal-print.md`: no answer: Q8
+- `quizzes/2021-jan/week-09-portal-print.md`: no answer: Q3; no parsed options (reveal): Q4
+- `quizzes/2021-jan/week-10-portal-print.md`: no answer: Q3; no parsed options (reveal): Q4, Q5, Q8, Q9
+- `quizzes/2021-jan/week-10.md`: no parsed options (reveal): Q8, Q9
+- `quizzes/2021-jan/week-11-portal-print.md`: no answer: Q6; no parsed options (reveal): Q10
+- `quizzes/2021-jan/week-12-portal-print.md`: no answer: Q1, Q2, Q3, Q4, Q5, Q6, Q8, Q9, Q10; no parsed options (reveal): Q7
+- `quizzes/2021-jul/week-10.md`: no answer: Q1, Q9
+- `quizzes/2022-jul/week-07.md`: no answer: Q10
+- `quizzes/2023-jan/week-02.md`: no answer: Q10
+- `quizzes/2023-jan/week-03.md`: no answer: Q10; no parsed options (reveal): Q7
+- `quizzes/2023-jul/chatgpt-converted-md/week-04.md`: no parsed options (reveal): Q6
+- `quizzes/2023-jul/chatgpt-converted-md/week-06.md`: no answer: Q10; no parsed options (reveal): Q7
+- `quizzes/2023-jul/chatgpt-converted-md/week-09.md`: no parsed options (reveal): Q4
+- `quizzes/2023-jul/chatgpt-converted-md/week-10.md`: no parsed options (reveal): Q4, Q8
+- `quizzes/2023-jul/chatgpt-converted-md/week-12.md`: no answer: Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q11
+- `quizzes/2023-jul/week-07.md`: no answer: Q1, Q3, Q6, Q9, Q10
+- `quizzes/2023-jul/week-08.md`: no answer: Q2, Q5, Q6, Q7, Q8, Q9, Q10
+- `quizzes/2023-jul/week-09.md`: no answer: Q4, Q5, Q8, Q9, Q10
+- `quizzes/2023-jul/week-10.md`: no answer: Q1, Q3
+- `quizzes/2024-jan/week-04.md`: no parsed options (reveal): Q5
+- `quizzes/2024-jan/week-06.md`: no parsed options (reveal): Q9, Q10
+- `quizzes/2024-jan/week-07.md`: no parsed options (reveal): Q1, Q3, Q4, Q7
+- `quizzes/2024-jan/week-09.md`: no parsed options (reveal): Q4, Q8, Q9
+- `quizzes/2024-jan/week-11.md`: no parsed options (reveal): Q4, Q5, Q6, Q7, Q8, Q9, Q10
+- `quizzes/2024-jan/week-12.md`: no parsed options (reveal): Q5, Q10
+- `quizzes/2024-jul/week-01.md`: no parsed options (reveal): Q2, Q9
+- `quizzes/2024-jul/week-02.md`: no parsed options (reveal): Q2
+- `quizzes/2024-jul/week-03.md`: no answer: Q4, Q10
+- `quizzes/2024-jul/week-05.md`: no answer: Q1
+- `quizzes/2024-jul/week-07.md`: no answer: Q6
+- `quizzes/2024-jul/week-08.md`: no answer: Q3, Q8
+- `quizzes/2024-jul/week-10.md`: no answer: Q1
+- `quizzes/2024-jul/week-11.md`: no answer: Q10
+- `quizzes/2024-jul/week-12.md`: no answer: Q1; no parsed options (reveal): Q2
+- `quizzes/2025-jan/week-01.md`: no answer: Q3; no parsed options (reveal): Q2, Q9
+- `quizzes/2025-jan/week-02.md`: no answer: Q7; no parsed options (reveal): Q2
+- `quizzes/2025-jan/week-03.md`: no answer: Q4
+- `quizzes/2025-jan/week-04.md`: no answer: Q5, Q6; no parsed options (reveal): Q1, Q4
+- `quizzes/2025-jan/week-05.md`: no answer: Q10; no parsed options (reveal): Q1, Q9
+- `quizzes/2025-jan/week-07.md`: no answer: Q4; no parsed options (reveal): Q6
+- `quizzes/2025-jan/week-08.md`: no answer: Q10
+- `quizzes/2025-jan/week-09.md`: no answer: Q2, Q7; no parsed options (reveal): Q4
+- `quizzes/2025-jan/week-12.md`: no parsed options (reveal): Q1
+- `quizzes/2026-jan/week-01.md`: no answer: Q1, Q5, Q10, Q15
+- `quizzes/2026-jan/week-02.md`: no answer: Q1
+- `quizzes/2026-jan/week-06.md`: no answer: Q2, Q6
+- `quizzes/2026-jul/week-12-transcribed.md`: no answer: Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, Q17, Q18, Q19, Q20

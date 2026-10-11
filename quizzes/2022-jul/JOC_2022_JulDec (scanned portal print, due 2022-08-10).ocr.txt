@@ -1,0 +1,2596 @@
+OCR (RapidOCR, 200 dpi) of JOC_2022_APRIL_DEC (scanned, term unconfirmed).pdf; machine-read, check against the PDF.
+
+
+=== page 1 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 3 - Week 1
+Uploaded by youtube.com/c/getpythoncode
+Contact me at telegram , my telegram id-@Ak4Gp
+Mail me at amazonking616@gmail.com
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 1: Assignment 1
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-08-10, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-07-16, 22:37 IsT
+course
+work? () 1) What are the functions that can be performed on the variables? 1 point
+Week 0 () Rename
+Delete
+Week 1 ()
+Initialize starting value
+Introduction to All of the above
+Programming Yes, the answer is correct.
+(unit? Score: 1
+unit=17&lesson=18) Accepted Answers:
+Why All of the above
+Programming?
+(unit? 2) Which of the following statements is true? 1 point
+unit=17&lesson=19)
+One can run an infinite loop.
+ Programming
+for Everybody One cannot change the value of a variable.
+(unit? One cannot add sound in scratch.
+unit=17&lesson=20) One cannot change the size of the image.
+Any Yes, the answer is correct.
+Prerequisites? Score: 1
+(unit? Accepted Answers:
+unit=17&lesson=21) One can run an infinite loop.
+Where to
+start? (unit? 3) Choose the odd one out. 1 point
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=17&assessment=287 1/4
+
+=== page 2 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 3 - Week 1
+unit=17&lesson=22) If
+Why do we Repeat
+have so many hide
+languages?
+(unit?  Wait
+unit=17&lesson=23) Yes, the answer is correct.
+Score: 1
+O How to go
+Accepted Answers:
+about hide
+programming?
+(unit? Which command can be used to decrease the size of a sprite? 1 point
+unit=17&lesson=24)
+Set size by
+Why to learn
+programming? Change size by
+(unit? Decrease size
+unit=17&lesson=25) Size change by
+What is No, the answer is incorrect.
+programming? Score: 0
+(unit? Accepted Answers:
+unit=17&lesson=26) Change size by
+O How to give
+instructions? 5) Which command can be used to move an object by some steps? 1 point
+(unit?
+unit=17&lesson=27) rotate
+turn
+Introduction to
+Scratch (unit? move
+unit=17&lesson=28) forward
+ Introduction to Yes, the answer is correct.
+Loops (unit? Score: 1
+unit=17&lesson=29) Accepted Answers:
+move
+O More about
+Loops (unit?
+unit=17&lesson=30)
+Solution to
+Looping
+Problem (unit?
+unit=17&lesson=31)
+Scratch :
+Animation 1
+(unit?
+unit=17&lesson=32)
+Scratch :
+Animation 2
+(unit?
+unit=17&lesson=33)
+Scratch :
+Animation 3
+(unit?
+unit=17&lesson=34)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=17&assessment=287 2/4
+
+=== page 3 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 3 - Week 1
+ More on What does the cat say after executing the following code? 1 point
+Scratch (unit?
+unit=17&lesson=35)
+set to
+Quiz: Week 1:
+Assignment 1 repeat 20
+(assessment?
+name=287)
+mod then
+Week 1
+Feedback
+Form: The Joy say
+of Computing
+using Python wait seconds
+(unit?
+unit=17&lesson=36)
+Week 2 () change by
+Week 3 ()
+week 4 ()
+Week 5 () All-natural numbers between 1-20. (Both inclusive)
+All even numbers between 1-20. (Both inclusive)
+Week 6 () All odd numbers between 1-20. (Both inclusive)
+All whole numbers between 0-20. (Both inclusive)
+Week 7 ()
+Yes, the answer is correct.
+Week 8 () Score: 1
+Accepted Answers:
+All even numbers between 1-20. (Both inclusive)
+Week 9 ()
+7) Which of the following command is not related to the motion section? 0 points
+Week 10 ()
+if
+Week 11 () wait
+Week 12 () move
+rotate
+Text No, the answer is incorrect.
+Transcripts () Score: 0
+Accepted Answers:
+Download if
+Videos ()
+8) Which command can be used to make an image reappear? 1 point
+Books ()
+hide
+Live Session reappear
+show
+glide
+Programming
+test - Yes, the answer is correct.
+Session 1
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=17&assessment=287 3/4
+
+=== page 4 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 3 - Week 1
+(October 16 Score: 1
+2022 - 10 AM Accepted Answers:
+to 1 PM) () show
+9) Which of the following command is used to take the absolute value of a number? 1 point
+Programming
+test - absolute of
+Session 1 abs of
+(October 16
+2022 -8 PM mod of
+to 11 PM) () modulus of
+Yes, the answer is correct.
+Problem Score: 1
+Solving Accepted Answers:
+Session () abs of
+1 point
+image.
+True
+False
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+True
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=17&assessment=287 4/4
+
+=== page 5 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 4 - Week 2
+swayam (https://swayam.gov.in) (https:/swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com 
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 2: Assignment 2
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-08-10, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-08-01, 19:14 IsT
+course
+work? () 1) What is the correct command to show the value stored in a variable? 1 point
+Week 0 () show()
+cout()
+Week 1 ()
+print()
+Week 2 () ()ino
+Yes, the answer is correct.
+Introduction to Score: 1
+Anaconda Accepted Answers:
+(unit? print()
+unit=37&lesson=38)
+Installation of 2) What will be the output of the following piece of code? 1 point
+Anaconda
+(unit? unit=37&lesson=39) 'Bond
+b=34
+Introduction to
+Spyder IDE print('Hello Mr.', a,lb+1)
+(unit?
+unit=37&lesson=40) Hello Mr. Bond 34
+O Printing Hello Mr. 34
+statements in
+Python (unit? Hello Mr. Bond 35
+unit=37&lesson=41)  Hello Mr. Bond 34
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=37&assessment=295 1/5
+
+=== page 6 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 4 - Week 2
+O Understanding Yes, the answer is correct. Score: 1
+Variables in
+Accepted Answers:
+Python (unit?
+Hello Mr. Bond 35
+unit=37&lesson=42)
+Executing a 3) What will be the output of the following code? 1 point
+sequence of
+instructions in the Console In [3]: X=10 x=y print(x,y)
+(unit?
+unit=37&lesson=43) 10,10
+Writing your 10
+First Program No output
+(unit?
+unit=37&lesson=44) Error
+Taking inputs Yes, the answer is correct.
+Score: 1
+from the user
+(unit? Accepted Answers:
+unit=37&lesson=45) Error
+Discount 4) What is the extension of a python file? 1 point
+Calculation
+(unit? SC
+unit=37&lesson=46)
+py
+Motivation to if md
+condition
+(unit? Cp
+unit=37&lesson=47) Yes, the answer is correct.
+Score: 1
+O A reminder on Accepted Answers:
+how to deal py
+with numbers
+(unit?
+unit=37&lesson=48) 5) what will be the output of the following code, if the given input is 5? 1 point
+Understanding A = input()
+if condition's print(A*5)
+working (unit?
+unit=37&lesson=49) 25
+Realizing the 55555
+importance of  55
+syntax and
+indentation
+(unit? Yes, the answer is correct.
+unit=37&lesson=50) Score: 1
+Accepted Answers:
+Introductions 55555
+to loops (unit?
+unit=37&lesson=51)
+6) Which of the following commands are correct to take input from a user? 1 point
+O Loops: Sum of
+numbers (unit? n = input(Hello")
+unit=37&lesson=52) n = input("42")
+O Loops: Sum of n = input(42')
+numbers n = input(Hello)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=37&assessment=295 2/5
+
+=== page 7 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 4 - Week 2
+(continued) n = input()
+(unit?
+unit=37&lesson=53) Yes, the answer is correct.
+Score: 1
+O Loops: Accepted Answers:
+Multiplication n = input("Hello')
+Tables (unit? n = input("42")
+unit=37&lesson=54) n = input(42')
+Introduction to (ndu! = u
+While Loop 7) What will be the output of the following code if the input is ‘5'? 1 point
+(unit?
+unit=37&lesson=55)
+Week 2: a=input( Enter anumberiD
+Programming Assignment 1 (/noc22_cs122/progassigr 23 b = int(a) print5+b)
+name=291)
+25
+Week 2: 25.0
+Programming
+Assignment 2 Error
+(/noc22_cs122/progassignment? 5555
+name=292)
+No, the answer is incorrect.
+Week 2: Score: 0
+Programming Accepted Answers:
+Assignment 3 25
+(/noc22_cs122/progassignment?
+name=293) 8) Which of the following blocks of codes are correct?(Assume x and y are initialized) 1 point
+Quiz: Week 2:
+Assignment 2
+name=295) (assessment? if(X==)
+ Week 2 if(y==1) :
+Feedback
+Form: The Joy print(hey)
+of Computing
+using Python
+(unit? unit=37&lesson=56) if(x==1):
+Week 3 () printc"statement
+iF(VEE1):
+week 4 ()
+print(hey
+Week 5 ()
+Week 6 () if(x=1):
+printC statement
+Week 7 () if(y=1D:
+Week 8 () printhey
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=37&assessment=295 3/5
+
+=== page 8 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 4 - Week 2
+Week 9 ()
+if(X==1)
+Week 10 ()
+print(statement)
+Week 11 () if(y=1) :
+Week 12 () printheyD
+Text Score: 1 Yes, the answer is correct.
+Transcripts () Accepted Answers:
+Download
+Videos () if(x==1):
+Books () print( statement
+if(yE=1):
+Live Session print(hey
+9) Which of the following statements are correct regarding the following code? 1 point
+Programming
+test - for i in range(a):
+Session 1
+(October 16  i will take values from O to a.
+2022 - 10 AM  i will take values from 1 to a.
+to 1 PM) ()
+i will take values from O to a-1.
+Programming O i will take values from 1 to a-1.
+test - Yes, the answer is correct.
+Session 1 Score: 1
+(October 16 Accepted Answers:
+2022 -8 PM i will take values from O to a-1.
+to 11 PM) ()
+10) What will be the output of the following code? 1 point
+Problem
+Solving
+Session ()
+whiea<10D
+a=at2
+print(a)
+1,2,3,4,5,6,7,8,9,10
+2,4,6,8,10
+0,1,2,3,4,5,6,7,8,9,10
+Error
+Yes, the answer is correct.
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=37&assessment=295 4/5
+
+=== page 9 ===
+15/04/2023,19:32 The Joy of Computing using Python - - Unit 4 - Week 2
+Score: 1
+Accepted Answers:
+2, 4,6,8, 10
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=37&assessment=295 5/5
+
+=== page 10 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 5 - Week 3
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 3: Assignment 3
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-08-17, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-08-09, 14:39 IsT
+course
+work? () 1) Which of the following statements describes the challenge ‘Fizz Buzz'? 1 point
+Week 0 () Multiples of 3 should print buzz, multiples of 5 should print fizz, and multiples of 3 and 5
+should print fizz buzz.
+Week 1 ()  Multiples of 3 should print fizz, multiples of 5 should print buzz, and multiples of 3 or 5
+should print fizz buzz.
+Week 2 ()  Multiples of 3 should print fizz, multiples of 5 should print buzz, and multiples of 3 and 5
+should print fizz buzz.
+Week 3 ()
+ Multiples of 3 should print buzz, multiples of 5 should print fizz, and multiples of 3 and 5
+O Lists Part 1 : should print fizz buzz.
+Introduction Yes, the answer is correct.
+(unit? Score: 1
+unit=57&lesson=58) Accepted Answers:
+O Lists Part 2 : Multiples of 3 should print fizz, multiples of 5 should print buzz, and multiples of 3 and 5
+Manipulation should print fizz buzz.
+(unit?
+unit=57&lesson=59) 2) random.randint(1,100) will generate a number (assume random is 1 point
+imported)
+O Lists Part 3 :
+Operations Between 1,100 both inclusive.
+(unit?
+unit=57&lesson=60) Between 1,100 both exclusive.
+Between 1,100 only 100 inclusive.
+O Lists Part 4 :
+Slicing (unit? Between 1,100 only 1 inclusive.
+unit=57&lesson=61)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=57&assessment=296 1/4
+
+=== page 11 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 5 - Week 3
+Yes, the answer is correct.
+Loops and Score: 1
+Conditionals :
+Accepted Answers:
+Fizzbuzz 01
+Between 1,100 both inclusive.
+(unit?
+unit=57&lesson=62) 3) Consider a string of 20 digits initialized with all zeros as a DNA sequence, in the 1 point
+Loops and context of lectures, updating a random 'zero' as 'one' implies 
+Conditionals :
+Fizzbuzz 02 Updating a random number
+(unit? Evolution
+unit=57&lesson=63) Degradation
+Crowd Increase
+Computing -
+Yes, the answer is correct.
+Just estimate Score: 1
+01 (unit? Accepted Answers:
+unit=57&lesson=64) Evolution
+Crowd
+Computing - Which of the following method is correct to add an element at a specific position? 1 point
+Just estimate
+02 (unit? insert()
+unit=57&lesson=65) add()
+Crowd append()
+Computing -  index()
+Just estimate
+03 (unit? Yes, the answer is correct.
+unit=57&lesson=66) Score: 1
+Accepted Answers:
+Crowd insert()
+Computing -
+Just estimate 5) What will be the output of the following program? 1 point
+04 (unit?
+unit=57&lesson=67)
+Crowd L=［Python Java.!Kotlin'1
+Computing -
+Just estimate 05 (unit? 1234 forLanginrange(lenCL)):
+unit=57&lesson=68) print(lang)
+Crowd
+Computing - Python, C++, Java, Kotlin
+Just estimate
+0, 1, 2, 3
+06 (unit?
+unit=57&lesson=69) 0, 1, 2, 3, 4
+Python, C++, Java
+O Permutations -
+Jumbled Yes, the answer is correct.
+Words 01 Score: 1
+(unit? Accepted Answers:
+unit=57&lesson=70) 0, 1, 2, 3
+Permutations -
+Jumbled 6) Which of the following methods is correct to count the number of instances on an 1 point
+Words 02 element in a list?
+(unit?
+unit=57&lesson=71)  total()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=57&assessment=296 2/4
+
+=== page 12 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 5 - Week 3
+O Permutations - sum()
+Jumbled count()
+Words 03
+(unit? numberof()
+unit=57&lesson=72) Yes, the answer is correct.
+Score: 1
+ Theory of Accepted Answers:
+Evolution 01 count()
+(unit?
+unit=57&lesson=73) 7) In the Fizz Buzz game, What will be the output if the number is 285? 1 point
+Theory of Fizz
+Evolution 02
+(unit? Buzz
+unit=57&lesson=74) Fizz Buzz
+O Theory of  No output
+Evolution 03 Yes, the answer is correct.
+(unit? Score: 1
+unit=57&lesson=75) Accepted Answers:
+ Theory of Fizz Buzz
+Evolution 04
+(unit? 8)  Which of the following keywords is used to define a function in python? 1 point
+unit=57&lesson=76)
+func
+O Week 3
+function
+Feedback
+Form: The Joy define function
+of Computing def
+using Python
+(unit? Yes, the answer is correct.
+unit=57&lesson=77) Score: 1
+Accepted Answers:
+Quiz: Week 3: def
+Assignment 3
+(assessment? 9) Which of the following statements are true about crowd-sourcing? 1 point
+name=296)
+Week 3: Answers received via crowdsourcing are never correct.
+Programming Answers received via crowdsourcing can be as good as the answer by an expert.
+Assignment 1
+(/noc22_cs122/progassignment?
+name=297) Answers received via crowdsourcing are always correct.
+Yes, the answer is correct.
+Week 3: Score: 1
+Programming
+Accepted Answers:
+Assignment 2 Answers received via crowdsourcing can be as good as the answer by an expert.
+(/noc22_cs122/progassignment?
+name=298) Answers received via crowdsourcing can be better than the answer by an expert.
+Week 3:
+Programming 10) Which of the following commands is not correct in order to generate a graph? 1 point
+Assignment 3
+(/noc22_cs122/progassignment? import matplotlib.pyplot as plt
+name=299) plt.plot([1,2,3,4],[5,6,7,8],ro)
+week 4 ()  import matplotlib.pyplot as plt
+plt.plot([1,2,3,4],[5,6,7,8],r--)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=57&assessment=296 3/4
+
+=== page 13 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 5 - Week 3
+Week 5 () import matplotlib.pyplot as plt
+plt.plot([1,2,3,4],[5,6,7,8],bs)
+Week 6 () import matplotlib.pyplot as plt
+plt.plot([1,2,3,4],[5,6,7,8],r--)
+Week 7 () Yes, the answer is correct.
+Score: 1
+Week 8 () Accepted Answers:
+import matplotlib.pyplot as plt
+Week 9 () plt.plot([1,2,3,4],[5,6, 7,8],r---)
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Text
+Transcripts ()
+Download
+Videos ()
+Books ()
+Live Session
+Programming
+test -
+Session 1
+(October 16
+2022 - 10 AM
+to 1 PM) ()
+Programming
+test -
+Session 1
+(October 16
+2022 - 8 PM
+to 11 PM) ()
+Problem
+Solving
+Session ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=57&assessment=296 4/4
+
+=== page 14 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 6 - week 4
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com 
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 4: Assignment 4
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-08-24, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-08-15, 19:38 IsT
+course
+work? () 1) Which of the following statements are true regarding the Magic Squares? (N = 1 point
+Number of rows or columns)
+Week 0 ()
+A Magic Square is always a square matrix.
+Week 1 ()  A Magic Square can or cannot be a square matrix.
+Week 2 () I The Sum of each row and each column is N(N+1)/2
+V The Sum of each row and each column is N(N2 +1)/2.
+Week 3 () Yes, the answer is correct.
+Score: 1
+week 4 () Accepted Answers:
+A Magic Square is always a square matrix.
+O Practice is the The Sum of each row and each column is N(N2 +1)/2)
+key (unit?
+unit=78&lesson=79) 2) What will be the output of the following code? 1 point
+Magic Square:
+Hit and Trial
+01 (unit?
+unit=78&lesson=80) Thisisasentence
+Magic Square:
+Hit and Trial
+02 (unit?
+unit=78&lesson=81) This is a sentence.
+Magic Square: Error
+Hit and Trial No output
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=78&assessment=300 1/6
+
+=== page 15 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 6 - week 4
+03 (unit? The program will not run
+unit=78&lesson=82)
+Yes, the answer is correct.
+Magic Square: Score: 1
+Hit and Trial Accepted Answers:
+04 (unit? No output
+unit=78&lesson=83)
+3) A perfect number is a number in which the sum of its proper divisors is equal to that 1 point
+Magic Square: number. For example, 6 is a perfect number as the sum of its divisors 1,2,3 is equal to 6. Which
+Hit and Trial function returns True if the number is perfect?
+05 (unit?
+unit=78&lesson=84)
+O Let's program defperfectnumber(num):
+and play (unit? ans=0
+unit=78&lesson=85)
+foriin range(l,num
+Dobble Game if(num%i==0):
+- Spot the 45
+similarity 01 ans =ans+i
+(unit? if(ansr=num)
+unit=78&lesson=86) return True
+Dobble Game else:
+- Spot the returnFalse
+similarity 02
+(unit? 10
+unit=78&lesson=87)
+Dobble Game def perfect_number(num):
+- Spot the ans=0
+similarity 03 fori in range(i,num):
+(unit? if(num%i==0):
+unit=78&lesson=88)
+ans+=i
+Dobble Game if(ans-=num):
+- Spot the return False
+similarity 04 else:
+(unit?
+unit=78&lesson=89) return True
+10
+What is your
+date of birth?
+(unit? defperfect_numberCnum):
+unit=78&lesson=90) ans=0
+fori inrange(3num)
+Birthday if(num%i==0:
+Paradox - Find ans=ans+i
+your twin 01 if(ansenum)
+(unit? return True
+unit=78&lesson=91)
+else:
+Birthday return False
+Paradox - Find
+your twin 02
+(unit?
+unit=78&lesson=92)
+Birthday
+Paradox - Find
+your twin 03
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=78&assessment=300 2/6
+
+=== page 16 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 6 - week 4
+(unit?
+unit=78&lesson=93)
+defperfect_numberCnum):
+Birthday
+Paradox - Find anse0
+your twin 04 for i in range(i,num):
+(unit? if(num%i==0):
+unit=78&lesson=94)
+ans ans+i
+Birthday if(ans!=num
+Paradox - Find
+your twin 05 returnTrue
+(unit? else:
+unit=78&lesson=95) return False
+What's your Yes, the answer is correct.
+favourite Score: 1
+movie? (unit?
+Accepted Answers:
+unit=78&lesson=96)
+Guess the defperfect_number(num):
+Movie Name
+01 (unit? unit=78&lesson=97) 23 ans=0 fori in range(l,num):
+Guess the Movie Name 456 if(num%i==0): ans=ans+i
+02 (unit? if(ans==num):
+unit=78&lesson=98)
+returnTrue
+Guess the else:
+Movie Name
+03 (unit? returnFalse
+unit=78&lesson=99) 10
+Guess the 4) Suppose there is a movie with 3 letters, how many combinations of names are 1 point
+Movie Name possible?
+04 (unit?
+unit=78&lesson=100) 26
+Guess the 676
+Movie Name 17576
+05 (unit?
+unit=78&lesson=101) 456976
+Guess the Yes, the answer is correct.
+Score: 1
+Movie Name
+Accepted Answers:
+06 (unit?
+17576
+unit=78&lesson=102)
+Quiz: Week 4: 5) What are the possible outputs of the following program? 1 point
+Assignment 4
+(assessment?
+name=300) import random
+Week 4:
+Programming
+Assignment 1 n=random.randintCo,1oo)
+(/noc22_cs122/progassigr
+name=301) print(n%5D
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=78&assessment=300 3/6
+
+=== page 17 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 6 - week 4
+Week 4: Any number in the range between 0,4 (Both inclusive).
+Programming  Any number in the range between 1,4 (Both inclusive).
+Assignment 2
+name=302) Any number in the range between 1,5 (Both inclusive).
+Week 4: Yes, the answer is correct.
+Programming Score: 1
+Assignment 3 Accepted Answers:
+(/noc22_cs122/progassignme number in the range between 0,4 (Both inclusive).
+name=303)
+6) Birthday Paradox can be simulated with approximately people. 1 point
+O Week 4
+Feedback 365
+Form: The Joy 100
+of Computing 40
+using Python
+(unit? 20
+unit=78&lesson=103) No, the answer is incorrect.
+Score: 0
+Week 5 () Accepted Answers:
+40
+Week 6 ()
+What is the command to print the last result of the ipython console? 1 point
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 () Yes, the answer is correct.
+Score: 1
+Week 11 () Accepted Answers:
+Week 12 ()
+8) What will be the output of the following program? 1 point
+Text
+Transcripts () Li=starwars godfather! "passsengeri 'jaurassicpark'J
+L2=［spiderman jumanji *Passenger1 istarwars
+Download 1234567 for i inLi:
+Videos () forjinL2:
+ifioo：
+Books () print(j)
+Live Session Passenger, Starwars
+spiderman, jumanji
+spiderman, jumanji, Passenger, Starwars
+Programming spiderman, Starwars
+test -
+Session 1 Yes, the answer is correct.
+(October 16 Score: 1
+2022 - 10 AM Accepted Answers:
+to 1 PM) () spiderman, jumanji
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=78&assessment=300 4/6
+
+=== page 18 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 6 - week 4
+9) In the 'Dobble Game', if there are 8 objects on 1 card and 10 objects on another, 1 point
+Programming
+how many comparisons are possible?
+test -
+Session 1
+(October 16
+2022 - 8 PM 10
+to 11 PM) () 18
+80
+Problem
+Yes, the answer is correct
+Solving Score: 1
+Session () Accepted Answers:
+80
+10) 1 point
+What will be the output of the following code?
+importrandom
+L=Lharry potter' matrix spiderman! Iterminator! 'karateki
+23456789 movie=random.choice(L)
+count=0
+forcharacterinmovie:
+10
+ifceharacteratorcharacter A:
+12 count=count+1
+13
+14 eLif(character  orcharacter三=
+15 count=count+1
+16
+eLif(character i orcharacter
+count=count+1
+eLif(character  orcharacter 
+count=count+1
+eLif(characteruorcharacteru):
+count=count+1
+print(countmovie)
+Display the number of consonants and name of the movie.
+Display the number of letters and name of the movie.
+Display the number of vowels and name of the movie.
+Display the number of special characters and name of the movie.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Display the number of vowels and name of the movie.
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=78&assessment=300 5/6
+
+=== page 19 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 6 - week 4
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=78&assessment=300 6/6
+
+=== page 20 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 7 - Week 5
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 5: Assignment 5
+outline
+The due date for submitting this assignment has passed.
+How does an Due 0n 2022-08-31, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-08-22, 16:53 IsT
+course
+work? () 1) What is the correct way to initialize a dictionary? 1 point
+Week 0 () D = [a-10, b-20, c-30]
+D = {'a'-10, ‘b'-20, 'c'-30)
+Week 1 () D = (a:10, b:20, c:30)
+Week 2 () D = ('a':10, ‘b':20, ‘c':30)
+Yes, the answer is correct.
+Week 3 () Score: 1
+Accepted Answers:
+week 4 () D = {'a':10, "b':20, ‘c':30]
+Week 5 () 2) What is the correct syntax to get all the keys only from a dictionary d? 1 point
+ Introduction to  d.key()
+Dictionaries d.item()
+(unit? d.value()
+unit=104&lesson=105) d.keys()
+Speech to Text
+Yes, the answer is correct.
+: No need to Score: 1
+write 01 (unit?
+Accepted Answers:
+unit=104&lesson=106) d.keys()
+Speech to Text
+: No need to 3) Which of the following statements are true about dictionaries in python? 1 point
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=104&assessment=304 1/5
+
+=== page 21 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 7 - Week 5
+write 02 (unit?  The keys of a dictionary must be unique values.
+unit=104&lesson=107)
+J The keys of a dictionary can or cannot be unique.
+Speech to Text I The values of a dictionary must be unique values.
+: No need to
+write 03 (unit? I The values of a dictionary can or cannot be unique.
+unit=104&lesson=108) Yes, the answer is correct.
+Score: 1
+Monte Hall : 3
+Accepted Answers:
+doors and a The keys of a dictionary must be unique values.
+twist 01 (unit?
+unit=104&lesson=109) The values of a dictionary can or cannot be unique.
+Monte Hall : 3 4) State True or False: In the monte hall problem, swapping the choice does not 1 point
+doors and a increase the chance of winning.
+twist 02 (unit?
+unit=104&lesson=110) True
+False
+O Rock, Paper
+and Scissor : Yes, the answer is correct.
+Cheating not Score: 1
+allowed !! 01 Accepted Answers:
+(unit? False
+unit=104&lesson=111)
+5) In dictionaries, d.items() will return _ 1 point
+O Rock, Paper
+and Scissor : Pairs of all (key, value) together.
+Cheating not
+allowed !! 02 All (keys) and (values) separately.
+(unit?  All (values) and (keys) separately.
+unit=104&lesson=112)  Pairs of all (value, key) together.
+O Rock, Paper Yes, the answer is correct.
+and Scissor : Score: 1
+Cheating not Accepted Answers:
+allowed !! 03 Pairs of all (key, value) together.
+(unit?
+unit=104&lesson=113) 6) What will be the output of the following program? 1 point
+O Rock, Paper
+and Scissor :
+Cheating not
+allowed !! 04
+(unit?
+unit=104&lesson=114)
+Sorting and
+Searching : 20
+questions
+game 01 (unit?
+unit=104&lesson=115)
+Sorting and
+Searching : 20
+questions
+game 02 (unit?
+unit=104&lesson=116)
+Sorting and
+Searching : 20
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=104&assessment=304 2/5
+
+=== page 22 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 7 - Week 5
+questions
+game 03 (unit? import string
+unit=104&lesson=117) 123 importrandom
+Sorting and
+Searching : 20 =stringlasciiLowercase
+questions
+game 04 (unit?
+unit=104&lesson=118)
+Sorting and for iin range(26):
+Searching : 20
+questions
+game 05 (unit? index=random.randint(o, 25)
+unit=104&lesson=119) 10 try:
+Sorting and d[a[index]]+=]
+Searching : 20 12
+questions
+game 06 (unit? 13 except KeyError!
+unit=104&lesson=120) 14 dlalindex]=0
+Sorting and 15
+Searching : 20 16 print(d)
+questions
+game 07 (unit?
+unit=104&lesson=121) A dictionary with all letters as keys and O as values.
+A dictionary with some letters as keys and O as values.
+Sorting and
+Searching : 20 A dictionary with all letters as keys and some random numbers as values.
+questions A dictionary with some letters as keys and some random numbers as values.
+game 08 (unit?
+unit=104&lesson=122) Yes, the answer is correct.
+Score: 1
+O Week 5 Accepted Answers:
+Feedback A dictionary with some letters as keys and some random numbers as values.
+Form: The Joy
+of Computing Binary search can be applied on 1 point
+using Python
+(unit? Sorted list in ascending order.
+unit=104&lesson=123) Unsorted list
+Quiz: Week 5: Both A and B
+Assignment 5 Sorted list in descending order
+(assessment?
+name=304) Yes, the answer is correct. Score: 1
+Week 5: Accepted Answers:
+Programming Sorted list in ascending order.
+Assignment 1 Sorted list in descending order
+(/noc22_cs122/progassignment?
+name=306) 8) Which error is encountered while accessing a position that is not present in a list? 1 point
+Week 5: Programming  KeyError
+Assignment 2 IndexError
+(/noc22_cs122/progassignment? RunTimeError
+name=307) ValueError
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=104&assessment=304 3/5
+
+=== page 23 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 7 - Week 5
+Week 5: Score: 1 Yes, the answer is correct
+Programming
+Accepted Answers:
+Assignment 3 (/noc22_cs122/progassignment? IndexError
+name=308) 9) Which of the following command is correct to delete a key from a dictionary 'd'? 1 point
+Week 6 () d.pop("key")
+Week 7 () d.del(key")
+d.remove(key")
+Week 8 () d.delete(key")
+Yes, the answer is correct.
+Week 9 () Score: 1
+Accepted Answers:
+Week 10 () d.pop(key")
+Week 11 () 10) Which of the following is/are correct regarding dictionaries? 1 point
+1) One can make a dictionary inside a dictionary in python.
+Week 12 () 2) Keys in the dictionary are mutable.
+Text Option 1 is correct, option 2 is correct. Option 2 is the correct explanation for option 1.
+Transcripts () Option 1 is correct, option 2 is incorrect. Option 2 is not the correct explanation for option
+1.
+Download Option 1 is correct, option 2 is correct. Option 2 is not the correct explanation for option 1.
+Videos () None of these
+Books () Score: 1 Yes, the answer is correct
+Accepted Answers:
+Live Session Option 1 is correct, option 2 is incorrect. Option 2 is not the correct explanation for option 1.
+Programming
+test -
+Session 1
+(October 16
+2022 - 10 AM
+to 1 PM) ()
+Programming
+test -
+Session 1
+(October 16
+2022 - 8 PM
+to 11 PM) ()
+Problem
+Solving
+Session ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=104&assessment=304 4/5
+
+=== page 24 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 7 - Week 5
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=104&assessment=304 5/5
+
+=== page 25 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 8 - Week 6
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 6: Assignment 6
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-09-07, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-08-28, 08:41 IsT
+course
+work? () 1) In the list L = [4,6,7,4,6,2,1], What is the index of element '7'? 1 point
+Week 0 ()
+Week 1 ()
+Week 2 ()
+Yes, the answer is correct.
+Week 3 () Score: 1
+Accepted Answers:
+week 4 ()
+Week 5 () 2) Which of the following is true about recursion? 1 point
+Recursion always performs better than non-recursive code.
+Week 6 ()
+Recursive code is easier to debug
+Substitution The base case is necessary for recursion.
+Cipher -The Recursive code can be shorter than non-recursive code.
+science of
+secrecy (unit? Yes, the answer is correct.
+unit=124&lesson=125) Score: 1
+Accepted Answers:
+Substitution Recursive code is easier to debug
+Cipher -The The base case is necessary for recursion.
+science of Recursive code can be shorter than non-recursive code.
+secrecy 01
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=124&assessment=309 1/6
+
+=== page 26 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 8 - Week 6
+(unit? 3) What will be the output of the following program? 1 point
+unit=124&lesson=126)
+Substitution 1AbraKaDabra
+Cipher -The
+science of prints[116]
+secrecy 02
+(unit?
+unit=124&lesson=127) No output
+Substitution braKa
+Cipher -The Abra
+science of
+secrecy 03 rak
+(unit? Yes, the answer is correct.
+unit=124&lesson=128) Score: 1
+Accepted Answers:
+ Tic Tac Toe -
+braKa
+Down the
+memory Lane
+(unit? 4) What will be the output of the following program? 1 point
+unit=124&lesson=129)
+def recursive(a：
+ Tic Tac Toe -
+Down the
+memory Lane
+01 (unit? unit=124&lesson=130) 2345
+return
+ Tic Tac Toe -
+Down the
+memory Lane 02 (unit? return atrecunsive(a-1)
+unit=124&lesson=131)
+O Tic Tac Toe - Down the print(recursive10
+memory Lane
+03 (unit?
+unit=124&lesson=132) Sum of first 10 natural numbers.
+Sum of first 9 natural numbers.
+ Tic Tac Toe -
+Down the The program will never end.
+memory Lane Sum of numbers from 2-10(Both inclusive).
+04 (unit?
+unit=124&lesson=133) Score: 1 Yes, the answer is correct.
+ Tic Tac Toe - Accepted Answers:
+Down the Sum of first 10 natural numbers.
+memory Lane
+05 (unit? 5) What's the correct code for Binary search? 1 point
+unit=124&lesson=134)
+Recursion
+(unit?
+unit=124&lesson=135)
+Recursion 01
+(unit?
+unit=124&lesson=136)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=124&assessment=309 2/6
+
+=== page 27 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 8 - Week 6
+Recursion 02
+(unit? defBinarycLfind,startend)
+unit=124&lesson=137)
+Recursion 03 mid=inta(start+endD/2D
+(unit?
+unit=124&lesson=138) ifostart<end:
+Recursion 04 iflendifind):
+(unit? return end
+unit=124&lesson=139) eLse:
+Recursion 05 return -100
+(unit?
+unit=124&lesson=140)
+ifCL[mid] find:
+Recursion 06
+(unit? return mid
+unit=124&lesson=141)
+etifCfind>Lmidl):
+Week 6
+Feedback returnBinaryCLfindmid+1end)
+Form: The Joy
+of Computing else:
+using Python return Binary(L,find start,mid-1)
+(unit?
+unit=124&lesson=142)
+Quiz: Week 6: def Binary(L,find,start,end):
+Assignment 6
+name=309) (assessment? mid=intC(start+end12)
+Week 6: if(start end)
+Programming ifCLlend] findD:
+Assignment 1 returnend
+(/noc22_cs122/progassignmer eIse:
+name=310) neturn-100
+Week 6:
+Programming
+Assignment 2 ifCLEmidl  find):
+(/noc22_cs122/progassignmer return mid
+name=311)
+Week 6: eLif（find>Lmidl)：
+Programming returnBinary(Lfind，start,mid一1)
+Assignment 3
+(/noc22_cs122/progassignmer else:
+name=312) returnBinaryCL,find,imid+1,end)
+Week 7 ()
+Week 8 ()
+Week 9 ()
+Week 10 ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=124&assessment=309 3/6
+
+=== page 28 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 8 - Week 6
+Week 11 ()
+def Binary(L,findstart,end):
+Week 12 ()
+midl=int((start+end)2)
+Text
+Transcripts () if(startendD：
+ifCL[endllfind]:
+returnend
+Download
+Videos () else:
+return-loo
+Books ()
+ifCLrmid]  find):
+Live Session returnmid
+eLif(find>Lrmid):
+Programming returnBinaryCL,findmid+l,end
+test -
+Session 1 else
+(October 16 returnBinaryL,findi start,mid1)
+2022 - 10 AM
+to 1 PM) ()
+def Binary(L,find,start,end):
+Programming
+test - mid=intC(starttend/2)
+Session 1
+(October 16 if(start>=end):
+2022 - 8 PM if(Lrendifind):
+to 11 PM) () returnend
+else：
+Problem return -100
+Solving
+Session ()
+CLmidfind
+returnmid
+elif(find>L[midl:
+return BinaryCL,find,mid+1,end
+else:
+return Binary(Lfind，start,mid-i)
+Yes, the answer is correct.
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=124&assessment=309 4/6
+
+=== page 29 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 8 - Week 6
+Score: 1
+Accepted Answers:
+defBinary(L,find,start,end):
+midl=int((start+endr20
+if(start end:
+if(L[endllfind):
+returnend
+else:
+return-loo
+ifCLmid]  find):
+returnmid
+etif(find>Lrmid):
+returnBinaryCL,findimid+1，end)
+else:
+returnBinaryCL,findistart,mid-1)
+'arr'?
+dim(arr)
+shape(arr)
+arr.shape
+arr.shape()
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+arr.shape
+If PYTHON is encoded by TCXLSR then DIAMOND will be encoded as? 1 point
+EJBNPOE
+FKCORPF
+HMERTSH
+HMEQSRH
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+HMEQSRH
+8) Select the correct statement 1 point
+1) print('9a'.isalnum()) will return True.
+2) 9a' contains both alphabetic and numeric parts.
+Option 1 is correct, option 2 is correct. Option 2 is the correct explanation for option 1.
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=124&assessment=309 5/6
+
+=== page 30 ===
+15/04/2023,19:33 The Joy of Computing using Python - - Unit 8 - Week 6
+Option 1 is correct, option 2 is incorrect.
+Option 1 is correct, option 2 is correct. Option 2 is not the correct explanation for option 1.
+Option 1 is incorrect, option 2 is incorrect.
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Option 1 is correct, option 2 is correct. Option 2 is the correct explanation for option 1.
+9) What will be the output of the following program? 1 point
+12 s=*Fusce id odioleoInquislaoreetnulla d=7
+foriins
+d[i]+=]
+printCd)
+A dictionary with the count of each character in s.
+A dictionary with the count of each special character in s.
+A dictionary with the count of letters in s.
+Error
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Error
+10) Let L be a list containing different names of movies. Which statement is correct to 1 point
+select a random movie name from that list L?
+random.choices(L)
+random.select(L)
+random.movie(L)
+random.random(L)
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+random.choices(L)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=124&assessment=309 6/6
+
+=== page 31 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 9 - Week 7
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 7: Assignment 7
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-09-14, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-09-06, 11:17 IsT
+course
+work? () 1) How ladders & snakes are represented by the instructor? 1 point
+Week 0 ()  Through lists.
+Through dictionaries.
+Week 1 ()
+Through if and elif conditions.
+Week 2 ()  Through sets.
+Yes, the answer is correct
+Week 3 () Score: 1
+Accepted Answers:
+week 4 () Through if and elif conditions.
+Week 5 () 2) Which of the following is the correct full form of csV? 1 point
+Week 6 () Comma separated values.
+Colon separated values.
+Week 7 () Semi-Colons separated values.
+Tab separated values.
+Snakes and
+Ladders - Not Yes, the answer is correct
+Score: 1
+on the Board
+(unit? Accepted Answers:
+unit=143&lesson=144) Comma separated values.
+Snakes and 3) Why do we use functions? 1 point
+Ladders - Not
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=143&assessment=313 1/5
+
+=== page 32 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 9 - Week 7
+on the Board - To improve readability.
+Part 01 (unit?
+unit=143&lesson=145) To reuse code blocks.
+For the ease of code debugging.
+Snakes and
+Ladders - Not I For fun.
+on the Board - Yes, the answer is correct.
+Part 02 (unit? Score: 1
+unit=143&lesson=146) Accepted Answers:
+To improve readability.
+Snakes and
+To reuse code blocks.
+Ladders - Not
+on the Board - For the ease of code debugging.
+Part 03 (unit? 4) In snakes and ladders, what can be the other ways, except for one used by the 1 point
+unit=143&lesson=147)
+instructor, to keep track of ladders and snakes?
+Snakes and
+Ladders - Not Maintain a dictionary with snakes or ladder number blocks as keys.
+on the Board - J Using the if condition to check on every number.
+Part 04 (unit? Using lists.
+unit=143&lesson=148)
+ None of the above
+Snakes and
+Ladders - Not Partially Correct.
+Score: 0.67
+on the Board -
+Part 05 (unit? Accepted Answers:
+unit=143&lesson=149) Maintain a dictionary with snakes or ladder number blocks as keys.
+Using the if condition to check on every number.
+Snakes and Using lists.
+Ladders - Not
+on the Board - 5) Which of the following libraries is used for animation? 1 point
+Part 06 (unit?
+unit=143&lesson=150) Matplotlib
+Spiral Turtle
+Traversing - Random
+Let's Animate
+(unit?  PIL
+unit=143&lesson=151) Yes, the answer is correct.
+Score: 1
+Spiral
+Traversing - Accepted Answers:
+Let's Animate - Turtle
+Part 01 (unit?
+unit=143&lesson=152) 6) The spiral animation problem can be broken down into? 1 point
+Spiral A list.
+Traversing - A 2D table.
+Let's Animate -
+Part 02 (unit? A 3D table.
+unit=143&lesson=153) A dictionary.
+Spiral Yes, the answer is correct.
+Traversing - Score: 1
+Let's Animate - Accepted Answers:
+Part 03 (unit? A 2D table.
+unit=143&lesson=154)
+Spiral 7) What is the purpose of the GPS program shown in the lectures? 0 points
+Traversing -
+ To show directions to the user.
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=143&assessment=313 2/5
+
+=== page 33 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 9 - Week 7
+Let's Animate - To track the directions of the user.
+Part 04 (unit?
+unit=143&lesson=155) To show the way to the user on maps.
+None of the above.
+Spiral
+Traversing - Yes, the answer is correct.
+Let's Animate - Score: 0
+Part 05 (unit? Accepted Answers:
+unit=143&lesson=156) To track the directions of the user.
+Spiral 8) What does the following program will do after execution? 1 point
+Traversing -
+Let's Animate - from PILimport image
+Part 06 (unit?
+unit=143&lesson=157) 1234 im=image.open(snakesrawpng)
+Spiral im.savecsnakes.png)
+Traversing -
+Let's Animate -
+Part 07 (unit? Rename snakesraw.png as snakes.png
+unit=143&lesson=158)
+Make a copy of snakesraw.png with the name snakes.png
+GPS - Track Make a copy of snakesraw.png with the name snakes.jpeg
+the route
+(unit? Throws an error
+unit=143&lesson=159) Yes, the answer is correct.
+Score: 1
+GPS - Track
+the route - Part Accepted Answers:
+01 (unit? Throws an error
+unit=143&lesson=160)
+9) Which of the following code will draw a star? 1 point
+GPS - Track
+the route - Part
+02 (unit? import turtle
+unit=143&lesson=161)
+mypen=turtle.TurtleO
+GPS - Track
+the route - Part
+03 (unit? unit=143&lesson=162) 1234567 for iinrange(3):
+GPS - Track mypen.forward(50)
+the route - Part mypen.right（144)
+04 (unit?
+unit=143&lesson=163)
+Week 7 turtle.doneO
+Feedback
+Form: The Joy
+of Computing
+using Python
+(unit?
+unit=143&lesson=164)
+Quiz: Week 7:
+Assignment 7
+(assessment?
+name=313)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=143&assessment=313 3/5
+
+=== page 34 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 9 - Week 7
+Week 7:
+Programming Assignment 1 import turtle
+(/noc22_cs122/progassignment? mypen=turtle.TurtieO
+name=314)
+Week 7:
+Programming for i in range(3):
+Assignment 2
+(/noc22_cs122/progassignment? mypen.forward(100)
+name=315)
+mypen.right(144)
+Week 7:
+Programming
+Assignment 3
+(/noc22_cs122/progassignment? turtle.doneO
+name=316)
+Week 8 () importturtle
+Week 9 () mypen =turtle.TurtleO
+Week 10 ()
+23456 for i in range(6):
+Week 11 () mypen.forward(50
+Week 12 () mypen.right(144D
+Text
+Transcripts () turtte.doneO
+Download Videos () import turtLe
+mypen= turtle.TurtleO
+Books ()
+Live Session for iin rangec6）
+mypen.forward(100)
+Programming mypen.right(60)
+test -
+Session 1
+(October 16 turtie.doneO
+2022 - 10 AM
+to 1 PM) () Yes, the answer is correct.
+Programming
+test -
+Session 1
+(October 16
+2022 - 8 PM
+to 11 PM) ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=143&assessment=313 4/5
+
+=== page 35 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 9 - Week 7
+Score: 1
+Problem Accepted Answers:
+Solving
+Session ()
+importturtle
+mypen=turtle.Turtle
+234567 foriinrange(6):
+mypenforward(50
+mypen.right(144)
+turtle.doneO
+10) Which method is used to fill color in shapes drawn by the turtle? 1 point
+color
+fillcolor
+changecolor
+putcolor
+Partially Correct.
+Score: 0.5
+Accepted Answers:
+color
+fillcolor
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=143&assessment=313 5/5
+
+=== page 36 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 10 - Week 8
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 8: Assignment 8
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-09-21, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-09-12, 17:24 IST
+course
+work? ()
+Week 0 () 1) Which of the following q43 the correct representation of tuples? 1 point
+Week 1 () [1,2,3,4]
+(1,2,3,4)
+Week 2 () ((1), (2), (3), (4)
+[1], [2], [3], [4]
+Week 3 ()
+Yes, the answer is correct.
+Score: 1
+week 4 () Accepted Answers:
+(1,2,3,4)
+Week 5 () (1), (2), (3), (4)
+Week 6 () 2) Why gambling is not recommended? 1 point
+Week 7 () Because you lose every time.
+Because you win every time.
+Week 8 () Because the loss amount is greater than the winning amount over time.
+Tuples- Python Because the winning amount is greater than the loss amount over time.
+Data Structure Yes, the answer is correct.
+(unit? Score: 1
+unit=165&lesson=166) Accepted Answers:
+Because the loss amount is greater than the winning amount over time.
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=165&assessment=318 1/5
+
+=== page 37 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 10 - Week 8
+Lottery 3) Which of the following programs will print the exact same word? 1 point
+Simulation -
+Profit or Loss word 1nptel
+(unit?
+unit=165&lesson=167) new
+Lottery
+Simulation - :PIOM
+Profit or Loss -
+Part 01 (unit? unit=165&lesson=168) C（Cj+26)-97)%26)+97
+Lottery
+Simulation - new=newtchr(k)
+Profit or Loss -
+Part 02 (unit?
+unit=165&lesson=169) 10 print(new)
+O Lottery
+Simulation -
+Profit or Loss - hew
+Part 03 (unit? unit=165&lesson=170) 34 for in word:
+O Lottery
+Simulation - Profit or Loss - 67 （（j+26))%26)
+Part 04 (unit?
+unit=165&lesson=171) new new+chrCk)
+O Lottery
+Simulation -
+Profit or Loss - 10 print(new)
+Part 05 (unit?
+unit=165&lesson=172) word npt
+new
+Lottery
+Simulation -
+Profit or Loss - for word:
+Part 06 (unit?
+unit=165&lesson=173) 2m456780 ord(i)
+()- 97) %26+97
+Image
+Processing -
+Enhance your new=new+chr(k)
+images (unit?
+unit=165&lesson=174)
+Image 10 print(new)
+Processing -
+Enhance your
+images - Part
+01 (unit?
+unit=165&lesson=175)
+Image
+Processing -
+Enhance your
+images - Part
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=165&assessment=318 2/5
+
+=== page 38 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 10 - Week 8
+02 (unit?
+unit=165&lesson=176)
+word npteL
+Image
+Processing - new
+Enhance your
+images - Part For iinword:
+03 (unit?
+OAnagrams unit=165&lesson=177) 557 K=CCCj+26)-97)%26)+97
+(unit?
+unit=165&lesson=178) new = new+(k)
+ Anagrams -
+Part 01 (unit?
+unit=165&lesson=179) 10 printnew)
+ Anagrams - Yes, the answer is correct.
+Part 02 (unit? Score: 1
+unit=165&lesson=180) Accepted Answers:
+Anagrams - word E1npteL
+Part 03 (unit?
+unit=165&lesson=181) new
+ Facebook
+Sentiment for word:
+Analysis (unit? j=ordi)
+unit=165&lesson=182)
+Facebook
+Sentiment
+Analysis - Part new = new+chr(k)
+01 (unit?
+unit=165&lesson=183)
+10 printCnew
+O Facebook
+Sentiment word
+Analysis - Part
+02 (unit?
+unit=165&lesson=184)
+O Facebook word:
+Sentiment ordCi
+Analysis - Part
+03 (unit? =CC-97) %26+97
+unit=165&lesson=185)
+O Facebook new =new+chrCk)
+Sentiment
+Analysis - Part
+04 (unit? 10 printCnew)
+unit=165&lesson=186)
+4) Using which of the following methods a person can store over a million images in 1 point
+Quiz: Week 8:
+small digital storage?
+Assignment 8
+(assessment? Decompression
+name=318)
+Compression
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=165&assessment=318 3/5
+
+=== page 39 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 10 - Week 8
+O Week 8 Enhancement
+Feedback J Unzip
+Form: The Joy
+of Computing Partially Correct.
+using Python Score: 0.5
+(unit? Accepted Answers:
+unit=165&lesson=187) Compression
+Enhancement
+Week 8:
+Programming 5) State True or False, A lot of information can be revealed from images by using the 1 point
+Assignment 1 right kind of enhancement.
+(/noc22_cs122/progassignment?
+name=319) True
+Week 8: False
+Programming Yes, the answer is correct.
+Assignment 2 Score: 1
+(/noc22_cs122/progassignmantepted Answers:
+name=320) True
+Week 8:
+Programming 6) type(10) will return? 1 point
+Assignment 3
+(/noc22_cs122/progassignment? int
+name=321) str
+Week 9 () float
+list
+Week 10 () Yes, the answer is correct.
+Score: 1
+Week 11 () Accepted Answers:
+int
+Week 12 ()
+Which of the following pair of words are anagrams? 1 point
+Text
+Transcripts () A gentleman, Elegant man
+Cat, Arc
+Download Looted, Toledo
+Videos () Monasteries, Aman stories
+Books () Score: 1 Yes, the answer is correct.
+Accepted Answers:
+Live Session A gentleman, Elegant man
+Looted, Toledo
+Programming 8) Using PIL how an image “img' can be flipped? 1 point
+test -
+Session 1  img.flip()
+(October 16 img.rotate()
+2022 - 10 AM
+to 1 PM) () img.transpose()
+img.turn()
+Programming Yes, the answer is correct.
+test -
+Session 1
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=165&assessment=318 4/5
+
+=== page 40 ===
+15/04/2023,19:34 The Joy of Computing using Python - - Unit 10 - Week 8
+(October 16 Score: 1
+2022 - 8 PM Accepted Answers:
+to 11 PM) () img.transpose()
+9) What is the purpose of NLTK? 1 point
+Problem
+Solving  To process binary language.
+Session () To process foreign language.
+To process human language.
+ To process only Hindi language
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+To process human language.
+10) How does Vader help in sentiment analysis? 1 point
+It calculates whether the statement is negative, positive, or neutral.
+It takes care of the intensity of a statement.
+Both A and B
+None of the above
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Both A and B
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=165&assessment=318 5/5
+
+=== page 41 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 11 - Week 9
+swayam (https://swayam.gov.in) (https:/swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 9: Assignment 9
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-09-28, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-09-21, 18:59 IsT
+course
+work? () 1) Which of the following ways can help to identify the author of a book? 1 point
+Week 0 () Books coverage
+The uniqueness of writing.
+Week 1 ()
+Average word length.
+Week 2 () I Publisher name.
+No, the answer is incorrect.
+Week 3 () Score: 0
+Accepted Answers:
+week 4 () The uniqueness of writing.
+Average word length.
+Week 5 ()
+2) Networkx in pythons is used for 1 point
+Week 6 ()  Making networks
+Week 7 () Analyzing networks
+Visualizing networks
+Week 8 () Breaking networks
+Yes, the answer is correct.
+Week 9 () Score: 1
+Accepted Answers:
+Natural Making networks
+Language Processing - Analyzing networks
+Visualizing networks
+Author
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=188&assessment=322 1/6
+
+=== page 42 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 11 - Week 9
+Stylometry
+(unit? 3) What is the output of the following program? 1 point
+unit=188&lesson=189)
+jocpython
+Natural
+Language print(tist(s)
+Processing -
+Author
+Stylometry - ['joc, 'python']
+Part 01 (unit? ['j','o','c','p','y', 't',"h','o','n']
+unit=188&lesson=190) ['j','o','c','",'p','y",'t',"h','o','n']
+Natural ["', 'c', "h', "', 'n', 'o', 'o','p', "t', 'y'
+Language Processing - Yes, the answer is correct. Score: 1
+Author
+Stylometry - ['''o','c', ", 'p', y', 't', "h', '', 'n'] Accepted Answers:
+Part 02 (unit?
+unit=188&lesson=191)
+4) In the world, on average, how many hops it will take to connect two people? 1 point
+Natural
+Language
+Processing -
+Author
+Stylometry -
+Part 03 (unit?
+unit=188&lesson=192) 10
+Natural Yes, the answer is correct.
+Language Score: 1
+Processing - Accepted Answers:
+Author
+Stylometry -
+Part 04 (unit?
+5) In the following code, nx.is_connected(G) will return? 1 point
+unit=188&lesson=193)
+Natural importnetworkxasnx
+Language
+Processing -
+Author nx.gnp._randomgraphC5,1)
+Stylometry -
+Part 05 (unit?
+True
+unit=188&lesson=194)
+False
+O Natural
+Sometimes True, sometimes false
+Language
+Processing - Yes, the answer is correct.
+Author Score: 1
+Stylometry - Accepted Answers:
+Part 06 (unit? True
+unit=188&lesson=195)
+O Natural
+Language
+Processing -
+Author
+Stylometry -
+Part 07 (unit?
+unit=188&lesson=196)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=188&assessment=322 2/6
+
+=== page 43 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 11 - Week 9
+O Natural 6) How many neighbors does node 4 have? 1 point
+Language
+Processing -
+Author
+Stylometry -
+Part 08 (unit?
+unit=188&lesson=197)
+Natural
+Language
+Processing -
+Author
+Stylometry -
+Part 09 (unit?
+unit=188&lesson=198)
+Natural
+Language
+Processing -
+Author
+Stylometry -
+Part 10 (unit?
+unit=188&lesson=199)
+Introduction to
+Networkx -
+Part 01 (unit?
+unit=188&lesson=200) Yes, the answer is correct.
+Score: 1
+Introduction to Accepted Answers:
+Networkx -
+Part 02 (unit?
+unit=188&lesson=201) 7) While calculating the area of a state, how can we increase the accuracy of the 1 point
+Six Degrees of calculated area?
+Separation :
+Meet your By increasing the size of the image.
+favourites By increasing the number of points.
+(unit? By decreasing the size of the image.
+unit=188&lesson=202)
+By decreasing the number of points.
+Six Degrees of
+Separation : Yes, the answer is correct. Score: 1
+Meet your
+Accepted Answers:
+favourites -
+By increasing the number of points.
+Part 01 (unit?
+unit=188&lesson=203)
+Six Degrees of
+Separation :
+Meet your
+favourites -
+Part 02 (unit?
+unit=188&lesson=204)
+Six Degrees of
+Separation :
+Meet your
+favourites -
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=188&assessment=322 3/6
+
+=== page 44 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 11 - Week 9
+Part 03 (unit? 8) How many nodes and edges does the following graph have? 1 point
+unit=188&lesson=205)
+Area
+Calculation -
+Don't Measure
+(unit?
+unit=188&lesson=206)
+Area
+Calculation -
+Don't Measure
+- Part 01 (unit?
+unit=188&lesson=207)
+Area
+Calculation -
+Don't Measure
+- Part 02 (unit?
+unit=188&lesson=208)
+O Area
+Calculation -
+Don't Measure
+- Part 03 (unit?
+unit=188&lesson=209) 5,5
+O Area 2,5
+Calculation - 5,2
+Don't Measure
+- Part 04 (unit? 2,2
+unit=188&lesson=210) Yes, the answer is correct.
+Score: 1
+O Area
+Accepted Answers:
+Don't Measure Calculation - 5,2
+- Part 05 (unit?
+unit=188&lesson=211) 9) Which function of NLTK is used to make a frequency distribution of words? 1 point
+ Area freqdist()
+Calculation - FreqDist()
+Don't Measure
+- Part 06 (unit? frequency_distribution
+unit=188&lesson=212) freq_dist()
+Week 9 Yes, the answer is correct.
+Feedback Score: 1
+Form: The Joy Accepted Answers:
+of Computing FreqDist()
+using Python
+(unit?
+unit=188&lesson=213)
+Quiz: Week 9:
+Assignment 9
+(assessment?
+name=322)
+Week 9:
+Programming
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=188&assessment=322 4/6
+
+=== page 45 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 11 - Week 9
+Assignment 1 10) Degree of separation for the following graph is 1 point
+(/noc22_cs122/progassigr
+name=323)
+Week 9:
+Programming
+Assignment 2
+(/noc22_cs122/progassigr
+name=324)
+Week 9:
+Programming
+Assignment 3
+(/noc22_cs122/progassigr
+name=325)
+Week 10 ()
+Week 11 ()
+Week 12 ()
+Text
+Transcripts ()
+Yes, the answer is correct.
+Score: 1
+Download Accepted Answers:
+Videos ()
+Books ()
+Live Session
+Programming
+test -
+Session 1
+(October 16
+2022 - 10 AM
+to 1 PM) ()
+Programming
+test -
+Session 1
+(October 16
+2022 - 8 PM
+to 11 PM) ()
+Problem
+Solving
+Session ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=188&assessment=322 5/6
+
+=== page 46 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 11 - Week 9
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=188&assessment=322 6/6
+
+=== page 47 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 12 - Week 10
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 10: Assignment 10
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-10-05, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-09-26, 14:37 IST
+course
+work? () 1) Which math problem flames is related to? 1 point
+Week 0 () kadane's problem
+Josephus problem
+Week 1 ()
+Conjecture Collatz
+Week 2 () Dijkstra Problem
+Yes, the answer is correct.
+Week 3 () Score: 1
+Accepted Answers:
+week 4 () Josephus problem
+Week 5 () 2) Which of the following is the task of s.upper()(Given the string name is 's')? 1 point
+Week 6 () It converts the first character into uppercase.
+It converts every vowel into uppercase.
+Week 7 () It converts every single character into uppercase.
+It converts consonants into uppercase.
+Week 8 () Yes, the answer is correct.
+Score: 1
+Week 9 () Accepted Answers:
+It converts every single character into uppercase.
+Week 10 ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=214&assessment=326 1/6
+
+=== page 48 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 12 - Week 10
+FLAMES - 3) What is the output of the following code? 1 point
+Part 01 (unit?
+unit=214&lesson=215) #TheJoyof Computing
+FLAMES - Part 02 (unit? print(s[:)
+unit=214&lesson=216)
+O FLAMES - "The Joy of Computing
+Part 03 (unit?  ° Joy of C'
+unit=214&lesson=217) "Joy of C'
+O FLAMES - Error
+Part 04 (unit?
+Yes, the answer is correct.
+unit=214&lesson=218) Score: 1
+O FLAMES - Accepted Answers:
+Part 05 (unit? "The Joy of Computing"
+unit=214&lesson=219)
+4) What will be the output of the following program? 1 point
+O FLAMES -
+Part 06 (unit? unit=214&lesson=220) import numpy np
+Data
+Compression - b=np.array[［12][34]
+Part 01 (unit?
+unit=214&lesson=221) print(np.sumb))
+Data
+Compression - [3, 7]
+Part 02 (unit?
+unit=214&lesson=222) [4, 6]
+[5, 5]]
+O Data
+Compression - [4, 4]]
+Part 03 (unit? Yes, the answer is correct.
+unit=214&lesson=223) Score: 1
+Data Accepted Answers:
+[4, 6]]
+Compression -
+Part 04 (unit?
+unit=214&lesson=224) 5) What will be the output of the following program? 1 point
+ Data Compression - s=amamazed
+unit=214&lesson=225) Part 05 (unit? s.replaceca'z
+Week 10 print(s)
+Feedback
+Form: The Joy
+of Computing pazzz z (
+using Python DI zm zmazed
+(unit? I am zmzzed
+unit=214&lesson=226)
+I am amazed
+Quiz: Week
+10: Yes, the answer is correct.
+Assignment
+10
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=214&assessment=326 2/6
+
+=== page 49 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 12 - Week 10
+(assessment? Score: 1
+name=326) Accepted Answers:
+I am amazed
+Week 10:
+Programming 1 point
+Assignment 1
+(/noc22_cs122/progassignment? Less size
+name=327)  Lower quality
+Week 10: More size
+Programming Higher quality
+Assignment 2
+(/noc22_cs122/progassignms, the answer is correct.
+name=328) Score: 1
+Accepted Answers:
+Week 10: Less size
+Programming Lower quality
+Assignment 3
+(/noc22_cs122/progassignment?
+name=329) 7)"What will be the output of the following program? 1 point
+Week 11 () SJOC!
+Week 12 () print(#join(s))
+Text JOC
+Transcripts ()
+#J#0#C#
+Download #J#0#C
+Videos () J#0#C
+Books () Yes, the answer is correct. Score: 1
+Accepted Answers:
+Live Session 0#0#r
+8) How to take a transpose of a matrix? 1 point
+Programming
+test - import numpy as np
+Session 1
+(October 16
+2022 - 10 AM
+to 1 PM) () np.array([,2],[3,4]
+Programming
+test - print(b.TO)
+Session 1
+(October 16
+2022 - 8 PM
+to 11 PM) ()
+Problem
+Solving
+Session ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=214&assessment=326 3/6
+
+=== page 50 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 12 - Week 10
+Kduhu np
+b=npiarrayc[[1,2],[3411
+print(b.transposeOD
+import Kdunu as np
+=np.arrayc[[1,2lE34]JD
+print(b.T)
+importnumpy as np
+np.array（1,2],[34]
+print(b.transpose)
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+Kdunu as
+nplarrayc[121[3411
+print(b.transposeOD
+import numpy se np
+=np.arrayCLl,
+printCb.T)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=214&assessment=326 4/6
+
+=== page 51 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 12 - Week 10
+Consider the following code. 1 point
+importnumpy asnp
+a=np.arrayc[8,91201[10.3122]1
+b=np.array([123][4,5,6]]
+What print(a+b) will produce?
+[6 6 6]
+[6 6 6]
+[ -7 -7 -17]
+[-6 -26 -16]
+[ 7  7  17]
+[ 6 26 16]]
+[ 9 11 23]
+[14 36 28]]
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+[[ 9 11 23]
+[14 36 28]
+10) what is the output of the following code? 1 point
+importnumpy asnp
+a=nparrayc1_2314151678_91o.11112
+print(a.reshape(3，4)）
+[[ 1 2 3 4]
+[ 5 6 7 8]
+[ 9 10 11 12]]
+[ 1  2  3]
+[ 4 5 6]
+[7 8 9]
+[10 11 12]
+Error
+Yes, the answer is correct.
+Score: 1
+Accepted Answers:
+[[ 1 2 3 4]
+[ 5 6 7 8]
+[ 9 10 11 12]]
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=214&assessment=326 5/6
+
+=== page 52 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 12 - Week 10
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=214&assessment=326 6/6
+
+=== page 53 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 13 - Week 11
+swayam (https://swayam.gov.in) (https:/swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com v
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 11: Assignment 11
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-10-12, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-10-02, 13:25 IST
+course
+work? () 1) State True or False 1 point
+Week 0 () We can get any element using Css tag in seleium? (lf css is applicable)
+Week 1 () True
+False
+Week 2 ()
+Yes, the answer is correct.
+Score: 1
+Week 3 () Accepted Answers:
+True
+week 4 ()
+2) We can use the same web drivers for different browsers. 1 point
+Week 5 ()
+True
+Week 6 () False
+Week 7 () Yes, the answer is correct. Score: 1
+Accepted Answers:
+Week 8 () False
+Week 9 () 3) Which of the following method can be used to print the calendar of month march, 1 point
+2022?
+Week 10 ()
+calendar.month(2022, 3)
+calendar.month(3, 2022)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=227&assessment=331 1/4
+
+=== page 54 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 13 - Week 11
+Week 11 () calendar(3,2022)
+calendar(2022, 3)
+Browser
+Yes, the answer is correct.
+Automation Score: 1
+Watsapp using Accepted Answers:
+Python - Part calendar.month(2022, 3)
+01 (unit?
+unit=227&lesson=228) 4) Which method will allow us to see the current date and time using datetime? 1 point
+Browser current()
+Automation
+Watsapp using now()
+Python - Part today()
+02 (unit? time()
+unit=227&lesson=229)
+Yes, the answer is correct.
+Browser Score: 1
+Automation Accepted Answers:
+Watsapp using now()
+Python - Part
+03 (unit?
+5) Which statement will return the calendar for a whole year? 1 point
+unit=227&less0n=230)
+Browser calendar.month(year)
+Automation calendar(year)
+Watsapp using Python - Part calendar.prcal(year)
+04 (unit? calendar.year(year)
+unit=227&lesson=231)
+Yes, the answer is correct.
+Score: 1
+O Fun with
+Calendar - Accepted Answers:
+Part 01 (unit? calendar.prcal(year)
+unit=227&lesson=232)
+6) Which of the following method is used to fetch an element by its class name? 1 point
+O Fun with
+Calendar - get_element_by_class_name
+Part 02 (unit?
+unit=227&lesson=233) fetch_element_by_class_name
+find_element_by_class_name
+O Fun with
+Calendar - return_element_by_class_name
+Part 03 (unit? No, the answer is incorrect.
+unit=227&lesson=234) Score: 0
+Accepted Answers:
+O Fun with find_element_by_class_name
+Calendar -
+Part 04 (unit?
+unit=227&lesson=235) 7) Which library allows us to work with timezones in python? 1 point
+O Fun with timezone
+Calendar - pythontz
+Part 05 (unit?
+unit=227&lesson=236) pytz
+pythontimezone
+O Fun with
+Calendar - Yes, the answer is correct
+Part 06 (unit?
+unit=227&lesson=237)
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=227&assessment=331 2/4
+
+=== page 55 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 13 - Week 11
+Score: 1
+O Fun with
+Calendar - Accepted Answers:
+Part 07 (unit? pytz
+unit=227&lesson=238) 8) which of the following functions can be used to find the coordinated universal time. 1 point
+O Fun with
+Calendar - datetime.datetime.utcnow()
+Part 08 (unit? datetime.utc()
+unit=227&lesson=239) datetime.utcnow()
+O Fun with datetime.utc()
+Calendar -
+Part 09 (unit? Yes, the answer is correct. Score: 1
+unit=227&lesson=240)
+Accepted Answers:
+O Fun with datetime.datetime.utcnow()
+Calendar -
+Part 10 (unit? By which statement can we come out of the loop? 1 point
+unit=227&lesson=241)
+continue
+O Fun with
+Calendar - leave
+Part 11 (unit? catch
+unit=227&lesson=242) break
+O Fun with Yes, the answer is correct.
+Calendar - Score: 1
+Part 12 (unit? Accepted Answers:
+unit=227&lesson=243) break
+Quiz: Week
+11: 10) Which of the following will convert a string ‘s' containing numbers into an integer? 1 point
+Assignment
+11 str(s)
+(assessment? float(s)
+name=331) int(s)
+Week 11:  None of the above
+Programming
+Assignment 1 Yes, the answer is correct.
+(/noc22_cs122/progassignment? Ssgre: 1
+name=333) Accepted Answers:
+int(s)
+Week 11:
+Programming
+Assignment 2
+(/noc22_cs122/progassignment?
+name=334)
+Week 11:
+Programming
+Assignment 3
+(/noc22_cs122/progassignment?
+name=335)
+O Week 11
+Feedback
+Form: The Joy
+of Computing
+using Python
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=227&assessment=331 3/4
+
+=== page 56 ===
+15/04/2023,19:35 The Joy of Computing using Python - - Unit 13 - Week 11
+(unit?
+unit=227&lesson=244)
+Week 12 ()
+Text
+Transcripts ()
+Download
+Videos ()
+Books ()
+Live Session
+Programming
+test -
+Session 1
+(October 16
+2022 - 10 AM
+to 1 PM) ()
+Programming
+test -
+Session 1
+(October 16
+2022 - 8 PM
+to 11 PM) ()
+Problem
+Solving
+Session ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=227&assessment=331 4/4
+
+=== page 57 ===
+15/04/2023,19:36 The Joy of Computing using Python - - Unit 14 - Week 12
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+amazonking616@gmail.com 
+NPTEL (https:l/swayam.gov.in/explorer?ncCode=NPTEL) 》 The Joy of Computing using Python
+(course)
+Course Week 12: Assignment 12
+outline
+The due date for submitting this assignment has passed.
+How does an Due on 2022-10-19, 23:59 IST.
+NPTEL
+online Assignment submitted on 2022-10-19, 17:08 IsT
+course
+work? () 1) State True or False: 1 point
+Week 0 () The number of people referring a person matters over who is referring a person.
+Week 1 ()  True
+False
+Week 2 ()
+Yes, the answer is correct.
+Score: 1
+Week 3 () Accepted Answers:
+False
+week 4 ()
+2) Which of the following is true about page rank? 1 point
+Week 5 ()
+Websites are nodes and hyperlinks in websites are edges.
+Week 6 () Hyperlinks in websites are nodes and websites are edges.
+Websites will work as nodes and edges.
+Week 7 ()
+ Hyperlinks will work as nodes and edges.
+Week 8 () Yes, the answer is correct.
+Score: 1
+Week 9 () Accepted Answers:
+Websites are nodes and hyperlinks in websites are edges.
+Week 10 ()
+3) What is a drunkard's walk? 1 point
+Strategised walking
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=245&assessment=332 1/5
+
+=== page 58 ===
+15/04/2023,19:36 The Joy of Computing using Python - - Unit 14 - Week 12
+Week 11 () Walking one step at a time.
+Random walking
+Week 12 () Zig zag walking
+O Page Rank - Yes, the answer is correct.
+How does Score: 1
+Google Work ? Random walking Accepted Answers:
+- Part 01 (unit?
+unit=245&lesson=246) 4) Given a set of networks, which node in that network is considered as most 1 point
+Page Rank - impressive?
+How does
+Google Work ? Node with maximum incoming edges.
+- Part 02 (unit? Node with maximum visits.
+unit=245&lesson=247) Node with minimum incoming edges.
+Page Rank - Node with minimum visits.
+How does
+Google Work ? Score: 1 Yes, the answer is correct.
+- Part 03 (unit?
+Accepted Answers:
+unit=245&lesson=248)
+Node with maximum visits.
+Page Rank -
+How does 5) What will be the G.out_degree(8) for the following graph(G)? 1 point
+Google Work ?
+- Part 04 (unit?
+unit=245&lesson=249)
+Page Rank -
+How does
+Google Work ?
+- Part 05 (unit?
+unit=245&lesson=250)
+Page Rank -
+How does
+Google Work ?
+- Part 06 (unit?
+unit=245&lesson=251)
+Page Rank -
+How does
+Google Work ?
+- Part 07 (unit?
+unit=245&lesson=252)
+Page Rank -
+How does
+Google Work ?
+- Part 08 (unit?
+unit=245&lesson=253)
+Page Rank -
+How does
+Google Work ? Yes, the answer is correct.
+- Part 09 (unit? Score: 1
+unit=245&lesson=254) Accepted Answers:
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=245&assessment=332 2/5
+
+=== page 59 ===
+15/04/2023,19:36 The Joy of Computing using Python - - Unit 14 - Week 12
+Page Rank - Which of the following is true about undirected graphs? 1 point
+How does
+Google Work ? One can come back and forth from one node to another using a single edge.
+- Part 10 (unit? One can only go forward from one node to another using a single edge.
+unit=245&lesson=255) One can go to any node from one node using one edge.
+Page Rank - None of the above.
+How does
+Google Work ? Score: 1 Yes, the answer is correct.
+- Part 11 (unit?
+unit=245&lesson=256) Accepted Answers:
+One can come back and forth from one node to another using a single edge.
+Page Rank -
+How does 7) which of the following statements will choose a random node from graph A? 1 point
+Google Work ?
+- Part 12 (unit? random.choices(A)
+unit=245&lesson=257) random.choices(A.nodes())
+Page Rank - random.choice(A.nodes()
+How does random.choice(A)
+Google Work ?
+- Part 13 (unit? Yes, the answer is correct.
+unit=245&lesson=258) Score: 1
+Accepted Answers:
+Page Rank - random.choice(A.nodes()
+How does
+Google Work ?
+- Part 14 (unit? 8) which of the following is not true about collatz conjecture? 1 point
+unit=245&lesson=259) Bigger the number, larger the steps it would take to converge.
+Page Rank - The number of steps is independent of the number.
+How does Google Work ? Collatz conjecture will always converge.
+- Part 15 (unit? Collatz conjecture might or might not converge.
+unit=245&lesson=260) Yes, the answer is correct.
+O Page Rank - Score: 1
+How does Accepted Answers:
+Google Work ? Bigger the number, larger the steps it would take to converge.
+- Part 16 (unit? Collatz conjecture will always converge.
+unit=245&lesson=261)
+9) In collatz conjecture, if a number is even then what should be the next step? 1 point
+Collatz
+Conjecture - Divide it by 2
+Part 01 (unit?
+unit=245&lesson=262) Multiply it by 3
+Multiply it by 3 then add 1
+Collatz
+Conjecture - Divide it by 2 then add 1
+Part 02 (unit? Yes, the answer is correct.
+unit=245&lesson=263) Score: 1
+JOC Accepted Answers:
+Conclusion Divide it by 2
+(unit?
+unit=245&lesson=264) 10) The collatz conversion of 10 looks like 1 point
+Quiz: Week 10 5 16 8 4 2 1
+12: 10 22 11 8 4 2 1
+Assignment
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=245&assessment=332 3/5
+
+=== page 60 ===
+15/04/2023,19:36 The Joy of Computing using Python - - Unit 14 - Week 12
+12 10 5 16 8 4 2
+(assessment?
+name=332) None of the above
+Yes, the answer is correct.
+Week 12: Score: 1
+Programming Accepted Answers:
+Assignment 1 10 5 16 8 4 2 1
+(/noc22_cs122/progassignment?
+name=336)
+Week 12:
+Programming
+Assignment 2
+(/noc22_cs122/progassignment?
+name=337)
+Week 12:
+Programming
+Assignment 3
+(/noc22_cs122/progassignment?
+name=338)
+O Week 12
+Feedback
+Form: The Joy
+of Computing
+using Python
+(unit?
+unit=245&lesson=265)
+Text
+Transcripts ()
+Download
+Videos ()
+Books ()
+Live Session
+Programming
+test -
+Session 1
+(October 16
+2022 - 10 AM
+to 1 PM) ()
+Programming
+test -
+Session 1
+(October 16
+2022 - 8 PM
+to 11 PM) ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=245&assessment=332 4/5
+
+=== page 61 ===
+15/04/2023,19:36 The Joy of Computing using Python - - Unit 14 - Week 12
+Problem
+Solving
+Session ()
+https://onlinecourses.nptel.ac.in/noc22_cs122/unit?unit=245&assessment=332 5/5

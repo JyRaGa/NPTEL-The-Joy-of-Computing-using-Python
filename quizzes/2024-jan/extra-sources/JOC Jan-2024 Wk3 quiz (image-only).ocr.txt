@@ -1,0 +1,211 @@
+OCR (RapidOCR, 200 dpi) of JOC Jan-2024 Wk3 quiz (image-only).pdf; machine-read, check against the PDF.
+
+
+=== page 1 ===
+2/14/24.3:38PM The Joy of Computing using Python -- Unit 6 -Week 3
+swayam (https://swayam.gov.in) (https://swayam.gov.in/nc_details/NPTEL)
+shivanandan.82102143@srit.orgy
+NPTEL (https://swayam.gov.in/explorer?ncCode=NPTEL)  The Joy of Computing using Python (course)
+Click to register
+for Certification
+exam Week.3..Assignment 3
+(https://examform.ptel.ac.ir/202
+Assignmentnot submitted Duedate:2024-02-14.23:59IST.
+If already 1) Considerthe following code snippet: 1 point
+registered,click
+to check your elements =
+payment status n =int(input("Enter the number of elements: "))
+for i in range(n):
+item= input("Enterelement+str(i+ l)+":")
+elements.append(item)
+Course print("The entered elements are:" elements)
+outline
+What does the code do?
+About NPTEL
+OTakes a list of numbers as input, appends each number to a list, and prints the list of
+numbers
+NPTEL online How does an OTakes a list of elements as input, appends each element to a list, and prints the list of
+course work? elements
+Takes the count of elements followed by the same number of elements as input, appends
+each element to a list, and prints the list of elements
+Week 0 0 OTakes the count of elements, appends each element to a list, and prints the count of
+elements entered.
+Week 10
+1 point
+Week 2 0 following statements are true about List Data Structure: [MSQ]
+Week 3 0 Itisaflexible Data Structure
+Elements could be added to a list.
+https://onlinecourses.nptel.ac.in/noc24_cs57/unit?unit=57&assessment=396 175
+
+=== page 2 ===
+2/14/24,3:38PM The Joy of Computing using Python --Unit 6 -Week 3
+Lists Part 1 : Elements could be subtracted from a list.
+Introduction This is not_List = [Jis an empty list
+unit=57&lesson 3) Consider the following code snippet: 1 point
+=58)
+Lists Part 2 : L=【'Amar',Akbar',Anthony]
+Manipulation print(L[2],is brother of',L[i],and',L[o1)
+(unit?
+unit=57&lesson What does the above code print?
+=59)
+OAmar,Akbar,Anthony
+0 Lists Part 3 :
+Operations amar is brother of anthony and akbar
+(unit? OAmarisbrotherofAnthonyandAkbar
+unit=57&lesson
+=60) Anthony is brother of Akbar and Amar
+0Lists Part 4: 4) Considerthe following code snippet: 1 point
+Slicing (unit?
+unit=57&lesson
+=61) numbers=24.6.8,10]
+for iin range(len(numbers)) :
+OLoops and numbers[i] *= 2
+Conditionals :
+Fizzbuzz 01 print("Updated list:", numbers)
+unit=57&lesson
+=62) What does the code do?
+O Loops and Takes a list of numbers, multiplies each number by 2, and prints the updated list
+Conditionals : OTakes a list of numbers,appends each number to the list twice,and prints the updated list
+Fizzbuzz 02
+(unit? O Takes a list of numbers, removes even numbers from the list, and prints the updated list
+unit=57&lesson O Takes a list of numbers, divides each number by 2, and prints the updated list
+=63)
+Crowd 5) What will be the output of the following Python code? 1 point
+Computing -
+Just estimate import random
+01 (unit? def genetic evolution(binary string) :
+unit=57&lesson mutation probability = O.l # Adjuat thia probability at needed
+64) evolved string =n
+for bit in binary string:
+OCrowd if random.random() < mutation probabiiity:
+Computing - evolved string t= ni" if bit - "o" else "o"
+Just estimate
+else:
+02 (unit? evolved string += bit
+(S9= unit=57&lesson initial string="oooooooooo" return evolved string
+OCrowd result = genetic evolution(initial string)
+Computing - print(result)
+Just estimate 03 (unit? O1111111111
+https://onlinecourses.nptel.ac.in/noc24_cs57/unit?unit=57&assessment=396 2/5
+
+=== page 3 ===
+2/14/24.3:38PM The Joy of Computing using Python --Unit 6 -Week 3
+unit=57&lesson .0000000000.
+(99=
+Astring with some 1sand someOs
+OCrowd OThe function will raisean error
+Computing -
+Just estimate 6) Considerthefollowing code snippet: 1 point
+04 (unit?
+unit=57&lesson numbers = ]
+=67) n = int(input("Enter the number of elements: "))
+for i in range(n) :
+OCrowd
+Computing - num= int(input("Enter number " + str(i + I) + ":"))
+numbers.append (num)
+Just estimate
+result = sum(numbers)
+05 (unit?
+average - result/ n
+(89= unit=57&lesson Print("sum of the numbers:", result)
+Print ("Average of the nunbers:", average)
+OCrowd
+Computing -
+Just estimate What does the code do?
+uun) g0
+unit=57&lesson Takes a list of numbers as input, computes the sum of the numbers, and prints the sum
+(69= along with the average
+O Takes the count of elements, computes the sum of the elements, and prints the sum along
+Permutations -
+with the average
+Jumbled Words
+01 (unit? O Takes a list of numbers as input, computes the average of the numbers, and prints the
+unit=57&lesson average along with the sum
+=70) ONone of theabove
+aPermutations-
+Jumbled Words 7) What will be the output of the following Python code? 1 point
+02 (unit?
+unit=57&lesson import random
+=71) def permutation example(word) :
+OPermutations- word list = list(word)
+Jumbled Words random.shuffle (word list)
+shuffled word = t.join(word list)
+unit=57&lesson return shuffled word
+=72) input word="python"
+Theory af result = permutation example(input word)
+Evolution01 print(result)
+(unit? unit=57&lesson O"Python"
+=73) A random permutation of the letters in"python"
+Theory of O"random"
+Evolution 02 OThe function will raise an error
+(unit?
+unit=57&lesson 8) Consider the following code snippet: 1 point
+=74)
+Theory of
+Evolution o3
+https://onlinecourses.nptel.ac.in/noc24_cs57/unit7unit=57&assessment=396 3/5
+
+=== page 4 ===
+2/14/24.3:38PM The Joy of Computing using Python -- Unit 6 - Week 3
+(unit? numbers = [1.2.3.45]
+unit=57&lesson new numbers
+=75) For num in numbers:
+QTheory of new numbers.insert (o, num) #insertoisafunctionthat insertsavalue
+Evolution Q4 at a given index
+print("Updated list:", new numbers)
+=76) unit=57&lesson What does the code do? [MSQ]
+Week 3 Reverses the numbers list and stores it in new numbers.
+Feedback Creates an empty list named new_numbers and appends elements from numbers to it in
+Form: The Joy reverse order.
+of Computing Produces an error due to an invalid function used for list manipulation.
+using Python
+(unit?  Generates a new list new_numbers with elements from numbers in the same order as
+unit=57&lesson numbers.
+=77)
+9 Which of the following are the examples of Social Computing/Crowd Computing:[MSQ]1point
+Quiz: Week 3 :
+Assignment 3 Wikipedia
+(assessment? Stack Exchange
+name=396)
+Quora
+1. Facebook
+Programming
+Assignment 
+Week 3 10)Considerthefollowing codesnippet: 1 point
+(/noc24_cs57/p
+rogassignment for i in range(1,2l):
+?name=397) ifi30andi%5 0:
+print("FizzBuzz")
+2. elifi3=-o:
+Programming Print("Fizz")
+Assignment I elifi5=o:
+Week 3 print("Buzz")
+(/noc24_cs57/p else:
+rogassignment print(i)
+7name=398)
+3. What does the code do?
+Programming
+Assignment I O Prints numbers from 1 to 20, replacing multiples of 3 with "Fizz", multiples of 5 with "Buzz",
+Week 3 and multiples ofboth3and 5with"FizzBuzz".
+(/noc24_cs57/p OPrints numbers from 1 to20,replacingmultiples of 3and 5with"FizzBuzz",multiples of 3
+rogassignment
+name=399) with"Fizz",andmultiples of 5with"Buzz".
+OPrints numbers from 1 to 20, replacing multiples of 3 with "Fizz", multiples of 5 with "Buzz",
+week 40 and numbers divisible by both 3 and 5 with their product.
+O Prints numbers from 1 to 20, replacing multiples of 3 with"Buzz",multiples of 5 with"Fizz"
+and numbers divisible by both 3 and 5 with"FizzBuzz".
+Transcripts 0)
+You may submit any number of times before the due date. The final submission will be consid
+for grading.
+https://onlinecourses.nptel.ac.in/noc24_cs57/unit?unit=57&assessment=396 4/5
+
+=== page 5 ===
+2/14/24,3:38PM The Joy of Computing using Python --Unit 6- Week 3
+Download SubmitAnswers
+Videos ()
+Books ()
+Problem
+Solving
+Session-Jan
+2024 0)
+https://onlinecourses.nptel.ac.in/noc24_cs57/unit?unit=57&assessment=396 5/5

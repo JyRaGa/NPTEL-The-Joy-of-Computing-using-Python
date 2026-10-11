@@ -1,0 +1,12 @@
+# deploy only the site and the images it shows
+/*
+!/site
+!/quizzes
+!/vercel.json
+/quizzes/**/*.md
+/quizzes/**/*.pdf
+/quizzes/**/*.txt
+/quizzes/**/*.ipynb
+/quizzes/**/notebooks
+/quizzes/**/extra-sources
+/site/data/questions.json

@@ -1,0 +1,44 @@
+{"gid": "2023-jul/w02/q01@gpt", "crops": ["quizzes/2023-jul/img/recovered/59ad643fdd.png"], "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w02/q05@gpt", "crops": ["quizzes/2023-jul/img/recovered/0dde4bdd98.png"], "code": "for i in range( _ ):\n    print(i)", "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w02/q07@gpt", "crops": ["quizzes/2023-jul/img/recovered/2ab0542a2a.png"], "code": "b = 0\n\nfor i in range(10):\n    b = b+i\n\nprint(b)", "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w02/q10@gpt", "crops": ["quizzes/2023-jul/img/recovered/fa0e8f34fa.png"], "code": "a=3\nb=4\nc=a>b\nprint(c)", "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w04/q04@gpt", "crops": ["quizzes/2023-jul/img/recovered/3c2e9e4f42.png"], "code": "import string\nimport random\n\nA = string.ascii_letters\n\nn = int(input())\n\nfor i in range(n):\n    L = []\n    for j in range(n):\n        L.append(random.choice(A))\n\n    for element in L:\n        print(element, end=('\t'))\n\n    print()", "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w04/q05@gpt", "crops": ["quizzes/2023-jul/img/recovered/996a8c64ed.png"], "code": "import random\n\nL = []\nfor i in range(10):\n    L.append(random.randint(0, 10))\n\nL.sort()\nL.reverse()\n\nprint(L)", "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w05/q06@gpt", "crops": ["quizzes/2023-jul/img/recovered/5244315005.png"], "code": "d = {'a': 20, 'b':30, 'c': 50}\n\nprint(d.items())", "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w06/q01@gpt", "crops": ["quizzes/2023-jul/img/recovered/bed6ef12a0.png"], "code": "import string\n\ndef shift(word,value):\n\n    letters = string.ascii_lowercase\n    new = ''\n\n    for i in range(len(word)):\n\n        if word[i] in letters:\n\n            index = letters.index(word[i])\n            new = new + letters[(index+value)%26]\n\n        else:\n\n            new = new + word[i]\n\n    return new", "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w06/q02@gpt", "crops": ["quizzes/2023-jul/img/recovered/199ced3ef5.png"], "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w06/q03@gpt", "crops": ["quizzes/2023-jul/img/recovered/8773639d6f.png"], "answer": [1, 2, 3], "badge": "official"}
+{"gid": "2023-jul/w06/q04@gpt", "crops": ["quizzes/2023-jul/img/recovered/e238a676cf.png"], "code": "def recursive(num):\n\n    if(num == 1):\n        return 1\n\n    return num*(num-1)", "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w06/q05@gpt", "crops": ["quizzes/2023-jul/img/recovered/c02100d09a.png"], "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w06/q06@gpt", "crops": ["quizzes/2023-jul/img/recovered/0b11937871.png"], "code": "def recursive(L):\n\n    return L[-1] * recursive(L[:-1])\n\nprint(recursive([1,2,3,4,5,6,7,8,9,10]))", "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w06/q08@gpt", "crops": ["quizzes/2023-jul/img/recovered/ca449cab52.png"], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w06/q09@gpt", "crops": ["quizzes/2023-jul/img/recovered/cbaf5f58a4.png"], "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w09/q01", "crops": ["quizzes/2023-jul/img/recovered/8fbc4b67d0.png"], "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w09/q02", "crops": ["quizzes/2023-jul/img/recovered/39f1aad3e2.png"], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w09/q05", "crops": ["quizzes/2023-jul/img/recovered/d4c12ee04b.png"], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w09/q06", "crops": ["quizzes/2023-jul/img/recovered/1a145a806c.png"], "answer": [3], "badge": "official"}
+{"gid": "2023-jul/w09/q07", "crops": ["quizzes/2023-jul/img/recovered/8cfb598322.png"], "answer": [3], "badge": "official"}
+{"gid": "2023-jul/w09/q08", "crops": ["quizzes/2023-jul/img/recovered/55bf7ff462.png"], "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w09/q09", "crops": ["quizzes/2023-jul/img/recovered/d3fb5ef4fe.png"], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w09/q10", "crops": ["quizzes/2023-jul/img/recovered/aebc37f513.png"], "answer": [3], "badge": "official"}
+{"gid": "2023-jul/w09/q03", "crops": ["quizzes/2023-jul/img/recovered/753c2b9b3f.png"], "code": "G = nx.gnp_random_graph(10, 0.5)\nprint(nx.is_connected(G))", "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w10/q01", "crops": ["quizzes/2023-jul/img/recovered/1791bd05ff.png"], "code": "s = 'Hello Everyone'\nprint(s.lower())", "answer": [3], "badge": "official"}
+{"gid": "2023-jul/w10/q02", "crops": ["quizzes/2023-jul/img/recovered/ee8aac139c.png"], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w10/q03", "crops": ["quizzes/2023-jul/img/recovered/023fa004c3.png"], "code": "a = ['','h','e','l','','l','o']\nprint('.'.join(a))", "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w10/q05", "crops": ["quizzes/2023-jul/img/recovered/c0f5e712db.png"], "code": "s = 'The Joy of Computing'\n\nprint(s[3:12])", "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w10/q06@gpt", "crops": ["quizzes/2023-jul/img/recovered/a2959af707.png"], "code": "s = 'Sheher mein'\na = 'aeiouAEIOU'\nfor i in range(len(s)):\n    if(s.index(s[i])%2 == 0):\n        print(i)\n        if(s[i] in a):\n            s = s.replace(s[i], '_')\n\nprint(s)", "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w10/q07@gpt", "crops": ["quizzes/2023-jul/img/recovered/d8b4c38af0.png"], "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(np.sum(b, axis = 1))", "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w10/q10", "crops": ["quizzes/2023-jul/img/recovered/33fb104e0a.png"], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w10/q11@gpt", "crops": ["quizzes/2023-jul/img/recovered/086893461f.png"], "code": "import numpy as np\n\na = np.array([[8,9,20],[10,31,22]])\nb = np.array([[1,2,3],[4,5,6]])\n\nprint(a-b)", "options": ["[[6 6 6] [6 6 6]]", "[[-7 -7 -17] [-6 -26 -16]]", "[[7 7 17] [6 26 16]]", "[[9 11 23] [14 36 28]]"], "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w10/q09", "crops": ["quizzes/2023-jul/img/recovered/f3c0ade921.png"], "answer": [1], "badge": "official"}
+{"gid": "2023-jul/w11/q01@gpt", "crops": ["quizzes/2023-jul/img/recovered/1eef061955.png"], "options": ["nltk", "numpy", "selenium", "PIL"], "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w11/q02@gpt", "crops": ["quizzes/2023-jul/img/recovered/9da8ee9507.png"], "code": "time.time()", "options": ["Time in seconds.", "Current date and time.", "Time in minutes", "The current date, time and year"], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w11/q03@gpt", "crops": ["quizzes/2023-jul/img/recovered/475353e43a.png"], "options": ["selenium", "calender", "nltk", "pytz"], "answer": [3], "badge": "official"}
+{"gid": "2023-jul/w11/q04@gpt", "crops": ["quizzes/2023-jul/img/recovered/dbb739d3af.png"], "code": "from datetime import datetime as dt\n\nprint(dt.now())", "options": ["Date and time in dd- mm-yy hh:MM:ss:ms respectively.", "Time and date in hh:MM:ss:ms dd- mm-yy respectively.", "Date and time in mm-dd-yy hh:MM:ss:ms respectively.", "Date and time in yy- mm-dd hh:MM:ss:ms respectively."], "answer": [3], "badge": "official"}
+{"gid": "2023-jul/w11/q05@gpt", "crops": ["quizzes/2023-jul/img/recovered/dcfa002610.png"], "options": ["True", "False"], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w11/q06@gpt", "crops": ["quizzes/2023-jul/img/recovered/e10c9b5fc2.png"], "code": "import pytz\nfrom datetime import datetime as dt\n\nzone = pytz.all_timezones\n\nfor i in range(len(zone)):\n    print(dt.now(pytz.timezone(zone[i])))", "options": ["Print the current date and time of all time zones.", "Print the current date and time of specific time zones.", "Print the current date of all time zones.", "Print the current date of some specific time zones."], "answer": [0], "badge": "official"}
+{"gid": "2023-jul/w11/q07@gpt", "crops": ["quizzes/2023-jul/img/recovered/27119f6fc1.png"], "code": "from datetime import datetime as dt\n\nday = dt.today()\n\nprint(day.weekday())", "options": ["5", "3", "4", "error"], "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w11/q08@gpt", "crops": ["quizzes/2023-jul/img/recovered/c4b7d1b105.png"], "options": ["calendar.month(year)", "calendar(year)", "calendar.prcal(year)", "calendar.year(year)"], "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w11/q09@gpt", "crops": ["quizzes/2023-jul/img/recovered/3638eeee0c.png"], "options": ["continue", "leave", "catch", "break"], "answer": [3], "badge": "official"}
+{"gid": "2023-jul/w11/q10@gpt", "crops": ["quizzes/2023-jul/img/recovered/df97c7ac63.png"], "options": ["calendar.leap(year)", "calendar.is_leap(year)", "calendar.isleap(year)", "calendar.checkleap(year)"], "answer": [2], "badge": "official"}
+{"gid": "2023-jul/w12/q11", "crops": ["quizzes/2023-jul/img/recovered/87466ebf27.png"], "code": "word = 'Hey there!'\nprint(list(word))", "answer": [2], "badge": "official"}
