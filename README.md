@@ -36,6 +36,15 @@ Every past weekly quiz of NPTEL's **The Joy of Computing using Python** (IIT Rop
 
 Counts are per session; when a repeated question has an official key from any session, every copy uses it. "Reviewed" answers were worked out from the question, and "unverified" ones are only a video uploader's pick. Missing sessions and weeks had no source we could find.
 
+## Also in this repo
+
+- [`notes/`](notes/): week-by-week lecture notes (Markdown, written in Obsidian; `excalidraw/` drawings open in Obsidian's Excalidraw plugin).
+- [`exams/`](exams/): a recollection of 34 final-exam questions, exam-pattern notes, and online programming test solutions (Jan and Jul 2021).
+- [`programming-assignments/`](programming-assignments/): weekly programming-assignment solutions for 2021–2022.
+- [`lecture-code/`](lecture-code/): the programs written in the lectures (FLAMES, Monty Hall, PageRank, Snakes and Ladders and more).
+- [`practice/`](practice/): important-question sets and small MCQ banks.
+- Each session's whole-term PDFs and printouts sit next to its week files in `quizzes/<session>/`.
+
 ## Run it locally
 
 The site is static (HTML, CSS and plain JavaScript; no build step to view it).
@@ -61,6 +70,15 @@ python tools/build_dataset.py && python tools/run_check.py && python tools/clust
 
 Source notes and conventions are in [docs/SOURCES.md](docs/SOURCES.md).
 
-## Credits
+## Sources and credits
 
-Quiz questions, options and official answers are course material of NPTEL / IIT Ropar, reproduced for study. Parts of the source material came from public repositories under the MIT licence; see [licenses/](licenses/).
+Quiz questions, options and official answers are course material of NPTEL / IIT Ropar, reproduced for study. The rest was gathered from:
+
+- [kishanrajput23/NPTEL-The-Joy-of-Computing-using-Python](https://github.com/kishanrajput23/NPTEL-The-Joy-of-Computing-using-Python) by Kishan Kumar Rai (MIT): 2021–2022 quizzes, programming assignments, online test solutions and lecture code.
+- [gxuxhxm/NPTEL-The-Joy-of-Computing-using-Python](https://github.com/gxuxhxm/NPTEL-The-Joy-of-Computing-using-Python) by Goutham S K (MIT): lecture notes and the Jul-2023 quiz notes.
+- Two further public repos with no named author: Jul-2023 Jupyter notebooks whose screenshots supplied that term's official answers, and a 2021 text PDF.
+- Scribd uploads and NPTEL portal printouts; the URL of each is in [sources/](sources/).
+
+Licences of the MIT sources are in [licenses/](licenses/).
+
+**On the YouTube part.** Where no written copy of a quiz survived, it was rebuilt from 93 solved-assignment videos by 17 YouTube channels (credited in each week file's header). Questions, options and code were transcribed frame by frame, sometimes stepping through phone recordings at quarter speed, skipping ads and reading code that scrolls past in under a second. Then every answer was checked again, because an uploader's tick is not an answer key. Code questions were run; the rest were reasoned out or matched against official keys. Over 60 code screenshots were recovered this way.

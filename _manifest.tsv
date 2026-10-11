@@ -350,4 +350,7 @@ _incoming\_sources.tsv	sources\scribd_sources.tsv
 _incoming\youtube\_candidates_dated.tsv	sources\youtube_candidates_dated.tsv
 LICENSE	licenses\LICENSE-upstream-gxuxhxm-MIT
 second repo\NPTEL-The-Joy-of-Computing-using-Python-main\LICENSE	licenses\LICENSE-kishanrajput23-MIT
-structure.md	structure.md
+structure.md	structure.mdsecond repo\NPTEL-The-Joy-of-Computing-using-Python-main\NPTEL-Course-Lecture Programmes\*.py	lecture-code\
+second repo\NPTEL-The-Joy-of-Computing-using-Python-main\Aug - Dec 2021 JOC Course\Online Programming Test Solution\*	exams\online-programming-test-2021-jul\
+NOTES\WEEK *.md	notes\week-NN.md
+Excali-notes\*.md	notes\excalidraw\
