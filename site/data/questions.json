@@ -4483,15 +4483,7 @@
     "img": null
    },
    {
-    "text": "None of the above N",
-    "img": null
-   },
-   {
-    "text": "h",
-    "img": null
-   },
-   {
-    "text": "i i",
+    "text": "None of the above",
     "img": null
    }
   ],
@@ -4505,9 +4497,7 @@
    "0",
    "10",
    "10",
-   "h",
-   "i i",
-   "none of the above n"
+   "none of the above"
   ]
  },
  {
@@ -64022,15 +64012,7 @@
     "img": null
    },
    {
-    "text": "Money is given to a person with a probability inversely proportional to his/er age N",
-    "img": null
-   },
-   {
-    "text": "h",
-    "img": null
-   },
-   {
-    "text": "i i",
+    "text": "Money is given to a person with a probability inversely proportional to his/er age",
     "img": null
    }
   ],
@@ -64043,9 +64025,7 @@
   "norm_options": [
    "all money is given to the oldest person",
    "all money is given to the youngest person",
-   "h",
-   "i i",
-   "money is given to a person with a probability inversely proportional to his er age n",
+   "money is given to a person with a probability inversely proportional to his er age",
    "money is given to a person with a probability proportional to his her age"
   ]
  },
@@ -72631,15 +72611,7 @@
     "img": null
    },
    {
-    "text": "4 N",
-    "img": null
-   },
-   {
-    "text": "h",
-    "img": null
-   },
-   {
-    "text": "i i",
+    "text": "4",
     "img": null
    }
   ],
@@ -72653,9 +72625,7 @@
    "1",
    "2 5",
    "3 5",
-   "4 n",
-   "h",
-   "i i"
+   "4"
   ]
  },
  {
@@ -81274,15 +81244,7 @@
     "img": null
    },
    {
-    "text": "Error N",
-    "img": null
-   },
-   {
-    "text": "h",
-    "img": null
-   },
-   {
-    "text": "i i",
+    "text": "Error",
     "img": null
    }
   ],
@@ -81293,10 +81255,8 @@
   "explanation": null,
   "norm": "what is the output of the following code",
   "norm_options": [
-   "error n",
+   "error",
    "false",
-   "h",
-   "i i",
    "none",
    "true"
   ]

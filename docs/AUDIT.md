@@ -46,11 +46,11 @@ These are heuristics: a flag means "look at this", not "this is wrong".
 
 ## Week 6
 
-- **high** · Q90 · duplicate of Q74: same options, text contained in the other · `2023-jul/w06/q07@gpt` · `quizzes/2023-jul/chatgpt-converted-md/week-06.md`
-- **high** · Q103 · duplicate of Q102: same options, text ≥90% similar · `2024-jan/w06/q10` · `quizzes/2024-jan/week-06.md`
-- **low** · Q148 · text overlaps Q143 with different options: repeat with changed options, or a mis-merge · `2026-jul/w06/q10` · `quizzes/2026-jul/week-06.md`
-- **low** · Q158 · text overlaps Q143 with different options: repeat with changed options, or a mis-merge · `2026-jul/w06/q20` · `quizzes/2026-jul/week-06.md`
-- **low** · Q158 · text overlaps Q148 with different options: repeat with changed options, or a mis-merge · `2026-jul/w06/q20` · `quizzes/2026-jul/week-06.md`
+- **high** · Q89 · duplicate of Q73: same options, text contained in the other · `2023-jul/w06/q07@gpt` · `quizzes/2023-jul/chatgpt-converted-md/week-06.md`
+- **high** · Q102 · duplicate of Q101: same options, text ≥90% similar · `2024-jan/w06/q10` · `quizzes/2024-jan/week-06.md`
+- **low** · Q147 · text overlaps Q142 with different options: repeat with changed options, or a mis-merge · `2026-jul/w06/q10` · `quizzes/2026-jul/week-06.md`
+- **low** · Q157 · text overlaps Q142 with different options: repeat with changed options, or a mis-merge · `2026-jul/w06/q20` · `quizzes/2026-jul/week-06.md`
+- **low** · Q157 · text overlaps Q147 with different options: repeat with changed options, or a mis-merge · `2026-jul/w06/q20` · `quizzes/2026-jul/week-06.md`
 
 ## Week 7
 
@@ -103,7 +103,7 @@ These are heuristics: a flag means "look at this", not "this is wrong".
 
 ## Week 10
 
-- **high** · Q12 · text mentions “image”; no image, crop or code on the card · `2023-jan/w10/q04` · `quizzes/2023-jan/week-10.md`
+- **high** · Q13 · text mentions “image”; no image, crop or code on the card · `2023-jan/w10/q04` · `quizzes/2023-jan/week-10.md`
 - **high** · Q60 · text mentions “image”; no image, crop or code on the card · `2021-jul/w10/q01` · `quizzes/2021-jul/week-10.md`
 - **high** · Q63 · identical options: 2 · `2021-jul/w10/q04` · `quizzes/2021-jul/week-10.md`
 - **med** · Q8 · text refers to “picture” but the card has no image, crop or code · `2019-jul/w10/q07` · `quizzes/2019-jul/week-10.md`

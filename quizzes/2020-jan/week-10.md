@@ -94,9 +94,7 @@ python?
 - [x] True
 - [ ] False
 - [ ] None
-- [ ] Error N
-- [ ] h
-- [ ] i i
+- [ ] Error
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w10-q09-p63.png)

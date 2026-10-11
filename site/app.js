@@ -98,6 +98,9 @@ function renderQ(g, idx) {
   h += `<p class="q-text" id="t-${g.gid}">${rich(g.text)}</p>`;
   if (g.images.length) h += `<div class="q-imgs">${g.images.map((p) => img(p, "Question figure")).join("")}</div>`;
   if (g.code) h += codePanel(g.code, g.code_html);
+  // the stem points at code or a figure that was never transcribed: show the portal page cut above its options (no answer printed)
+  const inlineCrops = g.stem?.length > 0;
+  if (inlineCrops) h += `<div class="q-imgs">${g.stem.map((p) => img(p, "Portal page with the question's code or figure")).join("")}</div>`;
   if (g.type === "multi") h += `<p class="multi-hint">Select all that apply, then submit.</p>`;
   if (g.options.length && g.type !== "numeric") {
     const outQ = /output|print/i.test(g.text) && (g.code || g.images.length || g.context?.code);
@@ -112,7 +115,7 @@ function renderQ(g, idx) {
   if (g.type === "numeric") h += `<input class="num-in" inputmode="decimal" aria-label="Your answer" data-num><button class="btn" type="button" data-check>Check</button>`;
   if (g.type === "reveal") h += `<button class="btn" type="button" data-reveal>Show answer</button>`;
   h += `</div><div class="result" aria-live="polite"></div>`;
-  if (g.crops.length) h += `<details class="src"><summary>Original portal page</summary><div class="crops">${g.crops.map((p) => img(p, "Portal page")).join("")}</div></details>`;
+  if (g.crops.length && !inlineCrops) h += `<details class="src"><summary>Original portal page</summary><div class="crops">${g.crops.map((p) => img(p, "Portal page")).join("")}</div></details>`;
   h += `</article>`;
   return h;
 }

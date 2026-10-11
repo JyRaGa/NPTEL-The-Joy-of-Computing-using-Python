@@ -30,9 +30,7 @@ state (both in terms of movement and the angle)?
 - [ ] 0
 - [ ] 10
 - [x] -10
-- [ ] None of the above N
-- [ ] h
-- [ ] i i
+- [ ] None of the above
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w01-q03-p2.png)

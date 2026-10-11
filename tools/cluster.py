@@ -240,6 +240,8 @@ def main():
         if g["type"] == "numeric" and g["text"]:
             # the uploader's typed entry would give the answer away once the card is answerable
             g["text"] = re.sub(r"\n?Answer (?:entered|box)[^\n]*", "", g["text"]).strip()
+        # crops cut above the option radios by stem_crops.py: the code or figure without the printed accepted answer
+        g["stem"] = [str(Path(c).with_name(Path(c).stem + "-stem.png")).replace("\\", "/") for c in g["crops"] if (ROOT / c).with_name(Path(c).stem + "-stem.png").exists()]
         g["code_html"] = hl(g["code"])
         if g["context"] and g["context"].get("code"):
             g["context"] = dict(g["context"], code_html=hl(g["context"]["code"]))

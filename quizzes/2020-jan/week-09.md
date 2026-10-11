@@ -85,9 +85,7 @@ of separation?
 - [ ] 1
 - [x] 2.5
 - [ ] 3.5
-- [ ] 4 N
-- [ ] h
-- [ ] i i
+- [ ] 4
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w09-q08-p58.png)

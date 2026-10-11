@@ -94,9 +94,7 @@
 - [x] All money is given to the oldest person
 - [ ] All money is given to the youngest person
 - [ ] Money is given to a person with a probability proportional to his/her age
-- [ ] Money is given to a person with a probability inversely proportional to his/er age N
-- [ ] h
-- [ ] i i
+- [ ] Money is given to a person with a probability inversely proportional to his/er age
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w08-q09-p54.png)
