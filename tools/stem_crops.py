@@ -10,7 +10,7 @@ from PIL import Image
 ROOT = Path(__file__).resolve().parent.parent
 POINTS_AT = re.compile(r"\b(following|below|given|above)\b", re.I)
 GREY = range(110, 230)
-OVERRIDES = ROOT / "index" / "stem_overrides.json"  # {crop path: y to cut at | null = no stem from this crop}, checked before the heuristic
+OVERRIDES = ROOT / "index" / "stem_overrides.json"  # {crop path: y to cut at | [top, bottom] | null = no stem from this crop}, checked before the heuristic
 
 
 def first_radio(im):
@@ -106,7 +106,7 @@ def main(weeks=None):
         if weeks is not None and int(f.stem[5:]) not in weeks:
             continue
         for g in json.loads(f.read_text(encoding="utf-8")):
-            forced = any(isinstance(ov.get(p), int) for p in g["crops"])
+            forced = any(isinstance(ov.get(p), (int, list)) for p in g["crops"])
             if not (bare(g) and g["crops"] and (forced or POINTS_AT.search(g["text"] or ""))):
                 continue
             stems, skipped = [], False  # (path, image) of everything above the first option radio
@@ -115,8 +115,9 @@ def main(weeks=None):
                 if p in ov and ov[p] is None:
                     skipped = True
                     continue
-                y, done = (ov[p], ov[p] < im.height) if p in ov else cut_at(im.convert("L"))  # cutting at the full height = the stem goes on onto the next crop
-                stems.append((p, im if y is None else im.crop((0, 0, im.width, max(y, 0)))))
+                top, cut = ov[p] if isinstance(ov.get(p), list) else (0, ov.get(p))  # [top, bottom]: keep only that band (a figure under a page header)
+                y, done = (cut, cut < im.height) if p in ov else cut_at(im.convert("L"))  # cutting at the full height = the stem goes on onto the next crop
+                stems.append((p, im if y is None else im.crop((0, top, im.width, max(y, top)))))
                 if done:
                     break
             else:
@@ -124,7 +125,7 @@ def main(weeks=None):
                     missed.append(g["id"])
                     continue
             stems = [(p, tidy(im, top=k > 0)) for k, (p, im) in enumerate(stems)]
-            stems = [(p, im) for p, im in stems if im.height > 20 and ink_rows(im.convert("L")) > 10]  # drop blank page tails
+            stems = [(p, im) for p, im in stems if im.height > 20 and (ink_rows(im.convert("L")) > 10 or isinstance(ov.get(p), list))]  # drop blank page tails
             if not any(b[1] - b[0] >= 50 for _, im in stems for b in bands(im.convert("L"))) and not forced:
                 text_only += 1  # the stem is just the question's own words
                 continue

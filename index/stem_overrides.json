@@ -1,4 +1,9 @@
 {
+ "quizzes/2018-jul/img/w03-q05-p10.png": null,
+ "quizzes/2018-jul/img/w03-q05-p11.png": [
+  30,
+  82
+ ],
  "quizzes/2020-jan/img/w02-q02-p8.png": 187,
  "quizzes/2020-jan/img/w02-q05-p9.png": 222,
  "quizzes/2020-jan/img/w02-q06-p9.png": 129,
@@ -7,12 +12,23 @@
  "quizzes/2020-jan/img/w02-q09-p10.png": 199,
  "quizzes/2020-jan/img/w02-q10-p10.png": 229,
  "quizzes/2020-jan/img/w02-q10-p11.png": 198,
+ "quizzes/2020-jan/img/w03-q02-p14.png": 162,
+ "quizzes/2020-jan/img/w03-q03-p14.png": 172,
+ "quizzes/2020-jan/img/w03-q04-p14.png": 252,
+ "quizzes/2020-jan/img/w03-q04-p15.png": 0,
+ "quizzes/2020-jan/img/w03-q07-p15.png": 142,
+ "quizzes/2020-jan/img/w03-q07-p16.png": 385,
+ "quizzes/2020-jan/img/w03-q08-p16.png": 185,
+ "quizzes/2020-jan/img/w03-q09-p16.png": 441,
+ "quizzes/2020-jan/img/w03-q09-p17.png": 0,
+ "quizzes/2020-jan/img/w03-q10-p17.png": 394,
  "quizzes/2020-sep/img/w02-q02-p11.png": 206,
  "quizzes/2020-sep/img/w02-q05-p13.png": 220,
  "quizzes/2020-sep/img/w02-q06-p14.png": 295,
  "quizzes/2020-sep/img/w02-q07-p14.png": 102,
  "quizzes/2020-sep/img/w02-q09-p15.png": 212,
  "quizzes/2020-sep/img/w02-q10-p15.png": 222,
+ "quizzes/2020-sep/img/w03-q04-p18.png": 175,
  "quizzes/2021-jan/img/w02-q05-p6.png": 128,
  "quizzes/2021-jan/img/w02-q06-p6.png": 173,
  "quizzes/2021-jan/img/w02-q06-p7.png": 151,
@@ -24,6 +40,17 @@
  "quizzes/2024-jul/img/w02-q04-p21.png": null,
  "quizzes/2024-jul/img/w02-q04-p22.png": 360,
  "quizzes/2024-jul/img/w02-q09-p25.png": 620,
+ "quizzes/2024-jul/img/w03-q08-p31.png": null,
  "quizzes/2025-jan/img/w02-q04-p9.png": 322,
- "quizzes/2025-jan/img/w02-q09-p11.png": 675
+ "quizzes/2025-jan/img/w02-q09-p11.png": 675,
+ "quizzes/2025-jan/img/w03-q02-p13.png": null,
+ "quizzes/2025-jan/img/w03-q02-p14.png": [
+  40,
+  632
+ ],
+ "quizzes/2025-jan/img/w03-q08-p15.png": null,
+ "quizzes/2025-jan/img/w03-q08-p16.png": [
+  40,
+  887
+ ]
 }
