@@ -55,7 +55,7 @@ def check(g):
             out.append(("high", f"{len(opts)} option(s) on a choice question"))
         if len(opts) > 6:
             out.append(("med", f"{len(opts)} options; probably merged or stray lines"))
-        if any(not (opts[i]["text"] or "").strip() and not opts[i].get("img") for i in range(len(opts))):  # raw text: "_" or "**" are real options
+        if any(not (opts[i]["text"] or "").strip() and not opts[i].get("img") and not opts[i].get("code") for i in range(len(opts))):  # raw text: "_" or "**" are real options
             out.append(("high", "an option is empty"))
         exact = [re.sub(r"\s+", " ", (o["text"] or "") + "|" + (o.get("code") or "") + "|" + (o.get("img") or "")).strip() for o in opts]  # case matters: %c vs %C
         dup = {o.strip("|") for o in exact if o.strip("|") and exact.count(o) > 1}
@@ -93,7 +93,7 @@ def main():
                 if same_src:
                     rows[w].append(("high", pos[b["gid"]], b, f"same source question as Q{pos[a['gid']]} (`{sorted(same_src)[0]}`): two copies of one question"))
                     continue
-                if len(na) < 20 or len(nb) < 20 or (a["code"] or "") != (b["code"] or "") or a["images"] != b["images"]:
+                if len(na) < 20 or len(nb) < 20 or (a["code"] or "") != (b["code"] or "") or a["images"] != b["images"] or a["crops"] != b["crops"]:
                     continue  # same stem over different code or pictures is a different question
                 contained = na in nb or nb in na
                 if contained or SequenceMatcher(None, na, nb, autojunk=False).ratio() >= 0.9:
