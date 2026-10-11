@@ -55,6 +55,7 @@
  "quizzes/2020-jan/img/w10-q08-p63.png": 158,
  "quizzes/2020-jan/img/w10-q09-p63.png": 114,
  "quizzes/2020-jan/img/w11-q09-p67.png": 145,
+ "quizzes/2020-jan/img/w12-q09-p71.png": 356,
  "quizzes/2020-sep/img/w02-q02-p11.png": 206,
  "quizzes/2020-sep/img/w02-q05-p13.png": 220,
  "quizzes/2020-sep/img/w02-q06-p14.png": 295,
@@ -84,6 +85,8 @@
  "quizzes/2020-sep/img/w10-q10-p52.png": 156,
  "quizzes/2020-sep/img/w11-q04-p53.png": 112,
  "quizzes/2020-sep/img/w11-q09-p55.png": 92,
+ "quizzes/2020-sep/img/w12-q03-p57.png": 285,
+ "quizzes/2020-sep/img/w12-q04-p58.png": 99,
  "quizzes/2021-jan/img/w02-q05-p6.png": 128,
  "quizzes/2021-jan/img/w02-q06-p6.png": 173,
  "quizzes/2021-jan/img/w02-q06-p7.png": 151,
@@ -108,6 +111,7 @@
  "quizzes/2021-jan/img/w08-q07-p42.png": 380,
  "quizzes/2021-jan/img/w10-q02-p53.png": 253,
  "quizzes/2021-jan/img/w11-q07-p60.png": 140,
+ "quizzes/2023-jul/img/nb/w12-52.png": 340,
  "quizzes/2024-jul/img/w01-q10-p17.png": 684,
  "quizzes/2024-jul/img/w02-q04-p21.png": null,
  "quizzes/2024-jul/img/w02-q04-p22.png": 360,
@@ -140,5 +144,12 @@
  "quizzes/2025-jan/img/w11-q05-p56.png": [
   30,
   671
- ]
+ ],
+ "quizzes/2025-jan/img/w12-q03-p61.png": 270,
+ "quizzes/2025-jan/img/w12-q03-p62.png": [
+  40,
+  845
+ ],
+ "quizzes/2025-jan/img/w12-q05-p62.png": 249,
+ "quizzes/2025-jan/img/w12-q06-p63.png": 279
 }
