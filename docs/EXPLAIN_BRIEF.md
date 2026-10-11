@@ -124,6 +124,12 @@ document.querySelectorAll('.q img').forEach(i => i.loading = 'eager'); document.
 ```
 A reload restores the page.
 
+**Collapsed sections: open them before reading or screenshotting.** Many cards (all of 2026 Jan and Jul, and some others) hide their scenario text and program in `details.ctx` ("Scenario" / "Code for this question"); only the first card of a set opens by default. The full portal page sits in `details.src`. A screenshot of a closed `<details>` shows nothing inside it, and the question often cannot be understood without it. Open them all first:
+```js
+document.querySelectorAll('details.ctx, details.src').forEach(d => d.open = true);
+```
+When writing an explanation, read the scenario from the data (`g.context.text`, `g.context.code`, `g.context.images`), not from what happens to be visible on screen.
+
 **Mobile.** `resize_window` with `preset: 'mobile'` (375×812, emulates touch), reload, check, then `preset: 'desktop'` before you finish. Look for text overflowing the card and code panels wider than the screen (`document.documentElement.scrollWidth > innerWidth` must be `false`).
 
 **Dark theme.** `#theme` toggles it (stored in `localStorage['joc:theme']`); check one result block in both themes.
