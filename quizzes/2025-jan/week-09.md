@@ -89,9 +89,8 @@
 
 ![page crop](img/w09-q08-p48.png)
 
-### Q9. (question text in image)
+### Q9. A complete graph will have a degree of separation?
 
-- [ ] A complete graph will have a degree of separation?
 - [x] 1
 - [ ] 2
 - [ ] 3

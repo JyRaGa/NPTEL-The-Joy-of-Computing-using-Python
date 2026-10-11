@@ -31,10 +31,10 @@ a=1;a=a+1;a=a+2;a=a+3;print(a)
 ![page crop](img/w02-q02-p5.png)
 
 ### Q3. What is the output of the following snippet if 5 is given as the input?
-
-- [ ] Funded by c=input("Enter a number")
-- [ ] Wednesday 14 November 2018 11:00 AM print(c*3)
-- [ ] Powered by
+```
+c=input("Enter a number")
+print(c*3)
+```
 - [ ] 15
 - [ ] 8
 - [ ] 2
@@ -127,11 +127,11 @@ print("Hello")
 ![page crop](img/w02-q09-p7.png)
 
 ### Q10. What is the output of the following snippet?
+```
 for i in range(3):
-print(i)
-
-- [x] 0
-- [ ] Wednesday 14 November 2018 11:00 AM 1 2
+    print(i)
+```
+- [x] 0 1 2
 - [ ] 0 1 2 3
 - [ ] 1 2
 - [ ] 1 2 3

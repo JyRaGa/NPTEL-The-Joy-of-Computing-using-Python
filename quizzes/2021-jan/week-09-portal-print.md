@@ -28,19 +28,19 @@
 ![page crop](img/w09-q02-p48.png)
 
 ### Q3. What is the output of the following code?
-[’Have nice day, my friend!!! Programming in Python is fun’]
-[’Have nice day, my friend!!!’, ’Programming in Python is fun’]
-’Have nice day, my friend!!!’
 
-- [ ] ’Programming in Python is fun’ error
-> Accepted answer (not matched to a printed option): [’Have nice day, my friend!!!’, ’Programming in Python is fun’]
+- [ ] [’Have nice day, my friend!!! Programming in Python is fun’]
+- [x] [’Have nice day, my friend!!!’, ’Programming in Python is fun’]
+- [ ] ’Have nice day, my friend!!!’
+  ’Programming in Python is fun’
+- [ ] error
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w09-q03-p48.png)
 
 ### Q4. What is the output of the following code?
-none of the above
 
+- [ ] none of the above
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w09-q04-p48.png)

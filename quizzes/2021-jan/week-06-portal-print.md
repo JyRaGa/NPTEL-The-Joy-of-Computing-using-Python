@@ -82,22 +82,21 @@ binary search?
 ![page crop](img/w06-q07-p27.png)
 
 ### Q8. What is the result of the following recursive function call?
-2
-6
-24
-1
-2
-6
-24
-2
-4
-12
-1
-2
-4
-12
 
-Accepted answer(s): 2; 6; 24
+- [x] 2
+  6
+  24
+- [ ] 1
+  2
+  6
+  24
+- [ ] 2
+  4
+  12
+- [ ] 1
+  2
+  4
+  12
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w06-q08-p27.png)

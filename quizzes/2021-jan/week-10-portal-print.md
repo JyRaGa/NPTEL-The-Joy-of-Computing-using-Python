@@ -27,33 +27,33 @@
 
 ![page crop](img/w10-q02-p54.png)
 
-### Q3. (question text in image)
+### Q3. Predict the output of the following code
 
-- [ ] Predict the output of the following code Hellogoodmorning Hello goodmorning Hello good morning error
-> Accepted answer (not matched to a printed option): Hellogoodmorning
+- [x] Hellogoodmorning
+- [ ] Hello goodmorning
+- [ ] Hello good morning
+- [ ] error
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w10-q03-p54.png)
 
 ### Q4. What does the following code snippet in python print?
-der
-ind
-nde
-de
 
-Accepted answer(s): nde
+- [ ] der
+- [ ] ind
+- [x] nde
+- [ ] de
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w10-q04-p54.png)
 
 ### Q5. In python, the default value of start and end index of list slicing are which of the
 following options?
-1, length of the list
-0, length of the list
-0, length of the list -1
-1, length of the list -1
 
-Accepted answer(s): 0, length of the list
+- [ ] 1, length of the list
+- [x] 0, length of the list
+- [ ] 0, length of the list -1
+- [ ] 1, length of the list -1
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w10-q05-p54.png)

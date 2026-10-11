@@ -57,46 +57,45 @@
 ![page crop](img/w03-q05-p11.png)
 
 ### Q6. Which of the following trims the list L by 10%
-Stats.trim_mean(L, 10)
-Stats.trim_mean(L, 0.1)
-Stats.trim_mean(L, -10)
-Stats.trim_mean(L, -0.1)
 
-Accepted answer(s): Stats.trim_mean(L, 0.1)
+- [ ] Stats.trim_mean(L, 10)
+- [x] Stats.trim_mean(L, 0.1)
+- [ ] Stats.trim_mean(L, -10)
+- [ ] Stats.trim_mean(L, -0.1)
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w03-q06-p11.png)
 
 ### Q7. Which of the following code is invalid?
 
+- [ ] import matplotlib.pyplot as plt
+  plt.plot([1,2,3,4],[1,3,6,9],'b+')
 - [x] import matplotlib.pyplot as plt
-- [ ] plt.plot([1,2,3,4],[1,3,6,9],'b+')
-- [x] import matplotlib.pyplot as plt
-- [ ] plt.plot([1,2,3,4],[1,3,6,9],'b++') import matplotlib.pyplot as plt plt.plot([1,2,3,4],[1,3,6,9],'b*')
-- [x] import matplotlib.pyplot as plt
-- [ ] plt.plot([1,2,3,4],[1,3,6,9],'b--')
+  plt.plot([1,2,3,4],[1,3,6,9],'b++')
+- [ ] import matplotlib.pyplot as plt
+  plt.plot([1,2,3,4],[1,3,6,9],'b*')
+- [ ] import matplotlib.pyplot as plt
+  plt.plot([1,2,3,4],[1,3,6,9],'b--')
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w03-q07-p11.png)
 
 ### Q8. In how many different ways can you arrange the letters in the word COMP?
-24
-4
-6
-20
 
-Accepted answer(s): 24
+- [x] 24
+- [ ] 4
+- [ ] 6
+- [ ] 20
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w03-q08-p11.png)
 
 ### Q9. The method open(“ﬁle1.txt”, r+) opens the ﬁle ﬁle1.txt in
-Read mode
-Write mode
-Read write mode
-Append mode
 
-Accepted answer(s): Read write mode
+- [ ] Read mode
+- [ ] Write mode
+- [x] Read write mode
+- [ ] Append mode
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w03-q09-p11.png)

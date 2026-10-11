@@ -1,15 +1,14 @@
 # Parse mismatch report
 
-2334 questions from 215 files. Types: {'single': 2112, 'reveal': 87, 'multi': 128, 'numeric': 7}. Answer sources: {'uploader': 1294, 'official': 800, 'pdf': 240}.
+2334 questions from 215 files. Types: {'single': 2122, 'reveal': 79, 'multi': 126, 'numeric': 7}. Answer sources: {'uploader': 1294, 'official': 800, 'pdf': 240}.
 
-81 files with issues:
+77 files with issues:
 
-- `quizzes/2018-jul/week-01-portal-print.md`: no answer: Q9
 - `quizzes/2018-jul/week-03.md`: no answer: Q3
 - `quizzes/2018-jul/week-04.md`: no answer: Q2; no parsed options (reveal): Q6
 - `quizzes/2018-jul/week-08.md`: no answer: Q4
 - `quizzes/2018-jul/week-09.md`: no answer: Q10
-- `quizzes/2018-jul/week-10.md`: no answer: Q3, Q8
+- `quizzes/2018-jul/week-10.md`: no answer: Q8
 - `quizzes/2019-jul/week-06.md`: no answer: Q5
 - `quizzes/2020-jan/week-01.md`: no parsed options (reveal): Q1, Q7
 - `quizzes/2020-jan/week-03.md`: no parsed options (reveal): Q1, Q5
@@ -30,17 +29,14 @@
 - `quizzes/2020-sep/week-10.md`: no answer: Q4, Q6; no parsed options (reveal): Q3, Q8
 - `quizzes/2020-sep/week-11.md`: no parsed options (reveal): Q7
 - `quizzes/2020-sep/week-12.md`: no answer: Q3; no parsed options (reveal): Q2, Q5
-- `quizzes/2021-jan/week-03-portal-print.md`: no parsed options (reveal): Q1, Q6, Q8, Q9
-- `quizzes/2021-jan/week-03.md`: no answer: Q7
+- `quizzes/2021-jan/week-03-portal-print.md`: no parsed options (reveal): Q1
 - `quizzes/2021-jan/week-04-portal-print.md`: no parsed options (reveal): Q7
-- `quizzes/2021-jan/week-05-portal-print.md`: no answer: Q6; no parsed options (reveal): Q7
-- `quizzes/2021-jan/week-05.md`: no answer: Q6
-- `quizzes/2021-jan/week-06-portal-print.md`: no parsed options (reveal): Q7, Q8
+- `quizzes/2021-jan/week-06-portal-print.md`: no parsed options (reveal): Q7
 - `quizzes/2021-jan/week-06.md`: no parsed options (reveal): Q7
 - `quizzes/2021-jan/week-07-portal-print.md`: no parsed options (reveal): Q5, Q6, Q7
 - `quizzes/2021-jan/week-08-portal-print.md`: no answer: Q8
-- `quizzes/2021-jan/week-09-portal-print.md`: no answer: Q3; no parsed options (reveal): Q4
-- `quizzes/2021-jan/week-10-portal-print.md`: no answer: Q3; no parsed options (reveal): Q4, Q5, Q8, Q9
+- `quizzes/2021-jan/week-09-portal-print.md`: no answer: Q4
+- `quizzes/2021-jan/week-10-portal-print.md`: no parsed options (reveal): Q8, Q9
 - `quizzes/2021-jan/week-10.md`: no parsed options (reveal): Q8, Q9
 - `quizzes/2021-jan/week-11-portal-print.md`: no answer: Q6; no parsed options (reveal): Q10
 - `quizzes/2021-jan/week-12-portal-print.md`: no answer: Q1, Q2, Q3, Q4, Q5, Q6, Q8, Q9, Q10; no parsed options (reveal): Q7

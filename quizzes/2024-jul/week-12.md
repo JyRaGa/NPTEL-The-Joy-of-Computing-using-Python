@@ -28,9 +28,8 @@ Accepted answer(s): n × 3 + 1; It is replaced by
 
 ![page crop](img/w12-q02-p81.png)
 
-### Q3. (question text in image)
+### Q3. What is the ultimate goal of the Collatz Conjecture sequence?
 
-- [ ] What is the ultimate goal of the Collatz Conjecture sequence?
 - [ ] Reach the number 0
 - [ ] Return to the starting number
 - [x] Reach the number 1
@@ -39,9 +38,8 @@ Accepted answer(s): n × 3 + 1; It is replaced by
 
 ![page crop](img/w12-q03-p81.png)
 
-### Q4. (question text in image)
+### Q4. Which of the following best describes the Collatz Conjecture?
 
-- [ ] Which of the following best describes the Collatz Conjecture?
 - [ ] It has been proven for all natural numbers
 - [x] It remains an unsolved problem in mathematics
 - [ ] It is a trivial problem with a simple solution
@@ -50,9 +48,8 @@ Accepted answer(s): n × 3 + 1; It is replaced by
 
 ![page crop](img/w12-q04-p81.png)
 
-### Q5. (question text in image)
+### Q5. What is the main idea behind the PageRank algorithm used by Google?
 
-- [ ] What is the main idea behind the PageRank algorithm used by Google?
 - [ ] Count the number of keywords on a page
 - [x] Rank pages based on random walks on a graph of web links
 - [ ] Rank pages based on user reviews
@@ -61,9 +58,8 @@ Accepted answer(s): n × 3 + 1; It is replaced by
 
 ![page crop](img/w12-q05-p81.png)
 
-### Q6. (question text in image)
+### Q6. In PageRank, what happens when a page has a higher number of inbound links from other important pages?
 
-- [ ] In PageRank, what happens when a page has a higher number of inbound links from
 - [ ] Its rank decreases due to the load on the server
 - [x] Its rank increases
 - [ ] Its rank remains unchanged
@@ -72,9 +68,8 @@ Accepted answer(s): n × 3 + 1; It is replaced by
 
 ![page crop](img/w12-q06-p81.png)
 
-### Q7. (question text in image)
+### Q7. Which technique is used in the PageRank algorithm to determine the rank of a web page?
 
-- [ ] Which technique is used in the PageRank algorithm to determine the rank of a web
 - [ ] Depth-first search
 - [ ] Hyperlink analysis
 - [x] Random walk simulation
@@ -85,9 +80,8 @@ Accepted answer(s): n × 3 + 1; It is replaced by
 
 ![page crop](img/w12-q07-p82.png)
 
-### Q8. (question text in image)
+### Q8. PageRank relies heavily on the structure of the:
 
-- [ ] PageRank relies heavily on the structure of the:
 - [ ] Web page content
 - [x] Hyperlink network between web pages
 - [ ] User interaction data
@@ -96,9 +90,8 @@ Accepted answer(s): n × 3 + 1; It is replaced by
 
 ![page crop](img/w12-q08-p82.png)
 
-### Q9. (question text in image)
+### Q9. PageRank was developed primarily to solve which problem?
 
-- [ ] PageRank was developed primarily to solve which problem?
 - [ ] Calculating the shortest path in a network
 - [x] Ranking the importance of web pages on the internet
 - [ ] Counting the total number of web pages
@@ -107,9 +100,8 @@ Accepted answer(s): n × 3 + 1; It is replaced by
 
 ![page crop](img/w12-q09-p82.png)
 
-### Q10. (question text in image)
+### Q10. For which values between 200 and 3000 does the Collatz Conjecture not converge to 1?
 
-- [ ] For which values between 200 and 3000 does the Collatz Conjecture not converge to
 - [ ] 2498.0
 - [ ] 1576.0
 - [ ] 2789.0

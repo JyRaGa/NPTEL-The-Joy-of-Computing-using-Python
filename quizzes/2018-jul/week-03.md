@@ -22,14 +22,13 @@ if n%7==0:
 ### Q2. Which of the following Python snippets would print the values from 1 to 10?
 
 - [ ] for i in range(10):
-- [x] print(i)
+  print(i)
 - [ ] for i in range(11):
-- [x] print(i)
+  print(i)
 - [ ] for i in range(1,10):
-- [ ] print i
+  print i
 - [x] for i in range(1,11):
-- [ ] print(i) © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -
-- [ ] In association with
+  print(i)
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w03-q02-p9.png)

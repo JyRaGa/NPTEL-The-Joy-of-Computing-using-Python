@@ -2928,7 +2928,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "A couple of dice is rolled together. What is the probability of getting the same number on both dice?",
   "code": null,
   "images": [],
   "crops": [
@@ -2936,10 +2936,6 @@
    "quizzes/2024-jul/img/w00-q07-p4.png"
   ],
   "options": [
-   {
-    "text": "A couple of dice is rolled together. What is the probability of getting the same number on both dice?",
-    "img": null
-   },
    {
     "text": "1/6",
     "img": null
@@ -2958,17 +2954,16 @@
    }
   ],
   "answer": [
-   1
+   0
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "a couple of dice is rolled together what is the probability of getting the same number on both dice",
   "norm_options": [
    "1",
    "1 3",
    "1 36",
-   "1 6",
-   "a couple of dice is rolled together what is the probability of getting the same number on both dice"
+   "1 6"
   ]
  },
  {
@@ -3119,7 +3114,7 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "(Scratch blocks: `repeat (t)` { `turn ↻ (30) degrees` })\nWhat should be the value of t so that the sprite shall complete one full rotation?",
+  "text": "What should be the value of t so that the sprite shall complete one full rotation?",
   "code": null,
   "images": [],
   "crops": [],
@@ -3146,7 +3141,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "scratch blocks repeat t turn 30 degrees what should be the value of t so that the sprite shall complete one full rotation",
+  "norm": "what should be the value of t so that the sprite shall complete one full rotation",
   "norm_options": [
    "12",
    "3",
@@ -3299,66 +3294,11 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "(Scratch block: `pick random (1) to (10)`)\nWhich of the following can never be an output of the above statement?",
+  "text": "Which of the following can never be an output of the above statement?",
   "code": null,
   "images": [],
   "crops": [],
   "options": [
-   {
-    "text": "3",
-    "img": null
-   },
-   {
-    "text": "6",
-    "img": null
-   },
-   {
-    "text": "8",
-    "img": null
-   },
-   {
-    "text": "12",
-    "img": null
-   }
-  ],
-  "answer": [
-   3
-  ],
-  "answer_source": "uploader",
-  "explanation": null,
-  "norm": "scratch block pick random 1 to 10 which of the following can never be an output of the above statement",
-  "norm_options": [
-   "12",
-   "3",
-   "6",
-   "8"
-  ]
- },
- {
-  "id": "2018-jul/w01/q03@portal",
-  "term": "2018-jul",
-  "week": 1,
-  "num": 3,
-  "file": "quizzes/2018-jul/week-01-portal-print.md",
-  "kind": "portal_print_parsed",
-  "type": "single",
-  "context": null,
-  "text": "(question text in image)",
-  "code": null,
-  "images": [],
-  "crops": [
-   "quizzes/2018-jul/img/w01-q03-p1.png",
-   "quizzes/2018-jul/img/w01-q03-p2.png"
-  ],
-  "options": [
-   {
-    "text": "Funded by",
-    "img": null
-   },
-   {
-    "text": "Which of the following can never be an output of the above statement?",
-    "img": null
-   },
    {
     "text": "3",
     "img": null
@@ -3377,18 +3317,63 @@
    }
   ],
   "answer": [
-   5
+   3
   ],
-  "answer_source": "official",
+  "answer_source": "uploader",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "which of the following can never be an output of the above statement",
   "norm_options": [
    "12",
    "3",
    "6",
-   "9",
-   "funded by",
-   "which of the following can never be an output of the above statement"
+   "9"
+  ]
+ },
+ {
+  "id": "2018-jul/w01/q03@portal",
+  "term": "2018-jul",
+  "week": 1,
+  "num": 3,
+  "file": "quizzes/2018-jul/week-01-portal-print.md",
+  "kind": "portal_print_parsed",
+  "type": "single",
+  "context": null,
+  "text": "Which of the following can never be an output of the above statement?",
+  "code": null,
+  "images": [],
+  "crops": [
+   "quizzes/2018-jul/img/w01-q03-p1.png",
+   "quizzes/2018-jul/img/w01-q03-p2.png"
+  ],
+  "options": [
+   {
+    "text": "3",
+    "img": null
+   },
+   {
+    "text": "6",
+    "img": null
+   },
+   {
+    "text": "9",
+    "img": null
+   },
+   {
+    "text": "12",
+    "img": null
+   }
+  ],
+  "answer": [
+   3
+  ],
+  "answer_source": "official",
+  "explanation": null,
+  "norm": "which of the following can never be an output of the above statement",
+  "norm_options": [
+   "12",
+   "3",
+   "6",
+   "9"
   ]
  },
  {
@@ -3508,7 +3493,7 @@
     "img": null
    },
    {
-    "text": "All the above",
+    "text": "All of the above",
     "img": null
    }
   ],
@@ -3520,7 +3505,7 @@
   "norm": "which of the following is a facility provided by scratch to use sound effects",
   "norm_options": [
    "a sound library is provided",
-   "all the above",
+   "all of the above",
    "we can record sound using a microphone",
    "we can use a sound file"
   ]
@@ -3851,7 +3836,7 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "Which of the following constructs carries out a set of instructions as long as any key in the keyboard is pressed?\n(The options are Scratch block images.)",
+  "text": "Which of the following constructs carries out a set of instructions as long as any key in the keyboard is pressed?",
   "code": null,
   "images": [],
   "crops": [],
@@ -3878,7 +3863,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "which of the following constructs carries out a set of instructions as long as any key in the keyboard is pressed the options are scratch block images",
+  "norm": "which of the following constructs carries out a set of instructions as long as any key in the keyboard is pressed",
   "norm_options": [
    "if then",
    "none of the above",
@@ -3903,16 +3888,33 @@
   ],
   "options": [
    {
+    "text": "`repeat until <key [any] pressed?>` { … }",
+    "img": null
+   },
+   {
+    "text": "`wait until <key [any] pressed?>`",
+    "img": null
+   },
+   {
+    "text": "`if <key [any] pressed?> then` { … }",
+    "img": null
+   },
+   {
     "text": "None of the above",
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   0
+  ],
   "answer_source": "official",
   "explanation": null,
   "norm": "which of the following constructs carries out a set of instructions as long as any key in the keyboard is pressed",
   "norm_options": [
-   "none of the above"
+   "if then",
+   "none of the above",
+   "repeat until",
+   "wait until"
   ]
  },
  {
@@ -3968,7 +3970,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Which of the following Scratch constructs are used to keep doing a set of instructions",
+  "text": "Which of the following Scratch constructs are used to keep doing a set of instructions infinitely?",
   "code": null,
   "images": [],
   "crops": [
@@ -3976,10 +3978,6 @@
    "quizzes/2018-jul/img/w01-q10-p4.png"
   ],
   "options": [
-   {
-    "text": "infinitely?",
-    "img": null
-   },
    {
     "text": "continue",
     "img": null
@@ -3998,17 +3996,16 @@
    }
   ],
   "answer": [
-   3
+   2
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following scratch constructs are used to keep doing a set of instructions",
+  "norm": "which of the following scratch constructs are used to keep doing a set of instructions infinitely",
   "norm_options": [
    "always",
    "continue",
    "do",
-   "forever",
-   "infinitely"
+   "forever"
   ]
  },
  {
@@ -4979,7 +4976,7 @@
   "answer": [],
   "answer_source": "official",
   "explanation": null,
-  "norm": "pick the snippet that helps the sprite to nd the factorial of 5 as output",
+  "norm": "pick the snippet that helps the sprite to find the factorial of 5 as output",
   "norm_options": [
    "given factorial n 1 x 2 x 3 x x n 1 x n"
   ]
@@ -5194,9 +5191,9 @@
   "explanation": null,
   "norm": "imagine a magic wand sprite and predict the output for the following set of instructions",
   "norm_options": [
-   "the magic wand ies between the top and bottom edges repeatedly",
-   "the magic wand ies to a random position in 1 sec and after a 0 25 sec pause it repeats the same until it is stopped",
-   "the magic wand ies to a random position takes 1 sec pause and then reaches another random position",
+   "the magic wand flies between the top and bottom edges repeatedly",
+   "the magic wand flies to a random position in 1 sec and after a 0 25 sec pause it repeats the same until it is stopped",
+   "the magic wand flies to a random position takes 1 sec pause and then reaches another random position",
    "the magic wand reaches all edges of the screen in a uniform pattern"
   ]
  },
@@ -5463,7 +5460,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following is the extension for a scratch le",
+  "norm": "which of the following is the extension for a scratch file",
   "norm_options": [
    "sb",
    "sc",
@@ -9372,7 +9369,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Let answer for previous question be stored in variable x, what does the cat say after",
+  "text": "Let answer for previous question be stored in variable x, what does the cat say after the execution of the loop ?",
   "code": null,
   "images": [],
   "crops": [
@@ -9402,7 +9399,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "let answer for previous question be stored in variable x what does the cat say after",
+  "norm": "let answer for previous question be stored in variable x what does the cat say after the execution of the loop",
   "norm_options": [
    "16",
    "29",
@@ -11395,25 +11392,13 @@
   "type": "single",
   "context": null,
   "text": "What is the output of the following snippet if 5 is given as the input?",
-  "code": null,
+  "code": "c=input(\"Enter a number\")\nprint(c*3)",
   "images": [],
   "crops": [
    "quizzes/2018-jul/img/w02-q03-p5.png",
    "quizzes/2018-jul/img/w02-q03-p6.png"
   ],
   "options": [
-   {
-    "text": "Funded by c=input(\"Enter a number\")",
-    "img": null
-   },
-   {
-    "text": "print(c*3)",
-    "img": null
-   },
-   {
-    "text": "Powered by",
-    "img": null
-   },
    {
     "text": "15",
     "img": null
@@ -11432,19 +11417,16 @@
    }
   ],
   "answer": [
-   6
+   3
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what is the output of the following snippet if 5 is given as the input",
+  "norm": "what is the output of the following snippet if 5 is given as the input c input enter a number print c 3",
   "norm_options": [
    "15",
    "2",
    "555",
-   "8",
-   "funded by c input enter a number",
-   "powered by",
-   "print c 3"
+   "8"
   ]
  },
  {
@@ -11997,7 +11979,7 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "What is the output of the following snippet?\n(Each option is a column of numbers, one per line.)",
+  "text": "What is the output of the following snippet?",
   "code": "for i in range(3):\n    print(i)",
   "images": [],
   "crops": [],
@@ -12024,7 +12006,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "what is the output of the following snippet each option is a column of numbers one per line for i in range 3 print i",
+  "norm": "what is the output of the following snippet for i in range 3 print i",
   "norm_options": [
    "0 1 2",
    "0 1 2 3",
@@ -12041,8 +12023,8 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What is the output of the following snippet?\nfor i in range(3):\nprint(i)",
-  "code": null,
+  "text": "What is the output of the following snippet?",
+  "code": "for i in range(3):\n    print(i)",
   "images": [],
   "crops": [
    "quizzes/2018-jul/img/w02-q10-p7.png",
@@ -12050,11 +12032,7 @@
   ],
   "options": [
    {
-    "text": "0",
-    "img": null
-   },
-   {
-    "text": "1 2",
+    "text": "0 1 2",
     "img": null
    },
    {
@@ -12077,9 +12055,8 @@
   "explanation": null,
   "norm": "what is the output of the following snippet for i in range 3 print i",
   "norm_options": [
-   "0",
+   "0 1 2",
    "0 1 2 3",
-   "1 2",
    "1 2",
    "1 2 3"
   ]
@@ -13494,7 +13471,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "when we save a python code it will be saved as le name with the extension",
+  "norm": "when we save a python code it will be saved as file name with the extension",
   "norm_options": [
    "p",
    "py",
@@ -13588,9 +13565,9 @@
   "norm": "you are calculating the simple interest using a python program how do you get the interest as an input from the user",
   "norm_options": [
    "none of these",
+   "r float input enter the interest rate",
    "r input enter the interest rate",
-   "r int input enter the interest rate",
-   "r oat input enter the interest rate"
+   "r int input enter the interest rate"
   ]
  },
  {
@@ -13679,7 +13656,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "consider that you are developing a 2 player game in python you have taken the names of both the users and stored them as variables user1 and user2 if you want to say hi to both the users print their names and welcome them to your game which of the following statement s will t to your requirement",
+  "norm": "consider that you are developing a 2 player game in python you have taken the names of both the users and stored them as variables user1 and user2 if you want to say hi to both the users print their names and welcome them to your game which of the following statement s will fit to your requirement",
   "norm_options": [
    "print hi user1 and user2 welcome to the game",
    "print hi user1 and user2 welcome to the game",
@@ -14692,7 +14669,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "the python les will be saved with a python extension",
+  "norm": "the python files will be saved with a python extension",
   "norm_options": [
    "false",
    "true"
@@ -17736,7 +17713,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "The following program might/might not have an infinite loop. Does the program",
+  "text": "The following program might/might not have an infinite loop. Does the program have infinite loop ?",
   "code": null,
   "images": [],
   "crops": [
@@ -17766,7 +17743,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "the following program might might not have an infinite loop does the program",
+  "norm": "the following program might might not have an infinite loop does the program have infinite loop",
   "norm_options": [
    "no the program doesn t have infinite loop",
    "yes but it cannot be prevented",
@@ -19626,7 +19603,7 @@
   "num": 2,
   "file": "quizzes/2018-jul/week-03.md",
   "kind": "portal_print_parsed",
-  "type": "multi",
+  "type": "single",
   "context": null,
   "text": "Which of the following Python snippets would print the values from 1 to 10?",
   "code": null,
@@ -19637,60 +19614,33 @@
   ],
   "options": [
    {
-    "text": "for i in range(10):",
+    "text": "for i in range(10):\nprint(i)",
     "img": null
    },
    {
-    "text": "print(i)",
+    "text": "for i in range(11):\nprint(i)",
     "img": null
    },
    {
-    "text": "for i in range(11):",
+    "text": "for i in range(1,10):\nprint i",
     "img": null
    },
    {
-    "text": "print(i)",
-    "img": null
-   },
-   {
-    "text": "for i in range(1,10):",
-    "img": null
-   },
-   {
-    "text": "print i",
-    "img": null
-   },
-   {
-    "text": "for i in range(1,11):",
-    "img": null
-   },
-   {
-    "text": "print(i) © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -",
-    "img": null
-   },
-   {
-    "text": "In association with",
+    "text": "for i in range(1,11):\nprint(i)",
     "img": null
    }
   ],
   "answer": [
-   1,
-   3,
-   6
+   3
   ],
   "answer_source": "official",
   "explanation": null,
   "norm": "which of the following python snippets would print the values from 1 to 10",
   "norm_options": [
-   "for i in range 1 10",
-   "for i in range 1 11",
-   "for i in range 10",
-   "for i in range 11",
-   "in association with",
-   "print i",
-   "print i",
-   "print i",
-   "print i 2014 nptel privacy terms honor code faqs"
+   "for i in range 1 10 print i",
+   "for i in range 1 11 print i",
+   "for i in range 10 print i",
+   "for i in range 11 print i"
   ]
  },
  {
@@ -21963,7 +21913,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following is the method to insert an item into a speci ed position in a list",
+  "norm": "which of the following is the method to insert an item into a specified position in a list",
   "norm_options": [
    "add",
    "append",
@@ -22203,20 +22153,44 @@
   "num": 6,
   "file": "quizzes/2021-jan/week-03-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "reveal",
+  "type": "single",
   "context": null,
-  "text": "Which of the following trims the list L by 10%\nStats.trim_mean(L, 10)\nStats.trim_mean(L, 0.1)\nStats.trim_mean(L, -10)\nStats.trim_mean(L, -0.1)\nAccepted answer(s): Stats.trim_mean(L, 0.1)",
+  "text": "Which of the following trims the list L by 10%",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2021-jan/img/w03-q06-p11.png"
   ],
-  "options": [],
-  "answer": [],
+  "options": [
+   {
+    "text": "Stats.trim_mean(L, 10)",
+    "img": null
+   },
+   {
+    "text": "Stats.trim_mean(L, 0.1)",
+    "img": null
+   },
+   {
+    "text": "Stats.trim_mean(L, -10)",
+    "img": null
+   },
+   {
+    "text": "Stats.trim_mean(L, -0.1)",
+    "img": null
+   }
+  ],
+  "answer": [
+   1
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following trims the list l by 10 stats trim mean l 10 stats trim mean l 0 1 stats trim mean l 10 stats trim mean l 0 1 accepted answer s stats trim mean l 0 1",
-  "norm_options": []
+  "norm": "which of the following trims the list l by 10",
+  "norm_options": [
+   "stats trim mean l 0 1",
+   "stats trim mean l 0 1",
+   "stats trim mean l 10",
+   "stats trim mean l 10"
+  ]
  },
  {
   "id": "2021-jan/w03/q07",
@@ -22233,15 +22207,15 @@
   "crops": [],
   "options": [
    {
-    "text": "import matplotlib.pyplot as plt",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4],[1,3,6,9],'b+')",
     "img": null
    },
    {
-    "text": "import matplotlib.pyplot as plt",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4],[1,3,6,9],'b++')",
     "img": null
    },
    {
-    "text": "import matplotlib.pyplot as plt",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4],[1,3,6,9],'b*')",
     "img": null
    },
    {
@@ -22249,14 +22223,16 @@
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   1
+  ],
   "answer_source": "uploader",
   "explanation": null,
   "norm": "which of the following code is invalid",
   "norm_options": [
-   "import matplotlib pyplot as plt",
-   "import matplotlib pyplot as plt",
-   "import matplotlib pyplot as plt",
+   "import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b",
+   "import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b",
+   "import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b",
    "import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b"
   ]
  },
@@ -22267,7 +22243,7 @@
   "num": 7,
   "file": "quizzes/2021-jan/week-03-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "multi",
+  "type": "single",
   "context": null,
   "text": "Which of the following code is invalid?",
   "code": null,
@@ -22277,45 +22253,33 @@
   ],
   "options": [
    {
-    "text": "import matplotlib.pyplot as plt",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4],[1,3,6,9],'b+')",
     "img": null
    },
    {
-    "text": "plt.plot([1,2,3,4],[1,3,6,9],'b+')",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4],[1,3,6,9],'b++')",
     "img": null
    },
    {
-    "text": "import matplotlib.pyplot as plt",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4],[1,3,6,9],'b*')",
     "img": null
    },
    {
-    "text": "plt.plot([1,2,3,4],[1,3,6,9],'b++') import matplotlib.pyplot as plt plt.plot([1,2,3,4],[1,3,6,9],'b*')",
-    "img": null
-   },
-   {
-    "text": "import matplotlib.pyplot as plt",
-    "img": null
-   },
-   {
-    "text": "plt.plot([1,2,3,4],[1,3,6,9],'b--')",
+    "text": "import matplotlib.pyplot as plt\nplt.plot([1,2,3,4],[1,3,6,9],'b--')",
     "img": null
    }
   ],
   "answer": [
-   0,
-   2,
-   4
+   1
   ],
   "answer_source": "official",
   "explanation": null,
   "norm": "which of the following code is invalid",
   "norm_options": [
-   "import matplotlib pyplot as plt",
-   "import matplotlib pyplot as plt",
-   "import matplotlib pyplot as plt",
-   "plt plot 1 2 3 4 1 3 6 9 b",
-   "plt plot 1 2 3 4 1 3 6 9 b",
-   "plt plot 1 2 3 4 1 3 6 9 b import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b"
+   "import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b",
+   "import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b",
+   "import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b",
+   "import matplotlib pyplot as plt plt plot 1 2 3 4 1 3 6 9 b"
   ]
  },
  {
@@ -22369,20 +22333,44 @@
   "num": 8,
   "file": "quizzes/2021-jan/week-03-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "reveal",
+  "type": "single",
   "context": null,
-  "text": "In how many different ways can you arrange the letters in the word COMP?\n24\n4\n6\n20\nAccepted answer(s): 24",
+  "text": "In how many different ways can you arrange the letters in the word COMP?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2021-jan/img/w03-q08-p11.png"
   ],
-  "options": [],
-  "answer": [],
+  "options": [
+   {
+    "text": "24",
+    "img": null
+   },
+   {
+    "text": "4",
+    "img": null
+   },
+   {
+    "text": "6",
+    "img": null
+   },
+   {
+    "text": "20",
+    "img": null
+   }
+  ],
+  "answer": [
+   0
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in how many different ways can you arrange the letters in the word comp 24 4 6 20 accepted answer s 24",
-  "norm_options": []
+  "norm": "in how many different ways can you arrange the letters in the word comp",
+  "norm_options": [
+   "20",
+   "24",
+   "4",
+   "6"
+  ]
  },
  {
   "id": "2021-jan/w03/q09",
@@ -22435,21 +22423,45 @@
   "num": 9,
   "file": "quizzes/2021-jan/week-03-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "reveal",
+  "type": "single",
   "context": null,
-  "text": "The method open(“ﬁle1.txt”, r+) opens the ﬁle ﬁle1.txt in\nRead mode\nWrite mode\nRead write mode\nAppend mode\nAccepted answer(s): Read write mode",
+  "text": "The method open(“ﬁle1.txt”, r+) opens the ﬁle ﬁle1.txt in",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2021-jan/img/w03-q09-p11.png",
    "quizzes/2021-jan/img/w03-q09-p12.png"
   ],
-  "options": [],
-  "answer": [],
+  "options": [
+   {
+    "text": "Read mode",
+    "img": null
+   },
+   {
+    "text": "Write mode",
+    "img": null
+   },
+   {
+    "text": "Read write mode",
+    "img": null
+   },
+   {
+    "text": "Append mode",
+    "img": null
+   }
+  ],
+  "answer": [
+   2
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "the method open le1 txt r opens the le le1 txt in read mode write mode read write mode append mode accepted answer s read write mode",
-  "norm_options": []
+  "norm": "the method open file1 txt r opens the file file1 txt in",
+  "norm_options": [
+   "append mode",
+   "read mode",
+   "read write mode",
+   "write mode"
+  ]
  },
  {
   "id": "2021-jan/w03/q10",
@@ -27735,7 +27747,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "In \"Guess the Movie Name\" game, we initially have all blanks (or *). Slowly as the person",
+  "text": "In \"Guess the Movie Name\" game, we initially have all blanks (or *). Slowly as the person guesses a letter the question undergoes a change in state (the corresponding letter is opened up). If the movie name is BANGALORE DAYS, which of the following can never be a state of the question during the run of the program?",
   "code": null,
   "images": [],
   "crops": [
@@ -27744,19 +27756,7 @@
   ],
   "options": [
    {
-    "text": "In association with guesses a letter the question undergoes a change in state (the corresponding letter is opened up). If the movie name is BANGALORE DAYS, which of the following can never be a state of the question during the run of the program?",
-    "img": null
-   },
-   {
-    "text": "Funded by",
-    "img": null
-   },
-   {
     "text": "B  _  _  G  A  _ O  _  _       D_ Y_",
-    "img": null
-   },
-   {
-    "text": "Powered by",
     "img": null
    },
    {
@@ -27773,19 +27773,16 @@
    }
   ],
   "answer": [
-   2
+   0
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in guess the movie name game we initially have all blanks or slowly as the person",
+  "norm": "in guess the movie name game we initially have all blanks or slowly as the person guesses a letter the question undergoes a change in state the corresponding letter is opened up if the movie name is bangalore days which of the following can never be a state of the question during the run of the program",
   "norm_options": [
    "a a o e a y",
    "b g a o d y",
-   "funded by",
-   "in association with guesses a letter the question undergoes a change in state the corresponding letter is opened up if the movie name is bangalore days which of the following can never be a state of the question during the run of the program",
    "o e",
-   "o e y",
-   "powered by"
+   "o e y"
   ]
  },
  {
@@ -28833,8 +28830,8 @@
   "norm_options": [
    "2k",
    "k",
-   "k",
-   "k 2"
+   "k 2",
+   "k2"
   ]
  },
  {
@@ -30478,7 +30475,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What does the following code snippet in python compute?",
+  "text": "What does the following code snippet in python compute?\nnum = int(input())\nfor i in range(1, 11):\nprint(num*i)",
   "code": null,
   "images": [],
   "crops": [
@@ -30486,18 +30483,6 @@
    "quizzes/2021-jan/img/w04-q06-p15.png"
   ],
   "options": [
-   {
-    "text": "num = int(input())",
-    "img": null
-   },
-   {
-    "text": "for i in range(1, 11):",
-    "img": null
-   },
-   {
-    "text": "print(num*i)",
-    "img": null
-   },
    {
     "text": "Factorial of num",
     "img": null
@@ -30516,19 +30501,16 @@
    }
   ],
   "answer": [
-   4
+   1
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what does the following code snippet in python compute",
+  "norm": "what does the following code snippet in python compute num int input for i in range 1 11 print num i",
   "norm_options": [
    "factorial of num",
-   "for i in range 1 11",
    "multiplication table of num",
    "none",
-   "num int input",
-   "powers of num",
-   "print num i"
+   "powers of num"
   ]
  },
  {
@@ -30770,7 +30752,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in guess the movie name game at most how many guesses do you need to make for a ve lettered movie name with all distinct letters in it",
+  "norm": "in guess the movie name game at most how many guesses do you need to make for a five lettered movie name with all distinct letters in it",
   "norm_options": [
    "120",
    "5",
@@ -36515,11 +36497,7 @@
     "img": null
    },
    {
-    "text": "[100,70,40,25,10] © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -",
-    "img": null
-   },
-   {
-    "text": "In association with",
+    "text": "[100,70,40,25,10]",
     "img": null
    },
    {
@@ -36540,9 +36518,8 @@
   "norm_options": [
    "10 25 40 100 70",
    "10 25 40 70 100",
-   "100 70 40 25 10 2014 nptel privacy terms honor code faqs",
-   "25 10 40 70 100",
-   "in association with"
+   "100 70 40 25 10",
+   "25 10 40 70 100"
   ]
  },
  {
@@ -38834,7 +38811,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following operation on the dictionary marks scored in question 1 will remove a speci ed key and return the corresponding value",
+  "norm": "which of the following operation on the dictionary marks scored in question 1 will remove a specified key and return the corresponding value",
   "norm_options": [
    "marks scored del",
    "marks scored pop",
@@ -38906,7 +38883,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "speech recognition does not work on wav extension les",
+  "norm": "speech recognition does not work on wav extension files",
   "norm_options": [
    "false",
    "true"
@@ -39087,7 +39064,7 @@
   "norm": "in the game rock paper and scissor if player one enters 456 and player two enters 684 with their secret bits 0 and 2 respectively then the expected outcome of the game would be",
   "norm_options": [
    "draw",
-   "insuf cient data",
+   "insufficient data",
    "player one wins",
    "player two wins"
   ]
@@ -39109,15 +39086,15 @@
   "crops": [],
   "options": [
    {
-    "text": "Ajay",
+    "text": "Ajay\nsem : 3\nroll_no : 1\ntotal_marks : 85\nShwetha\nsem : 3\nroll_no : 2\ntotal_marks : 90",
     "img": null
    },
    {
-    "text": "Ajay, sem : 3,roll_no : 1, total_marks : 85",
+    "text": "Ajay, sem : 3,roll_no : 1, total_marks : 85\nShwetha, sem : 3, roll_no : 2, total_marks : 90",
     "img": null
    },
    {
-    "text": "{ Ajay, sem : 3,roll_no : 1, total_marks : 85 , Shwetha, sem : 3,",
+    "text": "{ Ajay, sem : 3,roll_no : 1, total_marks : 85 , Shwetha, sem : 3,\nroll_no : 2, total_marks : 90 }",
     "img": null
    },
    {
@@ -39125,14 +39102,16 @@
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   0
+  ],
   "answer_source": "uploader",
   "explanation": null,
   "norm": "what is the output of the following code",
   "norm_options": [
-   "ajay",
-   "ajay sem 3 roll no 1 total marks 85",
-   "ajay sem 3 roll no 1 total marks 85 shwetha sem 3",
+   "ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90",
+   "ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90",
+   "ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90",
    "none of the above"
   ]
  },
@@ -39145,7 +39124,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What is the output of the following code:\nAjay\nsem : 3\nroll_no : 1\ntotal_marks : 85\nShwetha\nsem : 3\nroll_no : 2\ntotal_marks : 90\nAjay, sem : 3,roll_no : 1, total_marks : 85\nShwetha, sem : 3, roll_no : 2, total_marks : 90\n{ Ajay, sem : 3,roll_no : 1, total_marks : 85 , Shwetha, sem : 3,\nroll_no : 2, total_marks : 90 }",
+  "text": "What is the output of the following code:",
   "code": null,
   "images": [],
   "crops": [
@@ -39154,15 +39133,32 @@
   ],
   "options": [
    {
+    "text": "Ajay\nsem : 3\nroll_no : 1\ntotal_marks : 85\nShwetha\nsem : 3\nroll_no : 2\ntotal_marks : 90",
+    "img": null
+   },
+   {
+    "text": "Ajay, sem : 3,roll_no : 1, total_marks : 85\nShwetha, sem : 3, roll_no : 2, total_marks : 90",
+    "img": null
+   },
+   {
+    "text": "{ Ajay, sem : 3,roll_no : 1, total_marks : 85 , Shwetha, sem : 3,\nroll_no : 2, total_marks : 90 }",
+    "img": null
+   },
+   {
     "text": "none of the above",
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   0
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what is the output of the following code ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90 ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90 ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90",
+  "norm": "what is the output of the following code",
   "norm_options": [
+   "ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90",
+   "ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90",
+   "ajay sem 3 roll no 1 total marks 85 shwetha sem 3 roll no 2 total marks 90",
    "none of the above"
   ]
  },
@@ -39207,21 +39203,35 @@
   "num": 7,
   "file": "quizzes/2021-jan/week-05-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "reveal",
+  "type": "single",
   "context": null,
-  "text": "Binary search can be applied on any list of random elements\nTrue\nFalse\nAccepted answer(s): False",
+  "text": "Binary search can be applied on any list of random elements",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2021-jan/img/w05-q07-p20.png",
    "quizzes/2021-jan/img/w05-q07-p21.png"
   ],
-  "options": [],
-  "answer": [],
+  "options": [
+   {
+    "text": "True",
+    "img": null
+   },
+   {
+    "text": "False",
+    "img": null
+   }
+  ],
+  "answer": [
+   1
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "binary search can be applied on any list of random elements true false accepted answer s false",
-  "norm_options": []
+  "norm": "binary search can be applied on any list of random elements",
+  "norm_options": [
+   "false",
+   "true"
+  ]
  },
  {
   "id": "2021-jan/w05/q08",
@@ -39308,7 +39318,7 @@
   "norm": "which of the following is true about bubble sort",
   "norm_options": [
    "in each iteration every consecutive pairs of the unsorted list are compared",
-   "in each iteration the rst element in unsorted list is compared with the remaining elements",
+   "in each iteration the first element in unsorted list is compared with the remaining elements",
    "the algorithm stops when the list is already sorted",
    "there is swapping of elements in each comparison made"
   ]
@@ -39401,7 +39411,7 @@
   "norm_options": [
    "rolls the dices as long as the input is y",
    "rolls the dices as long as the input is y or the sum of their face values is 12",
-   "rolls the dices in nitely",
+   "rolls the dices infinitely",
    "rolls the dices until the sum of their face values is 12"
   ]
  },
@@ -41993,8 +42003,8 @@
   "norm_options": [
    "2n",
    "n",
-   "n",
-   "n 1"
+   "n 1",
+   "n2"
   ]
  },
  {
@@ -46248,11 +46258,7 @@
     "img": null
    },
    {
-    "text": "Caesar and Substitution cipher are totally unrelated © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -",
-    "img": null
-   },
-   {
-    "text": "In association with",
+    "text": "Caesar and Substitution cipher are totally unrelated",
     "img": null
    },
    {
@@ -46265,16 +46271,15 @@
    }
   ],
   "answer": [
-   3
+   2
   ],
   "answer_source": "official",
   "explanation": null,
   "norm": "which of the following statements is true",
   "norm_options": [
    "both caesar cipher and substitution cipher are the same",
-   "caesar and substitution cipher are totally unrelated 2014 nptel privacy terms honor code faqs",
+   "caesar and substitution cipher are totally unrelated",
    "caesar cipher is a special case of substitution cipher",
-   "in association with",
    "substitution cipher is a special case of caesar cipher"
   ]
  },
@@ -49137,21 +49142,45 @@
   "num": 8,
   "file": "quizzes/2021-jan/week-06-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "reveal",
+  "type": "single",
   "context": null,
-  "text": "What is the result of the following recursive function call?\n2\n6\n24\n1\n2\n6\n24\n2\n4\n12\n1\n2\n4\n12\nAccepted answer(s): 2; 6; 24",
+  "text": "What is the result of the following recursive function call?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2021-jan/img/w06-q08-p27.png",
    "quizzes/2021-jan/img/w06-q08-p28.png"
   ],
-  "options": [],
-  "answer": [],
+  "options": [
+   {
+    "text": "2\n6\n24",
+    "img": null
+   },
+   {
+    "text": "1\n2\n6\n24",
+    "img": null
+   },
+   {
+    "text": "2\n4\n12",
+    "img": null
+   },
+   {
+    "text": "1\n2\n4\n12",
+    "img": null
+   }
+  ],
+  "answer": [
+   0
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what is the result of the following recursive function call 2 6 24 1 2 6 24 2 4 12 1 2 4 12 accepted answer s 2 6 24",
-  "norm_options": []
+  "norm": "what is the result of the following recursive function call",
+  "norm_options": [
+   "1 2 4 12",
+   "1 2 6 24",
+   "2 4 12",
+   "2 6 24"
+  ]
  },
  {
   "id": "2021-jan/w06/q09",
@@ -49242,7 +49271,7 @@
    "1",
    "24",
    "recursion error",
-   "runs in nitely"
+   "runs infinitely"
   ]
  },
  {
@@ -49310,7 +49339,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "a program can be written using recursive function only if it can be recursively de ned",
+  "norm": "a program can be written using recursive function only if it can be recursively defined",
   "norm_options": [
    "false",
    "true"
@@ -50154,7 +50183,7 @@
    },
    {
     "text": "",
-    "img": null
+    "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W6_Q10.D.1.PNG"
    }
   ],
   "answer": [
@@ -53028,8 +53057,8 @@
   "norm_options": [
    "o 1 because no variables are used",
    "o log n",
-   "o n",
-   "o n due to recursion stack"
+   "o n due to recursion stack",
+   "o n2"
   ]
  },
  {
@@ -56655,7 +56684,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in a le with extension csv what does csv mean",
+  "norm": "in a file with extension csv what does csv mean",
   "norm_options": [
    "carry separated value",
    "class separated value",
@@ -62507,15 +62536,11 @@
     "img": null
    },
    {
-    "text": "It is a library which helps in sentiment analysis. © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -",
+    "text": "It is a library which helps in sentiment analysis.",
     "img": null
    },
    {
     "text": "It helps to generate random numbers.",
-    "img": null
-   },
-   {
-    "text": "In association with",
     "img": null
    },
    {
@@ -62530,10 +62555,9 @@
   "explanation": null,
   "norm": "what is lexicon",
   "norm_options": [
-   "in association with",
    "it helps to generate random numbers",
    "it is a dictionary of words",
-   "it is a library which helps in sentiment analysis 2014 nptel privacy terms honor code faqs",
+   "it is a library which helps in sentiment analysis",
    "none of the above"
   ]
  },
@@ -64684,7 +64708,7 @@
    "tuple consumes less memory",
    "tuple supports item deletion",
    "tuples are immutable",
-   "tuples does not support modi cation"
+   "tuples does not support modification"
   ]
  },
  {
@@ -65141,7 +65165,7 @@
   "norm": "what does the following code snippet in python compute",
   "norm_options": [
    "checks whether the two given texts are same",
-   "nds all the occurrences of text2 in text1",
+   "finds all the occurrences of text2 in text1",
    "none of the above",
    "searches for text2 in text1"
   ]
@@ -71139,7 +71163,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "State True or False:\nAn image is a matrix of pixels.\n© 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -",
+  "text": "State True or False:\nAn image is a matrix of pixels.",
   "code": null,
   "images": [],
   "crops": [
@@ -71148,32 +71172,22 @@
   ],
   "options": [
    {
-    "text": "In association with",
-    "img": null
-   },
-   {
     "text": "True",
     "img": null
    },
    {
     "text": "False",
     "img": null
-   },
-   {
-    "text": "Funded by",
-    "img": null
    }
   ],
   "answer": [
-   1
+   0
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "state true or false an image is a matrix of pixels 2014 nptel privacy terms honor code faqs",
+  "norm": "state true or false an image is a matrix of pixels",
   "norm_options": [
    "false",
-   "funded by",
-   "in association with",
    "true"
   ]
  },
@@ -72097,12 +72111,12 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "if the area of india is 10400 km calculate the area of maharashtra if points are placed randomly in the map of india then number of points in india except maharashtra is 90 and number of points in maharashtra is 23",
+  "norm": "if the area of india is 10400 km2 calculate the area of maharashtra if points are placed randomly in the map of india then number of points in india except maharashtra is 90 and number of points in maharashtra is 23",
   "norm_options": [
-   "2500 33km",
-   "2500 33m",
-   "2657 77km",
-   "2657 77m"
+   "2500 33km2",
+   "2500 33m2",
+   "2657 77km2",
+   "2657 77m2"
   ]
  },
  {
@@ -73409,7 +73423,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What is the output of the following code?\n[’Have nice day, my friend!!! Programming in Python is fun’]\n[’Have nice day, my friend!!!’, ’Programming in Python is fun’]\n’Have nice day, my friend!!!’",
+  "text": "What is the output of the following code?",
   "code": null,
   "images": [],
   "crops": [
@@ -73417,16 +73431,33 @@
   ],
   "options": [
    {
-    "text": "’Programming in Python is fun’ error",
+    "text": "[’Have nice day, my friend!!! Programming in Python is fun’]",
+    "img": null
+   },
+   {
+    "text": "[’Have nice day, my friend!!!’, ’Programming in Python is fun’]",
+    "img": null
+   },
+   {
+    "text": "’Have nice day, my friend!!!’\n’Programming in Python is fun’",
+    "img": null
+   },
+   {
+    "text": "error",
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   1
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what is the output of the following code have nice day my friend programming in python is fun have nice day my friend programming in python is fun have nice day my friend",
+  "norm": "what is the output of the following code",
   "norm_options": [
-   "programming in python is fun error"
+   "error",
+   "have nice day my friend programming in python is fun",
+   "have nice day my friend programming in python is fun",
+   "have nice day my friend programming in python is fun"
   ]
  },
  {
@@ -73482,9 +73513,9 @@
   "num": 4,
   "file": "quizzes/2021-jan/week-09-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "reveal",
+  "type": "single",
   "context": null,
-  "text": "What is the output of the following code?\nnone of the above",
+  "text": "What is the output of the following code?",
   "code": null,
   "images": [],
   "crops": [
@@ -73492,12 +73523,19 @@
    "quizzes/2021-jan/img/w09-q04-p49.png",
    "quizzes/2021-jan/img/w09-q04-p50.png"
   ],
-  "options": [],
+  "options": [
+   {
+    "text": "none of the above",
+    "img": null
+   }
+  ],
   "answer": [],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what is the output of the following code none of the above",
-  "norm_options": []
+  "norm": "what is the output of the following code",
+  "norm_options": [
+   "none of the above"
+  ]
  },
  {
   "id": "2021-jan/w09/q05",
@@ -77856,17 +77894,13 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "A complete graph will have a degree of separation?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2025-jan/img/w09-q09-p48.png"
   ],
   "options": [
-   {
-    "text": "A complete graph will have a degree of separation?",
-    "img": null
-   },
    {
     "text": "1",
     "img": null
@@ -77885,16 +77919,15 @@
    }
   ],
   "answer": [
-   1
+   0
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "a complete graph will have a degree of separation",
   "norm_options": [
    "1",
    "2",
    "3",
-   "a complete graph will have a degree of separation",
    "depends on the number of nodes"
   ]
  },
@@ -79751,28 +79784,25 @@
     "img": null
    },
    {
-    "text": "5 © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -",
+    "text": "5",
     "img": null
    },
    {
     "text": "6",
     "img": null
-   },
-   {
-    "text": "In association with",
-    "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   2
+  ],
   "answer_source": "official",
   "explanation": null,
   "norm": "what is the count obtained after cancelling the common letters between alia and ankit according to the game flames",
   "norm_options": [
    "3",
    "4",
-   "5 2014 nptel privacy terms honor code faqs",
-   "6",
-   "in association with"
+   "5",
+   "6"
   ]
  },
  {
@@ -81970,7 +82000,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "Predict the output of the following code",
   "code": null,
   "images": [],
   "crops": [
@@ -81978,16 +82008,33 @@
   ],
   "options": [
    {
-    "text": "Predict the output of the following code Hellogoodmorning Hello goodmorning Hello good morning error",
+    "text": "Hellogoodmorning",
+    "img": null
+   },
+   {
+    "text": "Hello goodmorning",
+    "img": null
+   },
+   {
+    "text": "Hello good morning",
+    "img": null
+   },
+   {
+    "text": "error",
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   0
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "predict the output of the following code",
   "norm_options": [
-   "predict the output of the following code hellogoodmorning hello goodmorning hello good morning error"
+   "error",
+   "hello good morning",
+   "hello goodmorning",
+   "hellogoodmorning"
   ]
  },
  {
@@ -82043,20 +82090,44 @@
   "num": 4,
   "file": "quizzes/2021-jan/week-10-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "reveal",
+  "type": "single",
   "context": null,
-  "text": "What does the following code snippet in python print?\nder\nind\nnde\nde\nAccepted answer(s): nde",
+  "text": "What does the following code snippet in python print?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2021-jan/img/w10-q04-p54.png"
   ],
-  "options": [],
-  "answer": [],
+  "options": [
+   {
+    "text": "der",
+    "img": null
+   },
+   {
+    "text": "ind",
+    "img": null
+   },
+   {
+    "text": "nde",
+    "img": null
+   },
+   {
+    "text": "de",
+    "img": null
+   }
+  ],
+  "answer": [
+   2
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what does the following code snippet in python print der ind nde de accepted answer s nde",
-  "norm_options": []
+  "norm": "what does the following code snippet in python print",
+  "norm_options": [
+   "de",
+   "der",
+   "ind",
+   "nde"
+  ]
  },
  {
   "id": "2021-jan/w10/q05",
@@ -82109,21 +82180,45 @@
   "num": 5,
   "file": "quizzes/2021-jan/week-10-portal-print.md",
   "kind": "portal_print_parsed",
-  "type": "reveal",
+  "type": "single",
   "context": null,
-  "text": "In python, the default value of start and end index of list slicing are which of the\nfollowing options?\n1, length of the list\n0, length of the list\n0, length of the list -1\n1, length of the list -1\nAccepted answer(s): 0, length of the list",
+  "text": "In python, the default value of start and end index of list slicing are which of the\nfollowing options?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2021-jan/img/w10-q05-p54.png",
    "quizzes/2021-jan/img/w10-q05-p55.png"
   ],
-  "options": [],
-  "answer": [],
+  "options": [
+   {
+    "text": "1, length of the list",
+    "img": null
+   },
+   {
+    "text": "0, length of the list",
+    "img": null
+   },
+   {
+    "text": "0, length of the list -1",
+    "img": null
+   },
+   {
+    "text": "1, length of the list -1",
+    "img": null
+   }
+  ],
+  "answer": [
+   1
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in python the default value of start and end index of list slicing are which of the following options 1 length of the list 0 length of the list 0 length of the list 1 1 length of the list 1 accepted answer s 0 length of the list",
-  "norm_options": []
+  "norm": "in python the default value of start and end index of list slicing are which of the following options",
+  "norm_options": [
+   "0 length of the list",
+   "0 length of the list 1",
+   "1 length of the list",
+   "1 length of the list 1"
+  ]
  },
  {
   "id": "2021-jan/w10/q06",
@@ -85219,7 +85314,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "in the josephus problem a group of soldiers forms a circle and every k soldier is eliminated until only one remains what would be the output of the following code def josephus n k if n 1 return 1 else return josephus n 1 k k 1 n 1 n 25 number of soldiers k 3 elimination factor result josephus n k print result",
+  "norm": "in the josephus problem a group of soldiers forms a circle and every kth soldier is eliminated until only one remains what would be the output of the following code def josephus n k if n 1 return 1 else return josephus n 1 k k 1 n 1 n 25 number of soldiers k 3 elimination factor result josephus n k print result",
   "norm_options": [
    "13",
    "14",
@@ -90553,10 +90648,10 @@
   "explanation": null,
   "norm": "what does the following code print",
   "norm_options": [
-   "lists all leapdays between the speci ed years",
-   "lists the leapdays and its count between the speci ed years",
+   "lists all leapdays between the specified years",
+   "lists the leapdays and its count between the specified years",
    "none",
-   "number of leapdays between the speci ed years"
+   "number of leapdays between the specified years"
   ]
  },
  {
@@ -90803,7 +90898,7 @@
   "answer": [],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following is the correct code to nd whether a given year is a leap year or not",
+  "norm": "which of the following is the correct code to find whether a given year is a leap year or not",
   "norm_options": []
  },
  {
@@ -96635,7 +96730,7 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "In the point distribution method of page rank algorithm, at each iteration, each node shares its pagerank value by […]** (the rest of the line is cut off at the frame edge)",
+  "text": "In the point distribution method of page rank algorithm, at each iteration, each node shares its pagerank value by",
   "code": null,
   "images": [],
   "crops": [],
@@ -96662,7 +96757,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in the point distribution method of page rank algorithm at each iteration each node shares its pagerank value by the rest of the line is cut off at the frame edge",
+  "norm": "in the point distribution method of page rank algorithm at each iteration each node shares its pagerank value by",
   "norm_options": [
    "dividing its pagerank value equally to all the outgoing links",
    "dividing its pagerank value randomly to all the outgoing links",
@@ -97551,7 +97646,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Comment on the purpose of the following command.",
+  "text": "Comment on the purpose of the following command.\nsorted(p.items(),key=operator.itemgetter(1))",
   "code": null,
   "images": [],
   "crops": [
@@ -97580,7 +97675,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "comment on the purpose of the following command",
+  "norm": "comment on the purpose of the following command sorted p items key operator itemgetter 1",
   "norm_options": [
    "sort the elements of list p by values",
    "sort the items of dictionary p by key",
@@ -98170,7 +98265,7 @@
   "norm": "in page ranking algorithm",
   "norm_options": [
    "all the above statements are true",
-   "we always begin ranking from the rst node",
+   "we always begin ranking from the first node",
    "we randomly move from one node to another",
    "we stop at the sink node"
   ]
@@ -98257,10 +98352,10 @@
   "explanation": null,
   "norm": "in barbell graph function of networkx",
   "norm_options": [
-   "the rst parameter represents number of communities and the second parameter represents number of nodes in between the communities",
-   "the rst parameter represents number of nodes in between the communities and the second parameter represents number of communities",
-   "the rst parameter represents number of nodes in between the communities and the second parameter represents number of nodes in the two communities",
-   "the rst parameter represents number of nodes in the two communities and the second parameter represents number of nodes in between the communities"
+   "the first parameter represents number of communities and the second parameter represents number of nodes in between the communities",
+   "the first parameter represents number of nodes in between the communities and the second parameter represents number of communities",
+   "the first parameter represents number of nodes in between the communities and the second parameter represents number of nodes in the two communities",
+   "the first parameter represents number of nodes in the two communities and the second parameter represents number of nodes in between the communities"
   ]
  },
  {
@@ -98670,19 +98765,19 @@
     "img": null
    },
    {
-    "text": "random.random() You may submit any number of times before the due date. The ﬁnal submission will be considered for grading. Submit Answers",
+    "text": "random.random()",
     "img": null
    }
   ],
   "answer": [],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following python function will return random oating point number between 0 and 1",
+  "norm": "which of the following python function will return random floating point number between 0 and 1",
   "norm_options": [
+   "random float",
    "random frandom",
-   "random oat",
-   "random random oat",
-   "random random you may submit any number of times before the due date the nal submission will be considered for grading submit answers"
+   "random random",
+   "random randomfloat"
   ]
  },
  {
@@ -101770,17 +101865,13 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "What is the ultimate goal of the Collatz Conjecture sequence?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2024-jul/img/w12-q03-p81.png"
   ],
   "options": [
-   {
-    "text": "What is the ultimate goal of the Collatz Conjecture sequence?",
-    "img": null
-   },
    {
     "text": "Reach the number 0",
     "img": null
@@ -101799,17 +101890,16 @@
    }
   ],
   "answer": [
-   3
+   2
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "what is the ultimate goal of the collatz conjecture sequence",
   "norm_options": [
    "cycle through odd numbers",
    "reach the number 0",
    "reach the number 1",
-   "return to the starting number",
-   "what is the ultimate goal of the collatz conjecture sequence"
+   "return to the starting number"
   ]
  },
  {
@@ -101821,17 +101911,13 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "Which of the following best describes the Collatz Conjecture?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2024-jul/img/w12-q04-p81.png"
   ],
   "options": [
-   {
-    "text": "Which of the following best describes the Collatz Conjecture?",
-    "img": null
-   },
    {
     "text": "It has been proven for all natural numbers",
     "img": null
@@ -101850,17 +101936,16 @@
    }
   ],
   "answer": [
-   2
+   1
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "which of the following best describes the collatz conjecture",
   "norm_options": [
    "it has been proven for all natural numbers",
    "it is a trivial problem with a simple solution",
    "it only applies to prime numbers",
-   "it remains an unsolved problem in mathematics",
-   "which of the following best describes the collatz conjecture"
+   "it remains an unsolved problem in mathematics"
   ]
  },
  {
@@ -101872,17 +101957,13 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "What is the main idea behind the PageRank algorithm used by Google?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2024-jul/img/w12-q05-p81.png"
   ],
   "options": [
-   {
-    "text": "What is the main idea behind the PageRank algorithm used by Google?",
-    "img": null
-   },
    {
     "text": "Count the number of keywords on a page",
     "img": null
@@ -101901,17 +101982,16 @@
    }
   ],
   "answer": [
-   2
+   1
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "what is the main idea behind the pagerank algorithm used by google",
   "norm_options": [
    "count the number of keywords on a page",
    "rank pages alphabetically",
    "rank pages based on random walks on a graph of web links",
-   "rank pages based on user reviews",
-   "what is the main idea behind the pagerank algorithm used by google"
+   "rank pages based on user reviews"
   ]
  },
  {
@@ -101923,17 +102003,13 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "In PageRank, what happens when a page has a higher number of inbound links from other important pages?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2024-jul/img/w12-q06-p81.png"
   ],
   "options": [
-   {
-    "text": "In PageRank, what happens when a page has a higher number of inbound links from",
-    "img": null
-   },
    {
     "text": "Its rank decreases due to the load on the server",
     "img": null
@@ -101952,13 +102028,12 @@
    }
   ],
   "answer": [
-   2
+   1
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "in pagerank what happens when a page has a higher number of inbound links from other important pages",
   "norm_options": [
-   "in pagerank what happens when a page has a higher number of inbound links from",
    "it is marked as a less relevant page",
    "its rank decreases due to the load on the server",
    "its rank increases",
@@ -101974,7 +102049,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "Which technique is used in the PageRank algorithm to determine the rank of a web page?",
   "code": null,
   "images": [],
   "crops": [
@@ -101982,10 +102057,6 @@
    "quizzes/2024-jul/img/w12-q07-p82.png"
   ],
   "options": [
-   {
-    "text": "Which technique is used in the PageRank algorithm to determine the rank of a web",
-    "img": null
-   },
    {
     "text": "Depth-first search",
     "img": null
@@ -102004,17 +102075,16 @@
    }
   ],
   "answer": [
-   3
+   2
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "which technique is used in the pagerank algorithm to determine the rank of a web page",
   "norm_options": [
    "data scraping",
    "depth first search",
    "hyperlink analysis",
-   "random walk simulation",
-   "which technique is used in the pagerank algorithm to determine the rank of a web"
+   "random walk simulation"
   ]
  },
  {
@@ -102026,17 +102096,13 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "PageRank relies heavily on the structure of the:",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2024-jul/img/w12-q08-p82.png"
   ],
   "options": [
-   {
-    "text": "PageRank relies heavily on the structure of the:",
-    "img": null
-   },
    {
     "text": "Web page content",
     "img": null
@@ -102055,14 +102121,13 @@
    }
   ],
   "answer": [
-   2
+   1
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "pagerank relies heavily on the structure of the",
   "norm_options": [
    "hyperlink network between web pages",
-   "pagerank relies heavily on the structure of the",
    "server location",
    "user interaction data",
    "web page content"
@@ -102077,17 +102142,13 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "PageRank was developed primarily to solve which problem?",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2024-jul/img/w12-q09-p82.png"
   ],
   "options": [
-   {
-    "text": "PageRank was developed primarily to solve which problem?",
-    "img": null
-   },
    {
     "text": "Calculating the shortest path in a network",
     "img": null
@@ -102106,15 +102167,14 @@
    }
   ],
   "answer": [
-   2
+   1
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "pagerank was developed primarily to solve which problem",
   "norm_options": [
    "calculating the shortest path in a network",
    "counting the total number of web pages",
-   "pagerank was developed primarily to solve which problem",
    "ranking the importance of web pages on the internet",
    "reducing the size of search engine databases"
   ]
@@ -102128,7 +102188,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "(question text in image)",
+  "text": "For which values between 200 and 3000 does the Collatz Conjecture not converge to 1?",
   "code": null,
   "images": [],
   "crops": [
@@ -102137,10 +102197,6 @@
    "quizzes/2024-jul/img/w12-q10-p84.png"
   ],
   "options": [
-   {
-    "text": "For which values between 200 and 3000 does the Collatz Conjecture not converge to",
-    "img": null
-   },
    {
     "text": "2498.0",
     "img": null
@@ -102159,16 +102215,15 @@
    }
   ],
   "answer": [
-   4
+   3
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
+  "norm": "for which values between 200 and 3000 does the collatz conjecture not converge to 1",
   "norm_options": [
    "1576 0",
    "2498 0",
    "2789 0",
-   "for which values between 200 and 3000 does the collatz conjecture not converge to",
    "none of the given options"
   ]
  },

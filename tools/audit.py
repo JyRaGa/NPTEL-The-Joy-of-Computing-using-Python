@@ -55,22 +55,22 @@ def check(g):
             out.append(("high", f"{len(opts)} option(s) on a choice question"))
         if len(opts) > 6:
             out.append(("med", f"{len(opts)} options; probably merged or stray lines"))
-        if any(not o and not opts[i].get("img") for i, o in enumerate(otexts)):
+        if any(not (opts[i]["text"] or "").strip() and not opts[i].get("img") for i in range(len(opts))):  # raw text: "_" or "**" are real options
             out.append(("high", "an option is empty"))
-        exact = [re.sub(r"\s+", " ", (o["text"] or "") + "|" + (o.get("code") or "") + "|" + (o.get("img") or "")).strip().lower() for o in opts]
+        exact = [re.sub(r"\s+", " ", (o["text"] or "") + "|" + (o.get("code") or "") + "|" + (o.get("img") or "")).strip() for o in opts]  # case matters: %c vs %C
         dup = {o.strip("|") for o in exact if o.strip("|") and exact.count(o) > 1}
         if dup:
             out.append(("high", f"identical options: {', '.join(sorted(dup))[:60]}"))
         ph = [i for i, o in enumerate(opts) if re.fullmatch(r"option \d+", otexts[i]) and not o.get("img") and not o.get("code")]
         if ph and not g["images"] and not g["crops"]:
             out.append(("high", "options are 'Option N' placeholders with no picture, code or crop"))
-        junk = [o["text"][:40] for o in opts if JUNK_OPT.search(o["text"]) or len(o["text"]) > 160]
+        junk = [o["text"][:40] for o in opts if JUNK_OPT.search(o["text"]) or (len(o["text"]) > 300 and chr(10) not in o["text"])]  # multi-line options are code blocks
         if junk:
             out.append(("high", f"option looks like stray page text: “{junk[0]}”"))
         ans = g["answer"] if isinstance(g["answer"], list) else []
         if not ans:
             out.append(("low", "no answer"))
-    if g.get("broken_image"):
+    if g.get("broken_image") and not g["images"] and not g["crops"]:  # a screenshot on the card replaces the lost embed
         out.append(("high", "source image link is broken"))
     return out
 

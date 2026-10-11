@@ -67,21 +67,20 @@ ______
 ![page crop](img/w05-q05-p19.png)
 
 ### Q6. What is the output of the following code:
-Ajay
-sem : 3
-roll_no : 1
-total_marks : 85
-Shwetha
-sem : 3
-roll_no : 2
-total_marks : 90
-Ajay, sem : 3,roll_no : 1, total_marks : 85
-Shwetha, sem : 3, roll_no : 2, total_marks : 90
-{ Ajay, sem : 3,roll_no : 1, total_marks : 85 , Shwetha, sem : 3,
-roll_no : 2, total_marks : 90 }
 
+- [x] Ajay
+  sem : 3
+  roll_no : 1
+  total_marks : 85
+  Shwetha
+  sem : 3
+  roll_no : 2
+  total_marks : 90
+- [ ] Ajay, sem : 3,roll_no : 1, total_marks : 85
+  Shwetha, sem : 3, roll_no : 2, total_marks : 90
+- [ ] { Ajay, sem : 3,roll_no : 1, total_marks : 85 , Shwetha, sem : 3,
+  roll_no : 2, total_marks : 90 }
 - [ ] none of the above
-> Accepted answer (not matched to a printed option): Ajay; sem : 3; roll_no : 1; total_marks : 85; Shwetha; sem : 3; roll_no : 2; total_marks : 90
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w05-q06-p19.png)
@@ -89,10 +88,9 @@ roll_no : 2, total_marks : 90 }
 ![page crop](img/w05-q06-p20.png)
 
 ### Q7. Binary search can be applied on any list of random elements
-True
-False
 
-Accepted answer(s): False
+- [ ] True
+- [x] False
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w05-q07-p20.png)

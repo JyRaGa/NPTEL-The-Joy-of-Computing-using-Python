@@ -30,10 +30,8 @@ according to the game FLAMES?
 
 - [ ] 3
 - [ ] 4
-- [ ] 5 © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -
+- [x] 5
 - [ ] 6
-- [ ] In association with
-> Accepted answer (not matched to a printed option): Funded by; 5; Wednesday 14 November 2018 11:15 AM
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w10-q03-p34.png)

@@ -49,19 +49,19 @@ print(Dictionary)
 <img src="img/noc21_cs32/cs32W5Q6.png" alt="">
 
 - Ajay\
-sem : 3\
-roll_no : 1\
-total_marks : 85\
-Shwetha\
-sem : 3\
-roll_no : 2\
-total_marks : 90  ✅
+  sem : 3\
+  roll_no : 1\
+  total_marks : 85\
+  Shwetha\
+  sem : 3\
+  roll_no : 2\
+  total_marks : 90  ✅
 
 - Ajay, sem : 3,roll_no : 1, total_marks : 85\
-Shwetha, sem : 3, roll_no : 2, total_marks : 90
+  Shwetha, sem : 3, roll_no : 2, total_marks : 90
 
 - { Ajay, sem : 3,roll_no : 1, total_marks : 85 , Shwetha, sem : 3,\
-roll_no : 2, total_marks : 90 }
+  roll_no : 2, total_marks : 90 }
 - none of the above
 
 **7. Binary search can be applied on any list of random elements**

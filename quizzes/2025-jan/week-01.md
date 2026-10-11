@@ -46,7 +46,7 @@
 
 ![page crop](img/w01-q04-p3.png)
 
-### Q5. Let answer for previous question be stored in variable x, what does the cat say after
+### Q5. Let answer for previous question be stored in variable x, what does the cat say after the execution of the loop ?
 
 - [ ] 16
 - [x] 5

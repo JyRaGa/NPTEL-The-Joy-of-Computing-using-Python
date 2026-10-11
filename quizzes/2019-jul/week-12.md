@@ -4,7 +4,7 @@
 - Portal: "Your last recorded submission was on 2019-10-15, 17:50 IST" (the due date is cut off at the frame edge) → **Jul-2019 session** (by upload/submission date)
 - `[x]` = option selected by the author; the page shows "Thank you for taking the Assignment 12." → submitted, but no score shown, so unverified.
 
-**1) In the point distribution method of page rank algorithm, at each iteration, each node shares its pagerank value by […]** (the rest of the line is cut off at the frame edge)
+**1) In the point distribution method of page rank algorithm, at each iteration, each node shares its pagerank value by**
 - [ ] Randomly choosing one of its outgoing links and sharing all its pagerank value to the node connected to that link
 - [x] Dividing its pagerank value equally to all the outgoing links
 - [ ] Dividing its pagerank value randomly to all the outgoing links

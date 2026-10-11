@@ -25,10 +25,8 @@
 
 ![page crop](img/w01-q02-p1.png)
 
-### Q3. (question text in image)
+### Q3. Which of the following can never be an output of the above statement?
 
-- [ ] Funded by
-- [ ] Wednesday 14 November 2018 10:59 AM Which of the following can never be an output of the above statement?
 - [ ] 3
 - [ ] 6
 - [ ] 9
@@ -98,14 +96,16 @@ be used to obtain the full name?
 ### Q9. Which of the following constructs carries out a set of instructions as long as any key in the
 keyboard is pressed?
 
+- [x] `repeat until <key [any] pressed?>` { … }
+- [ ] `wait until <key [any] pressed?>`
+- [ ] `if <key [any] pressed?> then` { … }
 - [ ] None of the above
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w01-q09-p3.png)
 
-### Q10. Which of the following Scratch constructs are used to keep doing a set of instructions
+### Q10. Which of the following Scratch constructs are used to keep doing a set of instructions infinitely?
 
-- [ ] Wednesday 14 November 2018 10:59 AM infinitely?
 - [ ] continue
 - [ ] always
 - [x] forever

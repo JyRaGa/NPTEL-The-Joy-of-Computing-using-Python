@@ -29,8 +29,7 @@
 function that sorts the elements of a given list in ascending order?
 
 - [x] [10,25,40,70,100]
-- [ ] [100,70,40,25,10] © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -
-- [ ] In association with
+- [ ] [100,70,40,25,10]
 - [ ] [25,10,40,70,100]
 - [ ] [10,25,40,100,70]
 > No, the answer is incorrect. Score: 0

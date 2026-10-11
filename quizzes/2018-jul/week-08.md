@@ -29,9 +29,8 @@ sentiment analysis?
 ### Q3. What is lexicon?
 
 - [x] It is a dictionary of words.
-- [ ] It is a library which helps in sentiment analysis. © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -
+- [ ] It is a library which helps in sentiment analysis.
 - [ ] It helps to generate random numbers.
-- [ ] In association with
 - [ ] None of the above
 > No, the answer is incorrect. Score: 0
 

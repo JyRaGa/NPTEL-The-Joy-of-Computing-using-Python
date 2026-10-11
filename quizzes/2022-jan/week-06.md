@@ -85,4 +85,4 @@
 
 - Runs into infinite loop
 
-- <img src ="img/noc22_cs31/JOC_W6_Q10.D.1.PNG" alt="">  ✅
+- <img src="img/noc22_cs31/JOC_W6_Q10.D.1.PNG" alt="">  ✅

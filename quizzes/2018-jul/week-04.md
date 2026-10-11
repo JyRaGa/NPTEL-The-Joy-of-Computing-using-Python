@@ -28,13 +28,9 @@ that is not present in the actual movie name?
 
 ![page crop](img/w04-q02-p13.png)
 
-### Q3. In "Guess the Movie Name" game, we initially have all blanks (or *). Slowly as the person
+### Q3. In "Guess the Movie Name" game, we initially have all blanks (or *). Slowly as the person guesses a letter the question undergoes a change in state (the corresponding letter is opened up). If the movie name is BANGALORE DAYS, which of the following can never be a state of the question during the run of the program?
 
-- [ ] In association with guesses a letter the question undergoes a change in state (the corresponding letter is opened up). If the movie name is BANGALORE DAYS, which of the following can never be a state of the question during the run of the program?
-- [ ] Funded by
 - [x] B  _  _  G  A  _ O  _  _       D_ Y_
-- [ ] Wednesday 14 November 2018 11:03 AM
-- [ ] Powered by
 - [ ] _ A _ _ A _ O _ E         _A Y _
 - [ ] _ _ _ _ _ _O_ E       _ _ Y_
 - [ ] _ _ _ _ _ _ O _ E      _ _ _ _

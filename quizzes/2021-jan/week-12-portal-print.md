@@ -93,7 +93,7 @@ people.
 - [ ] random.ﬂoat()
 - [ ] random.randomﬂoat()
 - [ ] random.frandom()
-- [ ] random.random() You may submit any number of times before the due date. The ﬁnal submission will be considered for grading. Submit Answers
+- [ ] random.random()
 
 ![page crop](img/w12-q10-p65.png)
 

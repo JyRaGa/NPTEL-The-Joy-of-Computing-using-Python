@@ -37,6 +37,7 @@ you say about the nodes with maximum points?
 ![page crop](img/w12-q03-p58.png)
 
 ### Q4. Comment on the purpose of the following command.
+sorted(p.items(),key=operator.itemgetter(1))
 
 - [ ] Sort the items of dictionary, p by key
 - [x] Sort the items of dictionary, p by values

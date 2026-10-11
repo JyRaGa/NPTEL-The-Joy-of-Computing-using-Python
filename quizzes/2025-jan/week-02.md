@@ -76,7 +76,7 @@
 
 ![page crop](img/w02-q07-p10.png)
 
-### Q8. The following program might/might not have an infinite loop. Does the program
+### Q8. The following program might/might not have an infinite loop. Does the program have infinite loop ?
 
 - [ ] No, the program doesn’t have infinite loop.
 - [x] Yes, it can be prevented by updating the value of a before the if block at line 3.

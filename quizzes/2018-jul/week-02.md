@@ -91,7 +91,6 @@ if(n>1)
 for i in range(3):
     print(i)
 ```
-(Each option is a column of numbers, one per line.)
 - [x] 0 1 2
 - [ ] 0 1 2 3
 - [ ] 1 2

@@ -70,9 +70,8 @@
 
 ![page crop](img/w00-q06-p3.png)
 
-### Q7. (question text in image)
+### Q7. A couple of dice is rolled together. What is the probability of getting the same number on both dice?
 
-- [ ] A couple of dice is rolled together. What is the probability of getting the same number on both dice?
 - [x] 1/6
 - [ ] 1/36
 - [ ] 1/3

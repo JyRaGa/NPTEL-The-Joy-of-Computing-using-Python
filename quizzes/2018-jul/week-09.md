@@ -30,12 +30,9 @@ What do variables x and y represent here?
 
 ### Q3. State True or False:
 An image is a matrix of pixels.
-© 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -
 
-- [ ] In association with
 - [x] True
 - [ ] False
-- [ ] Funded by
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w09-q03-p30.png)

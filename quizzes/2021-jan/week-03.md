@@ -45,13 +45,13 @@
 **7. Which of the following code is invalid?**
 
  - import matplotlib.pyplot as plt\
- plt.plot([1,2,3,4],[1,3,6,9],'b+')
+  plt.plot([1,2,3,4],[1,3,6,9],'b+')
 
  - import matplotlib.pyplot as plt\
- plt.plot([1,2,3,4],[1,3,6,9],'b++')  ✅
+  plt.plot([1,2,3,4],[1,3,6,9],'b++')  ✅
 
 - import matplotlib.pyplot as plt\
-plt.plot([1,2,3,4],[1,3,6,9],'b*')
+  plt.plot([1,2,3,4],[1,3,6,9],'b*')
 
 - import matplotlib.pyplot as plt\
   plt.plot([1,2,3,4],[1,3,6,9],'b--')

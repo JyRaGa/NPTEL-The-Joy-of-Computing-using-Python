@@ -60,10 +60,10 @@ non-leap year is
 ![page crop](img/w04-q05-p14.png)
 
 ### Q6. What does the following code snippet in python compute?
+num = int(input())
+for i in range(1, 11):
+print(num*i)
 
-- [ ] num = int(input())
-- [ ] for i in range(1, 11):
-- [ ] print(num*i)
 - [ ] Factorial of num
 - [x] Multiplication table of num
 - [ ] Powers of num

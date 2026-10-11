@@ -31,6 +31,8 @@ RANK = {"official": 0, "pdf": 1, "uploader": 2}
 
 
 def mergeable(r):
+    if not r["code"] and not any(r["norm_options"]):
+        return False  # a bare stem ("What is the output of the following code?") proves nothing
     # code shown only as an image: identical text + options proves nothing unless the options are distinctive
     if r["images"] and not r["code"]:
         opts = r["norm_options"]
@@ -52,8 +54,21 @@ def main():
             i = parent[i]
         return i
 
+    def official(r):
+        # the option texts an official key accepts; two copies whose keys disagree are different questions
+        # (e.g. "the answer to the previous question" stems that read the same in two sessions)
+        if r["answer_source"] != "official" or not isinstance(r["answer"], list) or not r["answer"]:
+            return None
+        return frozenset(norm(r["options"][i]["text"]) for i in r["answer"] if i < len(r["options"]))
+
+    keys = {i: ({official(r)} - {None}) for i, r in enumerate(recs)}
+
     def union(a, b):
-        parent[find(a)] = find(b)
+        ra, rb = find(a), find(b)
+        if ra == rb or (keys[ra] and keys[rb] and keys[ra] != keys[rb]):
+            return
+        parent[ra] = rb
+        keys[rb] |= keys[ra]
 
     exact = {}
     for i, r in enumerate(recs):
@@ -70,6 +85,14 @@ def main():
     for i, r in enumerate(recs):
         if r["id"].endswith("@gpt") and r["id"][:-4] in pos:
             union(i, pos[r["id"][:-4]])
+        # same for a portal print and its video copy: same session + number + text + options is one question
+        # even when the code is only an image (which `mergeable` refuses to trust)
+        if r["id"].endswith("@portal") and r["id"][:-7] in pos:
+            o = recs[pos[r["id"][:-7]]]
+            blank = lambda x: not any(x["norm_options"])  # options are pictures: nothing to compare
+            texts = lambda x: [t for t in x["norm_options"] if t]  # picture options have no text
+            if o["norm"] == r["norm"] and (texts(o) == texts(r) or blank(o) or blank(r)):
+                union(i, pos[r["id"][:-7]])
 
     near = []
     by_week = defaultdict(list)
@@ -124,7 +147,8 @@ def main():
     sizes = []
     used = set()
     for members in groups.values():
-        members.sort(key=lambda r: (RANK[r["answer_source"]], r["type"] == "reveal", -int(r["term"][:4]), r["id"]))
+        # an official copy with no ticked answer (portal print lost it) must not lead the card
+        members.sort(key=lambda r: (RANK[r["answer_source"]] if r["answer"] else 3, r["type"] == "reveal", -int(r["term"][:4]), r["id"]))
         rep = members[0]
         gid = hashlib.sha1(key(rep).encode()).hexdigest()[:10] if rep["norm"] else hashlib.sha1(rep["id"].encode()).hexdigest()[:10]
         if gid in used:  # unmergeable twins (same text, image-only code) need their own id
@@ -178,7 +202,9 @@ def main():
                 # an option that is a picture keeps its picture; a recovered text description never replaces it
                 g["options"] = [old[i] if i < len(old) and old[i].get("img") else {"text": t, "img": None}
                                 for i, t in enumerate(fx["options"])]
-            if "answer" in fx and not (rw and rw.get("badge") == "official"):  # recovered text never overrides an official key
+            official_now = g["answer_source"] == "official" and g["answer"]
+            if "answer" in fx and not (rw and rw.get("badge") == "official") and (fx.get("badge") or not official_now):
+                # recovered text never overrides an official key unless the fix itself says it is the official one
                 g["answer"] = fx["answer"] if "options" in fx or not isinstance(fx["answer"], list) else remap(fx["answer"], fk)
                 g["answer_source"] = fx.get("badge", "reviewed")
         if isinstance(g["answer"], list) and g["answer"] and (not g["options"] or max(g["answer"]) >= len(g["options"])):

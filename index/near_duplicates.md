@@ -1,5 +1,6 @@
 # Near-duplicates (same question text, different options) — kept separate
 
+- `2018-jul/w01/q05` vs `2019-jul/w01/q08`
 - `2018-jul/w01/q05@portal` vs `2019-jul/w01/q08`
 - `2018-jul/w03/q04` vs `2019-jan/w03/q02`
 - `2018-jul/w03/q04` vs `2019-jul/w03/q06`
@@ -10,7 +11,6 @@
 - `2018-jul/w05/q09` vs `2019-jul/w05/q05`
 - `2018-jul/w05/q10` vs `2019-jan/w05/q10`
 - `2018-jul/w05/q10` vs `2019-jul/w05/q07`
-- `2018-jul/w06/q03` vs `2019-jan/w06/q04`
 - `2018-jul/w06/q05` vs `2019-jan/w06/q08`
 - `2018-jul/w06/q05` vs `2019-jul/w06/q07`
 - `2019-jan/w03/q02` vs `2019-jul/w03/q06`
@@ -39,7 +39,6 @@
 - `2021-jan/w03/q04@portal` vs `2023-jan/w03/q02`
 - `2021-jan/w06/q01` vs `2023-jul/w06/q05@gpt`
 - `2021-jan/w06/q01@portal` vs `2023-jul/w06/q05@gpt`
-- `2021-jan/w08/q02@portal` vs `2023-jan/w08/q02`
 - `2021-jul/w00/q03` vs `2022-jul/w00/q09`
 - `2021-jul/w00/q03` vs `2024-jul/w00/q09`
 - `2022-jan/w06/q06` vs `2023-jul/w06/q06@gpt`

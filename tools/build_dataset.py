@@ -4,6 +4,7 @@ Text, options and code are kept verbatim; only `norm` (used for matching) is nor
 Writes index/mismatch_report.md for files whose question count looks wrong.
 Run from anywhere: python tools/build_dataset.py
 """
+import unicodedata
 import csv, json, re, posixpath, textwrap
 from collections import Counter
 from pathlib import Path
@@ -36,7 +37,7 @@ def strip_md(s):
 
 
 def norm(s):
-    s = s.lower()
+    s = unicodedata.normalize("NFKC", s).lower()  # fold ligatures (ﬁ) so portal prints match typed copies
     s = re.sub(r"<[^>]+>", " ", s)
     s = re.sub(r"[^a-z0-9]+", " ", s)
     return " ".join(s.split())

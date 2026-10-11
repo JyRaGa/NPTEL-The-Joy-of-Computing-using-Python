@@ -30,8 +30,7 @@ how would SHUBH be encoded as?
 ### Q3. Which of the following statements is true?
 
 - [ ] Both Caesar cipher and Substitution cipher are the same
-- [ ] Caesar and Substitution cipher are totally unrelated © 2014 NPTEL - Privacy & Terms - Honor Code - FAQs -
-- [ ] In association with
+- [ ] Caesar and Substitution cipher are totally unrelated
 - [x] Caesar cipher is a special case of Substitution cipher
 - [ ] Substitution cipher is a special case of Caesar cipher
 > No, the answer is incorrect. Score: 0
