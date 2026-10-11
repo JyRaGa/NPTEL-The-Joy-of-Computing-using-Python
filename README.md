@@ -2,6 +2,8 @@
 
 Every past weekly quiz of NPTEL's **The Joy of Computing using Python** (IIT Ropar), 2018–2026, as one practice site. Questions are grouped by course week; pick an option and see right or wrong at once.
 
+**Live site: [joc-jrg.vercel.app](https://joc-jrg.vercel.app)**
+
 ## Features
 
 - **2,334 questions** from 17 sessions, merged into 1,999 cards. A question asked in several sessions appears once, tagged with each session and an "Asked N×" count.
