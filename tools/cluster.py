@@ -171,8 +171,11 @@ def main():
             src = by_id.get(key)
             if src is None or src is rep or not src["options"]:
                 return idx
+            # exact text first: punctuation-only differences (".h.e.l..l.o" vs ".h.e.l.l.o") vanish under norm()
+            exact = {o["text"].strip(): i for i, o in enumerate(rep["options"])}
             pos = {norm(o["text"]): i for i, o in enumerate(rep["options"])}
-            out = [pos.get(norm(src["options"][i]["text"])) for i in idx if i < len(src["options"])]
+            out = [exact.get(src["options"][i]["text"].strip(), pos.get(norm(src["options"][i]["text"])))
+                   for i in idx if i < len(src["options"])]
             return out if out and None not in out else idx
 
         keys = [k for k in [gid, *g["members"]] if k in review]
