@@ -8,6 +8,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 |---|---|---|---|
 | 1 | 151 | 9 | 2 |
 | 2 | 151 | 6 | 3 |
+| 3 | 104 so far (55 pending, from Q111 on; browser check not yet done) | 5 | 1 so far |
 
 ## Disagreements (card answer vs. my run/trace; no entry written)
 
@@ -17,6 +18,8 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 - `2024-jan/w02/q07` — card A; the code as shown has `i += 1` indented deeper than `print`, which is an IndentationError when run.
 - `2025-jan/w02/q03` — card A,C ("not correct ways to read a decimal"); option D (`a = int(a)`) is not a way to read a decimal either.
 - `2025-jan/w02/q08` — could not explain: the picture shows a different program from the options (no `if` inside the `while`).
+
+- `2021-jan/w03/q01` — card D (0 1 2); the code `for course in course_list: print(course)` prints Science / Maths / English (option B's picture).
 
 ## Doubtful but explained (no contradiction with a note, flagged for a human look)
 

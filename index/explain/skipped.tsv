@@ -3,3 +3,4 @@
 2025-jan/w02/q08	could not explain: code in picture has no if inside the while loop that the options refer to
 2024-jan/w02/q07	disagree: code as shown has an IndentationError (i += 1 indented deeper than print); card answer A assumes the intended code
 2025-jan/w02/q03	disagree: card A,C; but option D (a = int(a)) is not a way to read a decimal either
+2021-jan/w03/q01	disagree: card D (0 1 2); code is for course in course_list: print(course) -> Science / Maths / English (option B image)
