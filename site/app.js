@@ -221,8 +221,14 @@ function renderToc() {
   $("#weeks").innerHTML = WEEKS.map((t, w) => `<li><a href="#w${w}"${!state.q && w === state.w ? ' aria-current="page"' : ""}>` +
     `<span class="wk">W${String(w).padStart(2, "0")}</span><span class="tp">${esc(t)}</span><span class="ct">${done[w] || 0} / ${meta.weeks[w] || 0} answered</span></a></li>`).join("");
 }
+// measure a code block only when it nears the viewport: measuring all of them at once forced a ~400 ms layout per week
+const scrollIO = new IntersectionObserver((es) => es.forEach((e) => {
+  if (!e.isIntersecting) return;
+  scrollIO.unobserve(e.target);
+  e.target.classList.toggle("scrolls", e.target.scrollWidth > e.target.clientWidth + 1);
+}), { rootMargin: "300px 0px" });
 function markScrollers(root) {
-  requestAnimationFrame(() => root.querySelectorAll("pre[data-code]").forEach((p) => p.classList.toggle("scrolls", p.scrollWidth > p.clientWidth + 1)));
+  root.querySelectorAll("pre[data-code]").forEach((p) => scrollIO.observe(p));
 }
 
 /* ---------- interaction ---------- */
