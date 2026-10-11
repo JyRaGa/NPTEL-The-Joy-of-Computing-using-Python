@@ -72,13 +72,16 @@ Source notes and conventions are in [docs/SOURCES.md](docs/SOURCES.md).
 
 ## Sources and credits
 
-Quiz questions, options and official answers are course material of NPTEL / IIT Ropar, reproduced for study. The rest was gathered from:
+Quiz questions, options and official answers are course material of NPTEL / IIT Ropar, reproduced for study.
+
+**YouTube first.** Most sessions survive only as solved-assignment videos, so the quizzes were rebuilt from 93 videos by 17 YouTube channels (each credited in its week file's header). Questions, options and code were transcribed frame by frame, sometimes stepping through phone recordings at quarter speed, skipping ads and catching code that scrolls past in under a second. Then every answer was checked again, because an uploader's tick is not an answer key. Code questions were run; the rest were reasoned out or matched against official keys. Over 60 code screenshots were recovered this way.
+
+The rest came from these repositories:
 
 - [kishanrajput23/NPTEL-The-Joy-of-Computing-using-Python](https://github.com/kishanrajput23/NPTEL-The-Joy-of-Computing-using-Python) by Kishan Kumar Rai (MIT): 2021–2022 quizzes, programming assignments, online test solutions and lecture code.
 - [gxuxhxm/NPTEL-The-Joy-of-Computing-using-Python](https://github.com/gxuxhxm/NPTEL-The-Joy-of-Computing-using-Python) by Goutham S K (MIT): lecture notes and the Jul-2023 quiz notes.
-- Two further public repos with no named author: Jul-2023 Jupyter notebooks whose screenshots supplied that term's official answers, and a 2021 text PDF.
-- Scribd uploads and NPTEL portal printouts; the URL of each is in [sources/](sources/).
+- [avinashyadav16/The-Joy-of-Computing-Using-Pyhton](https://github.com/avinashyadav16/The-Joy-of-Computing-Using-Pyhton): Jul-2023 Jupyter notebooks whose screenshots supplied that term's official answers.
+- [tdishant/NPTEL-Joy-of-Computing-Using-Python](https://github.com/tdishant/NPTEL-Joy-of-Computing-Using-Python): 2020–2021 quiz PDFs, including the text PDF of Jan-2021.
+- [progiez/nptel-assignment-answers](https://github.com/progiez/nptel-assignment-answers) (the Joy of Computing part): kept for reference only, unverified.
 
-Licences of the MIT sources are in [licenses/](licenses/).
-
-**On the YouTube part.** Where no written copy of a quiz survived, it was rebuilt from 93 solved-assignment videos by 17 YouTube channels (credited in each week file's header). Questions, options and code were transcribed frame by frame, sometimes stepping through phone recordings at quarter speed, skipping ads and reading code that scrolls past in under a second. Then every answer was checked again, because an uploader's tick is not an answer key. Code questions were run; the rest were reasoned out or matched against official keys. Over 60 code screenshots were recovered this way.
+Scribd uploads and NPTEL portal printouts filled the remaining gaps; the URL of each is in [sources/](sources/). Licences of the MIT sources are in [licenses/](licenses/).
