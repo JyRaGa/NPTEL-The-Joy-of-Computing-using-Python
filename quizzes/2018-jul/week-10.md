@@ -40,7 +40,6 @@ according to the game FLAMES?
 
 ### Q4. Which Python module supports various operations on data type string?
 
-- [ ] Powered by
 - [x] string
 - [ ] list
 - [ ] array

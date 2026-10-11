@@ -79,4 +79,4 @@ print (a[1,2] + b[1,2])
 - [ ] shape
 - [x] size
 - [ ] area
-- [ ] volume *(not visible in this recording; taken from the Jul-2019 official review page for the same question)*
+- [ ] volume

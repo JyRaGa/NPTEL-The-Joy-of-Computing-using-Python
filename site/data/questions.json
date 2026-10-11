@@ -30918,9 +30918,11 @@
   "kind": "second_repo_md",
   "type": "single",
   "context": null,
-  "text": "The below given matrix is a magic square. State whether the following statement is true or false\n<img src= \"img/noc21_cs75/cs75W4Q3.png\" alt=\"\">",
+  "text": "The below given matrix is a magic square. State whether the following statement is true or false",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2021-jul/img/noc21_cs75/cs75W4Q3.png"
+  ],
   "crops": [],
   "options": [
    {
@@ -79822,10 +79824,6 @@
   ],
   "options": [
    {
-    "text": "Powered by",
-    "img": null
-   },
-   {
     "text": "string",
     "img": null
    },
@@ -79843,7 +79841,7 @@
    }
   ],
   "answer": [
-   1
+   0
   ],
   "answer_source": "official",
   "explanation": null,
@@ -79851,7 +79849,6 @@
   "norm_options": [
    "array",
    "list",
-   "powered by",
    "str",
    "string"
   ]
@@ -80530,7 +80527,7 @@
     "img": null
    },
    {
-    "text": "volume *(not visible in this recording; taken from the Jul-2019 official review page for the same question)*",
+    "text": "volume",
     "img": null
    }
   ],
@@ -80544,7 +80541,7 @@
    "area",
    "shape",
    "size",
-   "volume not visible in this recording taken from the jul 2019 official review page for the same question"
+   "volume"
   ]
  },
  {

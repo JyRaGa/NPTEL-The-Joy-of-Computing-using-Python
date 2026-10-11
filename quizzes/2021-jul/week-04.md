@@ -15,7 +15,7 @@
 
 **3. The below given matrix is a magic square. State whether the following statement is true or false**
 
-<img src= "img/noc21_cs75/cs75W4Q3.png" alt="">
+<img src="img/noc21_cs75/cs75W4Q3.png" alt="">
 
 - False
 - True  ✅
