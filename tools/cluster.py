@@ -204,7 +204,7 @@ def main():
                 old = g["options"]
                 # an option that is a picture keeps its picture; a recovered text description never replaces it.
                 # an option given as {"code": ...} is a transcription of the real option and does replace a wrong picture
-                g["options"] = [{"text": t.get("text", ""), "img": None, "code": t["code"]} if isinstance(t, dict)
+                g["options"] = [{"text": t.get("text", ""), "img": t.get("img"), "code": t.get("code")} if isinstance(t, dict)
                                 else old[i] if i < len(old) and old[i].get("img") else {"text": t, "img": None}
                                 for i, t in enumerate(fx["options"])]
             official_now = g["answer_source"] == "official" and g["answer"]
