@@ -112,6 +112,16 @@ main > * { max-width: 780px; }
 
 .filters { margin: 1.3rem 0 .4rem; display: grid; gap: .7rem; }
 .chips { display: flex; flex-wrap: wrap; gap: .35rem; }
+.sess-pick > summary { display: inline-flex; align-items: center; gap: .4rem; min-height: 32px; padding: 0 .75rem; border: 1px solid var(--rule-2); border-radius: var(--r); background: var(--bg); cursor: pointer; font-size: .85rem; color: var(--ink-2); list-style: none; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.sess-pick > summary::-webkit-details-marker { display: none; }
+.sess-pick > summary::after { content: ""; width: .45em; height: .45em; border: solid currentColor; border-width: 0 1.5px 1.5px 0; transform: translateY(-.15em) rotate(45deg); }
+.sess-pick[open] > summary::after { transform: translateY(.1em) rotate(-135deg); }
+.sess-pick > summary:hover { border-color: var(--blue); color: var(--ink); }
+.sess-pick .chips { margin-top: .55rem; }
+.legend { margin: 2.5rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .82rem; color: var(--ink-3); }
+.legend p { margin: 0 0 .4rem; font-weight: 600; color: var(--ink-2); }
+.legend dl { margin: 0; display: grid; grid-template-columns: max-content 1fr; gap: .2rem .8rem; }
+.legend dt { color: var(--ink-2); } .legend dd { margin: 0; }
 .chip { height: 30px; padding: 0 .65rem; border: 1px solid var(--rule-2); border-radius: 15px; background: var(--bg); cursor: pointer; font-size: .82rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
 .chip:hover { border-color: var(--blue); color: var(--ink); }
 .chip[aria-pressed="true"] { background: var(--blue); border-color: var(--blue); color: var(--on); }
@@ -235,9 +245,8 @@ dialog .close { position: absolute; top: .3rem; right: .3rem; background: var(--
   .search input::placeholder { color: transparent; }
   .tools #smaller, .tools #larger { display: none; }
   .week-head h1 { font-size: 1.45rem; }
-  .chips { flex-wrap: nowrap; overflow-x: auto; margin: 0 -16px; padding: 0 16px 2px; scrollbar-width: none; }
   .chip { flex: none; }
 }
-@media (pointer: coarse) { .icon-btn, .save, .chip, .seg button, .sort select, .btn { min-height: 44px; } .save { min-width: 44px; } }
+@media (pointer: coarse) { .icon-btn, .save, .chip, .seg button, .sess-pick > summary, .sort select, .btn { min-height: 44px; } .save { min-width: 44px; } }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 @media (max-width: 420px) { .brand > span { display: none; } }

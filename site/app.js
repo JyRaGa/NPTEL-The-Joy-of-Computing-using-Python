@@ -185,6 +185,7 @@ async function render() {
   $("#years").innerHTML = `<button class="chip clear" type="button" aria-pressed="${state.years.size === 0}" data-year="">All sessions</button>` +
     terms.map((t) => `<button class="chip" type="button" aria-pressed="${state.years.has(t)}" data-year="${t}">${termLabel(t)} <span aria-hidden="true">·</span> ${tc[t]}</button>`).join("");
   // filter + sort
+  $("#sess-label").textContent = state.years.size ? `Sessions: ${[...state.years].map(termLabel).join(", ")}` : "Sessions: all";
   if (state.years.size) groups = groups.filter((g) => g.terms.some((t) => state.years.has(t)));
   if (state.f === "todo") groups = groups.filter((g) => !store.a[g.gid]);
   if (state.f === "wrong") groups = groups.filter((g) => store.a[g.gid]?.ok === false);

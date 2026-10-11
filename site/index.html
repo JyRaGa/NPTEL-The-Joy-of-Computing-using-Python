@@ -52,7 +52,7 @@
       <div class="progress" aria-hidden="true"><span id="bar-ok"></span><span id="bar-bad"></span></div>
     </div>
     <div class="filters" role="group" aria-label="Filters">
-      <div class="chips" id="years" role="group" aria-label="Sessions"></div>
+      <details class="sess-pick"><summary id="sess-label">Sessions: all</summary><div class="chips" id="years" role="group" aria-label="Sessions"></div></details>
       <div class="filter-row">
         <div class="seg" id="status" role="group" aria-label="Show">
           <button type="button" data-f="all">All</button>
@@ -72,6 +72,16 @@
     <p class="hint">Keys: <kbd>J</kbd>/<kbd>K</kbd> next/previous, <kbd>1</kbd>–<kbd>8</kbd> pick, <kbd>Enter</kbd> submit.</p>
     <div id="list"></div>
     <p class="empty" id="empty" hidden></p>
+    <footer class="legend">
+      <p>Answer labels</p>
+      <dl>
+        <dt>Official answer</dt><dd>from NPTEL's published answer key</dd>
+        <dt>Course PDF answer</dt><dd>from the course's own solution PDF</dd>
+        <dt>Verified by running</dt><dd>the code was run and the output checked</dd>
+        <dt>Reviewed answer</dt><dd>worked out and checked by hand</dd>
+        <dt>Unverified</dt><dd>the uploader's tick, not yet confirmed</dd>
+      </dl>
+    </footer>
   </main>
 </div>
 
