@@ -159,7 +159,11 @@ function paint(el, g) {
   const badge = known(g) ? `<span class="badge ${g.answer_source}">${BADGE[g.answer_source] || ""}</span>` : "";
   let h = `<div><span class="prompt">&gt;&gt;&gt;</span> ${esc(call)}</div><div class="verdict-row">${verdict}${badge}<button class="link-btn again" type="button" data-again>Try again</button></div>`;
   if (g.note) h += `<div class="adm warn"><p class="adm-t">${g.answer_source === "official" ? "About the official answer" : "About this answer"}</p><p>${esc(g.note)}</p></div>`;
-  if (g.explanation) h += `<div class="adm"><p class="adm-t">Explanation</p><p>${esc(g.explanation)}</p></div>`;
+  if (g.explain) {
+    const lines = Object.entries(g.explain.options || {}).filter(([, t]) => t).map(([l, t]) => `<li><b>${esc(l)}</b> ${rich(t)}</li>`).join("");
+    h += `<div class="adm"><p class="adm-t">Why ${esc(g.type === "numeric" ? g.answer : ans.map((i) => LETTERS[i]).join(", "))}</p><p>${rich(g.explain.why)}</p>` +
+      (lines ? `<ul class="why-opts">${lines}</ul>` : "") + `</div>`;
+  } else if (g.explanation) h += `<div class="adm"><p class="adm-t">Explanation</p><p>${esc(g.explanation)}</p></div>`;
   res.innerHTML = h;
   if (g.type === "reveal") { const s = $(".src", el); if (s) s.open = true; }
 }

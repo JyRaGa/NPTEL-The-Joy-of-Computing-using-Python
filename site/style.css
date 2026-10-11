@@ -218,6 +218,8 @@ details.ctx[open] summary { border-bottom: 1px solid var(--rule); }
 .adm { margin-top: .8rem; border: 1px solid var(--rule); border-radius: var(--r); background: var(--blue-wash); font-size: .92rem; }
 .adm p { margin: 0; padding: .55rem .85rem; white-space: pre-line; }
 .adm .adm-t { padding-bottom: 0; font-weight: 650; color: var(--blue-ink); }
+.why-opts { margin: 0; padding: 0 .85rem .6rem 1.9rem; }
+.why-opts li { margin-top: .25rem; overflow-wrap: anywhere; }
 .adm.warn { background: var(--warn-wash); } .adm.warn .adm-t { color: var(--warn); }
 .src { margin-top: .7rem; font-size: .8rem; color: var(--ink-3); }
 .src summary { cursor: pointer; }

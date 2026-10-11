@@ -1,0 +1,2 @@
+"""Brief's official-answer check: no card may lose its official answer between HEAD and the working tree."""
+import json,subprocess;L=lambda r:{m:(g['answer_source'],bool(g['answer'])) for w in range(13) for g in json.loads(subprocess.run(['git','show',f'{r}:site/data/week-{w:02d}.json'],capture_output=True,text=True,encoding='utf-8').stdout if r else open(f'site/data/week-{w:02d}.json',encoding='utf-8').read()) for m in g['members']};a,b=L('HEAD'),L(None);print('official lost',[k for k in a if a[k]==('official',True) and b.get(k)!=('official',True)])

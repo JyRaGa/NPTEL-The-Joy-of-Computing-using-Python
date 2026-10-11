@@ -132,6 +132,13 @@ def main():
             if line.strip():
                 d = json.loads(line)
                 fixes.setdefault(d["gid"], {}).update(d)
+    # explain overlay: per-card teaching block (why the answer is right, what each wrong option would answer), keyed by card id or any member id
+    explain = {}
+    for f in sorted((ROOT / "index" / "explain").glob("*.jsonl")):
+        for line in open(f, encoding="utf-8"):
+            if line.strip():
+                d = json.loads(line)
+                explain[d["id"]] = {"why": d["why"], "options": d.get("options", {})}
     runs, flags = {}, []
     rr = ROOT / "index" / "run_results.tsv"
     if rr.exists():
@@ -242,6 +249,9 @@ def main():
             g["text"] = re.sub(r"\n?Answer (?:entered|box)[^\n]*", "", g["text"]).strip()
         # crops cut above the option radios by stem_crops.py: the code or figure without the printed accepted answer
         g["stem"] = [str(Path(c).with_name(Path(c).stem + "-stem.png")).replace("\\", "/") for c in g["crops"] if (ROOT / c).with_name(Path(c).stem + "-stem.png").exists()]
+        ek = next((k for k in g["members"] if k in explain), None)
+        if ek:
+            g["explain"] = explain[ek]
         g["code_html"] = hl(g["code"])
         if g["context"] and g["context"].get("code"):
             g["context"] = dict(g["context"], code_html=hl(g["context"]["code"]))
