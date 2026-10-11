@@ -202,8 +202,10 @@ def main():
                     g[k] = fx[k]
             if "options" in fx:
                 old = g["options"]
-                # an option that is a picture keeps its picture; a recovered text description never replaces it
-                g["options"] = [old[i] if i < len(old) and old[i].get("img") else {"text": t, "img": None}
+                # an option that is a picture keeps its picture; a recovered text description never replaces it.
+                # an option given as {"code": ...} is a transcription of the real option and does replace a wrong picture
+                g["options"] = [{"text": t.get("text", ""), "img": None, "code": t["code"]} if isinstance(t, dict)
+                                else old[i] if i < len(old) and old[i].get("img") else {"text": t, "img": None}
                                 for i, t in enumerate(fx["options"])]
             official_now = g["answer_source"] == "official" and g["answer"]
             if "answer" in fx and not (rw and rw.get("badge") == "official") and (fx.get("badge") or not official_now):
