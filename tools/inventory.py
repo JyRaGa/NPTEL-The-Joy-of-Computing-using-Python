@@ -13,6 +13,6 @@ for f in sorted(glob.glob(R+"/quizzes/*/**/*.md",recursive=True)):
     else: kind,trust="other","unknown"
     nq=len(re.findall(r"^(?:\*\*\d+[\).]|### |\d+\.\s)",open(f,encoding="utf-8").read(),re.M))
     rows.append((term,wk,rel,kind,trust,nq))
-with open(R+"/inventory.tsv","w",encoding="utf-8") as fh:
+with open(R+"/sources/inventory.tsv","w",encoding="utf-8") as fh:
     fh.write("term\tweek\tpath\tkind\ttrust\tapprox_question_headings\n"+"\n".join("\t".join(map(str,r)) for r in rows))
 print(len(rows),"md files")

@@ -1,6 +1,6 @@
 # Sources and conventions
 
-Past weekly quizzes (and some programming assignments and exam material) for the IIT Ropar course, organised by NPTEL session. Everything here is **copied or derived** from the surrounding repo; nothing was deleted from the originals. Audit and per-file verdicts: [structure.md](structure.md). Every copied file is listed in [_manifest.tsv](../_manifest.tsv); every markdown file with its source kind and trust level is in [inventory.tsv](../inventory.tsv). Scripts that built this folder: [tools/](../tools/).
+Past weekly quizzes (and some programming assignments and exam material) for the IIT Ropar course, organised by NPTEL session. Everything here is **copied or derived** from the surrounding repo; nothing was deleted from the originals. Audit and per-file verdicts: [structure.md](structure.md). Every copied file is listed in [sources/manifest.tsv](../sources/manifest.tsv); every markdown file with its source kind and trust level is in [sources/inventory.tsv](../sources/inventory.tsv). Scripts that built this folder: [tools/](../tools/).
 
 Quiz questions, options and official answers are the course material of NPTEL / IIT Ropar and are reproduced here for study only. Upstream code licences are in [licenses/](../licenses/).
 
@@ -8,7 +8,7 @@ Quiz questions, options and official answers are the course material of NPTEL / 
 
 ```
 quizzes/<year>-<jan|jul>/
-    week-NN.md                 one file per week (source differs by term, see inventory.tsv)
+    week-NN.md                 one file per week (source differs by term, see sources/inventory.tsv)
     week-NN-portal-print.md    second source for the same week, parsed from an NPTEL portal printout
     week-NN.pdf                2026-jul only: the owner's case-study PDFs
     *.pdf, *.ocr.txt           whole-term PDFs; OCR text of scanned PDFs (machine-read)
@@ -18,8 +18,8 @@ quizzes/<year>-<jan|jul>/
 programming-assignments/<term>/week-NN/*.py      solution code (Jan-2021, Jul-2021, Jan-2022)
 exams/                         final-exam recollection (+ OCR text), online programming test, exam patterns
 practice/                      IMP-question sets, topic lists, small MCQ banks
-sources/ licenses/             where each file came from; upstream licences; mirrored-image list
-_reference/                    low-trust material kept for reference only
+sources/ licenses/             where each file came from (manifest, inventory, URLs); upstream licences
+sources/reference/             low-trust material kept for reference only
 ```
 
 Session rule: Week 1 in Dec/Jan = **Jan** session (Jan–Apr); Week 1 in Jul/Aug = **Jul** session (Jul–Oct).

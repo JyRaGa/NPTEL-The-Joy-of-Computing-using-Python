@@ -67,7 +67,7 @@ cp("Question Papers/34 questions asked in JOC final center exam morning session.
 for i in (1,2,3): cp(f"The-Joy-of-Computing-Using-Python-PART-{i}.pdf",f"practice/IMP-questions-part-{i}.pdf")
 cp("Nptel-Python-Mcqs.pdf","practice/Nptel-Python-Mcqs (generic, not from the course).pdf")
 for f in sorted(glob.glob(os.path.join(R,"5th repo","*.md"))):
-    cp("5th repo/"+os.path.basename(f),"_reference/5th-repo-answer-site (spam, unverified)/"+os.path.basename(f))
+    cp("5th repo/"+os.path.basename(f),"sources/reference/5th-repo-answer-site (spam, unverified)/"+os.path.basename(f))
 cp("Question Papers/relevant urls.md","sources/relevant urls.md")
 cp(S+"/../_sources.tsv","sources/scribd_sources.tsv") if False else None
 cp("_incoming/_sources.tsv","sources/scribd_sources.tsv")
@@ -75,6 +75,6 @@ cp("_incoming/youtube/_candidates_dated.tsv","sources/youtube_candidates_dated.t
 cp("LICENSE","licenses/LICENSE-upstream-gxuxhxm-MIT")
 cp(S2+"/LICENSE","licenses/LICENSE-kishanrajput23-MIT")
 cp("structure.md","docs/structure.md")
-with open(os.path.join(O,"_manifest.tsv"),"w",encoding="utf-8") as fh:
+with open(os.path.join(O,"sources","manifest.tsv"),"w",encoding="utf-8") as fh:
     fh.write("source\tcopied_to\n"+"\n".join(f"{a}\t{b}" for a,b in log))
 print(len(log),"files copied")

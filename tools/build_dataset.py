@@ -1,4 +1,4 @@
-"""Parse every quiz file in inventory.tsv into site/data/questions.json.
+"""Parse every quiz file in sources/inventory.tsv into site/data/questions.json.
 
 Text, options and code are kept verbatim; only `norm` (used for matching) is normalised.
 Writes index/mismatch_report.md for files whose question count looks wrong.
@@ -239,7 +239,7 @@ JUL19_ZERO = {(6, 5), (12, 6)}
 
 
 def main():
-    rows = list(csv.DictReader(open(ROOT / "inventory.tsv", encoding="utf-8"), delimiter="\t"))
+    rows = list(csv.DictReader(open(ROOT / "sources" / "inventory.tsv", encoding="utf-8"), delimiter="\t"))
     records, problems = [], []
     for row in rows:
         qs = parse_file(row["path"], row["kind"])
