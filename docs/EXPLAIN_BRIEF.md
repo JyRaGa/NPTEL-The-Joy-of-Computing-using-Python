@@ -84,6 +84,54 @@ Official-answer check (run from the repo root after every rebuild):
 python -c "import json,subprocess;L=lambda r:{m:(g['answer_source'],bool(g['answer'])) for w in range(13) for g in json.loads(subprocess.run(['git','show',f'{r}:site/data/week-{w:02d}.json'],capture_output=True,text=True,encoding='utf-8').stdout if r else open(f'site/data/week-{w:02d}.json',encoding='utf-8').read()) for m in g['members']};a,b=L('HEAD'),L(None);print('official lost',[k for k in a if a[k]==('official',True) and b.get(k)!=('official',True)])"
 ```
 
+## Using the site in the browser pane
+
+The tools are `mcp__Claude_Browser__*`. Prefer `javascript_tool` to drive the page and read state (cheap, exact), and take a `computer` screenshot only to judge how something looks. Screenshots at `scale: 0.5` are enough; zoom with the `zoom` action if text is small.
+
+**Open it.** Local server: `http://localhost:8765/site/` (if it is not running, `preview_start` with name `joc-site`). The live site (https://joc-jrg.vercel.app/site/) only updates after a push and Vercel deploy; check local first.
+
+**Fresh data after a rebuild.** The browser caches `data/week-NN.json` and `app.js`. After every rebuild or code edit:
+```js
+for (const f of ['app.js', 'style.css', 'data/week-05.json']) await fetch(f, {cache: 'reload'}); location.reload();
+```
+Then wait ~1.5 s in the next call (`await new Promise(r => setTimeout(r, 1500))`) before touching the page. If a script returns "the page navigated", that is the reload; just continue in a new call.
+
+**Page layout and URL.** The URL hash holds the view: `#w5` (Week 5), `#w5?f=wrong` (filter), `&y=2024-jul` (sessions), `&s=new|old` (order), `?g=<gid>` (jump to one card). Set it with `location.hash = '#w5'`. Top bar: `#menu` (week drawer `#toc`, links `#weeks a`), `#q` (search all weeks), `#theme` (light/dark), `#smaller` / `#larger` (text size). Under the week title: `#summary`, the "Sessions: …" dropdown (`.sess-pick`, chips `#years [data-year]`; `data-year=""` is All), the filter buttons `#status [data-f="all|todo|wrong|saved"]` (selected one has `aria-pressed="true"`), the order `<select id="sort">`. Cards are in `#list`; the bottom has the answer-label legend `.legend`.
+
+**A card** is `article.q` with `data-gid`. Inside: `.q-id` (text like `Q12¶`; the number is the card's position in the current order), `.q-text`, optional `details.ctx` (Scenario), `.q-imgs img` (figures and stem pictures), `.code` panels, `ol.opts` with `button.opt[data-i="0..n"]` (A = 0), `.actions` (buttons below), `.result` (the answer block you are adding to), `.save` (bookmark), `details.src` (Original portal page).
+
+Find and show a card by its number:
+```js
+const card = n => [...document.querySelectorAll('.q')].find(q => q.querySelector('.q-id').textContent.replace('¶','') === 'Q' + n);
+const q = card(12); q.scrollIntoView(); scrollBy(0, -60);
+```
+Or by source id: read `data/week-NN.json`, find the card with that `id`, then `document.querySelector('.q[data-gid="' + g.gid + '"]')`.
+
+**Answering** (what a user does):
+- single choice: `q.querySelector('.opt[data-i="2"]').click()` grades at once;
+- multi choice: click each option, then `q.querySelector('[data-submit]').click()`;
+- numeric: `const i = q.querySelector('[data-num]'); i.value = '42'; i.dispatchEvent(new Event('input', {bubbles: true})); q.querySelector('[data-check]').click()`;
+- reveal: `q.querySelector('[data-reveal]').click()`.
+Then read the result: `q.querySelector('.result').innerText` (the `>>> answer("C")` line, verdict, your explanation block). Images load lazily: after scrolling, wait ~800 ms before a screenshot.
+- Undo: `q.querySelector('[data-again]').click()` ("Try again").
+- Keyboard (focus a card first by clicking its text): `j`/`k` next/previous card, `1`–`8` pick an option, `Enter` submits a multi.
+
+**Several cards in one screenshot** (saves tokens): hide every other card, then screenshot:
+```js
+const keep = new Set(['Q3','Q12','Q40']);
+document.querySelectorAll('.q').forEach(q => q.style.display = keep.has(q.querySelector('.q-id').textContent.replace('¶','')) ? '' : 'none');
+document.querySelectorAll('.q img').forEach(i => i.loading = 'eager'); document.querySelector('#list').scrollIntoView();
+```
+A reload restores the page.
+
+**Mobile.** `resize_window` with `preset: 'mobile'` (375×812, emulates touch), reload, check, then `preset: 'desktop'` before you finish. Look for text overflowing the card and code panels wider than the screen (`document.documentElement.scrollWidth > innerWidth` must be `false`).
+
+**Dark theme.** `#theme` toggles it (stored in `localStorage['joc:theme']`); check one result block in both themes.
+
+**Clean up your test answers.** Progress lives in `localStorage['joc:v1']` (`{a: answers, s: saved}`). After testing, `localStorage.removeItem('joc:v1'); location.reload()` so the owner's browser is not left with your clicks. Never touch other keys.
+
+**Errors.** `read_console_messages` with `onlyErrors: true` after each week; a JS error in `paint()` silently breaks every card's result block.
+
 ## Report back (at the end, or when stopping)
 
 - Weeks done, cards explained per week, cards skipped by rule (uploader / no answer / reveal).
