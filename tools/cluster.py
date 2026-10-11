@@ -27,7 +27,7 @@ def hl(code):
     return highlight(code, LEXER, FMT).rstrip("\n") if code else None
 
 
-RANK = {"official": 0, "pdf": 1, "uploader": 2}
+RANK = {"official": 0, "pdf": 1, "reviewed": 1, "uploader": 2}
 
 
 def mergeable(r):

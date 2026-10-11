@@ -10352,7 +10352,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The professor compares software to buildings—existing solutions do not prevent creating better or more customized ones.",
   "norm": "which statement best captures the professor s reason for learning programming despite the availability of many applications",
   "norm_options": [
@@ -10396,7 +10396,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Programming languages evolved to address different domains and make programming more effective and easier.",
   "norm": "according to the professor why have multiple programming languages evolved over time",
   "norm_options": [
@@ -10440,7 +10440,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The activity illustrated that programming is fundamentally about communicating precise instructions through symbols.",
   "norm": "what was the primary purpose of the hand gesture classroom activity",
   "norm_options": [
@@ -10484,7 +10484,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The professor emphasizes that programming is a skill developed through consistent practice and gradual learning.",
   "norm": "according to the professor what is the most effective way to become proficient in programming",
   "norm_options": [
@@ -10528,7 +10528,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The session highlights that programming is a transferable problem-solving skill applicable to diverse fields such as economics, science, business, and healthcare.",
   "norm": "which conclusion would riya most likely draw after attending the session",
   "norm_options": [
@@ -10572,7 +10572,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A loop eliminates repetitive code by executing the same sequence multiple times.",
   "norm": "why did the second student recommend using a loop instead of writing every movement instruction separately",
   "norm_options": [
@@ -10616,7 +10616,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The variable stores the current distance and is updated after each iteration, allowing the robot to travel progressively farther.",
   "norm": "in the improved program what is the primary purpose of using a variable for the travel distance",
   "norm_options": [
@@ -10660,7 +10660,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Replacing fixed values with variables increases flexibility and reusability.",
   "norm": "the instructor later replaces the fixed starting distance with another variable what is the main advantage of this change",
   "norm_options": [
@@ -10704,7 +10704,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Without updating the variable, its value remains unchanged, so every iteration performs the same movement.",
   "norm": "suppose a student removes the statement that updates the distance variable inside the loop which outcome is most likely",
   "norm_options": [
@@ -10750,7 +10750,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Loops improve readability, reduce duplication, and make programs easier to update and extend.",
   "norm": "which statement best summarizes the role of loops in programming",
   "norm_options": [
@@ -10794,7 +10794,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The point in direction 90° block sets the sprite's direction immediately before the final move 10 steps block.",
   "norm": "which scratch block determines the direction of the sprite before its final movement of 10 steps",
   "norm_options": [
@@ -10838,7 +10838,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The turn block only changes the current direction. The next movement follows this new direction until another direction block changes it.",
   "norm": "what is the purpose of the turn 15 degrees block in this program",
   "norm_options": [
@@ -10882,7 +10882,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Without the point in direction block, the sprite keeps its current direction after the 15° turn.",
   "norm": "suppose the point in direction 90 block is removed while keeping all other blocks unchanged which statement is most likely to be true",
   "norm_options": [
@@ -10926,7 +10926,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The move blocks change only the sprite's position. They do not alter its facing direction.",
   "norm": "which scratch blocks in the program only change the sprite s position and never its direction",
   "norm_options": [
@@ -10972,7 +10972,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Scratch executes blocks sequentially. Swapping the two direction blocks changes the direction before the final movement, resulting in a different path.",
   "norm": "a student accidentally swaps the positions of the turn 15 degrees block and the point in direction 90 block what is the most likely effect",
   "norm_options": [
@@ -11016,7 +11016,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The modulo operation returns the remainder after division by 2. A remainder of 0 indicates an even number.",
   "norm": "why does the program use the expression counter mod 2 0",
   "norm_options": [
@@ -11060,7 +11060,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Every iteration increases both score and counter. The bonus changes in both branches, but by different amounts.",
   "norm": "which variable is updated in every iteration of the repeat loop regardless of the outcome of the if else condition",
   "norm_options": [
@@ -11104,7 +11104,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The bonus is accumulated during the loop and added to the score only once after the loop finishes.",
   "norm": "what is the purpose of the statement change score by bonus placed after the repeat loop",
   "norm_options": [
@@ -11148,7 +11148,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Adding the accumulated bonus during every iteration would repeatedly increase the score, resulting in a much larger final value.",
   "norm": "suppose the statement change score by bonus is moved inside the repeat loop immediately before the if condition what would be the most likely effect",
   "norm_options": [
@@ -11192,7 +11192,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "After the bonus is added to the score, the program evaluates the conditions sequentially. Once a condition is true, the corresponding message is displayed.",
   "norm": "which statement best describes how the scratch program decides which message to display",
   "norm_options": [
@@ -18601,7 +18601,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The student's name is collected so the computer can use it in personalized messages and printed information.",
   "norm": "why does the registration kiosk ask each student to enter their name",
   "norm_options": [
@@ -18648,7 +18648,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The latest value replaces the previous one, so the updated age is used.",
   "norm": "a student first enters their age as 15 but later realizes it should be 16 and updates it before the participation slip is printed which age will appear on the slip",
   "norm_options": [
@@ -18695,7 +18695,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The program stores the entered name and can use it multiple times without asking again.",
   "norm": "the computer displays a greeting that includes the student s name without asking for it again how is this possible",
   "norm_options": [
@@ -18742,7 +18742,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Once the information is updated, the program uses the corrected value instead of the old one.",
   "norm": "a student accidentally enters the name riya instead of diya before the participation slip is printed the mistake is corrected what is the most likely outcome",
   "norm_options": [
@@ -18789,7 +18789,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Storing information allows the program to reuse it whenever needed during its execution, making the interaction more efficient.",
   "norm": "why is it useful for the program to store information like a student s name and age",
   "norm_options": [
@@ -18839,7 +18839,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Line 2 uses input() to ask the customer to enter their name.",
   "norm": "which line collects the name of the customer",
   "norm_options": [
@@ -18889,7 +18889,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Line 6 changes the value of order to Pasta, so the updated value is printed.",
   "norm": "a student initially enters sandwich as the food item what will be displayed in line 7",
   "norm_options": [
@@ -18939,7 +18939,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The variable customer stores the user's name and is used whenever the program needs it.",
   "norm": "which variable stores the name of the customer throughout the program",
   "norm_options": [
@@ -18989,7 +18989,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The variable customer contains the value Neha, which is displayed in the final message.",
   "norm": "if the customer enters neha as the name what will be displayed in line 8",
   "norm_options": [
@@ -19039,7 +19039,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Assigning a new value to a variable replaces its previous value, so the program always uses the latest information.",
   "norm": "why is the variable order updated in line 6 instead of creating another variable",
   "norm_options": [
@@ -19086,7 +19086,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Keyboard input is initially treated as text. Converting it to a number allows arithmetic operations like calculating discounts.",
   "norm": "why does the program convert the customer s entered price into a number before calculating the discount",
   "norm_options": [
@@ -19133,7 +19133,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A 10% discount means the customer pays 90% of the original price: ₹800 × 0.9 = ₹720.",
   "norm": "a customer enters the price of a book as 800 after applying a 10 discount what amount should the customer pay",
   "norm_options": [
@@ -19180,7 +19180,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Without converting the input into a numeric type, Python treats it as text, so arithmetic operations cannot be performed correctly.",
   "norm": "during testing a developer forgets to convert the entered price into a number before performing calculations what is the most likely outcome",
   "norm_options": [
@@ -19227,7 +19227,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Python follows strict syntax rules. Missing required symbols, such as a colon, results in a syntax error.",
   "norm": "another developer accidentally removes the required colon from a python statement what is the most likely result",
   "norm_options": [
@@ -19276,7 +19276,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. User input is initially treated as text and often needs conversion. - B: Correct. Python is sensitive to syntax and indentation. - C: Correct. Paying after a 10% discount means paying 90% of the original price. - D: Incorrect. Keyboard input is treated as text unless explicitly converted.",
   "norm": "which of the following statements are correct about the bookstore s discount program select all that apply",
   "norm_options": [
@@ -19326,7 +19326,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Line 1 executes before the loop begins, displaying the welcome message.",
   "norm": "what is displayed first when the program starts",
   "norm_options": [
@@ -19376,7 +19376,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The program displays Exercise 1 initially. Each time the teacher enters 1, the next exercise number is displayed. After entering 0, the loop stops, so the displayed numbers are 1, 2, 3, and 4.",
   "norm": "the teacher enters 1 three times and then enters 0 which exercise numbers will be displayed",
   "norm_options": [
@@ -19428,7 +19428,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. Line 7 increases count by 1. - B: Correct. The loop condition is checked in Line 5. - C: Correct. Line 10 runs after the loop finishes. - D: Incorrect. count never decreases.",
   "norm": "which statements about the program are correct select all that apply",
   "norm_options": [
@@ -19478,7 +19478,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The teacher decides when to stop the exercise session, so the number of repetitions is not fixed beforehand.",
   "norm": "why is a while loop used in this program",
   "norm_options": [
@@ -19530,7 +19530,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. for loops are commonly used for a fixed number of repetitions. - B: Correct. A while loop keeps running as long as its condition is true. - C: Incorrect. A while loop may run any number of times depending on the condition. - D: Correct. Both loop types are repetition constructs used in programming.",
   "norm": "which of the following statements correctly compare for loops and while loops select all that apply",
   "norm_options": [
@@ -26724,7 +26724,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Sorting arranges the book titles in a meaningful order, making them easier to organize, search, and analyze.",
   "norm": "why does the librarian sort the catalog of books",
   "norm_options": [
@@ -26771,7 +26771,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Reversing a sorted list changes the order from ascending (A–Z) to descending (Z–A).",
   "norm": "after sorting the catalog alphabetically the librarian wants to display the books from z to a which operation is most suitable",
   "norm_options": [
@@ -26818,7 +26818,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The count() operation returns the number of times a particular item appears in the list.",
   "norm": "the librarian wants to know how many copies of the book python basics are present in the catalog which list operation is most appropriate",
   "norm_options": [
@@ -26865,7 +26865,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The insert() operation places an item at a specified position in the list.",
   "norm": "a newly purchased encyclopedia must appear as the second item in the catalog instead of being added at the end which operation should be used",
   "norm_options": [
@@ -26912,7 +26912,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The length operation returns the total number of elements present in the list.",
   "norm": "the librarian wants to know the total number of books currently stored in the catalog which operation provides this information",
   "norm_options": [
@@ -26962,7 +26962,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "After appending and inserting, the list is sorted alphabetically before being printed.",
   "norm": "what will be the output of line 6",
   "norm_options": [
@@ -27012,7 +27012,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Slicing participants[1:5] returns elements at indices 1, 2, 3, and 4.",
   "norm": "what is stored in the variable batch after line 5",
   "norm_options": [
@@ -27064,7 +27064,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: True. append() adds Sana. - B: True. Aman appears twice. - C: False. The list contains 7 participants. - D: True. sort() arranges the names alphabetically.",
   "norm": "which of the following statements are true after line 4",
   "norm_options": [
@@ -27114,7 +27114,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "insert(1, \"Bhavna\") places Bhavna at index 1 before sorting.",
   "norm": "which line inserts the participant bhavna at a specific position in the list",
   "norm_options": [
@@ -27164,7 +27164,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The slicing operation creates a new list containing only a selected range of participants.",
   "norm": "which operation is demonstrated by line 5",
   "norm_options": [
@@ -27211,7 +27211,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Since 15 is divisible by both 3 and 5, the system displays WalkWait.",
   "norm": "what should the system display when the number 15 is reached",
   "norm_options": [
@@ -27258,7 +27258,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "12 is divisible by 3 but not by 5.",
   "norm": "which of the following numbers will display walk",
   "norm_options": [
@@ -27305,7 +27305,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The first condition is satisfied for numbers like 15, so the later check for both conditions is never reached.",
   "norm": "a programmer first checks whether a number is divisible by 3 then checks whether it is divisible by 5 and only after that checks whether it is divisible by both 3 and 5 what problem is likely to occur",
   "norm_options": [
@@ -27352,7 +27352,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A loop repeats the same set of instructions for each number in the specified range.",
   "norm": "which programming concept allows the system to process every number from 1 to 30 automatically",
   "norm_options": [
@@ -27399,7 +27399,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Checking the combined condition first prevents numbers like 15 from being incorrectly classified as only divisible by 3 or only divisible by 5.",
   "norm": "which statement best explains why the condition divisible by both 3 and 5 should be checked before checking divisibility by 3 or 5 individually",
   "norm_options": [
@@ -27446,7 +27446,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The wisdom of crowds suggests that combining many independent estimates often leads to a reliable result.",
   "norm": "why did the researchers ask a large number of volunteers instead of only one wildlife expert",
   "norm_options": [
@@ -27493,7 +27493,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A trimmed mean removes a percentage of the smallest and largest values before calculating the average.",
   "norm": "which statistical measure is specifically designed to reduce the effect of extremely high and extremely low estimates",
   "norm_options": [
@@ -27540,7 +27540,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A histogram helps visualize the distribution and frequency of estimates.",
   "norm": "the researchers create a histogram of all the estimates using matplotlib what is the main purpose of this graph",
   "norm_options": [
@@ -27589,7 +27589,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. Sorting is required to identify the extreme values. - B: Correct. Both the lowest and highest 10% are removed. - C: Incorrect. Extreme values are excluded. - D: Correct. This reduces the effect of unusually high or low estimates.",
   "norm": "which of the following statements about 10 trimmed mean are correct",
   "norm_options": [
@@ -27638,7 +27638,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. sort() arranges elements in ascending order. - B: Correct. sort() modifies the original list. - C: Incorrect. sort() does not create a new list; sorted() does. - D: Correct. Once sorted, extreme values are easy to locate and remove.",
   "norm": "the researchers use the following statement before calculating the trimmed mean estimates sort which of the following are true about this statement",
   "norm_options": [
@@ -35436,7 +35436,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Leap years determine whether February has 28 or 29 days.",
   "norm": "why does the program check whether a randomly generated year is a leap year",
   "norm_options": [
@@ -35483,7 +35483,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The datetime library is used to represent birthdays as valid date objects.",
   "norm": "which python library is primarily responsible for creating valid calendar dates in the program",
   "norm_options": [
@@ -35530,7 +35530,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Only the day and month matter when checking for birthday collisions.",
   "norm": "why does the program convert each birthday into its day of the year value",
   "norm_options": [
@@ -35577,7 +35577,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Sorting places identical values next to each other, making collisions easy to detect.",
   "norm": "why is the list of day of year values sorted before checking for collisions",
   "norm_options": [
@@ -35624,7 +35624,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Different randomly generated birthdays result in different collision counts.",
   "norm": "why does the program usually produce a different number of collisions each time it is executed",
   "norm_options": [
@@ -35671,7 +35671,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The program is designed so that the two cards share exactly one common symbol.",
   "norm": "what is the primary objective of the python program",
   "norm_options": [
@@ -35720,7 +35720,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Removing used symbols prevents extra matches, while random positions determine where the single common symbol appears. Sorting does not affect the card contents.",
   "norm": "which of the following steps help ensure that the two cards contain exactly one common symbol select all that apply",
   "norm_options": [
@@ -35767,7 +35767,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "random.choice() selects a random element from a list.",
   "norm": "why does the program use random choice",
   "norm_options": [
@@ -35814,7 +35814,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A list with five elements has indices 0 through 4; index 5 is out of range.",
   "norm": "why was random randint 0 5 changed to random randint 0 4 while selecting card positions",
   "norm_options": [
@@ -35861,7 +35861,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The player is prompted to enter the common symbol, and the program checks whether the answer is correct.",
   "norm": "what does the program do after displaying both generated cards",
   "norm_options": [
@@ -35911,7 +35911,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The matrix is created using a nested list comprehension that generates rows and columns.",
   "norm": "which programming construct is primarily responsible for creating the two dimensional matrix in the prototype",
   "norm_options": [
@@ -35961,7 +35961,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The starting position is determined by the algorithm and remains the middle row of the last column for any odd-sized matrix.",
   "norm": "if the value of n is changed from 3 to 5 which statement remains true without modifying the rest of the program",
   "norm_options": [
@@ -36011,7 +36011,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Zero acts as a placeholder, making it easy to distinguish occupied and unoccupied cells.",
   "norm": "why is the matrix initialized with zeros instead of leaving it empty",
   "norm_options": [
@@ -36061,7 +36061,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The prototype demonstrates only the initialization and placement of the first value.",
   "norm": "what is the primary limitation of this prototype compared to the complete magic square algorithm",
   "norm_options": [
@@ -36113,7 +36113,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The prototype creates the matrix, determines the starting position, and uses nested iteration for initialization, but it does not validate or construct the complete Magic Square.",
   "norm": "which of the following statements correctly describe the prototype program select all that apply",
   "norm_options": [
@@ -36165,7 +36165,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "create_question() replaces alphabetic characters with * while preserving spaces and other characters.",
   "norm": "which function is responsible for creating the initial masked movie title displayed to the player",
   "norm_options": [
@@ -36217,7 +36217,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "If the guessed letter is absent, the program displays \"Letter not found.\" and continues with the existing masked title.",
   "norm": "the player enters a letter that is not present in the selected movie title what happens next",
   "norm_options": [
@@ -36269,7 +36269,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The original title identifies matching letters, while the masked title preserves letters revealed in earlier guesses.",
   "norm": "why does the unlock function receive both the original movie title and the current masked title as parameters",
   "norm_options": [
@@ -36321,7 +36321,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The loop continues until the masked title becomes identical to the original movie title.",
   "norm": "which condition causes the game loop to terminate",
   "norm_options": [
@@ -36375,7 +36375,7 @@
    2,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The program randomly selects a movie, converts the player's input to uppercase, and reveals every occurrence of a correctly guessed letter. isalpha() masks only alphabetic characters, leaving spaces and other non-alphabetic characters unchanged rather than replacing them.",
   "norm": "which of the following statements about the program are correct select all that apply",
   "norm_options": [
@@ -45191,7 +45191,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Initially, borrow_count contains four key-value pairs. During the update process, \"Science\" and \"History\" are updated, while \"Art\" is added as a new key. Therefore, the dictionary contains five key-value pairs after Line 16.",
   "norm": "how many key value pairs are present in borrow count immediately after the completion of line 16",
   "norm_options": [
@@ -45241,7 +45241,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The else block is executed only when the condition category in borrow_count evaluates to False. In this program, only the category \"Art\" is absent from borrow_count, so the else block executes exactly once.",
   "norm": "which statement correctly describes the execution of the else block lines 15 16",
   "norm_options": [
@@ -45291,7 +45291,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Before the second loop begins, max_books is initialized to -1. The first category processed is \"Fiction\" with a borrowing count of 12. Since 12 > -1, max_books is updated to 12.",
   "norm": "immediately after executing line 21 for the first time what is the value of max books",
   "norm_options": [
@@ -45341,7 +45341,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The variable max_books stores the highest borrowing count encountered during the traversal of the dictionary. The variable highest stores the corresponding category name, while category and count represent the current key and value during iteration.",
   "norm": "which variable stores the largest borrowing count after the program completes execution",
   "norm_options": [
@@ -45393,7 +45393,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. \"Science\" is updated from 8 to 12, and \"History\" is updated from 5 to 7. - B: Correct. \"Technology\" is not present in the updates dictionary, so its value remains unchanged. - C: Correct. \"Art\" is the only new category added to borrow_count. - D: Incorrect. The dictionary grows from four keys to five keys after the addition of \"Art\".",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -45443,7 +45443,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The dictionary maps each move to the move it defeats. For example, \"Rock\" maps to \"Scissors\" because Rock beats Scissors.",
   "norm": "what is the purpose of the dictionary wins against",
   "norm_options": [
@@ -45493,7 +45493,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Player A wins Rounds 1, 2, and 3, while Player B wins Round 5. Round 4 is a draw, so the final score is {\"Player A\": 3, \"Player B\": 1}.",
   "norm": "what is the value of the score dictionary after the loop finishes",
   "norm_options": [
@@ -45543,7 +45543,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The expression retrieves the value associated with Player A's current move from the dictionary. For example, if Player A chooses \"Paper\", it returns \"Rock\".",
   "norm": "what does the expression wins against playera i return",
   "norm_options": [
@@ -45593,7 +45593,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Player A scores 3 points, while Player B scores 1 point. Since Player A has the higher score, the program prints \"Player A Wins\".",
   "norm": "which statement is printed at the end of the program",
   "norm_options": [
@@ -45647,7 +45647,7 @@
    2,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The score dictionary is updated whenever a player wins a round, while wins_against is used only for lookups. One round ends in a draw, and score[\"Player A\"] += 1 increments Player A's score by one.",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -45697,7 +45697,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Binary Search works correctly only when the elements are sorted. Linear Search does not require a sorted list.",
   "norm": "why is the list book ids arranged in ascending order",
   "norm_options": [
@@ -45747,7 +45747,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The value 134 is present at index 4 in the list. Both search algorithms locate the same element and return the same index.",
   "norm": "what is the output of the program",
   "norm_options": [
@@ -45797,7 +45797,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Initially, low = 0 and high = 7. Therefore, mid = (0 + 7) // 2 = 3.",
   "norm": "during the first iteration of the binary search loop what is the value of mid",
   "norm_options": [
@@ -45847,7 +45847,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Without the break, the loop continues until the end of the list. Since the target appears only once, the final value of linear_index remains unchanged.",
   "norm": "suppose the statement break on line 9 is removed which statement is correct",
   "norm_options": [
@@ -45899,7 +45899,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Linear Search examines elements sequentially, while Binary Search repeatedly halves the search range. Since the target exists at index 4, both algorithms return 4; however, Binary Search requires the list to be sorted.",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -45946,7 +45946,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Linear Search checks elements one by one from the beginning. Gate 126 is the 7th element in the list, so seven comparisons are required.",
   "norm": "how many elements would linear search examine before finding gate 126",
   "norm_options": [
@@ -45993,7 +45993,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The middle index of a 10-element list is (0 + 9) // 2 = 4. The element at index 4 is 117.",
   "norm": "during the first comparison of binary search which gate number is examined",
   "norm_options": [
@@ -46040,7 +46040,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Since 126 is greater than 117, Binary Search discards the left half. It continues searching the right half of the list.",
   "norm": "after the first binary search comparison which part of the list will be searched next",
   "norm_options": [
@@ -46087,7 +46087,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Binary Search reduces the search space by half after each comparison. This makes it much more efficient than checking elements one by one.",
   "norm": "why is binary search generally faster than linear search for large sorted lists",
   "norm_options": [
@@ -46136,7 +46136,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Binary Search works correctly only on sorted data, whereas Linear Search works on any list. In this scenario, both methods successfully locate Gate 126, but Binary Search does not examine every element.",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -53526,7 +53526,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Line 8 stores each original letter as a key and its substituted letter as the corresponding value in the dictionary.",
   "norm": "which line creates the substitution rule that maps each letter to its replacement",
   "norm_options": [
@@ -53576,7 +53576,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "If a character is not found in the dictionary (such as digits or punctuation), the else block copies it unchanged.",
   "norm": "suppose the user enters the input abc123 which statement ensures that the digits 1 2 and 3 remain unchanged",
   "norm_options": [
@@ -53626,7 +53626,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The variable encrypted starts as an empty string, and encrypted characters are appended to it during processing.",
   "norm": "what is the purpose of line 12",
   "norm_options": [
@@ -53676,7 +53676,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The substitution dictionary is no longer used. Every character is copied directly into the output.",
   "norm": "if line 16 encrypted cipher ch is replaced with encrypted ch what will be the result",
   "norm_options": [
@@ -53728,7 +53728,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: string.ascii_letters contains both lowercase and uppercase English letters. - B: Line 8 creates the mapping from each letter to its substitute. - C: Line 15 checks whether the character exists in the dictionary, not whether it is a digit. - D: The final two print statements display both the original input and the encrypted output.",
   "norm": "which of the following statements about the program are correct select all that apply",
   "norm_options": [
@@ -53778,7 +53778,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Line 10 compares all three elements of a row and ensures that they are not blank.",
   "norm": "which line checks whether all three cells in a row contain the same non empty symbol",
   "norm_options": [
@@ -53828,7 +53828,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Once a winning row is found, there is no need to examine the remaining rows.",
   "norm": "what is the purpose of the break statement in line 12",
   "norm_options": [
@@ -53878,7 +53878,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The variable winner is updated with 'X' or 'O' when a winning row is found.",
   "norm": "which variable stores the winning player s symbol",
   "norm_options": [
@@ -53928,7 +53928,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The variable winner would always contain the string \"Player\" instead of the winning symbol.",
   "norm": "if line 11 winner row 0 is replaced with winner player what will the program display when a winning row is found",
   "norm_options": [
@@ -53980,7 +53980,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. The board is stored as a list of lists. - B: Correct. The program examines only the rows for a winning condition. - C: Correct. The break statement terminates the loop once a winner is detected. - D: Incorrect. The program does not check diagonal or column-wise winning conditions.",
   "norm": "which of the following statements about the program are correct select all that apply",
   "norm_options": [
@@ -54027,7 +54027,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "In recursion, the same task is performed repeatedly on smaller instances of the same problem.",
   "norm": "which characteristic of the search process best represents recursion",
   "norm_options": [
@@ -54074,7 +54074,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A recursive process stops when it reaches a condition where no further recursive calls are needed.",
   "norm": "in this scenario what is the base case for the recursive search",
   "norm_options": [
@@ -54121,7 +54121,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Each subfolder is simply a smaller version of the original problem, making recursion a natural solution.",
   "norm": "why is recursion a suitable approach for this problem",
   "norm_options": [
@@ -54168,7 +54168,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Without a stopping condition, recursive calls continue indefinitely, eventually causing a stack overflow or exhausting system resources.",
   "norm": "what would most likely happen if the search process had no base case",
   "norm_options": [
@@ -54217,7 +54217,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. The same search logic is applied to every subfolder. - B: Correct. Every recursive solution requires a base case to terminate. - C: Correct. Each subfolder is a smaller version of the original folder search problem. - D: Incorrect. A folder may contain any number of subfolders or none at all; recursion does not require exactly one subfolder.",
   "norm": "which of the following statements correctly describe recursion in the given scenario select all that apply",
   "norm_options": [
@@ -54267,7 +54267,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Line 2 checks whether low > high. If true, there are no more elements to search, and the recursion terminates.",
   "norm": "which line represents the base case where the search terminates because the search range has become invalid",
   "norm_options": [
@@ -54317,7 +54317,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "When the target is smaller than the middle element, the function recursively searches from low to mid - 1.",
   "norm": "which line performs the recursive search on the left half of the list",
   "norm_options": [
@@ -54367,7 +54367,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The middle index is calculated so that the current search range can be divided into two halves.",
   "norm": "what is the purpose of line 5",
   "norm_options": [
@@ -54417,7 +54417,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Since the search boundaries do not change, the same recursive call is repeated indefinitely.",
   "norm": "if line 14 return binary search arr mid 1 high target is replaced with return binary search arr low high target what is the most likely outcome when the target is greater than the middle element",
   "norm_options": [
@@ -54468,7 +54468,7 @@
    0,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: Correct. Each recursive call searches only one half of the remaining list. - B: Incorrect. Binary search requires the list to be sorted. - C: Incorrect. Line 5 only computes the middle index; it does not compare every element. - D: Correct. These are the two terminating conditions of the recursive binary search.",
   "norm": "which of the following statements about the program are correct select all that apply",
   "norm_options": [
@@ -61460,7 +61460,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "k stores the starting row index and l stores the starting column index.",
   "norm": "which variables store the starting row and starting column of the current spiral layer",
   "norm_options": [
@@ -61510,7 +61510,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The starting row index is increased after the top row has been printed.",
   "norm": "what is the purpose of the statement at line 9",
   "norm_options": [
@@ -61560,7 +61560,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The column index remains fixed at n-1 while the row index increases.",
   "norm": "which statement best describes the loop at lines 11 12",
   "norm_options": [
@@ -61610,7 +61610,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The algorithm begins by traversing the top row from left to right.",
   "norm": "what is the first sequence of numbers printed by the program",
   "norm_options": [
@@ -61661,7 +61661,7 @@
    0,
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The algorithm maintains and updates four boundaries to progressively traverse the matrix in spiral order.",
   "norm": "which of the following statements are true about the program",
   "norm_options": [
@@ -61711,7 +61711,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The condition allows a move only if the new position does not exceed the target.",
   "norm": "which statement ensures that the player does not move beyond the last position on the board",
   "norm_options": [
@@ -61761,7 +61761,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Position 16 is the head of a snake that sends the player to position 7.",
   "norm": "if the player reaches position 16 what happens next",
   "norm_options": [
@@ -61811,7 +61811,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The condition checks if the player has reached the final position.",
   "norm": "what is the purpose of the statement at line 21",
   "norm_options": [
@@ -61861,7 +61861,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The break statement terminates the loop immediately.",
   "norm": "which statement immediately ends the loop once the player reaches the target",
   "norm_options": [
@@ -61912,7 +61912,7 @@
    2,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The program ignores moves beyond the target and immediately applies snakes or ladders whenever the player lands on them.",
   "norm": "which of the following statements are true about the program",
   "norm_options": [
@@ -61962,7 +61962,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The statement creates a Google Map object centered at the specified latitude and longitude.",
   "norm": "what is the purpose of the statement at line 3",
   "norm_options": [
@@ -62012,7 +62012,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The marker() method places a marker at the specified coordinates.",
   "norm": "which statement adds a marker for each restaurant",
   "norm_options": [
@@ -62062,7 +62062,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The value of name is passed as the marker's title.",
   "norm": "what is displayed as the title of each marker",
   "norm_options": [
@@ -62112,7 +62112,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The draw() method generates the HTML file containing the map.",
   "norm": "what is the purpose of the statement at line 14",
   "norm_options": [
@@ -62163,7 +62163,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The loop processes each restaurant and marker() uses its latitude and longitude to place a marker on the map.",
   "norm": "which of the following statements are true about the program",
   "norm_options": [
@@ -62213,7 +62213,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Linear search is suitable when the data is not sorted.",
   "norm": "the attractions are stored in random order which searching technique is most appropriate for finding a particular attraction",
   "norm_options": [
@@ -62263,7 +62263,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Spiral traversal systematically covers all cells from the outer layer to the center.",
   "norm": "why does the inspection drone use a spiral traversal of the city matrix",
   "norm_options": [
@@ -62313,7 +62313,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A map marker requires geographic coordinates to determine its location.",
   "norm": "which information is essential for placing an attraction on the google map",
   "norm_options": [
@@ -62363,7 +62363,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The game rules specify that moves beyond the final checkpoint are not allowed.",
   "norm": "in the treasure trail game what should happen if a dice roll moves the visitor beyond checkpoint 25",
   "norm_options": [
@@ -62414,7 +62414,7 @@
    1,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Dictionaries can store multiple attributes of an attraction, and spiral traversal visits every matrix location exactly once.",
   "norm": "which of the following statements are true about the smart heritage city explorer",
   "norm_options": [
@@ -70111,7 +70111,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The third value in the tuple is \"Computer Science\", which represents the student's department.",
   "norm": "which piece of information is stored in the third position of the tuple",
   "norm_options": [
@@ -70158,7 +70158,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Tuples are useful when the stored information remains fixed after creation.",
   "norm": "why is a tuple a suitable data structure for storing this record",
   "norm_options": [
@@ -70205,7 +70205,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The tuple contains four values: Name, Student ID, Department, and CGPA.",
   "norm": "how many pieces of information are stored in the student s tuple",
   "norm_options": [
@@ -70252,7 +70252,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The last value in the tuple is the student's CGPA, which is 8.7.",
   "norm": "which of the following is the last item stored in the tuple",
   "norm_options": [
@@ -70299,7 +70299,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Tuples are immutable, so their values cannot be modified after creation. A new tuple must be created with the updated information.",
   "norm": "a staff member wants to replace the department computer science with artificial intelligence in the existing tuple what should they do",
   "norm_options": [
@@ -70349,7 +70349,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "range(7) repeats the loop 7 times, so the game consists of seven rounds.",
   "norm": "according to line 5 how many rounds will the game be played",
   "norm_options": [
@@ -70399,7 +70399,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Lines 6 and 7 use random.randint(1, 10) to generate the bet number and the lucky draw number.",
   "norm": "which lines generate the random numbers for the player s bet and the lucky draw",
   "norm_options": [
@@ -70449,7 +70449,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The player receives ₹900 and pays a ₹100 participation fee. Therefore, the net increase is ₹800.",
   "norm": "if the bet number and lucky draw number are equal what is the net change in the account balance according to line 12",
   "norm_options": [
@@ -70499,7 +70499,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The else block subtracts ₹100 from the account, representing the participation fee.",
   "norm": "according to lines 13 14 what happens when the bet number and lucky draw number are different",
   "norm_options": [
@@ -70550,7 +70550,7 @@
    0,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A  Line 16 prints the account balance after each iteration of the loop. - B  The program generates the bet randomly; it does not use input(). - C  Since both values are random, they may or may not be equal. - D  If the player loses multiple rounds, ₹100 is deducted each time, so the account balance can become negative.",
   "norm": "which of the following statements about the program are correct choose all that apply",
   "norm_options": [
@@ -70600,7 +70600,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Shuffling changes only the order of characters. The number of characters always remains the same. Repeated letters do not prevent an anagram from being generated.",
   "norm": "suppose the user enters the word level which of the following statements is always true",
   "norm_options": [
@@ -70650,7 +70650,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "If the shuffled arrangement is identical to the original word, the condition on Line 10 fails and the loop repeats until a different arrangement is obtained.",
   "norm": "consider the execution of lines 6 11 which situation can cause the loop to execute more than once",
   "norm_options": [
@@ -70700,7 +70700,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A single-character word has only one possible arrangement. Therefore, candidate will always be equal to keyword, making the condition on Line 10 false forever.",
   "norm": "which of the following inputs may cause the program to never terminate",
   "norm_options": [
@@ -70750,7 +70750,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The loop terminates only when the generated arrangement differs from the original word.",
   "norm": "which statement best describes the purpose of lines 10 11",
   "norm_options": [
@@ -70801,7 +70801,7 @@
    0,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A Correct. A one-character word has only one possible arrangement, so the loop never satisfies the condition on Line 10. - B Incorrect. Randomness does not guarantee a different output on every execution. The same anagram may be generated in different runs. - C Incorrect. The program stops after generating the first valid anagram. It does not enumerate all possible anagrams. - D Correct. random.shuffle() only changes the order of the existing characters; it does not add, remove, or replace any characters.",
   "norm": "which of the following statements about the program are correct choose all that apply",
   "norm_options": [
@@ -70851,7 +70851,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "SentimentIntensityAnalyzer() creates a VADER sentiment analyzer that is used to calculate sentiment scores for text.",
   "norm": "what is the primary purpose of line 14",
   "norm_options": [
@@ -70901,7 +70901,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The program extracts the compound score from the dictionary returned by polarity_scores(). This score is used in the decision on Lines 18–21.",
   "norm": "according to line 17 which value is used to determine whether a review is positive or negative",
   "norm_options": [
@@ -70951,7 +70951,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The apply() function calls get_sentiment() for every review and stores the returned labels in the new Sentiment column.",
   "norm": "what is the purpose of line 23",
   "norm_options": [
@@ -71001,7 +71001,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The function computes the compound score for one review and returns either \"Positive\" or \"Negative\".",
   "norm": "which statement best describes the role of the function get sentiment",
   "norm_options": [
@@ -71054,7 +71054,7 @@
    2,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A. Incorrect. The original Review column is not modified. - B. Correct. Lines 4–12 create a Pandas DataFrame named reviews. - C. Correct. Line 23 applies the get_sentiment() function to every review. - D. Incorrect. Classification is based on the compound sentiment score, not the length of the review.",
   "norm": "which of the following statements are correct choose all that apply",
   "norm_options": [
@@ -78725,7 +78725,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "word_tokenize() splits the given text into individual tokens and stores them in the list tokens.",
   "norm": "which statement converts the review text into a list of tokens",
   "norm_options": [
@@ -78775,7 +78775,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A FreqDist object stores one entry for each distinct token, so len(freq) returns the number of unique tokens.",
   "norm": "what does the expression len freq in line 14 return",
   "norm_options": [
@@ -78825,7 +78825,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "FreqDist(tokens) counts the occurrences of every token and stores the resulting frequency distribution.",
   "norm": "which line creates the frequency distribution of the tokens",
   "norm_options": [
@@ -78875,7 +78875,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The loop checks each token's frequency and prints only those whose count is greater than 1.",
   "norm": "which part of the program prints only the words that occur more than once",
   "norm_options": [
@@ -78927,7 +78927,7 @@
    2,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "FreqDist behaves like a dictionary with tokens as keys and counts as values, and len(freq) returns the number of distinct keys stored in the distribution.",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -78977,7 +78977,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Each node represents one book in the recommendation network.",
   "norm": "in this graph what does a node represent",
   "norm_options": [
@@ -79027,7 +79027,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Each edge represents a recommendation relationship between two books.",
   "norm": "what does an edge between two books indicate",
   "norm_options": [
@@ -79077,7 +79077,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "G.nodes contains all the books (nodes) present in the graph.",
   "norm": "what does len g nodes represent",
   "norm_options": [
@@ -79127,7 +79127,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "neighbors() returns all nodes that share an edge with the given node.",
   "norm": "why is g neighbors book used in the program",
   "norm_options": [
@@ -79179,7 +79179,7 @@
    2,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Edges represent relationships between nodes, and graphs are commonly used to model such connections.",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -79226,7 +79226,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "An edge represents a direct friendship connecting two users.",
   "norm": "in the social network described above what does an edge represent",
   "norm_options": [
@@ -79273,7 +79273,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A path connects two nodes through one or more intermediate nodes.",
   "norm": "alice is friends with bob and bob is friends with carol alice and carol are not directly connected what exists between alice and carol",
   "norm_options": [
@@ -79320,7 +79320,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The shortest path represents the fewest intermediate connections between two users.",
   "norm": "why is the shortest path between two users often important in a social network",
   "norm_options": [
@@ -79367,7 +79367,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A connected graph allows every node to be reached from every other node through at least one path.",
   "norm": "when is a social network considered to be connected",
   "norm_options": [
@@ -79416,7 +79416,7 @@
    2,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "In a social graph, nodes represent users, and the Six Degrees concept relies on paths that connect people through mutual friends.",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -79466,7 +79466,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "getpixel() returns the color value stored at the specified pixel location.",
   "norm": "why is getpixel used in this program",
   "norm_options": [
@@ -79516,7 +79516,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "putpixel() updates the color value of a specified pixel.",
   "norm": "what is the purpose of putpixel",
   "norm_options": [
@@ -79566,7 +79566,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Image.new() creates a new image with the specified mode, size, and background color.",
   "norm": "what is the purpose of image new",
   "norm_options": [
@@ -79616,7 +79616,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The save() method writes the image object to a file.",
   "norm": "why is the save method used",
   "norm_options": [
@@ -79668,7 +79668,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Image.new() creates a new image object, and modifications made using putpixel() become permanent only after calling save().",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -87388,7 +87388,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The methods lower() and replace(\" \", \"\") convert names to lowercase and remove spaces.",
   "norm": "what is the purpose of the statements in lines 1 and 2",
   "norm_options": [
@@ -87438,7 +87438,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "count is calculated using the lengths of the remaining characters in both lists.",
   "norm": "what is stored in the variable count at line 9",
   "norm_options": [
@@ -87488,7 +87488,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "pop(index) removes the element at the specified position.",
   "norm": "which statement actually removes a letter from the flames list during each iteration",
   "norm_options": [
@@ -87538,7 +87538,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The modulo operation wraps the index so that it always remains valid for the current list size.",
   "norm": "why is the modulo operator used in line 12",
   "norm_options": [
@@ -87590,7 +87590,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: The loop stops only when one element remains. - B: The dictionary stores the relationship corresponding to each FLAMES letter. - D: list(name1) creates a list containing individual characters of the first name.",
   "norm": "which of the following statements are correct about the program",
   "norm_options": [
@@ -87640,7 +87640,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "Converting to lowercase and removing spaces ensures consistent comparison.",
   "norm": "why are the methods lower and replace used in lines 1 and 2 before comparing the names",
   "norm_options": [
@@ -87690,7 +87690,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "count is calculated using the lengths of the updated character lists.",
   "norm": "which statement correctly describes the value stored in count at line 9",
   "norm_options": [
@@ -87740,7 +87740,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "pop(index) removes one element, reducing the list size by one.",
   "norm": "which line changes the size of the flames list during each iteration of the loop",
   "norm_options": [
@@ -87790,7 +87790,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The modulo operator wraps the value within the valid index range.",
   "norm": "suppose count is greater than the current length of the flames list why does the program still work correctly",
   "norm_options": [
@@ -87842,7 +87842,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: The loop terminates only when one element remains. - B: Line 14 rotates the list, affecting the elimination order. - D: count is calculated after updating both character lists.",
   "norm": "which of the following statements about the program are correct",
   "norm_options": [
@@ -87892,7 +87892,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "img.load() provides access to the RGB values of individual pixels.",
   "norm": "what is the purpose of line 3 pixels img load",
   "norm_options": [
@@ -87942,7 +87942,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "img.size returns the width and height of the image.",
   "norm": "what is stored in the variables width and height at line 4",
   "norm_options": [
@@ -87992,7 +87992,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "pixels[x, y] returns the RGB values of the pixel at position (x, y).",
   "norm": "what is the value of r g and b after executing line 9",
   "norm_options": [
@@ -88042,7 +88042,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "// computes the average as an integer by discarding the decimal part.",
   "norm": "why is integer division used in line 10",
   "norm_options": [
@@ -88092,7 +88092,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The nested loops visit every pixel once, so the statement executes 200 × 100 = 20,000 times.",
   "norm": "suppose an image has 200 100 pixels how many times will the statement in line 9 execute",
   "norm_options": [
@@ -88142,7 +88142,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The nested loops iterate through every (x, y) pixel position in the image.",
   "norm": "which statement ensures that every pixel in the image is processed exactly once",
   "norm_options": [
@@ -88192,7 +88192,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "A color pixel is returned as an RGB tuple containing three values.",
   "norm": "what is the data type of the value returned by pixels x y for a color image",
   "norm_options": [
@@ -88242,7 +88242,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "(90 + 150 + 180) // 3 = 420 // 3 = 140.",
   "norm": "if the current pixel has rgb values 90 150 180 what will be the value of average",
   "norm_options": [
@@ -88292,7 +88292,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "The condition is average > 127, so 127 is classified as Dark.",
   "norm": "if a pixel has an average intensity of 127 how will it be classified",
   "norm_options": [
@@ -88344,7 +88344,7 @@
    1,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "official",
   "explanation": "- A: img.load() provides pixel-level access. - B: bright and dark count the number of classified pixels. - D: Pixels are accessed using their x and y coordinates.",
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -95440,7 +95440,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which function is used to display the calendar of the selected month",
   "norm_options": [
@@ -95487,7 +95487,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "what is stored in the variable weekday after line 11 executes",
   "norm_options": [
@@ -95534,7 +95534,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "why is the list days created in lines 12 13",
   "norm_options": [
@@ -95581,7 +95581,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which statement displays the weekday name of the event",
   "norm_options": [
@@ -95629,7 +95629,7 @@
    0,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which of the following statements about the program are correct",
   "norm_options": [
@@ -95676,7 +95676,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "what is the purpose of calendar isleap year",
   "norm_options": [
@@ -95723,7 +95723,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "what is stored in the variable weeks after line 14",
   "norm_options": [
@@ -95770,7 +95770,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "why does the program check if week 0 0",
   "norm_options": [
@@ -95817,7 +95817,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which variable stores the total number of mondays in the selected month",
   "norm_options": [
@@ -95865,7 +95865,7 @@
    0,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -95912,7 +95912,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "what is the value stored in first day after line 10 executes",
   "norm_options": [
@@ -95959,7 +95959,7 @@
   "answer": [
    0
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "why are the conditions week 5 0 and week 6 0 checked inside the loop",
   "norm_options": [
@@ -96006,7 +96006,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which statement best describes the variable weeks",
   "norm_options": [
@@ -96053,7 +96053,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "if a selected month contains 5 saturdays and 4 sundays what value will be printed for weekend count",
   "norm_options": [
@@ -96101,7 +96101,7 @@
    0,
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -96148,7 +96148,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "what is stored in the list fridays after the loop completes",
   "norm_options": [
@@ -96195,7 +96195,7 @@
   "answer": [
    1
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "why is the condition week 4 0 used",
   "norm_options": [
@@ -96242,7 +96242,7 @@
   "answer": [
    2
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "what is the purpose of fridays 1 in line 19",
   "norm_options": [
@@ -96289,7 +96289,7 @@
   "answer": [
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "suppose the selected month has friday dates 3 10 17 24 and 31 what will be printed by line 19",
   "norm_options": [
@@ -96337,7 +96337,7 @@
    2,
    3
   ],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -103407,7 +103407,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "why is the university using pagerank instead of simply counting the number of incoming links",
   "norm_options": [
@@ -103452,7 +103452,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "suppose a newly created club page receives a recommendation from a highly ranked club what is the most likely outcome",
   "norm_options": [
@@ -103497,7 +103497,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "if one club page links to hundreds of other club pages how does this affect the value of each outgoing link",
   "norm_options": [
@@ -103542,7 +103542,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which statement best describes how pagerank determines page importance",
   "norm_options": [
@@ -103587,7 +103587,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which of the following statements about pagerank are correct",
   "norm_options": [
@@ -103632,7 +103632,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "what is the purpose of line 13",
   "norm_options": [
@@ -103677,7 +103677,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which page receives the greatest total contribution after this iteration",
   "norm_options": [
@@ -103722,7 +103722,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which page contributes the smallest amount to each linked page",
   "norm_options": [
@@ -103767,7 +103767,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which dictionary stores the updated pagerank values after one iteration",
   "norm_options": [
@@ -103812,7 +103812,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which of the following statements are correct about the program",
   "norm_options": [
@@ -103857,7 +103857,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which page contributes the largest value to each page it links to",
   "norm_options": [
@@ -103902,7 +103902,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which page receives contributions from both p and s",
   "norm_options": [
@@ -103947,7 +103947,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which page will have the highest updated rank after this iteration",
   "norm_options": [
@@ -103992,7 +103992,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "why is a separate dictionary updated used instead of modifying rank directly inside the loop",
   "norm_options": [
@@ -104037,7 +104037,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which of the following statements are correct",
   "norm_options": [
@@ -104082,7 +104082,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "if the input is 8 how many times is the statement on line 10 executed",
   "norm_options": [
@@ -104127,7 +104127,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which statement correctly describes the purpose of line 6",
   "norm_options": [
@@ -104172,7 +104172,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "if the input is 3 which number is printed immediately after 10",
   "norm_options": [
@@ -104217,7 +104217,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "what is the role of the variable steps",
   "norm_options": [
@@ -104262,7 +104262,7 @@
    }
   ],
   "answer": [],
-  "answer_source": "pdf",
+  "answer_source": "reviewed",
   "explanation": null,
   "norm": "which of the following statements are correct",
   "norm_options": [

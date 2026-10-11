@@ -215,7 +215,8 @@ def finish(q, row):
         "type": qtype, "context": {k: v for k, v in q["context"].items() if k != "only"} if q["context"] else None, "text": text, "code": code,
         "images": q["images"], "crops": q["crops"], "options": q["options"],
         "answer": q["numeric"] if qtype == "numeric" else answer,
-        "answer_source": {"portal_print_parsed": "official", "case_study_pdf_md": "pdf"}.get(row["kind"], "uploader"),
+        "answer_source": "official" if row["kind"] == "portal_print_parsed" or (row["kind"] == "case_study_pdf_md" and week <= 10)
+                         else "reviewed" if row["kind"] == "case_study_pdf_md" else "uploader",  # Jul-2026 PDFs: weeks 1-10 carry the official key, 11-12 the owner's answers
         "explanation": q["explanation"],
         "norm": norm(text + " " + (code or "")),
         "norm_options": sorted(norm(o["text"]) for o in q["options"]),
