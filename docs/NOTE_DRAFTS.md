@@ -1,7 +1,7 @@
-# Draft notes for disputed answers (not applied)
+# Draft notes for disputed answers
 
-n> **Applied** (index/fixes/notes.jsonl), except 2020-jan/w12/q04 (key correct for NetworkX 2+). Edited before applying: 2021-jan/w04/q09@portal, 2022-jul/w12/q07, 2026-jan/w08/q10.
-Drafts only. Nothing in `index/review` or `index/fixes` has been changed. Each note says what the key says and why another option is also right, or why the key is wrong, in the style of the note on `2021-jan/w02/q10@portal`. Code was run where it could be (NumPy, `datetime`, the `for`/`continue` loop, the magic-square sums, the Collatz and FLAMES checks); picture-only cards were read from the images.
+> **Applied** (index/fixes/notes.jsonl), except 2020-jan/w12/q04 (key correct for NetworkX 2+). Edited before applying: 2021-jan/w04/q09@portal, 2022-jul/w12/q07, 2026-jan/w08/q10.
+Each note says what the key says and why another option is also right, or why the key is wrong, in the style of the note on `2021-jan/w02/q10@portal`. Code was run where it could be (NumPy, `datetime`, the `for`/`continue` loop, the magic-square sums, the Collatz and FLAMES checks); picture-only cards were read from the images.
 
 | Card id | Week | Current answer | Draft note |
 |---|---|---|---|
