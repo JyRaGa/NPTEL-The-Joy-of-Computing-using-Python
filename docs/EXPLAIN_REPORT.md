@@ -18,6 +18,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 10 | 145 | 5 | 4 |
 | 11 | 144 | 2 | 4 |
 | 12 | 126 | 10 | 6 |
+| 0 | 50 | 0 | 0 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -83,3 +84,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 Weeks 1–3 were written before the rule "a wrong option that is a real Python output or code gets a line saying what code produces it". Some of their options are `null` where a line could be written; revisit them.
 - `2018-jul/w09/q01`, `2019-jul/w09/q05`: the keyed areas use area x state points / non-state points (the lecture formula), which is not the exact proportion; explained the way the key computes it.
 - `2019-jan/w11/q07`: the card says 18 June 2017 is a Thursday (it was a Sunday); explained with the weekday the card gives (weekday() = 3).
+
+## Status
+
+All weeks (1-12, then 0) have been explained. Still to do: revisit the `null` options in Weeks 1-3 that are real outputs and could get a "what code gives this" line, and review the lines marked as doubtful above.
