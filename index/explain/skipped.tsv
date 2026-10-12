@@ -18,3 +18,5 @@
 2023-jul/w06/q06@gpt	disagree: card B (infinite loop); recursive(L) has no base case, and L[-1] on the empty list raises IndexError
 2026-jan/w06/q10	disagree: card A (list still reversed, None returned); removing the recursive return line leaves only the first swap (option D)
 2026-jan/w06/q14	disagree: card B (a winning condition); reaching nine turns also ends the loop, so A is also a way the game stops
+2019-jul/w07/q06	disagree: card B ((1,1),(1,2),(1,3),(1,4),(2,4)); a spiral goes on to (1,5) after (1,4), not to (2,4)
+2026-jul/w07/q20	disagree: card B,C; statement D (markers are placed with an attraction's latitude and longitude) is also true, as the map questions in the same set show

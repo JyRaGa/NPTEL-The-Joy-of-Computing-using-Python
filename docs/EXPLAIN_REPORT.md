@@ -12,6 +12,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 4 | 156 | 3 | 7 |
 | 5 | 186 | 6 | 2 |
 | 6 | 149 | 1 | 7 |
+| 7 | 132 | 8 | 2 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -37,6 +38,9 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 - `2022-jul/w06/q05`: could not explain: options C and D read identically in the card.
 - `2026-jan/w06/q10`: card A; removing the recursive return line leaves only the first swap (option D).
 - `2026-jan/w06/q14`: card B; reaching nine turns also ends the loop (option A).
+
+- `2019-jul/w07/q06`: card B; a spiral goes on to (1,5) after (1,4), not to (2,4).
+- `2026-jul/w07/q20`: card B,C; statement D (markers are placed with latitude and longitude) is also true.
 
 ## Doubtful but explained (no contradiction with a note)
 
