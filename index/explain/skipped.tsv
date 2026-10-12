@@ -2,3 +2,10 @@
 2025-jan/w02/q08	could not explain: code in picture has no if inside the while loop that the options refer to
 2024-jan/w02/q07	disagree: code as shown has an IndentationError (i += 1 indented deeper than print); card answer A assumes the intended code
 2025-jan/w02/q03	disagree: card A,C; but option D (a = int(a)) is not a way to read a decimal either
+2023-jul/w04/q04@gpt	disagree: card B (a magic square of size n); the code prints an n x n grid of random letters, which is not a magic square
+2020-jan/w04/q05	disagree: card A only; option C (for ch in range(len(ch))) also prints one dash per letter (it overwrites ch)
+2020-sep/w04/q03	disagree: card B; option D random.choice(string.ascii_uppercase) gives the same result
+2021-jan/w04/q09@portal	disagree: card 53,130; tracing gives at most 22 letter guesses; 53,130 = C(25,5) has no clear basis
+2022-jan/w04/q02	disagree: card D; all four leap-year programs mishandle century years such as 1900, D only prints exactly one message
+2023-jan/w04/q02	disagree: card B (N should be odd); 4 x 4 magic squares exist (see 2024-jan Q10), odd N is only the lecture program method
+2025-jan/w04/q04	disagree: card A,C; option D (the first square times pi) is also a magic square, as the Jul-2024 version of this question accepts

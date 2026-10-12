@@ -9,6 +9,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 1 | 152 | 9 | 1 |
 | 2 | 151 | 6 | 3 |
 | 3 | 160 | 5 | 0 |
+| 4 | 156 | 3 | 7 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -16,6 +17,14 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 - `2024-jan/w02/q07`: card A; the code as shown has `i += 1` indented deeper than `print`, an IndentationError when run.
 - `2025-jan/w02/q03`: card A,C; option D (`a = int(a)`) is not a way to read a decimal either. The card carries a note.
 - `2025-jan/w02/q08`: could not explain: the picture shows a different program from the options (no `if` inside the `while`).
+
+- `2023-jul/w04/q04@gpt`: card B (a magic square of size n); the code prints an n x n grid of random letters, not a magic square.
+- `2020-jan/w04/q05`: card A only; option C (`for ch in range(len(ch))`) also prints one dash per letter.
+- `2020-sep/w04/q03`: card B; option D `random.choice(string.ascii_uppercase)` gives the same result.
+- `2021-jan/w04/q09@portal`: card 53,130; tracing gives at most 22 letter guesses; 53,130 = C(25,5) has no clear basis.
+- `2022-jan/w04/q02`: card D; all four leap-year programs mishandle century years such as 1900.
+- `2023-jan/w04/q02`: card B (N should be odd); 4 x 4 magic squares exist, odd N is only the lecture method.
+- `2025-jan/w04/q04`: card A,C; option D (the first square times pi) is also a magic square, and the Jul-2024 copy accepts it.
 
 ## Doubtful but explained (no contradiction with a note)
 
