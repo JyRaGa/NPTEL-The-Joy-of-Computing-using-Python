@@ -15,6 +15,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 7 | 132 | 8 | 2 |
 | 8 | 144 | 3 | 3 |
 | 9 | 154 | 2 | 4 |
+| 10 | 145 | 5 | 4 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -52,6 +53,11 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 - `2026-jul/w09/q10`: card A,C,D; not every node must be connected to every other (`Cloud` touches only `Data`), so A is false.
 - `2026-jul/w09/q15`: card A,C,D; a path does not need a direct friendship between every pair, so A is false.
 - `2026-jul/w09/q20`: card A,B,D; `getpixel()` only reads a colour, so A is false (the PDF explanation supports only B and D).
+
+- `2018-jul/w10/q06`: card B (3 x 3 matrix of zeros); `np.zeros(3,3)` raises TypeError (the second argument is dtype).
+- `2018-jul/w10/q07`: card C (2,3); `a.shape()` raises TypeError, since shape is an attribute.
+- `2022-jul/w10/q04`: card B ([[4,6]]); the code is not a valid 2x2 array and `np.sum(b)` raises ValueError (with the intended array it gives 10).
+- `2024-jan/w10/q09`: card C (`np.random.rand()`); `np.random.random((r, c))` also makes a matrix of values in [0, 1).
 
 ## Doubtful but explained (no contradiction with a note)
 

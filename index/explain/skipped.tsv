@@ -27,3 +27,7 @@
 2026-jul/w09/q10	key says A,C,D but not every node has to be connected to every other (Cloud only touches Data), so A is false
 2026-jul/w09/q15	key says A,C,D but a path does not need a direct friendship between every pair, so A is false
 2026-jul/w09/q20	key says A,B,D but getpixel() only reads a colour (A false); the PDF explanation supports only B and D
+2018-jul/w10/q06	key says a 3x3 matrix of zeros, but np.zeros(3,3) raises TypeError (the second argument is dtype)
+2018-jul/w10/q07	key says (2,3), but a.shape() raises TypeError: shape is an attribute, not a method
+2022-jul/w10/q04	key says [[4,6]], but the code is not a valid 2x2 array and np.sum(b) raises ValueError; with the intended array np.sum(b) would be 10
+2024-jan/w10/q09	key says np.random.rand() only, but np.random.random((r, c)) also makes a matrix of random values between 0 and 1
