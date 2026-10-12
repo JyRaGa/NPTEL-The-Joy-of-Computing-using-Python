@@ -13,6 +13,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 5 | 186 | 6 | 2 |
 | 6 | 149 | 1 | 7 |
 | 7 | 132 | 8 | 2 |
+| 8 | 144 | 3 | 3 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -41,6 +42,10 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 
 - `2019-jul/w07/q06`: card B; a spiral goes on to (1,5) after (1,4), not to (2,4).
 - `2026-jul/w07/q20`: card B,C; statement D (markers are placed with latitude and longitude) is also true.
+
+- `2022-jul/w08/q04`: card B,C; enhancement (C) does not store more images in small storage, only compression does.
+- `2026-jan/w08/q10`: card B; the game is fair (0.1 x 900 - 0.9 x 100 = 0 per day), so it does not tend to lose over time.
+- `2026-jul/w08/q20`: card A,B,C,D; the Review column is never changed (A false) and classification uses the compound score, not length (D false).
 
 ## Doubtful but explained (no contradiction with a note)
 
