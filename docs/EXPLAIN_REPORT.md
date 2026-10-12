@@ -17,6 +17,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 9 | 154 | 2 | 4 |
 | 10 | 145 | 5 | 4 |
 | 11 | 144 | 2 | 4 |
+| 12 | 126 | 10 | 6 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -63,6 +64,12 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 - `2022-jul/w11/q04`, `2021-jul/w11/q05`: key `now()`; `datetime.today()` (the other option) also returns the current date and time.
 - `2025-jan/w11/q05`: card D (`Found at index 3`); the loop prints `Checking 3`, `Checking 1` and then `Found at index 3` (option B).
 - `2024-jul/w11/q04`: card C (`Keys.RETURN`); `send_keys(Keys.ENTER)` (option A) also presses Enter.
+
+- `2019-jul/w12/q06`: card A, but options A and D list the same sequence (the card carries a note that NPTEL zero-weighted it).
+- `2019-jul/w12/q03`: card C,D; a page's rank depends on the pages that refer to it (B,D), not on the rank of the pages it refers to (C).
+- `2019-jul/w12/q07`: cannot verify that neither random walk nor points distribution needs fewer iterations.
+- `2020-jan/w12/q04` and `2022-jul/w12/q07`: opposite keys for `random.choice(G.nodes())`; whether it works depends on the NetworkX version.
+- `2022-jul/w12/q08`: card A,C ("not true"); option B (the number of steps is independent of the number) is also not true.
 
 ## Doubtful but explained (no contradiction with a note)
 

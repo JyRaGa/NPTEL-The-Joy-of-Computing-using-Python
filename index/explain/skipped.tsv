@@ -35,3 +35,9 @@
 2021-jul/w11/q05	key says now(); datetime.today() (option A) also returns the current date and time
 2025-jan/w11/q05	key says D (Found at index 3), but the loop prints Checking 3, Checking 1, then Found at index 3 (option B)
 2024-jul/w11/q04	key says Keys.RETURN (C), but send_keys(Keys.ENTER) (A) also presses Enter
+2019-jul/w12/q06	card A, but options A and D list the same sequence (the card carries a note that NPTEL zero-weighted it)
+2019-jul/w12/q03	key says C,D, but the rank of a page depends on the pages that refer to it (B,D), not the rank of pages it refers to (C)
+2019-jul/w12/q07	cannot verify that neither random walk nor points distribution needs fewer iterations; nothing in the card shows it
+2020-jan/w12/q04	key D (none works) but 2022-jul/w12/q07 keys random.choice(A.nodes()); whether it works depends on the NetworkX version (G.nodes() is a view in current versions)
+2022-jul/w12/q07	key random.choice(A.nodes()); depends on the NetworkX version (G.nodes() is a view in current versions) and the Jan-2020 card keys the opposite
+2022-jul/w12/q08	key A,C but option B (the number of steps is independent of the number) is also not true
