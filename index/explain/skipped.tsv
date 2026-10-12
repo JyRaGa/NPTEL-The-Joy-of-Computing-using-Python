@@ -11,3 +11,10 @@
 2025-jan/w04/q04	disagree: card A,C; option D (the first square times pi) is also a magic square, as the Jul-2024 version of this question accepts
 2024-jul/w05/q01	disagree: card D; option C (the same line ending in a semicolon) is also valid Python
 2025-jan/w05/q03	could not explain: the card options are garbled (the portal accepts two answers, only one is recorded)
+2023-jul/w06/q04@gpt	disagree: card B (product of first n terms); the function returns only num*(num-1), with no recursion, so it multiplies the last two terms
+2020-sep/w06/q06	disagree: card A (infinite loop); a missing base case raises RecursionError, a subclass of RuntimeError (option B)
+2022-jan/w06/q06	disagree: card B (infinite loop); recursive(L) has no base case, and L[-1] on the empty list raises IndexError
+2022-jul/w06/q05	could not explain: options C and D read identically in the card, so two options are the same correct code
+2023-jul/w06/q06@gpt	disagree: card B (infinite loop); recursive(L) has no base case, and L[-1] on the empty list raises IndexError
+2026-jan/w06/q10	disagree: card A (list still reversed, None returned); removing the recursive return line leaves only the first swap (option D)
+2026-jan/w06/q14	disagree: card B (a winning condition); reaching nine turns also ends the loop, so A is also a way the game stops

@@ -11,6 +11,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 3 | 160 | 5 | 0 |
 | 4 | 156 | 3 | 7 |
 | 5 | 186 | 6 | 2 |
+| 6 | 149 | 1 | 7 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -29,6 +30,13 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 
 - `2024-jul/w05/q01`: card D; option C (the same line ending in a semicolon) is also valid Python.
 - `2025-jan/w05/q03`: could not explain: the card options are garbled (the portal accepts two answers, only one is recorded).
+
+- `2023-jul/w06/q04@gpt`: card B (product of first n terms); the function returns only num*(num-1), with no recursion.
+- `2020-sep/w06/q06`: card A (infinite loop); a missing base case raises RecursionError, a subclass of RuntimeError (option B).
+- `2022-jan/w06/q06` and `2023-jul/w06/q06@gpt`: card B (infinite loop); recursive(L) with no base case raises IndexError on the empty list.
+- `2022-jul/w06/q05`: could not explain: options C and D read identically in the card.
+- `2026-jan/w06/q10`: card A; removing the recursive return line leaves only the first swap (option D).
+- `2026-jan/w06/q14`: card B; reaching nine turns also ends the loop (option A).
 
 ## Doubtful but explained (no contradiction with a note)
 

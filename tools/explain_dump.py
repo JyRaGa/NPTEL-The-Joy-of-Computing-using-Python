@@ -135,6 +135,14 @@ def main():
     if a and a[0] == "--write":
         w = int(a[1])
         lines = [json.loads(l) for l in Path(a[2]).read_text(encoding="utf-8").splitlines() if l.strip()]
+        if "--fill" in a:  # a wrong option left out of "options" means null
+            cards = {m: g for g in week(w) for m in g["members"]}
+            for d in lines:
+                g = cards.get(d["id"])
+                if g and g["type"] != "numeric":
+                    for i in range(len(g["options"])):
+                        if i not in g["answer"]:
+                            d.setdefault("options", {}).setdefault(LET[i], None)
         done = {d["id"] for d in overlay(w)}
         errs = check(w, lines) + [f"{d['id']}: already has an entry" for d in lines if d["id"] in done]
         if errs:
