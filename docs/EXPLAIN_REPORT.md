@@ -16,6 +16,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 8 | 144 | 3 | 3 |
 | 9 | 154 | 2 | 4 |
 | 10 | 145 | 5 | 4 |
+| 11 | 144 | 2 | 4 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -59,6 +60,10 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 - `2022-jul/w10/q04`: card B ([[4,6]]); the code is not a valid 2x2 array and `np.sum(b)` raises ValueError (with the intended array it gives 10).
 - `2024-jan/w10/q09`: card C (`np.random.rand()`); `np.random.random((r, c))` also makes a matrix of values in [0, 1).
 
+- `2022-jul/w11/q04`, `2021-jul/w11/q05`: key `now()`; `datetime.today()` (the other option) also returns the current date and time.
+- `2025-jan/w11/q05`: card D (`Found at index 3`); the loop prints `Checking 3`, `Checking 1` and then `Found at index 3` (option B).
+- `2024-jul/w11/q04`: card C (`Keys.RETURN`); `send_keys(Keys.ENTER)` (option A) also presses Enter.
+
 ## Doubtful but explained (no contradiction with a note)
 
 - `2018-jul/w01/q09@portal`: official `repeat until <key any pressed?>` for "as long as a key is pressed" (it actually loops until pressed).
@@ -70,3 +75,4 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 
 Weeks 1–3 were written before the rule "a wrong option that is a real Python output or code gets a line saying what code produces it". Some of their options are `null` where a line could be written; revisit them.
 - `2018-jul/w09/q01`, `2019-jul/w09/q05`: the keyed areas use area x state points / non-state points (the lecture formula), which is not the exact proportion; explained the way the key computes it.
+- `2019-jan/w11/q07`: the card says 18 June 2017 is a Thursday (it was a Sunday); explained with the weekday the card gives (weekday() = 3).

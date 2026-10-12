@@ -31,3 +31,7 @@
 2018-jul/w10/q07	key says (2,3), but a.shape() raises TypeError: shape is an attribute, not a method
 2022-jul/w10/q04	key says [[4,6]], but the code is not a valid 2x2 array and np.sum(b) raises ValueError; with the intended array np.sum(b) would be 10
 2024-jan/w10/q09	key says np.random.rand() only, but np.random.random((r, c)) also makes a matrix of random values between 0 and 1
+2022-jul/w11/q04	key says now(); datetime.today() (option C) also returns the current date and time
+2021-jul/w11/q05	key says now(); datetime.today() (option A) also returns the current date and time
+2025-jan/w11/q05	key says D (Found at index 3), but the loop prints Checking 3, Checking 1, then Found at index 3 (option B)
+2024-jul/w11/q04	key says Keys.RETURN (C), but send_keys(Keys.ENTER) (A) also presses Enter
