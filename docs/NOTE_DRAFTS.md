@@ -53,3 +53,9 @@ Drafts only. Nothing in `index/review` or `index/fixes` has been changed. Each n
 - `2025-jan/w02/q08`: the code in the picture has no `if` inside the `while` loop that the options refer to, so I cannot say which option is right.
 - `2025-jan/w05/q03`: the options in the card are garbled (the portal accepts two answers, only one is recorded).
 - `2019-jul/w12/q07`: nothing in the card shows which method needs fewer iterations, so I cannot say the key is wrong.
+
+## Noticed while filling option lines (not on the skip list)
+
+| Card id | Week | Current answer | Draft note |
+|---|---|---|---|
+| 2024-jan/w03/q10 | 3 | A | The key accepts only A, but B describes the same behaviour in a different order (multiples of both 3 and 5 give "FizzBuzz", multiples of 3 give "Fizz", multiples of 5 give "Buzz"), so B is also correct. |

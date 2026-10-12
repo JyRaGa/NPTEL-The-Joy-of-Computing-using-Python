@@ -87,4 +87,4 @@ Weeks 1–3 were written before the rule "a wrong option that is a real Python o
 
 ## Status
 
-All weeks (1-12, then 0) have been explained. Still to do: revisit the `null` options in Weeks 1-3 that are real outputs and could get a "what code gives this" line, and review the lines marked as doubtful above.
+All weeks (1-12, then 0) have been explained. The blank option lines that were real outputs, values or code now carry a line (about 440 filled in all weeks; 557 `null` options remain, all of them prose, "None of the above" or made-up names). Draft notes for the disputed cards are in `docs/NOTE_DRAFTS.md`. Still to review: the lines marked as doubtful above.
