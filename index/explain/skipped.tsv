@@ -9,3 +9,5 @@
 2022-jan/w04/q02	disagree: card D; all four leap-year programs mishandle century years such as 1900, D only prints exactly one message
 2023-jan/w04/q02	disagree: card B (N should be odd); 4 x 4 magic squares exist (see 2024-jan Q10), odd N is only the lecture program method
 2025-jan/w04/q04	disagree: card A,C; option D (the first square times pi) is also a magic square, as the Jul-2024 version of this question accepts
+2024-jul/w05/q01	disagree: card D; option C (the same line ending in a semicolon) is also valid Python
+2025-jan/w05/q03	could not explain: the card options are garbled (the portal accepts two answers, only one is recorded)

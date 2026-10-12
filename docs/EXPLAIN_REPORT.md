@@ -10,6 +10,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 2 | 151 | 6 | 3 |
 | 3 | 160 | 5 | 0 |
 | 4 | 156 | 3 | 7 |
+| 5 | 186 | 6 | 2 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -25,6 +26,9 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 - `2022-jan/w04/q02`: card D; all four leap-year programs mishandle century years such as 1900.
 - `2023-jan/w04/q02`: card B (N should be odd); 4 x 4 magic squares exist, odd N is only the lecture method.
 - `2025-jan/w04/q04`: card A,C; option D (the first square times pi) is also a magic square, and the Jul-2024 copy accepts it.
+
+- `2024-jul/w05/q01`: card D; option C (the same line ending in a semicolon) is also valid Python.
+- `2025-jan/w05/q03`: could not explain: the card options are garbled (the portal accepts two answers, only one is recorded).
 
 ## Doubtful but explained (no contradiction with a note)
 
