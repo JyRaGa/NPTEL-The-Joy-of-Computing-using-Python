@@ -215,7 +215,8 @@ details.ctx[open] summary { border-bottom: 1px solid var(--rule); }
 .verdict-row { display: flex; flex-wrap: wrap; align-items: center; gap: .3rem .6rem; }
 .result .badge { margin-left: .4rem; font: 500 .72rem var(--sans); padding: .1rem .45rem; border-radius: 9px; border: 1px solid var(--rule-2); color: var(--ink-2); }
 .result .badge.official { border-color: var(--blue); color: var(--blue-ink); }
-.adm { margin-top: .8rem; border: 1px solid var(--rule); border-radius: var(--r); background: var(--blue-wash); font-size: .92rem; }
+.adm { margin-top: .8rem; border: 1px solid var(--rule); border-radius: var(--r); background: var(--blue-wash); font-size: .92rem; font-family: var(--sans); }
+.adm code { font-family: var(--mono); font-size: .9em; }
 .adm p { margin: 0; padding: .55rem .85rem; white-space: pre-line; }
 .adm .adm-t { padding-bottom: 0; font-weight: 650; color: var(--blue-ink); }
 .why-opts { margin: 0; padding: 0 .85rem .6rem 1.9rem; }
