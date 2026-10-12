@@ -23,3 +23,7 @@
 2022-jul/w08/q04	key says B,C; enhancement does not let a million images fit in small storage, only compression does
 2026-jan/w08/q10	game is fair (0.1*900 - 0.9*100 = 0 per day), so it does not "tend to show losses"; B is only the best of the options
 2026-jul/w08/q20	key says A,B,C,D but the Review column is never changed (A false) and classification uses the compound score, not length (D false)
+2026-jul/w09/q05	key says A,C,D but len(tokens) is the total token count (20), not the unique words (A false)
+2026-jul/w09/q10	key says A,C,D but not every node has to be connected to every other (Cloud only touches Data), so A is false
+2026-jul/w09/q15	key says A,C,D but a path does not need a direct friendship between every pair, so A is false
+2026-jul/w09/q20	key says A,B,D but getpixel() only reads a colour (A false); the PDF explanation supports only B and D

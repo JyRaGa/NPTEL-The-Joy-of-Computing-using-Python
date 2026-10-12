@@ -14,6 +14,7 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 | 6 | 149 | 1 | 7 |
 | 7 | 132 | 8 | 2 |
 | 8 | 144 | 3 | 3 |
+| 9 | 154 | 2 | 4 |
 
 ## skipped.tsv: disagreements and unreadable cards (no entry written)
 
@@ -47,6 +48,11 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 - `2026-jan/w08/q10`: card B; the game is fair (0.1 x 900 - 0.9 x 100 = 0 per day), so it does not tend to lose over time.
 - `2026-jul/w08/q20`: card A,B,C,D; the Review column is never changed (A false) and classification uses the compound score, not length (D false).
 
+- `2026-jul/w09/q05`: card A,C,D; `len(tokens)` is the total token count (20), not the unique words, so A is false.
+- `2026-jul/w09/q10`: card A,C,D; not every node must be connected to every other (`Cloud` touches only `Data`), so A is false.
+- `2026-jul/w09/q15`: card A,C,D; a path does not need a direct friendship between every pair, so A is false.
+- `2026-jul/w09/q20`: card A,B,D; `getpixel()` only reads a colour, so A is false (the PDF explanation supports only B and D).
+
 ## Doubtful but explained (no contradiction with a note)
 
 - `2018-jul/w01/q09@portal`: official `repeat until <key any pressed?>` for "as long as a key is pressed" (it actually loops until pressed).
@@ -57,3 +63,4 @@ Resume with `python tools/explain_dump.py WEEK 1 30` (prints pending trusted car
 ## To do after the last week
 
 Weeks 1–3 were written before the rule "a wrong option that is a real Python output or code gets a line saying what code produces it". Some of their options are `null` where a line could be written; revisit them.
+- `2018-jul/w09/q01`, `2019-jul/w09/q05`: the keyed areas use area x state points / non-state points (the lecture formula), which is not the exact proportion; explained the way the key computes it.
