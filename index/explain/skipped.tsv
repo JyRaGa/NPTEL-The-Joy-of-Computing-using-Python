@@ -1,4 +1,3 @@
-2024-jan/w01/q09	disagree: card B (Two); code shows one loop block (repeat 2) -> One
 2025-jan/w01/q10	disagree: card A (18 in x); simulation ends at x=17 (option D)
 2025-jan/w02/q08	could not explain: code in picture has no if inside the while loop that the options refer to
 2024-jan/w02/q07	disagree: code as shown has an IndentationError (i += 1 indented deeper than print); card answer A assumes the intended code
