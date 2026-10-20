@@ -63,9 +63,9 @@ def main():
 
     keys = {i: ({official(r)} - {None}) for i, r in enumerate(recs)}
 
-    def union(a, b):
+    def union(a, b, force=False):
         ra, rb = find(a), find(b)
-        if ra == rb or (keys[ra] and keys[rb] and keys[ra] != keys[rb]):
+        if ra == rb or (not force and keys[ra] and keys[rb] and keys[ra] != keys[rb]):
             return
         parent[ra] = rb
         keys[rb] |= keys[ra]
@@ -93,6 +93,13 @@ def main():
             texts = lambda x: [t for t in x["norm_options"] if t]  # picture options have no text
             if o["norm"] == r["norm"] and (texts(o) == texts(r) or blank(o) or blank(r)):
                 union(i, pos[r["id"][:-7]])
+
+    # hand-checked repeats the heuristics can't prove (blank/picture options, truncated text): "id<TAB>id" per line
+    mf = ROOT / "index" / "merges.tsv"
+    if mf.exists():
+        for line in open(mf, encoding="utf-8"):
+            a, b = line.split("\t")[:2]
+            union(pos[a.strip()], pos[b.strip()], force=True)
 
     near = []
     by_week = defaultdict(list)
