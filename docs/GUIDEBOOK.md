@@ -12,7 +12,7 @@ How to use it:
 - **Part 9** is a self-test drill of 46 predict-the-output and variant questions. Each answer comes from running the code and is hidden until you open it.
 - **Part 10** is 36 examiner's oddities: corner cases where the intuitive answer is wrong (floats, rounding, precedence, aliasing, scope). Answers come from running the code.
 - **Part 11** is 30 plain ChatGPT-style concept MCQs, like the `@gpt` cards, with hidden answers.
-- **Part 12** lists the cards that depend on a picture. The code and Scratch scripts among them are written out in the companion file [GUIDEBOOK_CODE.md](GUIDEBOOK_CODE.md); only the graph drawings and figures (groups B and C) still need the website.
+- **Part 12** lists the cards that depend on a picture. Every one of them (code, Scratch scripts, graphs, figures and picture options) is written out in the companion file [GUIDEBOOK_CODE.md](GUIDEBOOK_CODE.md), so no card needs the website any more.
 
 Sources used:
 - All the cards in `site/data/week-*.json`: question, code, options (including code inside options), case-study programs (`context.code`), key and explanation.
@@ -3816,13 +3816,13 @@ Plain concept MCQs in the style of the ChatGPT-converted 2023-jul cards (`@gpt`)
 
 ## Part 12 — What only the website shows
 
-A card-by-card check matched every card's question, correct answer and stored explanation against this guidebook (1,891 cards). Every concept the cards test is covered somewhere in Parts 1–8. What a text guidebook cannot hold is **pictures**. Every program and Scratch script below (groups A, D and E) is written out, with its question, options and answer, in the companion file **[GUIDEBOOK_CODE.md](GUIDEBOOK_CODE.md)**. Only groups B and C need the picture on the site; open each of those there once. IDs are the site's card IDs; a card repeated in other terms is listed once.
+A card-by-card check matched every card's question, correct answer and stored explanation against this guidebook (1,891 cards). Every concept the cards test is covered somewhere in Parts 1–8. What a text guidebook cannot hold is **pictures**. Every card below, in all five groups, is written out with its question, options and answer in the companion file **[GUIDEBOOK_CODE.md](GUIDEBOOK_CODE.md)**: programs and Scratch scripts as code, graphs as node and edge lists, and figures and picture options in words. No card needs the website any more. IDs are the site's card IDs; a card repeated in other terms is listed once.
 
 **A. Scratch scripts shown only as a picture (38 cards).** The block meanings are in [3.1 Week 1: Scratch](#31-week-1-scratch); the scripts themselves are in [GUIDEBOOK_CODE.md, section A](GUIDEBOOK_CODE.md#a-scratch-scripts).
 
 - Week 1: `2018-jul/w01/q01@portal`, `2020-jan/w01/q04`, `2020-jan/w01/q05`, `2020-jan/w01/q06`, `2020-jan/w01/q08`, `2020-sep/w01/q04`, `2020-sep/w01/q06`, `2020-sep/w01/q10`, `2021-jan/w01/q08@portal`, `2021-jul/w01/q01`, `2021-jul/w01/q03`, `2021-jul/w01/q07`, `2021-jul/w01/q10`, `2022-jan/w01/q01`, `2022-jan/w01/q03`, `2022-jan/w01/q04`, `2022-jan/w01/q05`, `2022-jan/w01/q06`, `2022-jan/w01/q08`, `2022-jan/w01/q09`, `2022-jul/w01/q06`, `2023-jan/w01/q06`, `2023-jul/w01/q05@gpt`, `2024-jan/w01/q05`, `2024-jan/w01/q06`, `2024-jan/w01/q09`, `2024-jul/w01/q10`, `2025-jan/w01/q10`, `2026-jul/w01/q10`, `2026-jul/w01/q11`, `2026-jul/w01/q12`, `2026-jul/w01/q13`, `2026-jul/w01/q14`, `2026-jul/w01/q15`, `2026-jul/w01/q16`, `2026-jul/w01/q17`, `2026-jul/w01/q18`, `2026-jul/w01/q19`
 
-**B. Graphs, figures, boards and cards you have to read (31 cards).** NetworkX graph drawings (neighbours, degrees, edge counts, graph types), distance–time graphs, the squares figure, the magic-square grid, the Chaupar board, the snake-pattern matrix and the Dobble cards.
+**B. Graphs, figures, boards and cards you have to read (31 cards).** NetworkX graph drawings (neighbours, degrees, edge counts, graph types), distance–time graphs, the squares figure, the magic-square grid, the Chaupar board, the snake-pattern matrix and the Dobble cards. Written out in [GUIDEBOOK_CODE.md, section B](GUIDEBOOK_CODE.md#b-figures-and-graphs).
 
 - Week 0: `2021-jan/w00/q06`, `2021-jan/w00/q07`, `2023-jan/w00/q06`
 - Week 1: `2020-sep/w01/q02`
@@ -3831,7 +3831,7 @@ A card-by-card check matched every card's question, correct answer and stored ex
 - Week 9: `2020-sep/w09/q01`, `2022-jan/w09/q04`, `2022-jan/w09/q06`, `2022-jul/w09/q06`, `2022-jul/w09/q08`, `2022-jul/w09/q10`, `2023-jan/w09/q07`, `2023-jul/w09/q05@gpt`, `2025-jan/w09/q05`, `2025-jan/w09/q08`
 - Week 12: `2020-sep/w12/q03`, `2021-jan/w12/q06`, `2021-jan/w12/q07`, `2022-jan/w12/q06`, `2022-jan/w12/q07`, `2022-jul/w12/q05`, `2023-jan/w12/q03`, `2023-jan/w12/q07`, `2023-jan/w12/q08`, `2023-jan/w12/q10`, `2025-jan/w12/q03`, `2025-jan/w12/q05`
 
-**C. Output shown as pictures in the options (10 cards).** Turtle drawings, matplotlib plots, generated images and printed output.
+**C. Output shown as pictures in the options (10 cards).** Turtle drawings, matplotlib plots, generated images and printed output. Described in [GUIDEBOOK_CODE.md, section C](GUIDEBOOK_CODE.md#c-picture-outputs).
 
 - Week 3: `2021-jan/w03/q01`
 - Week 6: `2023-jan/w06/q08`

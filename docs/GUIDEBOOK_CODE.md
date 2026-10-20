@@ -1,15 +1,17 @@
 # Joy of Computing using Python: code from the picture cards
 
-Companion to [Part 12 of the guidebook](GUIDEBOOK.md#part-12--what-only-the-website-shows). Every program and Scratch script that the site shows only as a picture is written out here, with its question, options and answer, so you do not need the website for them.
+Companion to [Part 12 of the guidebook](GUIDEBOOK.md#part-12--what-only-the-website-shows). Every program, Scratch script, graph, figure and picture option that the site shows only as a picture is written out here, with its question, options and answer, so you do not need the website for them.
 
 - Each transcription was checked against its image. Python that can run was run, and its output matches the card's stored answer.
 - Scratch scripts are written block by block: `↻` turns clockwise (right), `↺` turns anticlockwise (left), blocks inside `repeat`, `forever` or `if` are indented, and `end` closes the block.
 - Where the original picture is cut off or blurred, the code says so in a comment.
-- Graph drawings, figures and plotted outputs (Part 12 groups B and C) are described in words where a card needs them.
+- Graph drawings, figures, boards and picture options (Part 12 groups B and C) are written out in words in sections B and C, so no card needs the website.
 
 ## Contents
 
 - [A. Scratch scripts](#a-scratch-scripts)
+- [B. Figures and graphs](#b-figures-and-graphs)
+- [C. Picture outputs](#c-picture-outputs)
 - [D. Program options](#d-program-options)
 - [E1. Question code from screenshots](#e1-question-code-from-screenshots)
 - [E2. 2026-jul case-study programs](#e2-2026-jul-case-study-programs)
@@ -948,6 +950,965 @@ end
 <details><summary>Answer</summary>
 
 **A**. Inside the loop, the bonus would be added to `score` on every pass, so `score` would grow far past the original value.
+
+</details>
+
+---
+
+## B. Figures and graphs
+
+Graph drawings, figures, boards and cards written out in words. Graphs are given as node and edge lists, so every count (neighbours, degree, edges, out-degree) can be worked out from the text; each count here was recomputed from these lists and matches the card's answer.
+
+**`2021-jan/w00/q06`** Water is being pumped out , at a constant rate, from an underground storage tank that has a height 5 Meters. Which of the graphs below best represent the changes in the height of water in the tank as a function of the time (X axis - Time, Y axis - Height)?
+
+- **A.** (picture) A line from G(0, 5) straight down to H(5, 0): height falls evenly from 5 to 0.
+- **B.** (picture) A vertical line at x = 5 from G(5, 0) up to H(5, 5).
+- **C.** (picture) A horizontal line at height 5 from G(0, 5) to H(5, 5): height stays at 5.
+- **D.** (picture) A line from G(0, 0) rising evenly to H(5, 5).
+
+<details><summary>Answer</summary>
+
+**A**. The water is pumped out at a constant rate, so the height falls evenly from 5 m to 0, a straight line going down. That is graph A.
+
+</details>
+
+**`2021-jan/w00/q07`** Rama drove at a constant speed for 2 hours. He then stopped for an hour to do some shopping and have a rest and then drove back home driving at a constant speed. Which graph best represents the changes in the distance from home as Rama was driving (X axis - Time, Y axis - Distance)?
+
+- **A.** (picture) G(0, 4) down to H(2, 2), flat to I(3, 2), then up to J(5, 4): falls, stays flat, rises.
+- **B.** (picture) G(0, 0) up to H(2, 2), flat to I(3, 2), then down to J(5, 0): rises for 2 hours, flat for 1 hour, back down to 0.
+- **C.** (picture) G(0, 0) up to H(2, 2), flat to I(3, 2), then up again to J(5, 4): rises, flat, rises.
+- **D.** (picture) A flat line at 2 from G(0, 2) to H(5, 2).
+
+<details><summary>Answer</summary>
+
+**B**. Rama drives away at a steady speed for 2 hours (distance goes up), stops for an hour (distance stays flat) and drives home (distance goes down to 0). That is graph B.
+
+</details>
+
+**`2023-jan/w00/q06`** How many squares are there in the following image?
+
+Picture:
+
+```text
+A square figure, described on a 0-10 grid (x to the right, y upwards):
+- the outer square, corners (0,0) and (10,10);
+- two vertical lines across the whole square, at x = 4 and x = 6;
+- two horizontal lines across the whole square, at y = 4 and y = 6;
+- a second square drawn over the middle, corners (2,2) and (8,8).
+(The 2-unit gaps make the middle strips and the inner square's margins the
+  same width,
+ so many 2x2, 4x4 and 6x6 squares appear; counting them by size gives the
+   answer.)
+```
+
+- **A.** 25
+- **B.** 27
+- **C.** 28
+- **D.** 26
+
+<details><summary>Answer</summary>
+
+**B**. Counting in the picture: 1 outer square, 14 in the inner 3 × 3 block (9 small, 4 of 2 × 2, 1 of 3 × 3), 4 corner squares, 4 larger corner squares and 4 squares at the middle of each side. That makes 1 + 14 + 4 + 4 + 4 = 27.
+
+</details>
+
+**`2020-sep/w01/q02`** Assume you are given two images, each displaying two basic positions of situps. Identify the set of commands to perform an exercise with both images.
+
+*The page shows no picture: the question and its options are complete as text.*
+
+- **A.** Turn clockwise 90 degree / Turn clockwise -90 degrees
+- **B.** Move 10 steps / Move -10 steps
+- **C.** Hide / Show
+- **D.** point in direction 90 / point in direction -90
+
+<details><summary>Answer</summary>
+
+**C**. Each picture is one position of the situp. Hiding one picture and showing the other swaps the two poses without moving or rotating the sprite, which animates the exercise.
+
+</details>
+
+**`2018-jul/w04/q09`** What is the common symbol among these 2 cards?
+
+Picture:
+
+```text
+Card 1: a purple octopus-like creature, a toy jeep, a pair of black sunglasses
+  (goggles),
+        a green curled shape, purple scissors, a striped zebra-like animal,
+          the word ART,
+        the word STOP.
+Card 2: a treble clef, a green dinosaur, a purple bird, a pair of black
+  sunglasses
+        (goggles), a purple cat, an orange crescent moon, a wedge of cheese,
+        a skull and crossbones.
+```
+
+- **A.** Scissors
+- **B.** Cheese
+- **C.** Cat
+- **D.** Sun glasses or Goggles
+
+<details><summary>Answer</summary>
+
+**D**. The sunglasses (a pair of black goggles) appear on both cards. Scissors, cheese and the cat each appear on only one of them.
+
+</details>
+
+**`2021-jul/w04/q03`** The below given matrix is a magic square. State whether the following statement is true or false
+
+Picture:
+
+```text
+20 12  4 45 37 29 28
+11  3 44 36 35 27 19
+ 2 43 42 34 26 18 10
+49 41 33 25 17  9  1
+40 32 24 16  8  7 48
+31 23 15 14  6 47 39
+22 21 13  5 46 38 30
+```
+
+- **A.** False
+- **B.** True
+
+<details><summary>Answer</summary>
+
+**B**. Every row, every column and both diagonals of this 7 × 7 grid add up to 175, and it uses each of 1 to 49 once. So it is a magic square.
+
+</details>
+
+**`2024-jan/w07/q01`** The Chaupar game, also known as Pachisi, involves a player moving their pieces around a cross-shaped board based on the throw of dice (or cowrie shells). The objective is to reach the centre of the board. The steps required to implement the game are given below (Board image: a cross with four arms, each three columns of eight squares numbered 0–23 along the path, centre square "24".) Arrange them in correct order of implementation. The answer should be a sequence with the step numbers (Example :132) 1.Roll the dice (or simulate the throw of cowrie shells) to determine the number of steps the player can take. Move the player's piece based on the dice roll. Check if the new position is within the board limits. If it is, proceed; otherwise, stay at the current position. 2.Create a cross-shaped board with four arms, each having three columns of eight squares. Initialize the player's position to be inside the board at position 0. Define the centre of the board (position 24) as the goal. 3. Check if the player has reached or exceeded the centre of the board (position 24). If the player has reached the centre, declare them the winner. If not, proceed to the next players turn and roll the die again and repeat the steps for each player
+
+Picture:
+
+```text
+A cross-shaped board: a centre square labelled 24 and four arms (top, bottom,
+  left, right).
+Each arm is 3 columns of 8 squares. Along one arm the squares are numbered
+  - first column: 0, 1, 2, ..., 7 going in towards the centre,
+  - second (middle) column: 8, 9, ..., 15 going back out,
+  - third column: 16, 17, ..., 23 going in again,
+and then the centre is 24. All four arms are numbered the same way (the right
+  and
+bottom arms are mirror images of the left and top arms).
+```
+
+<details><summary>Answer</summary>
+
+**213**. First create the board and the goal (step 2). Then roll and move the piece (step 1). Finally check for a win and pass the turn (step 3). The order is 2, 1, 3: `213`.
+
+</details>
+
+**`2024-jan/w07/q05`** Like the spiral pattern, the matrix can be printed in many patterns and forms. In the snake pattern, the elements of the row are first printed from left to right and then the elements of the next row are printed from right to left and so on. (Image: 3×4 matrix with arrows — row 0 `15 23 8 7` →, row 1 `18 5 12 9` ←, row 2 `89 24 28 90` →; see image above) A crucial step in the algorithm to print the snake pattern is to check the row parity (remainder when the row number is divided by 2). Identify the correct statements regarding this step. (Assume the normal row indexing in a matrix starting from 0) [MSQ]
+
+Picture:
+
+```text
+A 3 x 4 matrix with arrows showing the snake order:
+row 0:  15  23   8   7    -> printed left to right
+row 1:  18   5  12   9    <- printed right to left
+row 2:  89  24  28  90    -> printed left to right
+(The page also shows the Chaupar board of Q1 above it.)
+```
+
+- **A.** When parity is 0, we print the elements of the row from left to right
+- **B.** When parity is 1, we print the elements of the row from left to right
+- **C.** When parity is 0, we print the elements of the row from right to left
+- **D.** When parity is 1, we print the elements of the row from right to left
+
+<details><summary>Answer</summary>
+
+**A, D**. Row 0 is printed left to right, row 1 right to left, and so on. So an even parity (0) prints left to right and an odd parity (1) prints right to left.
+
+</details>
+
+**`2025-jan/w07/q02`** What is the spiral order traversal of the given matrix?
+
+```python
+def spiral(row, column, arr) :
+    rowStart = 0; columnStart = 0
+
+    while (rowStart < row and columnStart < column) :
+
+        for i in range(rowStart, row) :
+            print(arr[i][columnStart], end = " ")
+
+        columnStart = columnStart + 1
+
+        for i in range (columnStart, column) :
+            print( arr[row - 1][i], end = " ")
+
+        row = row - 1
+
+
+        if (rowStart < row) :
+            for i in range(row - 1, rowStart - 1, -1) :
+                print(arr[i][column - 1], end = " ")
+            column = column - 1
+
+        if (columnStart < column) :
+            for i in range(column - 1, columnStart - 1, -1) :
+                print( arr[rowStart][i], end = " ")
+
+            rowStart = rowStart + 1
+
+matrix = [ [ 1, 2, 3 ],
+           [ 5, 6, 7 ],
+           [ 9, 10, 11 ] ]
+
+row = 3
+column= 3
+
+spiral(row, column, matrix)
+```
+
+- **A.** 1, 2, 3, 7, 11, 10, 9, 5, 6
+- **B.** 1, 2, 3, 5, 6, 7, 9, 10, 11
+- **C.** 1, 5, 9, 10, 11, 7, 3, 2, 6
+- **D.** 1, 5, 9, 2, 6, 10, 3, 7, 11
+
+<details><summary>Answer</summary>
+
+**C**. The function prints the first column downward (1 5 9), the bottom row left to right (10 11), the last column upward (7 3), the top row backward (2), and the centre (6): 1, 5, 9, 10, 11, 7, 3, 2, 6.
+
+</details>
+
+**`2020-sep/w09/q01`** Which of the following commands is used to draw the following graph?
+
+Picture:
+
+```text
+A graph of 10 nodes in which every node is joined to every other node (45
+  edges): a complete graph on 10 nodes.
+```
+
+- **A.** G = nx.complete_graph(10)
+- **B.** G = nx.complete_graph(9)
+- **C.** G = nx.Graph(10)
+- **D.** G = nx.Digraph(10)
+
+<details><summary>Answer</summary>
+
+**A**. The picture shows 10 nodes with every pair joined, a complete graph on 10 nodes: `nx.complete_graph(10)`.
+
+</details>
+
+**`2022-jan/w09/q04`** What is the output of the following code?
+
+```python
+import networkx as nx
+import matplotlib.pyplot as plt
+
+
+G = nx.Graph()
+G.add_nodes_from([1, 2, 3, 4])
+G.add_edges_from([(1, 2), (2, 1), (2, 3), (3,4), (4,1), (3,1)])
+
+nx.draw(G,with_labels=True)
+plt.show()
+```
+
+- **A.** (picture) A path: 1 - 2 - 3 - 4 (3 edges).
+- **B.** (picture) A path 1 - 2 - 3, with node 4 on its own (2 edges).
+- **C.** (picture) A 4-cycle 1 - 2 - 3 - 4 - 1, drawn with two crossing lines (4 edges, no 1-3 edge).
+- **D.** (picture) The 4-cycle 1 - 2 - 3 - 4 - 1 plus the diagonal 1 - 3 (5 edges).
+
+<details><summary>Answer</summary>
+
+**D**. The edges are 1-2, 2-3, 3-4, 4-1 and 3-1, with the repeated (2, 1) counted once. That is five edges: a square with a diagonal from 1 to 3, as in picture D.
+
+</details>
+
+**`2022-jan/w09/q06`** How many neighbors does node 3 have?
+
+Picture:
+
+```text
+An undirected graph with nodes 1, 2, 3, 4 and edges 1-2, 1-3, 1-4, 2-3, 3-4
+  (two triangles, 1-2-3 and 1-3-4, sharing the edge 1-3).
+```
+
+- **A.** 2
+- **B.** 4
+- **C.** 1
+- **D.** 3
+
+<details><summary>Answer</summary>
+
+**D**. Node 3 is joined to nodes 2, 1 and 4, so it has 3 neighbours.
+
+</details>
+
+**`2022-jul/w09/q06`** How many neighbors does node 4 have?
+
+Picture:
+
+```text
+An undirected graph with nodes 1, 2, 3, 4 and edges 1-2, 1-3, 1-4, 2-3, 3-4
+  (two triangles, 1-2-3 and 1-3-4, sharing the edge 1-3).
+```
+
+- **A.** 1
+- **B.** 2
+- **C.** 3
+- **D.** 4
+
+<details><summary>Answer</summary>
+
+**B**. Node 4 is joined to nodes 1 and 3, so it has 2 neighbours.
+
+</details>
+
+**`2022-jul/w09/q08`** How many nodes and edges does the following graph have?
+
+Picture:
+
+```text
+5 nodes in three separate pieces: one pair joined by an edge, a second pair
+  joined by an edge, and one node on its own (2 edges in total).
+```
+
+- **A.** 5,5
+- **B.** 2,5
+- **C.** 5,2
+- **D.** 2,2
+
+<details><summary>Answer</summary>
+
+**C**. The picture has 5 dots and two lines: one between a pair of dots on the left and one on the right. That is 5 nodes and 2 edges.
+
+</details>
+
+**`2022-jul/w09/q10`** Degree of separation for the following graph is
+
+Picture:
+
+```text
+5 nodes in which every node is joined to every other node (10 edges): a
+  complete graph on 5 nodes.
+```
+
+- **A.** 1
+- **B.** 2
+- **C.** 3
+- **D.** 5
+
+<details><summary>Answer</summary>
+
+**A**. Every node in the picture is joined to every other node, so it is a complete graph, and any two nodes are 1 step apart.
+
+</details>
+
+**`2023-jan/w09/q07`** How many neighbors does node 4 have?
+
+Picture:
+
+```text
+An undirected graph with nodes 1, 2, 3, 4 and edges 1-2, 1-3, 1-4, 2-3, 3-4
+  (two triangles, 1-2-3 and 1-3-4, sharing the edge 1-3).
+```
+
+- **A.** 1
+- **B.** 2
+- **C.** 3
+- **D.** 4
+
+<details><summary>Answer</summary>
+
+**B**. Node 4 is joined to nodes 1 and 3, so it has 2 neighbours.
+
+</details>
+
+**`2023-jul/w09/q05@gpt`** How many edges are there in the following graph?
+
+Picture:
+
+```text
+An undirected graph with nodes 1, 2, 3, 4 and edges 4-1, 1-2, 2-3, 3-4: a
+  4-cycle drawn with two crossing lines (the crossing is not a node).
+```
+
+- **A.** 4
+- **B.** 5
+- **C.** 3
+- **D.** 2
+
+<details><summary>Answer</summary>
+
+**A**. Counting the lines in the picture gives 1-4, 1-2, 2-3 and 3-4: 4 edges.
+
+</details>
+
+**`2025-jan/w09/q05`** What is the total degree of the given graph?
+
+Picture:
+
+```text
+An undirected graph with nodes 1, 2, 3, 4 and edges 4-1, 1-2, 2-3, 3-4: a
+  4-cycle drawn with two crossing lines (the crossing is not a node).
+```
+
+- **A.** 10
+- **B.** 8
+- **C.** 6
+- **D.** 4
+
+<details><summary>Answer</summary>
+
+**B**. The graph has four edges: 4-1, 1-2, 2-3 and 3-4. The total degree is twice the number of edges, 2 × 4 = 8.
+
+</details>
+
+**`2025-jan/w09/q08`** How many nodes and edges does the following graph have?
+
+Picture:
+
+```text
+Four separate pieces: a path of 6 nodes in a row (5 edges), a pair of nodes
+  joined by an edge, and two nodes on their own.
+```
+
+- **A.** 10,6
+- **B.** 10,5
+- **C.** 8,6
+- **D.** 8,5
+
+<details><summary>Answer</summary>
+
+**A**. The picture has 10 nodes: one at the top, two on the left, one on the right and a path of 6. The edges are the 5 of the path and the 1 between the pair on the left: 6 edges.
+
+</details>
+
+**`2020-sep/w12/q03`** Which of the following commands is used to create the graph given below:
+
+Picture:
+
+```text
+7 nodes: one centre node joined to each of 6 outer nodes, and no other edges
+  (a star with 6 leaves).
+```
+
+- **A.** G = networkx.complete_graph(7)
+- **B.** G = networkx.cycle_graph(6)
+- **C.** G = networkx.star_graph(6)
+- **D.** G = networkx.star_graph(7)
+
+<details><summary>Answer</summary>
+
+**C**. The picture shows a centre node joined to six other nodes. `networkx.star_graph(6)` makes a star with a centre and 6 leaves, 7 nodes in all.
+
+</details>
+
+**`2021-jan/w12/q06`** What is the type of the following graph?
+
+Picture:
+
+```text
+12 nodes drawn as a twisted strip of 5 squares in a row; each square shares
+  one edge
+with the next. Untwisted, it is two rails of 6 nodes joined by 6 rungs (16
+  edges):
+  rail 1: n1 - n2 - n3 - n4 - n5 - n6
+  rail 2: m1 - m2 - m3 - m4 - m5 - m6
+  rungs:  n1-m1, n2-m2, n3-m3, n4-m4, n5-m5, n6-m6
+```
+
+- **A.** star graph
+- **B.** barbell graph
+- **C.** ladder graph
+- **D.** wheel graph
+
+<details><summary>Answer</summary>
+
+**C**. The picture shows two rails of nodes joined by rungs, like a ladder, so it is a ladder graph.
+
+</details>
+
+**`2021-jan/w12/q07`** Which of the following graph represent a Wheel graph of 5 nodes?
+
+- **A.** (picture) 5 nodes: one node joined to all 4 others, and those 4 joined in a ring (8 edges).
+- **B.** (picture) 6 nodes: a centre joined to 5 outer nodes, with no other edges (a star).
+- **C.** (picture) 5 nodes: a triangle and a 4-node loop sharing an edge, with one extra node hanging off the top.
+- **D.** (picture) 5 nodes, every pair joined (10 edges): a complete graph.
+
+<details><summary>Answer</summary>
+
+**A**. A wheel graph of 5 nodes has a centre node joined to the 4 nodes of a ring, and the ring nodes are joined to each other. That is picture A.
+
+</details>
+
+**`2022-jan/w12/q06`** Which of the following is a star graph of node 5?
+
+- **A.** (picture) 6 nodes: a centre joined to 5 outer nodes, with no other edges (a star).
+- **B.** (picture) 5 nodes, every pair joined (10 edges): a complete graph.
+- **C.** (picture) 5 nodes: a centre joined to 4 outer nodes, which are also joined in a ring (a wheel).
+- **D.** (picture) 5 nodes joined by 8 criss-crossing edges, with no single centre.
+
+<details><summary>Answer</summary>
+
+**A**. A star graph of 5 has a centre node joined to 5 other nodes, and the others are not joined to each other. That is picture A.
+
+</details>
+
+**`2022-jan/w12/q07`** What will be the G.out_degree(3) for the following graph(G)?
+
+Picture:
+
+```text
+A directed graph with nodes 1-8 and these edges (arrow = direction):
+1 -> 2, 1 -> 8, 2 -> 3, 3 -> 1, 3 -> 4, 3 -> 5, 3 -> 6, 3 -> 8, 4 -> 5, 5 ->
+  6, 6 -> 7, 7 -> 8
+```
+
+- **A.** 4
+- **B.** 5
+- **C.** 3
+- **D.** 6
+
+<details><summary>Answer</summary>
+
+**B**. The edges that leave node 3 go to 4, 5, 6, 1 and 8. That is 5 out-edges, so `G.out_degree(3)` is 5.
+
+</details>
+
+**`2022-jul/w12/q05`** What will be the G.out_degree(8) for the following graph(G)?
+
+Picture:
+
+```text
+A directed graph with nodes 1-8 and these edges (arrow = direction):
+1 -> 2, 1 -> 8, 2 -> 3, 3 -> 1, 3 -> 4, 3 -> 5, 3 -> 6, 3 -> 8, 4 -> 5, 5 ->
+  6, 6 -> 7, 7 -> 8
+```
+
+- **A.** 0
+- **B.** 5
+- **C.** 3
+- **D.** 6
+
+<details><summary>Answer</summary>
+
+**A**. Node 8 has arrows that come into it, from 7, 3 and 1, but none that leave it. So `G.out_degree(8)` is 0.
+
+</details>
+
+**`2023-jan/w12/q03`** How many edges are there in the following graph?
+
+Picture:
+
+```text
+An undirected graph with nodes 1, 2, 3, 4 and edges 4-1, 1-2, 2-3, 3-4: a
+  4-cycle drawn with two crossing lines (the crossing is not a node).
+```
+
+- **A.** Three
+- **B.** Five
+- **C.** Four
+- **D.** Two
+
+<details><summary>Answer</summary>
+
+**C**. The picture shows the lines 4–1, 1–2, 2–3 and 3–4: 4 edges.
+
+</details>
+
+**`2023-jan/w12/q07`** Which is the following graph?
+
+Picture:
+
+```text
+10 nodes, labelled 0-9 (this is the drawing of nx.barbell_graph(3, 4)):
+- a triangle 7-8-9 on the left: edges 7-8, 7-9, 8-9;
+- a path 7 - 6 - 5 - 4 - 3 - 2 along the bottom;
+- a triangle 0-1-2 on the right: edges 0-1, 0-2, 1-2.
+```
+
+- **A.** Triangle Graph
+- **B.** Directed Graph
+- **C.** Barbell Graph
+- **D.** Wheel graph
+
+<details><summary>Answer</summary>
+
+**C**. The picture shows two groups of nodes joined by a path of nodes between them, which is a barbell graph.
+
+</details>
+
+**`2023-jan/w12/q08`** What will be the G.out_degree(3) for the following graph(G)?
+
+Picture:
+
+```text
+A directed graph with nodes 1-8 and these edges (arrow = direction):
+1 -> 2, 1 -> 8, 2 -> 3, 3 -> 1, 3 -> 4, 3 -> 5, 3 -> 6, 3 -> 8, 4 -> 5, 5 ->
+  6, 6 -> 7, 7 -> 8
+```
+
+- **A.** 4
+- **B.** 6
+- **C.** 3
+- **D.** None of the above
+
+<details><summary>Answer</summary>
+
+**D**. The edges that leave node 3 go to 4, 5, 6, 1 and 8. So `G.out_degree(3)` is 5. None of the options 4, 6 or 3 is 5.
+
+</details>
+
+**`2023-jan/w12/q10`** Which of the following is a star graph of node 5?
+
+- **A.** (picture) 6 nodes: a centre joined to 5 outer nodes, with no other edges (a star).
+- **B.** (picture) 5 nodes, every pair joined (10 edges): a complete graph.
+- **C.** (picture) 5 nodes: a centre joined to 4 outer nodes, which are also joined in a ring (a wheel).
+- **D.** (picture) 5 nodes joined by 8 criss-crossing edges, with no single centre.
+
+<details><summary>Answer</summary>
+
+**A**. A star graph of 5 has a centre joined to 5 other nodes, and the others are not joined to each other. That is picture 1.
+
+</details>
+
+**`2025-jan/w12/q03`** Observe the following graph generated using the networkx module. How many
+
+Picture:
+
+```text
+Nodes 1-9 with edges 1-2, 1-4, 2-3, 2-5, 3-4, 5-6 and 7-8. Node 9 has no
+  edges.
+```
+
+- **A.** 6
+- **B.** 7
+- **C.** 8
+- **D.** 9
+
+<details><summary>Answer</summary>
+
+**B**. The edges in the picture are 1-2, 1-4, 2-3, 2-5, 3-4, 5-6 and 7-8. That is 7 edges.
+
+</details>
+
+**`2025-jan/w12/q05`** Observe the following graph generated using the networkx module. What type of
+
+Picture:
+
+```text
+10 nodes: two groups of 4 nodes in which every pair is joined (two complete
+  graphs
+on 4 nodes), one at the top left and one at the bottom right. They are
+  connected by a
+path of 2 middle nodes: a node of the first group - middle 1 - middle 2 - a
+  node of the
+second group.
+```
+
+- **A.** Ladder Graph
+- **B.** Barbell Graph
+- **C.** Wheel Graph
+- **D.** Star Graph
+
+<details><summary>Answer</summary>
+
+**B**. The picture shows two tight groups of nodes joined by a path of nodes between them. That is a barbell graph.
+
+</details>
+
+---
+
+## C. Picture outputs
+
+Cards whose options are pictures of output (turtle drawings, plots, printed text), with each option described.
+
+- `2020-jan/w08/q06` and `2020-sep/w10/q08` are written out, with their option pictures described, in [section E3](#e3-code-that-was-only-in-the-page-screenshots).
+
+**`2021-jan/w03/q01`** What is the output of the following code?
+
+```python
+course_list = ["Science","Maths","English"]
+for course in course_list:
+    print(course)
+```
+
+**Option A** (picture):
+
+```text
+Science
+Maths
+English   (one word per line)
+```
+
+- **B.** (picture) ['Science', 'Maths', 'English']
+
+**Option C** (picture):
+
+```text
+0
+1
+2   (one number per line)
+```
+
+- **D.** (picture) ["Science","Maths", "English"]
+
+<details><summary>Answer</summary>
+
+**A**. `for course in course_list` makes `course` each item in turn, and `print(course)` prints it on its own line: Science, Maths, English, one per line.
+
+</details>
+
+**`2023-jan/w06/q08`** what will be the output of the following program?
+
+```python
+def recursive(num):
+
+    if(num==1):
+        print('*')
+        return
+
+    if(num%2 == 0):
+        print('*'*num)
+        recursive(num-1)
+        return
+    else:
+        recursive(num-1)
+        return
+
+recursive(10)
+```
+
+- **A.** (picture) Ten rows of stars: 10, 9, 8, 7, 6, 5, 4, 3, 2, 1.
+- **B.** (picture) Five rows of stars: 9, 7, 5, 3, 1.
+- **C.** Runs into infinite loop
+- **D.** (picture) Rows of stars of length 10, 8, 6, 4 ... (the saved picture is cut off after the fourth row; the program goes on to 2 and then 1).
+
+<details><summary>Answer</summary>
+
+**D**. Even numbers print that many stars and recurse. Odd numbers only recurse. So it prints 10, 8, 6, 4 and 2 stars, then a single `*` at `num == 1`.
+
+</details>
+
+**`2021-jan/w07/q05`** Which of the following code snippet will draw a star?
+
+**Option A:**
+
+```python
+import turtle
+my_pen = turtle.Turtle()
+for i in range(3):
+    my_pen.forward(50)
+    my_pen.right(90)
+    my_pen.forward(70)
+    my_pen.right(90)
+turtle.done()
+```
+
+**Option B:**
+
+```python
+import turtle
+my_pen = turtle.Turtle()
+for i in range(3):
+    my_pen.forward(50)
+    my_pen.right(144)
+    my_pen.forward(50)
+    my_pen.right(144)
+turtle.done()
+```
+
+**Option C:**
+
+```python
+import turtle
+my_pen = turtle.Turtle()
+for i in range(3):
+    my_pen.forward(50)
+    my_pen.right(90)
+    my_pen.forward(50)
+    my_pen.right(90)
+turtle.done()
+```
+
+**Option D:**
+
+```python
+import turtle
+my_pen = turtle.Turtle()
+for i in range(3):
+    my_pen.right(60)
+    my_pen.forward(60)
+    my_pen.right(60)
+    my_pen.forward(60)
+turtle.done()
+```
+
+<details><summary>Answer</summary>
+
+**B**. Option B turns 144° after each 50-step side. Five such sides draw a five-point star (a pentagram), and the loop repeats the first sides.
+
+</details>
+
+**`2021-jan/w07/q06`** Which of the following code snippet will draw a Hexagon?
+
+*The four option programs are the same as in 2021-jan/w07/q05.*
+
+**Option A:**
+
+```python
+import turtle
+my_pen = turtle.Turtle()
+for i in range(3):
+    my_pen.forward(50)
+    my_pen.right(90)
+    my_pen.forward(70)
+    my_pen.right(90)
+turtle.done()
+```
+
+**Option B:**
+
+```python
+import turtle
+my_pen = turtle.Turtle()
+for i in range(3):
+    my_pen.forward(50)
+    my_pen.right(144)
+    my_pen.forward(50)
+    my_pen.right(144)
+turtle.done()
+```
+
+**Option C:**
+
+```python
+import turtle
+my_pen = turtle.Turtle()
+for i in range(3):
+    my_pen.forward(50)
+    my_pen.right(90)
+    my_pen.forward(50)
+    my_pen.right(90)
+turtle.done()
+```
+
+**Option D:**
+
+```python
+import turtle
+my_pen = turtle.Turtle()
+for i in range(3):
+    my_pen.right(60)
+    my_pen.forward(60)
+    my_pen.right(60)
+    my_pen.forward(60)
+turtle.done()
+```
+
+<details><summary>Answer</summary>
+
+**D**. Option D moves forward 60 and turns right 60°, six times in total. Six equal sides with 60° turns close up into a regular hexagon.
+
+</details>
+
+**`2021-jan/w07/q07`** What is the output of the following code?
+
+```python
+import turtle
+a = turtle.Turtle()
+for i in range(100):
+    a.dot()
+    a.forward(2+i/4)
+    a.penup()
+    a.left(30-i/4)
+turtle.done()
+```
+
+- **A.** (picture) A spiral of dots, tightly wound in the centre and opening out anticlockwise, with its tail sweeping round the left side and ending at the bottom (arrow pointing down).
+- **B.** (picture) The same spiral of dots mirrored: the tail sweeps round the bottom and up the left side, ending at the top (arrow pointing up).
+- **C.** (picture) A dense disc of dots arranged in curved spokes around a small central spiral, arrow at the top right.
+- **D.** (picture) The same dense disc of dots with spokes, arrow at the bottom right.
+
+<details><summary>Answer</summary>
+
+**A**. Each step draws a dot, moves forward a bit more than the last, and turns left by a bit less. The turns are to the left (counter-clockwise), and the path spreads out as a spiral of dots that ends below and left of the start.
+
+</details>
+
+**`2023-jul/w07/q06@gpt`** What is the output of the following code?
+
+```python
+import turtle
+
+pen = turtle.Turtle()
+
+for i in range(3):
+
+    pen.right(60)
+    pen.forward(60)
+    pen.penup()
+    pen.right(60)
+    pen.forward(60)
+    pen.pendown()
+
+
+turtle.done()
+```
+
+- **A.** (picture) A complete regular hexagon (all 6 sides drawn).
+- **B.** (picture) A circle (a many-sided polygon).
+- **C.** (picture) Three separate sides of a hexagon: the top side and the two lower slanted sides.
+- **D.** (picture) Three separate sides of a hexagon: the two upper slanted sides and the bottom side.
+
+<details><summary>Answer</summary>
+
+**D**. Each loop draws one side, lifts the pen to move one side without drawing, and puts it down. So every second side of the hexagon is drawn: three separated edges.
+
+</details>
+
+**`2021-jan/w09/q04`** What is the output of the following code?
+
+```python
+from nltk.tokenize import sent_tokenize
+from nltk.corpus import stopwords
+text1 = "Welcome to programming . Programming is fun ."
+text2 = " More fun is to program with Python ."
+text3 = " Python is simple yet very vast with multiple functionalities ."
+text4 = " So, come enjoy programming with Python"
+mytext = text1 + text2 + text3 + text4
+tokens = [t for t in mytext.split()]
+sr= stopwords.words('english')
+clean_tokens = tokens[:]
+freq = nltk.FreqDist(tokens)
+freq.plot(20, cumulative=False)
+```
+
+- **A.** (picture) A frequency line plot: '.' at 4, then programming, is, with at 3, Python (3 to 2), to and fun at 2, then every other word at 1.
+- **B.** (picture) A plot that starts at 3 for 'is' and 'with', then drops to 1 for every other token (tokens include 'programming.' and 'Python.' with the full stops attached).
+- **C.** (picture) A plot with '.' at 4; is, with, Python at 3; to, programming, fun at 2; then Welcome, Programming, More, program, simple, ... at 1.
+- **D.** none of the above
+
+<details><summary>Answer</summary>
+
+**C**. The text is split on spaces, so `.` is a token of its own and appears 4 times. `is`, `with` and `Python` appear 3 times each, `to`, `programming` and `fun` twice. The plot lists them in this order, which is graph C.
+
+</details>
+
+**`2021-jan/w11/q06`** Predict the output:
+
+```python
+import calendar
+yy = 2017
+mm = 11
+dd = 15
+print(calendar.month(yy, mm))
+```
+
+- **A.** (picture) The calendar of November 2017 (Mo-Su columns, the 1st on a Wednesday) with 15 highlighted.
+- **B.** (picture) The calendar of November 2017 (Mo-Su columns, the 1st on a Wednesday), nothing highlighted.
+- **C.** (picture) The text 15 November 2017.
+- **D.** Error
+
+<details><summary>Answer</summary>
+
+**B**. `calendar.month(2017, 11)` returns the calendar of November 2017 as text. The variable `dd` is not used, so no day is highlighted. That is picture B.
 
 </details>
 
