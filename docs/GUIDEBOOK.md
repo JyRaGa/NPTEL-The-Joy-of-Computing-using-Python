@@ -10,6 +10,8 @@ How to use it:
 - **Part 7** covers the lecture code, the programming assignments, the 2021 online programming tests, a recalled final exam paper and the exam pattern.
 - **Part 8** is the exam-day sheet: every number, formula and index convention on one screen.
 - **Part 9** is a self-test drill of 46 predict-the-output and variant questions. Each answer comes from running the code and is hidden until you open it.
+- **Part 10** is 36 examiner's oddities: corner cases where the intuitive answer is wrong (floats, rounding, precedence, aliasing, scope). Answers come from running the code.
+- **Part 11** is 30 plain ChatGPT-style concept MCQs, like the `@gpt` cards, with hidden answers.
 
 Sources used:
 - All the cards in `site/data/week-*.json`: question, code, options (including code inside options), case-study programs (`context.code`), key and explanation.
@@ -96,6 +98,8 @@ Week → topics → where to read (every week also uses Parts 4–9):
   - [Character codes and modules](#character-codes-and-modules)
   - [Full forms](#full-forms)
 - [Part 9 — Self-test drill](#part-9--self-test-drill)
+- [Part 10 — Examiner's oddities](#part-10--examiners-oddities)
+- [Part 11 — ChatGPT-style questions](#part-11--chatgpt-style-questions)
 
 ---
 
@@ -2749,5 +2753,1051 @@ print(new)
 ```
 
 Each page splits its rank equally over its out-links; the total stays 3.0.
+
+</details>
+
+---
+
+## Part 10 — Examiner's oddities
+
+Corner cases that examiners like because the intuitive answer is wrong. Every answer was produced by running the code (Python 3). Questions using `random` show what the outputs can be, not one fixed run.
+
+**E1. (Floats) What is printed?**
+
+```python
+print(0.1 + 0.2 == 0.3)
+print(sum([0.1] * 10) == 1.0)
+```
+
+<details><summary>Answer</summary>
+
+```text
+False
+True
+```
+
+Decimal fractions are stored in binary, so 0.1 + 0.2 is 0.30000000000000004. Never compare floats with `==`.
+
+</details>
+
+**E2. (Rounding) What is printed?**
+
+```python
+print(round(2.5), round(3.5), round(-0.5))
+```
+
+<details><summary>Answer</summary>
+
+```text
+2 4 0
+```
+
+`round` uses banker's rounding: halves go to the nearest **even** number.
+
+</details>
+
+**E3. (Precedence) What is printed?**
+
+```python
+print(-2 ** 2)
+print((-2) ** 2)
+print(2 ** -1)
+```
+
+<details><summary>Answer</summary>
+
+```text
+-4
+4
+0.5
+```
+
+`**` binds tighter than unary minus, so `-2 ** 2` is `-(2 ** 2)`. A negative power gives a float.
+
+</details>
+
+**E4. (Precedence) What is printed?**
+
+```python
+print(7 // 2 * 2 + 7 % 2)
+print(10 - 2 - 3, 2 ** 2 ** 3)
+```
+
+<details><summary>Answer</summary>
+
+```text
+7
+5 256
+```
+
+`//`, `*` and `%` run left to right before `+`. `-` groups left to right, `**` right to left (2 ** 8).
+
+</details>
+
+**E5. (Booleans) What is printed?**
+
+```python
+print(True + True, True * 10, False - 1)
+```
+
+<details><summary>Answer</summary>
+
+```text
+2 10 -1
+```
+
+`True` is 1 and `False` is 0 in arithmetic.
+
+</details>
+
+**E6. (Booleans) What is printed?**
+
+```python
+print(3 or 0, 0 or [], [] and 7, not 0 and 5)
+```
+
+<details><summary>Answer</summary>
+
+```text
+3 [] [] 5
+```
+
+`or` returns the first truthy operand (or the last one); `and` returns the first falsy operand (or the last one). They return operands, not `True`/`False`.
+
+</details>
+
+**E7. (Booleans) What is printed?**
+
+```python
+print(bool('0'), bool(0.0), bool(' '), bool(None))
+```
+
+<details><summary>Answer</summary>
+
+```text
+True False True False
+```
+
+Only empty strings, zero numbers, empty containers and `None` are falsy. `'0'` and `' '` are non-empty strings.
+
+</details>
+
+**E8. (Comparisons) What is printed?**
+
+```python
+print(1 < 2 < 3, 3 > 2 > 1 == 1, 1 < 3 > 2)
+```
+
+<details><summary>Answer</summary>
+
+```text
+True True True
+```
+
+Comparisons chain: `a < b < c` means `a < b and b < c`.
+
+</details>
+
+**E9. (Comparisons) What is printed?**
+
+```python
+print(max('apple', 'Zebra'), min('10', '9'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+apple 10
+```
+
+Strings compare character by character by code: lowercase `a` (97) beats `Z` (90), and `'1'` comes before `'9'`.
+
+</details>
+
+**E10. (Comparisons) What is printed?**
+
+```python
+print([] == [], [] is [], {1, 2} == {2, 1}, (1, 2) == (2, 1))
+```
+
+<details><summary>Answer</summary>
+
+```text
+True False True False
+```
+
+`==` compares values; `is` compares identity (two new lists are different objects). Sets ignore order; tuples do not.
+
+</details>
+
+**E11. (Division) What is printed?**
+
+```python
+print(10 / 5, type(10 / 5).__name__, divmod(17, 5))
+```
+
+<details><summary>Answer</summary>
+
+```text
+2.0 float (3, 2)
+```
+
+`/` always returns a float, even for exact division. `divmod(a, b)` gives `(a // b, a % b)`.
+
+</details>
+
+**E12. (Conversion) What is printed?**
+
+```python
+print(int('0010'), int('  7 '), int(-3.9), float('1e3'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+10 7 -3 1000.0
+```
+
+`int` ignores leading zeros and surrounding spaces and truncates towards zero; `'1e3'` is 1000.0.
+
+</details>
+
+**E13. (Conversion) What happens?**
+
+```python
+print(int('3.5'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+ValueError: invalid literal for int() with base 10: '3.5'
+```
+
+`int()` of a string must look like an integer; `int(float('3.5'))` would work.
+
+</details>
+
+**E14. (Strings) What is printed?**
+
+```python
+print('a' * 0 == '', len(''), 'abc'[10:] == '')
+print('5' + '5', 5 + 5, '5' * 2)
+```
+
+<details><summary>Answer</summary>
+
+```text
+True 0 True
+55 10 55
+```
+
+Repeating 0 times gives an empty string, and slicing past the end never errors (indexing would).
+
+</details>
+
+**E15. (Strings) What happens?**
+
+```python
+print('abc'[10])
+```
+
+<details><summary>Answer</summary>
+
+```text
+IndexError: string index out of range
+```
+
+Indexing past the end raises an error, unlike slicing.
+
+</details>
+
+**E16. (Strings) What is printed?**
+
+```python
+s = 'hello'
+print(s.find('l'), s.rfind('l'), s.count('l'), s.find('z'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+2 3 2 -1
+```
+
+`find` gives the first position, `rfind` the last, `count` the occurrences; a missing substring gives -1.
+
+</details>
+
+**E17. (Strings) What is printed?**
+
+```python
+print('Python'[-1:-4:-1], 'abc'[::-1][::-1])
+print('a,b,,c'.split(','), len('hello  world'.split()))
+```
+
+<details><summary>Answer</summary>
+
+```text
+noh abc
+['a', 'b', '', 'c'] 2
+```
+
+A negative step walks backwards. `split(',')` keeps empty pieces, but `split()` with no argument drops runs of spaces.
+
+</details>
+
+**E18. (Strings) What is printed?**
+
+```python
+print(chr(ord('a') + 25), ord('A') - ord('a'), len(set('mississippi')))
+```
+
+<details><summary>Answer</summary>
+
+```text
+z -32 4
+```
+
+`z` is 25 letters after `a`; capitals are 32 below lowercase; mississippi has 4 distinct letters (m, i, s, p).
+
+</details>
+
+**E19. (Lists) What is printed?**
+
+```python
+x = [[0] * 2] * 2
+x[0][0] = 1
+print(x)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[[1, 0], [1, 0]]
+```
+
+`* 2` on the outer list copies the **reference**, so both rows are the same list. Use `[[0] * 2 for _ in range(2)]`.
+
+</details>
+
+**E20. (Lists) What is printed?**
+
+```python
+a = b = []
+a.append(1)
+print(b)
+c = [1, 2, 3]
+c[1:1] = [9]
+print(c)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[1]
+[1, 9, 2, 3]
+```
+
+`a = b = []` makes one list with two names. Assigning to an empty slice inserts without replacing.
+
+</details>
+
+**E21. (Lists) What is printed?**
+
+```python
+L = [1, 2, 3]
+print(L * 2, [x * 2 for x in L])
+print(list(range(5))[::-2])
+```
+
+<details><summary>Answer</summary>
+
+```text
+[1, 2, 3, 1, 2, 3] [2, 4, 6]
+[4, 2, 0]
+```
+
+`*` on a list repeats it; use a comprehension (or NumPy) to multiply each element.
+
+</details>
+
+**E22. (Lists) What is printed?**
+
+```python
+L = [2, 4, 6, 8]
+for x in L:
+    if x % 2 == 0:
+        L.remove(x)
+print(L)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[4, 8]
+```
+
+Removing shifts the later items left, so the item right after each removal is skipped (4 and 8 are never checked). Loop over a copy, `for x in L[:]`.
+
+</details>
+
+**E23. (Loops) What is printed?**
+
+```python
+for i in range(3):
+    pass
+print(i)
+```
+
+<details><summary>Answer</summary>
+
+```text
+2
+```
+
+The loop variable keeps its last value after the loop ends.
+
+</details>
+
+**E24. (Loops) What is printed?**
+
+```python
+i = 0
+while i < 3:
+    i += 1
+else:
+    print('else', i)
+```
+
+<details><summary>Answer</summary>
+
+```text
+else 3
+```
+
+A `while` loop's `else` runs when the condition becomes false (no `break`).
+
+</details>
+
+**E25. (Loops) What is printed?**
+
+```python
+for i in range(0):
+    print('body')
+else:
+    print('else runs')
+```
+
+<details><summary>Answer</summary>
+
+```text
+else runs
+```
+
+A loop that runs zero times still runs its `else`.
+
+</details>
+
+**E26. (Functions) What is printed?**
+
+```python
+def f():
+    return
+def g():
+    pass
+print(f(), g())
+```
+
+<details><summary>Answer</summary>
+
+```text
+None None
+```
+
+A bare `return`, or no return at all, gives `None`.
+
+</details>
+
+**E27. (Functions) What is printed?**
+
+```python
+x = 5
+def f():
+    x = 10
+f()
+print(x)
+```
+
+<details><summary>Answer</summary>
+
+```text
+5
+```
+
+Assigning inside a function makes a new local `x`; the global is unchanged unless you write `global x`.
+
+</details>
+
+**E28. (Functions) What happens?**
+
+```python
+x = 5
+def f():
+    print(x)
+    x = 10
+f()
+```
+
+<details><summary>Answer</summary>
+
+```text
+UnboundLocalError: cannot access local variable 'x' where it is not associated with a value
+```
+
+Because `x` is assigned somewhere in `f`, Python treats it as local in the whole function, so reading it first fails.
+
+</details>
+
+**E29. (Dicts and sets) What happens?**
+
+```python
+d = {}
+d[[1, 2]] = 'list key'
+```
+
+<details><summary>Answer</summary>
+
+```text
+TypeError: cannot use 'list' as a dict key (unhashable type: 'list')
+```
+
+A list is mutable, so it is unhashable and cannot be a dictionary key (a tuple can).
+
+</details>
+
+**E30. (Dicts and sets) What is printed?**
+
+```python
+print(type({}).__name__, type(set()).__name__, type({1}).__name__)
+```
+
+<details><summary>Answer</summary>
+
+```text
+dict set set
+```
+
+`{}` is an empty **dict**; an empty set must be written `set()`.
+
+</details>
+
+**E31. (Dicts and sets) What is printed?**
+
+```python
+d = {'a': 1, 'b': 2}
+print(len(d), 'a' in d, 1 in d, list(d))
+```
+
+<details><summary>Answer</summary>
+
+```text
+2 True False ['a', 'b']
+```
+
+`len` and `in` work on the keys; `list(d)` gives the keys.
+
+</details>
+
+**E32. (Tuples) What is printed?**
+
+```python
+t = (1)
+u = (1,)
+v = ()
+print(type(t).__name__, type(u).__name__, len(v))
+```
+
+<details><summary>Answer</summary>
+
+```text
+int tuple 0
+```
+
+The comma makes the tuple, not the brackets; `()` is the empty tuple.
+
+</details>
+
+**E33. (zip and unpacking) What is printed?**
+
+```python
+print(list(zip([1, 2, 3], 'ab')))
+a, *b = [1, 2, 3]
+print(a, b)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[(1, 'a'), (2, 'b')]
+1 [2, 3]
+```
+
+`zip` stops at the shorter input; star unpacking collects the rest into a list.
+
+</details>
+
+**E34. (NumPy) What is printed?**
+
+```python
+import numpy as np
+print(np.array([1, 2, 3]) * 2)
+print([1, 2, 3] * 2)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[2 4 6]
+[1, 2, 3, 1, 2, 3]
+```
+
+NumPy multiplies element-wise; a list repeats.
+
+</details>
+
+**E35. (NumPy) What is printed?**
+
+```python
+import numpy as np
+a = np.array([1, 2, 3])
+b = a
+b[0] = 99
+print(a, np.array([1, 2.5]).dtype)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[99  2  3] float64
+```
+
+Assignment does not copy arrays either. One float makes the whole array float64.
+
+</details>
+
+**E36. (random) What is printed? (2000 draws, so every possible value shows up)**
+
+```python
+import random
+vals = {random.randint(1, 3) for _ in range(2000)}
+print(sorted(vals))
+print(sorted({random.randrange(1, 3) for _ in range(2000)}))
+```
+
+<details><summary>Answer</summary>
+
+```text
+[1, 2, 3]
+[1, 2]
+```
+
+`randint(1, 3)` includes 3; `randrange(1, 3)` never gives 3.
+
+</details>
+
+---
+
+## Part 11 — ChatGPT-style questions
+
+Plain concept MCQs in the style of the ChatGPT-converted 2023-jul cards (`@gpt`). Answers that can be checked by code were checked by running it.
+
+**G1. Which of the following data types is mutable?**
+
+- A. tuple
+- B. str
+- C. list
+- D. frozenset
+
+<details><summary>Answer</summary>
+
+**C.** Lists can be changed in place; tuples, strings and frozensets cannot.
+
+</details>
+
+**G2. Which statement creates an empty set?**
+
+- A. s = {}
+- B. s = set()
+- C. s = []
+- D. s = ()
+
+<details><summary>Answer</summary>
+
+**B.** `{}` is an empty dictionary; only `set()` makes an empty set.
+
+</details>
+
+**G3. What is the data type of the value returned by `input()`?**
+
+- A. int
+- B. float
+- C. str
+- D. depends on what is typed
+
+<details><summary>Answer</summary>
+
+**C.** `input()` always returns a string; convert it with `int()` or `float()`.
+
+</details>
+
+**G4. Which method removes and returns the last element of a list?**
+
+- A. remove()
+- B. pop()
+- C. del
+- D. discard()
+
+<details><summary>Answer</summary>
+
+**B.** `pop()` with no index removes and returns the last item; `remove(x)` deletes by value and returns `None`.
+
+</details>
+
+**G5. What does `len()` return for a dictionary?**
+
+- A. The number of values
+- B. The number of keys
+- C. The number of key-value characters
+- D. An error
+
+<details><summary>Answer</summary>
+
+**B.** A dictionary's length is its number of keys (each key has one value).
+
+</details>
+
+**G6. Which keywords are used to handle exceptions in Python?**
+
+- A. try / except
+- B. catch / throw
+- C. try / catch
+- D. error / handle
+
+<details><summary>Answer</summary>
+
+**A.** Python uses `try` and `except` (plus optional `else` and `finally`).
+
+</details>
+
+**G7. What is the time complexity of binary search on a sorted list of n items?**
+
+- A. O(1)
+- B. O(log n)
+- C. O(n)
+- D. O(n²)
+
+<details><summary>Answer</summary>
+
+**B.** Each step halves the search range, so about log₂ n steps are needed.
+
+</details>
+
+**G8. What is the worst-case time complexity of bubble sort?**
+
+- A. O(n)
+- B. O(n log n)
+- C. O(n²)
+- D. O(log n)
+
+<details><summary>Answer</summary>
+
+**C.** In the worst case (reverse order) every pair is compared and swapped: about n²/2 operations.
+
+</details>
+
+**G9. Which sorting algorithm repeatedly compares and swaps adjacent elements?**
+
+- A. Merge sort
+- B. Quick sort
+- C. Bubble sort
+- D. Binary sort
+
+<details><summary>Answer</summary>
+
+**C.** Bubble sort compares neighbours and swaps them when they are out of order.
+
+</details>
+
+**G10. What does `random.random()` return?**
+
+- A. An integer from 0 to 1
+- B. A float in [0, 1)
+- C. A float in [0, 1]
+- D. A random element of a list
+
+<details><summary>Answer</summary>
+
+**B.** `random()` returns a float from 0 (inclusive) up to 1 (exclusive).
+
+</details>
+
+**G11. Which operator performs floor division?**
+
+- A. /
+- B. //
+- C. %
+- D. **
+
+<details><summary>Answer</summary>
+
+**B.** `//` divides and rounds down; `/` always gives a float.
+
+</details>
+
+**G12. What is the output of `print(type([]) == list)`?**
+
+- A. True
+- B. False
+- C. list
+- D. Error
+
+<details><summary>Answer</summary>
+
+**A.** `type([])` is the `list` class itself, so the comparison is `True`.
+
+</details>
+
+**G13. Which of these is NOT a valid variable name?**
+
+- A. _count
+- B. count2
+- C. 2count
+- D. Count
+
+<details><summary>Answer</summary>
+
+**C.** A name cannot start with a digit.
+
+</details>
+
+**G14. What is a base case in recursion?**
+
+- A. The first call of the function
+- B. A condition that stops further recursive calls
+- C. The largest input
+- D. A loop inside the function
+
+<details><summary>Answer</summary>
+
+**B.** The base case returns without calling the function again, which ends the recursion.
+
+</details>
+
+**G15. What does the `break` statement do?**
+
+- A. Skips to the next iteration
+- B. Exits the innermost loop
+- C. Exits the program
+- D. Pauses the loop
+
+<details><summary>Answer</summary>
+
+**B.** `break` leaves the innermost loop at once; `continue` skips to the next iteration.
+
+</details>
+
+**G16. What is the magic constant of a 3 × 3 magic square?**
+
+- A. 12
+- B. 15
+- C. 18
+- D. 45
+
+<details><summary>Answer</summary>
+
+**B.** n(n² + 1)/2 = 3 × 10 / 2 = 15.
+
+</details>
+
+**G17. In the Monty Hall problem, what is the probability of winning if you switch?**
+
+- A. 1/3
+- B. 1/2
+- C. 2/3
+- D. 1
+
+<details><summary>Answer</summary>
+
+**C.** Your first pick is wrong 2 times in 3, and switching then wins.
+
+</details>
+
+**G18. Which library is mainly used for natural language processing in this course?**
+
+- A. NumPy
+- B. NLTK
+- C. Matplotlib
+- D. Selenium
+
+<details><summary>Answer</summary>
+
+**B.** NLTK (Natural Language Toolkit) tokenises text, counts frequencies and includes VADER.
+
+</details>
+
+**G19. What does PIL stand for?**
+
+- A. Python Image Loader
+- B. Python Imaging Library
+- C. Picture Import Library
+- D. Pixel Image Language
+
+<details><summary>Answer</summary>
+
+**B.** PIL is the Python Imaging Library; Pillow is its maintained fork.
+
+</details>
+
+**G20. Which `datetime` call gives today's date only?**
+
+- A. datetime.datetime.now()
+- B. datetime.date.today()
+- C. datetime.time()
+- D. datetime.today.date
+
+<details><summary>Answer</summary>
+
+**B.** `date.today()` gives the date; `datetime.now()` includes the time.
+
+</details>
+
+**G21. What does `turtle.penup()` do?**
+
+- A. Lifts the pen so the turtle moves without drawing
+- B. Increases the pen width
+- C. Moves the turtle up
+- D. Changes the pen colour
+
+<details><summary>Answer</summary>
+
+**A.** After `penup()` the turtle moves without drawing until `pendown()`.
+
+</details>
+
+**G22. In a graph, what is the degree of a node?**
+
+- A. The number of edges connected to it
+- B. Its distance from the start
+- C. Its PageRank
+- D. Its label
+
+<details><summary>Answer</summary>
+
+**A.** The degree counts the edges at a node; the sum of all degrees is twice the number of edges.
+
+</details>
+
+**G23. What is the PageRank algorithm mainly used for?**
+
+- A. Sorting numbers
+- B. Ranking the importance of web pages
+- C. Compressing images
+- D. Encrypting messages
+
+<details><summary>Answer</summary>
+
+**B.** PageRank ranks pages by the importance of the pages that link to them.
+
+</details>
+
+**G24. What does Selenium automate?**
+
+- A. Spreadsheets
+- B. Web browsers
+- C. Image editing
+- D. Databases
+
+<details><summary>Answer</summary>
+
+**B.** Selenium WebDriver controls a browser from a program (testing, scraping, automation).
+
+</details>
+
+**G25. Which of the following is immutable?**
+
+- A. list
+- B. dict
+- C. set
+- D. tuple
+
+<details><summary>Answer</summary>
+
+**D.** A tuple cannot be changed after creation (its items cannot be reassigned).
+
+</details>
+
+**G26. What will `'Hello'[1:3]` return?**
+
+- A. 'He'
+- B. 'el'
+- C. 'ell'
+- D. 'llo'
+
+<details><summary>Answer</summary>
+
+**B.** The slice takes positions 1 and 2 (the end is excluded).
+
+</details>
+
+**G27. Which function converts a string `'42'` to an integer?**
+
+- A. str()
+- B. int()
+- C. float()
+- D. chr()
+
+<details><summary>Answer</summary>
+
+**B.** `int('42')` gives 42.
+
+</details>
+
+**G28. What does the `%` operator return?**
+
+- A. The quotient
+- B. The remainder
+- C. A percentage
+- D. The power
+
+<details><summary>Answer</summary>
+
+**B.** `a % b` is the remainder of `a` divided by `b`.
+
+</details>
+
+**G29. Which of these correctly opens a file for appending?**
+
+- A. open('f.txt', 'r')
+- B. open('f.txt', 'w')
+- C. open('f.txt', 'a')
+- D. open('f.txt', 'x')
+
+<details><summary>Answer</summary>
+
+**C.** `'a'` appends to the end and keeps old content; `'w'` erases the file first.
+
+</details>
+
+**G30. What is the output of `print(bool([]))`?**
+
+- A. True
+- B. False
+- C. None
+- D. Error
+
+<details><summary>Answer</summary>
+
+**B.** An empty list is falsy.
 
 </details>
