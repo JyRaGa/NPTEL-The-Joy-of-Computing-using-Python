@@ -12,6 +12,7 @@ How to use it:
 - **Part 9** is a self-test drill of 46 predict-the-output and variant questions. Each answer comes from running the code and is hidden until you open it.
 - **Part 10** is 36 examiner's oddities: corner cases where the intuitive answer is wrong (floats, rounding, precedence, aliasing, scope). Answers come from running the code.
 - **Part 11** is 30 plain ChatGPT-style concept MCQs, like the `@gpt` cards, with hidden answers.
+- **Part 12** lists the cards that depend on a picture (Scratch scripts, graphs, drawings, code screenshots), the only things you still need the website for.
 
 Sources used:
 - All the cards in `site/data/week-*.json`: question, code, options (including code inside options), case-study programs (`context.code`), key and explanation.
@@ -100,6 +101,7 @@ Week → topics → where to read (every week also uses Parts 4–9):
 - [Part 9 — Self-test drill](#part-9--self-test-drill)
 - [Part 10 — Examiner's oddities](#part-10--examiners-oddities)
 - [Part 11 — ChatGPT-style questions](#part-11--chatgpt-style-questions)
+- [Part 12 — What only the website shows](#part-12--what-only-the-website-shows)
 
 ---
 
@@ -878,6 +880,7 @@ Calendar results that appear on cards:
   - Hide/show swaps poses (situps).
   - `set x / set y` at the start puts the sprite at a fixed starting point every time.
   - `glide to random position in 1 sec` inside `repeat 10` → 10 random positions, 1 second each.
+  - Why loops and variables (2026-jul robot story): a loop expresses repeated actions with fewer instructions and keeps the same behaviour (it does not make the robot faster, shorten its path or fix errors). A variable for the travel distance lets the distance change automatically after each repetition.
 - Trace results on the cards:
   - `change t by 3` ×10 from 3 → 33.
   - `change by -1` ×10 → −10.
@@ -959,6 +962,7 @@ Calendar results that appear on cards:
   - Scoring variant: points = blanks remaining.
   - Pattern matches: `I_C_P_IO_` = INCEPTION, `A_E__E__` = AVENGERS.
   - Code: `random.choice(movies)` picks a title. Common-movie and unique-movie loops use a flag. A vowel counter counts both cases.
+  - 2026-jul version: `create_question(movie)` builds the first masked title (`*` for each letter; `isalpha()` decides, so spaces and digits stay). `unlock(movie, question, letter)` takes both the title and the current mask: it writes the letter where `movie[i]` matches and copies `question[i]` everywhere else, so earlier reveals are kept and every copy of the letter opens in one guess.
 - **Leap year**: divisible by 4 and not by 100, **or** divisible by 400.
   - 1900 → not (February 28), 2000 → yes, 2100 → no, 2024 → yes.
   - Equivalent forms: `(y%100==0 and y%400==0) or (y%4==0 and y%100!=0)`.
@@ -1196,6 +1200,7 @@ Calendar results that appear on cards:
     - A separate `new_rank` / `updated` dict keeps every contribution based on the original ranks.
     - Sorting the final values ranks the nodes, and converting to a dict keeps node–score pairs.
     - `nx.pagerank()` validates the manual result. A random graph tests scaling. Mathematical convergence makes it reliable.
+    - The manual Excel-style (spreadsheet) simulation is there to help visualise a single iteration clearly. It does not replace the Python computation or compute the final values.
   - A gold-coin game on a graph: the coins stay constant and can all end at a sink.
   - Google also uses content relevance and user experience.
 - **Directed graphs**:
@@ -1391,6 +1396,9 @@ The method:
    - `polarity_scores(...)['compound']` → the score.
    - `G.neighbors` → direct links.
    - `FreqDist` length → unique tokens.
+9. **Assertion–Reason questions** (2025-jan). The four options are always: both true and R explains A / both true but R does not explain A / A true, R false / A false, R true. Judge A and R separately, then ask whether R is the *reason* A holds.
+   - A: "If a recursive function doesn't have a base case, it may never stop." R: "Recursion means that a function calls itself." Both are true, but R only defines recursion → **both true, R is not the correct explanation**.
+   - A: "A Caesar Cipher is a type of Substitution Cipher." R: "In a Caesar Cipher, each letter in the plaintext is replaced by a letter at a fixed shift in the alphabet." A fixed letter-for-letter replacement is exactly a substitution → **both true, R is the correct explanation**.
 
 ---
 
@@ -3803,3 +3811,80 @@ Plain concept MCQs in the style of the ChatGPT-converted 2023-jul cards (`@gpt`)
 **B.** An empty list is falsy.
 
 </details>
+
+---
+
+## Part 12 — What only the website shows
+
+A card-by-card check matched every card's question, correct answer and stored explanation against this guidebook (1,891 cards). Every concept the cards test is covered somewhere in Parts 1–8. What a text guidebook cannot hold is **pictures**. The cards below need the picture on the site; open each one there once. IDs are the site's card IDs; a card repeated in other terms is listed once.
+
+**A. Scratch scripts shown only as a picture (38 cards).** The block meanings are in [3.1 Week 1: Scratch](#31-week-1-scratch); the scripts themselves are only on the site.
+
+- Week 1: `2018-jul/w01/q01@portal`, `2020-jan/w01/q04`, `2020-jan/w01/q05`, `2020-jan/w01/q06`, `2020-jan/w01/q08`, `2020-sep/w01/q04`, `2020-sep/w01/q06`, `2020-sep/w01/q10`, `2021-jan/w01/q08@portal`, `2021-jul/w01/q01`, `2021-jul/w01/q03`, `2021-jul/w01/q07`, `2021-jul/w01/q10`, `2022-jan/w01/q01`, `2022-jan/w01/q03`, `2022-jan/w01/q04`, `2022-jan/w01/q05`, `2022-jan/w01/q06`, `2022-jan/w01/q08`, `2022-jan/w01/q09`, `2022-jul/w01/q06`, `2023-jan/w01/q06`, `2023-jul/w01/q05@gpt`, `2024-jan/w01/q05`, `2024-jan/w01/q06`, `2024-jan/w01/q09`, `2024-jul/w01/q10`, `2025-jan/w01/q10`, `2026-jul/w01/q10`, `2026-jul/w01/q11`, `2026-jul/w01/q12`, `2026-jul/w01/q13`, `2026-jul/w01/q14`, `2026-jul/w01/q15`, `2026-jul/w01/q16`, `2026-jul/w01/q17`, `2026-jul/w01/q18`, `2026-jul/w01/q19`
+
+**B. Graphs, figures, boards and cards you have to read (31 cards).** NetworkX graph drawings (neighbours, degrees, edge counts, graph types), distance–time graphs, the squares figure, the magic-square grid, the Chaupar board, the snake-pattern matrix and the Dobble cards.
+
+- Week 0: `2021-jan/w00/q06`, `2021-jan/w00/q07`, `2023-jan/w00/q06`
+- Week 1: `2020-sep/w01/q02`
+- Week 4: `2018-jul/w04/q09`, `2021-jul/w04/q03`
+- Week 7: `2024-jan/w07/q01`, `2024-jan/w07/q05`, `2025-jan/w07/q02`
+- Week 9: `2020-sep/w09/q01`, `2022-jan/w09/q04`, `2022-jan/w09/q06`, `2022-jul/w09/q06`, `2022-jul/w09/q08`, `2022-jul/w09/q10`, `2023-jan/w09/q07`, `2023-jul/w09/q05@gpt`, `2025-jan/w09/q05`, `2025-jan/w09/q08`
+- Week 12: `2020-sep/w12/q03`, `2021-jan/w12/q06`, `2021-jan/w12/q07`, `2022-jan/w12/q06`, `2022-jan/w12/q07`, `2022-jul/w12/q05`, `2023-jan/w12/q03`, `2023-jan/w12/q07`, `2023-jan/w12/q08`, `2023-jan/w12/q10`, `2025-jan/w12/q03`, `2025-jan/w12/q05`
+
+**C. Output shown as pictures in the options (10 cards).** Turtle drawings, matplotlib plots, generated images and printed output.
+
+- Week 3: `2021-jan/w03/q01`
+- Week 6: `2023-jan/w06/q08`
+- Week 7: `2021-jan/w07/q05`, `2021-jan/w07/q06`, `2021-jan/w07/q07`, `2023-jul/w07/q06@gpt`
+- Week 8: `2020-jan/w08/q06`
+- Week 9: `2021-jan/w09/q04`
+- Week 10: `2020-sep/w10/q08`
+- Week 11: `2021-jan/w11/q06`
+
+**D. Program options shown only as pictures (14 cards).** You pick the right program from four code screenshots. What each one tests is covered here; the four programs are only on the site.
+
+- Week 3: `2022-jan/w03/q02`, `2022-jan/w03/q06`
+- Week 4: `2021-jan/w04/q07`, `2021-jul/w04/q07`, `2022-jan/w04/q02`, `2022-jan/w04/q06`, `2022-jan/w04/q07`, `2022-jan/w04/q09`, `2022-jan/w04/q10`
+- Week 5: `2022-jan/w05/q08`
+- Week 6: `2021-jul/w06/q08`
+- Week 8: `2021-jan/w08/q08`
+- Week 10: `2022-jan/w10/q04`
+- Week 11: `2021-jan/w11/q10`
+
+**E. Question code shown only as a picture.** The guidebook covers what these test (each was read through the card's stored explanation), but not the exact program text.
+
+- 64 cards with a code screenshot:
+  - Week 2: `2021-jul/w02/q01`, `2021-jul/w02/q03`, `2021-jul/w02/q04`, `2021-jul/w02/q07`, `2022-jan/w02/q02`, `2022-jan/w02/q06`, `2022-jan/w02/q07`, `2022-jan/w02/q08`, `2022-jan/w02/q09`, `2022-jan/w02/q10`
+  - Week 3: `2021-jul/w03/q02`, `2021-jul/w03/q03`, `2021-jul/w03/q08`, `2022-jan/w03/q01`, `2022-jan/w03/q04`, `2022-jan/w03/q05`, `2022-jan/w03/q07`, `2022-jan/w03/q08`, `2022-jan/w03/q09`, `2022-jan/w03/q10`
+  - Week 4: `2021-jul/w04/q04`, `2021-jul/w04/q05`, `2021-jul/w04/q06`, `2021-jul/w04/q09`, `2022-jan/w04/q03`, `2022-jan/w04/q04`, `2022-jan/w04/q08`
+  - Week 5: `2021-jul/w05/q01`, `2021-jul/w05/q02`, `2021-jul/w05/q07`, `2021-jul/w05/q10`, `2022-jan/w05/q04`, `2022-jan/w05/q06`, `2022-jan/w05/q07`, `2022-jan/w05/q10`, `2026-jul/w05/q10`
+  - Week 6: `2021-jan/w06/q07`, `2021-jul/w06/q02`, `2021-jul/w06/q03`, `2021-jul/w06/q04`, `2021-jul/w06/q06`, `2021-jul/w06/q07`, `2022-jan/w06/q02`, `2022-jan/w06/q05`, `2022-jan/w06/q08`, `2022-jul/w06/q05`
+  - Week 7: `2021-jul/w07/q01`, `2021-jul/w07/q04`, `2021-jul/w07/q06`, `2022-jul/w07/q09`
+  - Week 8: `2021-jul/w08/q03`, `2021-jul/w08/q04`, `2021-jul/w08/q06`, `2021-jul/w08/q09`
+  - Week 9: `2021-jul/w09/q03`, `2021-jul/w09/q10`
+  - Week 10: `2021-jan/w10/q08`, `2021-jan/w10/q09`, `2021-jul/w10/q04`, `2021-jul/w10/q05`, `2021-jul/w10/q06`, `2021-jul/w10/q07`, `2021-jul/w10/q09`, `2021-jul/w10/q10`
+- 124 cards in 23 2026-jul case studies whose program is an image:
+  - `2026-jul/w02/q06`–`q10`: Ordering Food at a School Cafeteria
+  - `2026-jul/w02/q16`–`q20`: Morning Exercise Counter
+  - `2026-jul/w03/q06`–`q10`: Managing Participants for a Workshop
+  - `2026-jul/w04/q11`–`q15`: Building the First Prototype of a Magic Square Generator
+  - `2026-jul/w04/q16`–`q20`: Movie Guessing Game
+  - `2026-jul/w05/q01`–`q05`: Community Library Book Tracker
+  - `2026-jul/w05/q06`–`q15`: Rock–Paper–Scissors Championship (9 cards)
+  - `2026-jul/w06/q01`–`q05`: Secret Notice Encoder
+  - `2026-jul/w06/q06`–`q10`: Tic-Tac-Toe Winner Checker
+  - `2026-jul/w06/q16`–`q20`: Recursive Binary Search for Student Roll Numbers
+  - `2026-jul/w07/q01`–`q05`: Drone Surveillance Route
+  - `2026-jul/w07/q06`–`q10`: Mini Snake and Ladder Tournament
+  - `2026-jul/w07/q11`–`q20`: Food Delivery Pickup Locations
+  - `2026-jul/w08/q06`–`q10`: Lucky Draw Betting Game
+  - `2026-jul/w08/q11`–`q15`: Secure Access Puzzle Generator
+  - `2026-jul/w08/q16`–`q20`: Customer Feedback Analysis
+  - `2026-jul/w09/q01`–`q05`: Product Review Analysis
+  - `2026-jul/w09/q06`–`q10`: Library Book Recommendation Network
+  - `2026-jul/w09/q16`–`q20`: Quality Inspection of Product Images
+  - `2026-jul/w10/q01`–`q05`: FLAMES
+  - `2026-jul/w10/q06`–`q10`: FLAMES 2
+  - `2026-jul/w10/q11`–`q15`: Wild Life
+  - `2026-jul/w10/q16`–`q20`: PixelMap Image Quality Inspector
+- About 170 more older cards show their code only inside the page screenshot of the original assignment.
