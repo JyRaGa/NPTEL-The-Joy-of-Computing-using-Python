@@ -290,10 +290,10 @@ end
 
 **`2022-jan/w01/q01`** Which of the following set of instructions will make the sprite(the cat) move in a triangle? ( Final and initial position, as well as the angle of the cat, should be the same)
 
-- **A.**
+**Option A:**
 
-  ```text
-  turn ↺ (60) degrees
+```text
+turn ↺ (60) degrees
 wait (1) seconds
 move (200) steps
 wait (1) seconds
@@ -306,12 +306,12 @@ wait (1) seconds
 move (200) steps
 wait (1) seconds
 turn ↻ (180) degrees
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```text
-  turn ↺ (60) degrees
+```text
+turn ↺ (60) degrees
 wait (1) seconds
 move (100) steps
 wait (1) seconds
@@ -324,12 +324,12 @@ wait (1) seconds
 move (100) steps
 wait (1) seconds
 turn ↻ (90) degrees
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```text
-  turn ↺ (60) degrees
+```text
+turn ↺ (60) degrees
 wait (1) seconds
 move (100) steps
 wait (1) seconds
@@ -342,12 +342,12 @@ wait (1) seconds
 move (100) steps
 wait (1) seconds
 turn ↻ (180) degrees
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```text
-  turn ↺ (60) degrees
+```text
+turn ↺ (60) degrees
 wait (1) seconds
 move (100) steps
 wait (1) seconds
@@ -360,7 +360,7 @@ wait (1) seconds
 move (100) steps
 wait (1) seconds
 turn ↻ (-60) degrees
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -415,10 +415,10 @@ end
 
 **`2022-jan/w01/q05`** What should be a set of instructions to make our sprite(cat) say a table of 5?
 
-- **A.**
+**Option A:**
 
-  ```text
-  set [s] to (5)
+```text
+set [s] to (5)
 set [t] to (1)
 set [x] to (5)
 repeat (10)
@@ -427,12 +427,12 @@ repeat (10)
     change [t] by (1)
     wait (1) seconds
 end
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```text
-  set [s] to (5)
+```text
+set [s] to (5)
 set [t] to (1)
 set [x] to (5)
 repeat (10)
@@ -441,12 +441,12 @@ repeat (10)
     wait (1) seconds
     set [x] to ((t) * (s))
 end
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```text
-  set [s] to (5)
+```text
+set [s] to (5)
 set [t] to (1)
 set [x] to (5)
 repeat (11)
@@ -455,12 +455,12 @@ repeat (11)
     wait (1) seconds
     set [x] to ((t) * (s))
 end
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```text
-  set [s] to (5)
+```text
+set [s] to (5)
 set [t] to (1)
 set [x] to (5)
 repeat (11)
@@ -469,7 +469,7 @@ repeat (11)
     change [t] by (1)
     wait (1) seconds
 end
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -957,37 +957,37 @@ end
 
 **`2022-jan/w03/q02`** What should be the code to print all Even numbers between 1-10 (both inclusive)?
 
-- **A.**
+**Option A:**
 
-  ```python
-  for i in range(10):
+```python
+for i in range(10):
     if(i%2 == 0):
         print(i)
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  for i in range(11):
+```python
+for i in range(11):
     if(i%2 == 0):
         print(i)
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  for i in range(1,11):
+```python
+for i in range(1,11):
     if(i%2 == 0):
         print(i)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  for i in range(1,11):
+```python
+for i in range(1,11):
     if(i%2 == 1):
         print(i)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -998,47 +998,10 @@ end
 
 **`2022-jan/w03/q06`** What is the correct code for a function to return the sum of elements of list L?
 
-- **A.**
+**Option A:**
 
-  ```python
-  def sum_of_list(L):
-
-    Total = 0
-
-    for i in range(len(L)):
-        Total = Total + L[i]
-
-    return Total
-
-L = [1,2,3,4,5,6,7,8,9,10]
-
-total_sum = sum_of_list(L)
-
-print(total_sum)
-  ```
-
-- **B.**
-
-  ```python
-  def sum_of_list(L):
-
-    Total = 0
-
-    for i in range(len(L)):
-        Total = Total + L[i]
-
-
-L = [1,2,3,4,5,6,7,8,9,10]
-
-total_sum = sum_of_list(L)
-
-print(total_sum)
-  ```
-
-- **C.**
-
-  ```python
-  def sum_of_list():
+```python
+def sum_of_list(L):
 
     Total = 0
 
@@ -1052,12 +1015,49 @@ L = [1,2,3,4,5,6,7,8,9,10]
 total_sum = sum_of_list(L)
 
 print(total_sum)
-  ```
+```
 
-- **D.**
+**Option B:**
 
-  ```python
-  def sum_of_list(L):
+```python
+def sum_of_list(L):
+
+    Total = 0
+
+    for i in range(len(L)):
+        Total = Total + L[i]
+
+
+L = [1,2,3,4,5,6,7,8,9,10]
+
+total_sum = sum_of_list(L)
+
+print(total_sum)
+```
+
+**Option C:**
+
+```python
+def sum_of_list():
+
+    Total = 0
+
+    for i in range(len(L)):
+        Total = Total + L[i]
+
+    return Total
+
+L = [1,2,3,4,5,6,7,8,9,10]
+
+total_sum = sum_of_list(L)
+
+print(total_sum)
+```
+
+**Option D:**
+
+```python
+def sum_of_list(L):
 
     Total = 0
 
@@ -1071,7 +1071,7 @@ L = [1,2,3,4,5,6,7,8,9,10]
 total_sum = sum_of_list()
 
 print(total_sum)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1082,10 +1082,10 @@ print(total_sum)
 
 **`2021-jan/w04/q07`** Which of the following will print all prime numbers in an interval?
 
-- **A.**
+**Option A:**
 
-  ```python
-  lower = int(input())
+```python
+lower = int(input())
 upper = int(input())
 for num in range(lower, upper + 1):
     if num>1:
@@ -1094,41 +1094,41 @@ for num in range(lower, upper + 1):
                 break
         else:
             print(num)
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  for num in range(lower, upper + 1):
+```python
+for num in range(lower, upper + 1):
     if num > 1:
         for i in range(2, num):
             if (num % i) != 0:
                 print(num)
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  for num in range(lower, upper + 1):
+```python
+for num in range(lower, upper + 1):
     if num > 1:
         for i in range(2, num):
             if (num % i) == 0:
                 continue
             else:
                 print(num)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  for num in range(lower, upper + 1):
+```python
+for num in range(lower, upper + 1):
     if num > 1:
         for i in range(2, num):
             if (num % i) != 0:
                 break
             else:
                 print(num)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1139,42 +1139,42 @@ for num in range(lower, upper + 1):
 
 **`2021-jul/w04/q07`** Which program will choose an element from the below list and display it in jumbled order?
 
-- **A.**
+**Option A:**
 
-  ```python
-  import random
+```python
+import random
 l=["abc","cde","efg","hij"]
 a=random.choice(l)
 print("".join(random.sample(a,len(a))))
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  l=["abc","cde","efg","hij"]
+```python
+l=["abc","cde","efg","hij"]
 a=random.choice(l)
 print("".join(random.sample(a,len(a))))
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  import random
+```python
+import random
 l=["abc","cde","efg","hij"]
 a=random.Random(l)
 print(a)
 print("".join(random.sample(a,len(a))))
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  import random
+```python
+import random
 l=["abc","cde","efg","hij"]
 a=random.sample(l)
 print(a)
 print("".join(random.choice(a,len(a))))
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1185,10 +1185,10 @@ print("".join(random.choice(a,len(a))))
 
 **`2022-jan/w04/q02`** What is the correct code to display whether the entered year is a leap year or not?
 
-- **A.**
+**Option A:**
 
-  ```python
-  def leap_year(year):
+```python
+def leap_year(year):
 
     if(year%400 == 0):
         print("Its a leap year")
@@ -1199,12 +1199,12 @@ print("".join(random.choice(a,len(a))))
 
 year = int(input("Enter Year: ")) #will convert in input into integer
 leap_year(year)
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  def leap_year(year):
+```python
+def leap_year(year):
 
     if(year%400 == 0 or year%4 == 0):
         print("Its a leap year")
@@ -1215,12 +1215,12 @@ leap_year(year)
 
 year = int(input("Enter Year: ")) #will convert in input into integer
 leap_year(year)
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  def leap_year(year):
+```python
+def leap_year(year):
 
     if(year%400 == 0 or year%4 == 0):
         print("Its a leap year")
@@ -1230,12 +1230,12 @@ leap_year(year)
 
 year = int(input("Enter Year: ")) #will convert in input into integer
 leap_year(year)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  def leap_year(year):
+```python
+def leap_year(year):
 
     if(year%400 == 0 or year%4 == 0):
         print("Its a leap year")
@@ -1246,7 +1246,7 @@ leap_year(year)
 
 year = int(input("Enter Year: ")) #will convert in input into integer
 leap_year(year)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1257,10 +1257,10 @@ leap_year(year)
 
 **`2022-jan/w04/q06`** What is the code to generate all prime numbers between 0-100?
 
-- **A.**
+**Option A:**
 
-  ```python
-  for i in range(2,101):
+```python
+for i in range(2,101):
     flag=0
     for j in range(2, 101):
         if(i%j == 0):
@@ -1268,12 +1268,12 @@ leap_year(year)
             break
     if(flag == 0):
         print(i)
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  for i in range(2,101):
+```python
+for i in range(2,101):
     flag=0
     for j in range(2, i):
         if(i%j == 0):
@@ -1281,12 +1281,12 @@ leap_year(year)
             break
     if(flag == 0):
         print(i)
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  for i in range(2,101):
+```python
+for i in range(2,101):
     flag=0
     for j in range(2, i+1):
         if(i%j == 0):
@@ -1294,12 +1294,12 @@ leap_year(year)
             break
     if(flag == 0):
         print(i)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  for i in range(101):
+```python
+for i in range(101):
     flag=0
     for j in range(2, i):
         if(i%j == 0):
@@ -1307,7 +1307,7 @@ leap_year(year)
             break
     if(flag == 0):
         print(i)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1318,10 +1318,10 @@ leap_year(year)
 
 **`2022-jan/w04/q07`** What is code to replace all the letters of a movie name except special(‘-’, ‘White spaces’, etc) characters with * in a single line.
 
-- **A.**
+**Option A:**
 
-  ```python
-  import string
+```python
+import string
 import random
 
 L = ['spider-man', 'matrix', 'harry potter', 'terminator',
@@ -1336,12 +1336,12 @@ for ch in movie:
         print('*', end='')
     else:
         print(ch, end='')
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  import string
+```python
+import string
 import random
 
 L = ['spider-man', 'matrix', 'harry potter', 'terminator',
@@ -1356,12 +1356,12 @@ for ch in movie:
         print('*')
     else:
         print(ch)
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  import string
+```python
+import string
 import random
 
 L = ['spider-man', 'matrix', 'harry potter', 'terminator',
@@ -1376,12 +1376,12 @@ for ch in movie:
         print('*')
     else:
         print(ch)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  import string
+```python
+import string
 import random
 
 L = ['spider-man', 'matrix', 'harry potter', 'terminator',
@@ -1396,7 +1396,7 @@ for ch in movie:
         print('*', end='')
     else:
         print(ch, end='')
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1407,10 +1407,10 @@ for ch in movie:
 
 **`2022-jan/w04/q09`** What's the correct code to calculate the sum of series 1 + (1+2) + (1+2+3) + (1+2+3+4) + …. + n terms.
 
-- **A.**
+**Option A:**
 
-  ```python
-  num = int(input())
+```python
+num = int(input())
 total = 0
 
 for i in range(1,num+1):
@@ -1418,12 +1418,12 @@ for i in range(1,num+1):
         total = total+j
 
 print(total)
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  num = int(input())
+```python
+num = int(input())
 total = 0
 
 for i in range(1,num):
@@ -1431,12 +1431,12 @@ for i in range(1,num):
         total = total+j
 
 print(total)
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  num = int(input())
+```python
+num = int(input())
 total = 0
 
 for i in range(1,num+1):
@@ -1444,12 +1444,12 @@ for i in range(1,num+1):
         total = total+j
 
 print(total)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  num = int(input())
+```python
+num = int(input())
 total = 0
 
 for i in range(1,num+1):
@@ -1458,7 +1458,7 @@ for i in range(1,num+1):
     total = total+j
 
 print(total)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1469,10 +1469,10 @@ print(total)
 
 **`2022-jan/w04/q10`** A perfect number is a number in which the sum of divisors is equal to that number. For example, 6 is a perfect number as a sum of its divisors 1,2,3 is equal to 6. Which function returns True if the number is a perfect number?
 
-- **A.**
+**Option A:**
 
-  ```python
-  def perfect_number(num):
+```python
+def perfect_number(num):
     ans=0
     for i in range(1,num):
         if(num%i==0):
@@ -1481,12 +1481,12 @@ print(total)
         return True
     else:
         return False
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  def perfect_number(num):
+```python
+def perfect_number(num):
     ans=0
     for i in range(1,num):
         if(num%i==0):
@@ -1495,12 +1495,12 @@ print(total)
         return False
     else:
         return True
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  def perfect_number(num):
+```python
+def perfect_number(num):
     ans=0
     for i in range(3,num):
         if(num%i==0):
@@ -1509,12 +1509,12 @@ print(total)
         return True
     else:
         return False
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  def perfect_number(num):
+```python
+def perfect_number(num):
     ans=0
     for i in range(1,num):
         if(num%i==0):
@@ -1523,7 +1523,7 @@ print(total)
         return True
     else:
         return False
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1534,49 +1534,49 @@ print(total)
 
 **`2022-jan/w05/q08`** What is the correct code to choose rock, paper, or scissors correctly?
 
-- **A.**
+**Option A:**
 
-  ```python
-  d = {1 : 'Rock', 2 : 'Paper', 3 : 'scissors'}
+```python
+d = {1 : 'Rock', 2 : 'Paper', 3 : 'scissors'}
 
 choice = int(input())
 
 
 game_choice = d[choice%3]
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  d = {0 : 'Rock', 1 : 'Paper', 2 : 'scissors'}
+```python
+d = {0 : 'Rock', 1 : 'Paper', 2 : 'scissors'}
 
 choice = int(input())
 
 
 game_choice = d[choice%2]
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  d = {0 : 'Rock', 1 : 'Paper', 2 : 'scissors'}
+```python
+d = {0 : 'Rock', 1 : 'Paper', 2 : 'scissors'}
 
 choice = input()
 
 
 game_choice = d[choice%3]
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  d = {0 : 'Rock', 1 : 'Paper', 2 : 'scissors'}
+```python
+d = {0 : 'Rock', 1 : 'Paper', 2 : 'scissors'}
 
 choice = int(input())
 
 
 game_choice = d[choice%3]
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1587,10 +1587,10 @@ game_choice = d[choice%3]
 
 **`2021-jul/w06/q08`** Which of the following programs will calculate the factorial of a given number?
 
-- **A.**
+**Option A:**
 
-  ```python
-  def fact(n):
+```python
+def fact(n):
     if(n==0):
         return 1
     else:
@@ -1600,12 +1600,12 @@ n=int(input("Enter the number whose factorial has to be calculated\n"))
 if(n<0):
     print("Enter a valid number")
 print("The factorial of",n,"is",fact(n))
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  def fact(n,t):
+```python
+def fact(n,t):
     if(t==n):
         return n
     else:
@@ -1615,12 +1615,12 @@ n=int(input("Enter the number whose factorial has to be calculated\n"))
 if(n<0):
     print("Enter a valid number")
 print("The factorial of",n,"is",fact(n,0))
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  def fact(n,t):
+```python
+def fact(n,t):
     if(t==n):
         return n
     else:
@@ -1630,7 +1630,7 @@ n=int(input("Enter the number whose factorial has to be calculated\n"))
 if(n<0):
     print("Enter a valid number")
 print("The factorial of",n,"is",fact(n,1))
-  ```
+```
 
 - **D.** None of the following
 
@@ -1642,10 +1642,10 @@ print("The factorial of",n,"is",fact(n,1))
 
 **`2021-jan/w08/q08`** Which of the following code will convert the uppercase letters of the given string into lower case and prints the converted string?
 
-- **A.**
+**Option A:**
 
-  ```python
-  strng = input()
+```python
+strng = input()
 out = ''
 for i in strng:
     if i not in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
@@ -1655,12 +1655,12 @@ for i in strng:
         k = j + 32
         out = out + chr(k)
 print(out)
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  strng = input ()
+```python
+strng = input ()
 out = ''
 for i in strng:
     if ord (i) >= 65 and ord(i) <= 90:
@@ -1668,7 +1668,7 @@ for i in strng:
         k = chr (j)
         out = out + k
 print(out)
-  ```
+```
 
 - **C.** both A and B
 - **D.** none
@@ -1681,10 +1681,10 @@ print(out)
 
 **`2022-jan/w10/q04`** Which code snippet represent replacing all vowels with ‘_’ in a string?(suppose string name is s)
 
-- **A.**
+**Option A:**
 
-  ```python
-  s='The joy of Computing'
+```python
+s='The joy of Computing'
 
 s.replace('a', '_')
 s.replace('e', '_')
@@ -1694,12 +1694,12 @@ s.replace('o', '_')
 s.replace('u', '_')
 
 print(s)
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  s='The joy of Computing'
+```python
+s='The joy of Computing'
 
 s.replace('_', 'a')
 s.replace('_', 'e')
@@ -1708,12 +1708,12 @@ s.replace('_', 'o')
 s.replace('_', 'u')
 
 print(s)
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  s='The joy of Computing'
+```python
+s='The joy of Computing'
 
 s = s.replace('_', 'a')
 s = s.replace('_', 'e')
@@ -1722,12 +1722,12 @@ s = s.replace('_', 'o')
 s = s.replace('_', 'u')
 
 print(s)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  s='The joy of Computing'
+```python
+s='The joy of Computing'
 
 s = s.replace('a', '_')
 s = s.replace('e', '_')
@@ -1736,7 +1736,7 @@ s = s.replace('o', '_')
 s = s.replace('u', '_')
 
 print(s)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1747,20 +1747,20 @@ print(s)
 
 **`2021-jan/w11/q10`** Which of the following is the correct code to find whether a given year is a leap year or not?
 
-- **A.**
+**Option A:**
 
-  ```python
-  year = int(input())
+```python
+year = int(input())
 if (year % 100) or (year % 400) == 0:
     print("leap year")
 else:
     print("not a leap year")
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  year = int(input())
+```python
+year = int(input())
 if (year % 100) == 0:
     if (year % 400) == 0:
             print("leap year")
@@ -1768,12 +1768,12 @@ if (year % 100) == 0:
             print("not a leap year")
 else:
         print("leap year")
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  year = int(input())
+```python
+year = int(input())
 if (year % 4) == 0:
     if (year % 100) == 0:
         if (year % 400) == 0:
@@ -1784,18 +1784,18 @@ if (year % 4) == 0:
         print("leap year")
 else:
     print("not a leap year")
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  year = int(input())
+```python
+year = int(input())
 if (year % 100) or (year % 400) == 0:
     print("leap year")
 else:
     print("not a leap year")
 # (option D's picture shows the same program as option A)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1853,33 +1853,33 @@ print(c/a)
 print(c//a)
 ```
 
-- **A.**
+**Option A:**
 
-  ```python
-  7.5
-7
-  ```
-
-- **B.**
-
-  ```python
-  7.5
+```python
 7.5
-  ```
-
-- **C.**
-
-  ```python
-  7
 7
-  ```
+```
 
-- **D.**
+**Option B:**
 
-  ```python
-  7.5
+```python
+7.5
+7.5
+```
+
+**Option C:**
+
+```python
+7
+7
+```
+
+**Option D:**
+
+```python
+7.5
 2
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -1918,29 +1918,29 @@ print(a)
 print("Moon has", b, c)
 ```
 
-- **A.**
+**Option A:**
 
-  ```python
-  Earth is round.
+```python
+Earth is round.
 Moon has lot of dust.
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  Earth is
+```python
+Earth is
 round.
 Moon has
 lot of dust.
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  Earth is
+```python
+Earth is
 round.
 Moon has lot of dust.
-  ```
+```
 
 - **D.** Earth is round.Moon has lot of dust.
 
@@ -2328,33 +2328,33 @@ print(x.strftime("%W"))
 print(x.strftime("%w"))
 ```
 
-- **A.**
+**Option A:**
 
-  ```python
-  22
-0
-  ```
-
-- **B.**
-
-  ```python
-  0
+```python
 22
-  ```
+0
+```
 
-- **C.**
+**Option B:**
 
-  ```python
-  Monday
+```python
+0
+22
+```
+
+**Option C:**
+
+```python
+Monday
 29
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  29
+```python
+29
 Tuesday
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -2551,14 +2551,14 @@ for x,y in dictB.items():
     print(x,y)
 ```
 
-- **A.**
+**Option A:**
 
-  ```python
-  name Joy of computing
+```python
+name Joy of computing
 Length 12 Weeks
 Professor_name Dr Sudarshan Iyengar
 Language Python
-  ```
+```
 
 - **B.** {'name': 'Joy of computing', 'Length': Sudarshan Iyengar', 'Language': 'Python'}
 - **C.** It will throw an error
@@ -2713,10 +2713,10 @@ def test(L):
 
 **`2021-jan/w06/q07`** Which of the following is the optimal code among the given codes using recursive binary search?
 
-- **A.**
+**Option A:**
 
-  ```python
-  def binary_search(arr, low, high, x):
+```python
+def binary_search(arr, low, high, x):
     if high >= low:
         mid = (high + low) // 2
         if arr[mid] == x:
@@ -2727,12 +2727,12 @@ def test(L):
             return binary_search(arr, low, mid - 1, x)
     else:
         return -1
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  def binary_search(arr, low, high, x):
+```python
+def binary_search(arr, low, high, x):
     if high >= low:
         mid = (high + low) // 2
         if arr[mid] == x:
@@ -2743,12 +2743,12 @@ def test(L):
             return binary_search(arr, mid + 1, high, x)
     else:
         return -1
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  def binary_search(arr, low, high, x):
+```python
+def binary_search(arr, low, high, x):
     if high >= low:
         mid = (high + low) // 2
         if arr[mid] == x:
@@ -2757,12 +2757,12 @@ def test(L):
             return binary_search(arr, mid + 1, high, x)
         else:
             return binary_search(arr, low, mid - 1, x)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  def binary_search(arr, low, high, x):
+```python
+def binary_search(arr, low, high, x):
     if high >= low:
         mid = (high + low) // 2
         if arr[mid] == x:
@@ -2773,7 +2773,7 @@ def test(L):
             return binary_search(arr, mid, high, x)
     else:
         return -1
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -3324,37 +3324,37 @@ print(var.casefold())
 
 **`2021-jan/w10/q08`** Which of the following code snippet will print transpose of the matrix a?
 
-- **A.**
+**Option A:**
 
-  ```python
-  import numpy as np
+```python
+import numpy as np
 a = np.array([[1,2],[3,4]])
 print(a.Tran())
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  import numpy as np
+```python
+import numpy as np
 a = np.array([[1,2],[3,4]])
 print(a.Transpose())
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  import numpy as np
+```python
+import numpy as np
 a = np.array([[1,2],[3,4]])
 print(a.Trans)
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  import numpy as np
+```python
+import numpy as np
 a = np.array([[1,2],[3,4]])
 print(a.T)
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -3365,37 +3365,37 @@ print(a.T)
 
 **`2021-jan/w10/q09`** Which of the following will print column sum of the matrix a?
 
-- **A.**
+**Option A:**
 
-  ```python
-  import numpy as np
+```python
+import numpy as np
 a = np.array([[1,2],[3,4]])
 print(np.sum(a,axis=0))
-  ```
+```
 
-- **B.**
+**Option B:**
 
-  ```python
-  import numpy as np
+```python
+import numpy as np
 a = np.array([[1,2],[3,4]])
 print(np.sum(a,axis=1))
-  ```
+```
 
-- **C.**
+**Option C:**
 
-  ```python
-  import numpy as np
+```python
+import numpy as np
 a = np.array([[1,2],[3,4]])
 print(np.sum(a.col))
-  ```
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  import numpy as np
+```python
+import numpy as np
 a = np.array([[1,2],[3,4]])
 print(np.colsum(a))
-  ```
+```
 
 
 <details><summary>Answer</summary>
@@ -3498,14 +3498,15 @@ print(newarr)
 ```
 
 - **A.** We cannot reshape the array.
-- **B.**
 
-  ```python
-  [[ 1 2 3]  ✅
+**Option B:**
+
+```python
+[[ 1 2 3]  ✅
 [ 4 5 6]
 [ 7 8 9]
 [10 11 12]]
-  ```
+```
 
 - **C.** [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
@@ -6192,23 +6193,24 @@ n=5;print(n+5);print(n+5);print(n+5);print(n+5);
 
 - **A.** 10 10 10 10
 - **B.** 5 10 15 20
-- **C.**
 
-  ```python
-  10
+**Option C:**
+
+```python
 10
 10
 10
-  ```
+10
+```
 
-- **D.**
+**Option D:**
 
-  ```python
-  5
+```python
+5
 10
 15
 20
-  ```
+```
 
 
 <details><summary>Answer</summary>
