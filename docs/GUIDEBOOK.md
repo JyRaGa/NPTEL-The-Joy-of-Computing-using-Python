@@ -3050,13 +3050,15 @@ A negative step walks backwards. `split(',')` keeps empty pieces, but `split()` 
 **E18. (Strings) What is printed?**
 
 ```python
-print(chr(ord('a') + 25), ord('A') - ord('a'), len(set('mississippi')))
+print(chr(ord('a') + 25), ord('A') - ord('a'))
+print(len(set('mississippi')))
 ```
 
 <details><summary>Answer</summary>
 
 ```text
-z -32 4
+z -32
+4
 ```
 
 `z` is 25 letters after `a`; capitals are 32 below lowercase; mississippi has 4 distinct letters (m, i, s, p).
