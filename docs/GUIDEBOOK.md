@@ -12,7 +12,7 @@ How to use it:
 - **Part 9** is a self-test drill of 46 predict-the-output and variant questions. Each answer comes from running the code and is hidden until you open it.
 - **Part 10** is 36 examiner's oddities: corner cases where the intuitive answer is wrong (floats, rounding, precedence, aliasing, scope). Answers come from running the code.
 - **Part 11** is 30 plain ChatGPT-style concept MCQs, like the `@gpt` cards, with hidden answers.
-- **Part 12** lists the cards that depend on a picture (Scratch scripts, graphs, drawings, code screenshots), the only things you still need the website for.
+- **Part 12** lists the cards that depend on a picture. The code and Scratch scripts among them are written out in the companion file [GUIDEBOOK_CODE.md](GUIDEBOOK_CODE.md); only the graph drawings and figures (groups B and C) still need the website.
 
 Sources used:
 - All the cards in `site/data/week-*.json`: question, code, options (including code inside options), case-study programs (`context.code`), key and explanation.
@@ -962,7 +962,7 @@ Calendar results that appear on cards:
   - Scoring variant: points = blanks remaining.
   - Pattern matches: `I_C_P_IO_` = INCEPTION, `A_E__E__` = AVENGERS.
   - Code: `random.choice(movies)` picks a title. Common-movie and unique-movie loops use a flag. A vowel counter counts both cases.
-  - 2026-jul version: `create_question(movie)` builds the first masked title (`*` for each letter; `isalpha()` decides, so spaces and digits stay). `unlock(movie, question, letter)` takes both the title and the current mask: it writes the letter where `movie[i]` matches and copies `question[i]` everywhere else, so earlier reveals are kept and every copy of the letter opens in one guess.
+  - 2026-jul version: `create_question(movie)` builds the first masked title (`*` for each letter; `isalpha()` decides, so spaces and digits stay). `unlock(question, movie, letter)` takes both the current mask and the title: it writes the letter where `movie[i]` matches and copies `question[i]` everywhere else, so earlier reveals are kept and every copy of the letter opens in one guess.
 - **Leap year**: divisible by 4 and not by 100, **or** divisible by 400.
   - 1900 → not (February 28), 2000 → yes, 2100 → no, 2024 → yes.
   - Equivalent forms: `(y%100==0 and y%400==0) or (y%4==0 and y%100!=0)`.
@@ -3816,9 +3816,9 @@ Plain concept MCQs in the style of the ChatGPT-converted 2023-jul cards (`@gpt`)
 
 ## Part 12 — What only the website shows
 
-A card-by-card check matched every card's question, correct answer and stored explanation against this guidebook (1,891 cards). Every concept the cards test is covered somewhere in Parts 1–8. What a text guidebook cannot hold is **pictures**. The cards below need the picture on the site; open each one there once. IDs are the site's card IDs; a card repeated in other terms is listed once.
+A card-by-card check matched every card's question, correct answer and stored explanation against this guidebook (1,891 cards). Every concept the cards test is covered somewhere in Parts 1–8. What a text guidebook cannot hold is **pictures**. Every program and Scratch script below (groups A, D and E) is written out, with its question, options and answer, in the companion file **[GUIDEBOOK_CODE.md](GUIDEBOOK_CODE.md)**. Only groups B and C need the picture on the site; open each of those there once. IDs are the site's card IDs; a card repeated in other terms is listed once.
 
-**A. Scratch scripts shown only as a picture (38 cards).** The block meanings are in [3.1 Week 1: Scratch](#31-week-1-scratch); the scripts themselves are only on the site.
+**A. Scratch scripts shown only as a picture (38 cards).** The block meanings are in [3.1 Week 1: Scratch](#31-week-1-scratch); the scripts themselves are in [GUIDEBOOK_CODE.md, section A](GUIDEBOOK_CODE.md#a-scratch-scripts).
 
 - Week 1: `2018-jul/w01/q01@portal`, `2020-jan/w01/q04`, `2020-jan/w01/q05`, `2020-jan/w01/q06`, `2020-jan/w01/q08`, `2020-sep/w01/q04`, `2020-sep/w01/q06`, `2020-sep/w01/q10`, `2021-jan/w01/q08@portal`, `2021-jul/w01/q01`, `2021-jul/w01/q03`, `2021-jul/w01/q07`, `2021-jul/w01/q10`, `2022-jan/w01/q01`, `2022-jan/w01/q03`, `2022-jan/w01/q04`, `2022-jan/w01/q05`, `2022-jan/w01/q06`, `2022-jan/w01/q08`, `2022-jan/w01/q09`, `2022-jul/w01/q06`, `2023-jan/w01/q06`, `2023-jul/w01/q05@gpt`, `2024-jan/w01/q05`, `2024-jan/w01/q06`, `2024-jan/w01/q09`, `2024-jul/w01/q10`, `2025-jan/w01/q10`, `2026-jul/w01/q10`, `2026-jul/w01/q11`, `2026-jul/w01/q12`, `2026-jul/w01/q13`, `2026-jul/w01/q14`, `2026-jul/w01/q15`, `2026-jul/w01/q16`, `2026-jul/w01/q17`, `2026-jul/w01/q18`, `2026-jul/w01/q19`
 
@@ -3841,7 +3841,7 @@ A card-by-card check matched every card's question, correct answer and stored ex
 - Week 10: `2020-sep/w10/q08`
 - Week 11: `2021-jan/w11/q06`
 
-**D. Program options shown only as pictures (14 cards).** You pick the right program from four code screenshots. What each one tests is covered here; the four programs are only on the site.
+**D. Program options shown only as pictures (14 cards).** You pick the right program from four code screenshots. What each one tests is covered here; the four programs are in [GUIDEBOOK_CODE.md, section D](GUIDEBOOK_CODE.md#d-program-options).
 
 - Week 3: `2022-jan/w03/q02`, `2022-jan/w03/q06`
 - Week 4: `2021-jan/w04/q07`, `2021-jul/w04/q07`, `2022-jan/w04/q02`, `2022-jan/w04/q06`, `2022-jan/w04/q07`, `2022-jan/w04/q09`, `2022-jan/w04/q10`
@@ -3851,7 +3851,7 @@ A card-by-card check matched every card's question, correct answer and stored ex
 - Week 10: `2022-jan/w10/q04`
 - Week 11: `2021-jan/w11/q10`
 
-**E. Question code shown only as a picture.** The guidebook covers what these test (each was read through the card's stored explanation), but not the exact program text.
+**E. Question code shown only as a picture.** The guidebook covers what these test (each was read through the card's stored explanation), and the exact programs are in GUIDEBOOK_CODE.md sections [E1](GUIDEBOOK_CODE.md#e1-question-code-from-screenshots), [E2](GUIDEBOOK_CODE.md#e2-2026-jul-case-study-programs) and [E3](GUIDEBOOK_CODE.md#e3-code-that-was-only-in-the-page-screenshots).
 
 - 64 cards with a code screenshot:
   - Week 2: `2021-jul/w02/q01`, `2021-jul/w02/q03`, `2021-jul/w02/q04`, `2021-jul/w02/q07`, `2022-jan/w02/q02`, `2022-jan/w02/q06`, `2022-jan/w02/q07`, `2022-jan/w02/q08`, `2022-jan/w02/q09`, `2022-jan/w02/q10`
@@ -3863,20 +3863,22 @@ A card-by-card check matched every card's question, correct answer and stored ex
   - Week 8: `2021-jul/w08/q03`, `2021-jul/w08/q04`, `2021-jul/w08/q06`, `2021-jul/w08/q09`
   - Week 9: `2021-jul/w09/q03`, `2021-jul/w09/q10`
   - Week 10: `2021-jan/w10/q08`, `2021-jan/w10/q09`, `2021-jul/w10/q04`, `2021-jul/w10/q05`, `2021-jul/w10/q06`, `2021-jul/w10/q07`, `2021-jul/w10/q09`, `2021-jul/w10/q10`
-- 124 cards in 23 2026-jul case studies whose program is an image:
+- 125 cards in 25 2026-jul case studies: 24 whose program is shown only as an image, and one story with no program. Two of them, marked below, are filed on the site under the wrong story:
   - `2026-jul/w02/q06`–`q10`: Ordering Food at a School Cafeteria
   - `2026-jul/w02/q16`–`q20`: Morning Exercise Counter
   - `2026-jul/w03/q06`–`q10`: Managing Participants for a Workshop
   - `2026-jul/w04/q11`–`q15`: Building the First Prototype of a Magic Square Generator
   - `2026-jul/w04/q16`–`q20`: Movie Guessing Game
   - `2026-jul/w05/q01`–`q05`: Community Library Book Tracker
-  - `2026-jul/w05/q06`–`q15`: Rock–Paper–Scissors Championship (9 cards)
+  - `2026-jul/w05/q06`–`q10`: Rock–Paper–Scissors Championship
+  - `2026-jul/w05/q11`–`q15`: Library Book Search System (the site shows these under Rock–Paper–Scissors)
   - `2026-jul/w06/q01`–`q05`: Secret Notice Encoder
   - `2026-jul/w06/q06`–`q10`: Tic-Tac-Toe Winner Checker
   - `2026-jul/w06/q16`–`q20`: Recursive Binary Search for Student Roll Numbers
   - `2026-jul/w07/q01`–`q05`: Drone Surveillance Route
   - `2026-jul/w07/q06`–`q10`: Mini Snake and Ladder Tournament
-  - `2026-jul/w07/q11`–`q20`: Food Delivery Pickup Locations
+  - `2026-jul/w07/q11`–`q15`: Food Delivery Pickup Locations
+  - `2026-jul/w07/q16`–`q20`: Smart Heritage City Explorer, a story with no program (the site shows these under Food Delivery)
   - `2026-jul/w08/q06`–`q10`: Lucky Draw Betting Game
   - `2026-jul/w08/q11`–`q15`: Secure Access Puzzle Generator
   - `2026-jul/w08/q16`–`q20`: Customer Feedback Analysis
@@ -3887,4 +3889,4 @@ A card-by-card check matched every card's question, correct answer and stored ex
   - `2026-jul/w10/q06`–`q10`: FLAMES 2
   - `2026-jul/w10/q11`–`q15`: Wild Life
   - `2026-jul/w10/q16`–`q20`: PixelMap Image Quality Inspector
-- About 170 more older cards show their code only inside the page screenshot of the original assignment.
+- 124 more older cards show their code only inside the page screenshot of the original assignment (section E3).
