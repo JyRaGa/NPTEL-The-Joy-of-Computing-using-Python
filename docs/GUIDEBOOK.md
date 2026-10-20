@@ -107,7 +107,7 @@ Week → topics → where to read (every week also uses Parts 4–9):
 - Programming languages exist so humans can give instructions to computers. Many languages were designed for different kinds of problems. BASIC, FORTRAN and LOGO are programming languages.
 - **Programming logic** (the step-by-step thinking) is the same in every language. Python, C and C++ are languages, not logic.
 - Python is a **high-level** language. HTML is a **front-end** language (it builds what the browser shows).
-- Open source examples asked on the cards: Java, Python and FORTRAN (C# was the odd one out).
+- Open source examples asked on the cards: Java, Python and FORTRAN (the key leaves out C#, although C#/.NET has been open source since 2014).
 - Coding is useful in physics, mathematics, economics, small-scale business, healthcare and other fields, not only software engineering. The way to get good at it is regular practice in small steps.
 - Programming is a problem-solving skill. Existing apps don't make it unnecessary: it lets you create, improve and customise solutions.
 - The lecture's hand-gesture activity shows that programming = clear instructions using symbols everyone has agreed on.
@@ -170,6 +170,8 @@ Week → topics → where to read (every week also uses Parts 4–9):
 - **`^`**: bitwise XOR (not power). Examples: `a=a^b; b=a^b; a=a^b` swaps a and b
 - **`==` vs `=`**: compare vs assign. Examples: `if (x = 0):` → SyntaxError
 - **`+=`**: in-place add; no space inside. Examples: `i + = 1` → SyntaxError
+
+More operator facts:
 
 - `3 == 3.0` is `True`. `c = a > b` stores a bool (`False` for 3 > 4).
 - `int + float` → float (`4.5 + 15` → 19.5).
@@ -292,21 +294,19 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 
 - Lists are ordered, changeable and **allow duplicates**. No size is given at creation, they grow freely, and they are indexed by integers. `[]` is empty (even if named `This_is_not_List`).
 - Methods:
-
-- **`append(x)`**: adds **one** item at the end. `[1,2,3,4].append([5,6,7,8])` → length **5**
-- **`extend(list)`**: adds each item. flat list
-- **`insert(i, x)`**: puts `x` at index `i`. 3rd item → `insert(2, x)`; `insert(-3, 999)` goes before the third-from-last; `insert(len(L), x)` = append; `insert(0, x)` in a loop builds a reversed list
-- **`remove(x)`**: deletes the first `x`. `ValueError` if absent
-- **`pop(i)`**: removes and **returns** the item at `i` (last by default).
-- **`clear()`**: empties the list.
-- **`count(x)`**: occurrences.
-- **`index(x)`**: first position. `[4,6,7,4,6,2,1].index(7)` → 2
-- **`sort()`**: ascending, **in place**, returns `None`; capitals before small letters. `['Practice','makes','man','perfect.','the']`
-- **`reverse()`**: reverses in place.
-
+  - **`append(x)`**: adds **one** item at the end. `[1,2,3,4].append([5,6,7,8])` → length **5**
+  - **`extend(list)`**: adds each item of the list, so the result stays flat
+  - **`insert(i, x)`**: puts `x` at index `i`. 3rd item → `insert(2, x)`; `insert(-3, 999)` goes before the third-from-last; `insert(len(L), x)` = append; `insert(0, x)` in a loop builds a reversed list
+  - **`remove(x)`**: deletes the first `x`. `ValueError` if absent
+  - **`pop(i)`**: removes and **returns** the item at `i` (last by default).
+  - **`clear()`**: empties the list.
+  - **`count(x)`**: occurrences.
+  - **`index(x)`**: first position. `[4,6,7,4,6,2,1].index(7)` → 2
+  - **`sort()`**: ascending, **in place**, returns `None`; capitals before small letters. `['Practice','makes','man','perfect.','the']`
+  - **`reverse()`**: reverses in place.
 - `sorted(x)` returns a new list; `x.sorted()` does not exist.
 - `len`, `sum`, `min`, `max` and `in` work on lists.
-- Slices: `L[3:6]`, `L[2:4]`, `L[4:]` (last item as a list), `L[::-1]`. `P[:-1]` = `P[:len(P)-1]` = `P[0:-1]` = all but the last item.
+- Slices: `L[3:6]`, `L[2:4]`, `L[4:]` (from index 4 to the end; on a 5-item list that is just the last item, as a list), `L[::-1]`. `P[:-1]` = `P[:len(P)-1]` = `P[0:-1]` = all but the last item.
 - `P + Q` concatenates. `[]*100` is still `[]`.
 - List comprehensions:
   - `[m for m in marks if m >= 50]`.
@@ -382,7 +382,7 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 
 - Created with `{}` or `{'a':10, 'b':20}` (text keys need quotes). Values can be dicts: `{'a': {'a': 10}, 'b': 10}`. `'a': 10` without braces as a value is a SyntaxError.
 - Keys are **unique**. Assigning to an existing key **overwrites** its value. Values may repeat.
-- Keys must be **immutable** (str, number, tuple). `1`, `1.0` and `True` are the **same key**: assigning all three leaves `{1: "boolean one"}` with the last value.
+- Keys must be **immutable**, strictly *hashable* (str, number, a tuple of immutable items; a tuple containing a list cannot be a key, and neither can a list). `1`, `1.0` and `True` are the **same key**: assigning all three leaves `{1: "boolean one"}` with the last value.
 - Adding: `courseData["CS101"] = "Web Programming"`. Reading a missing key → `KeyError`.
 - Methods:
 
@@ -399,7 +399,7 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 
 - Views cannot be indexed or `.count()`-ed in Python 3 (`l = d.values(); l[0] = 90` → error).
 - Looping `for k in d` gives the keys. Nested loops can print nested records.
-- Counting pattern: `if each not in d: d[each] = 1 else: d[each] += 1`, or a `try: d[k] += 1 except KeyError: d[k] = 0`.
+- Counting pattern: `if each not in d: d[each] = 1 else: d[each] += 1` (or `d[k] = d.get(k, 0) + 1`). The card version `try: d[k] += 1 except KeyError: d[k] = 0` starts at 0, so it counts *repeats* (one less than the number of occurrences).
 - Dict comprehension: `{x: x*x for x in range(11) if x%2==0}` → evens and their squares.
 - `my_dict[my_dict[1]]` looks up twice.
 - Two dicts with `"zzz"` vs `"ZZZ"` are not equal (case matters).
@@ -461,7 +461,7 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
   - Swap `nums[start]` and `nums[end]`, then recurse inward. Stop when `start > end`.
   - An odd middle item stays put. `[]` returns `[]`.
   - Length 6 needs 3 swapping calls.
-  - The function mutates the list and returns it. If the final `return` is dropped, the list is still reversed but `None` is returned.
+  - The function mutates the list and returns it. The recursive call sits inside the final `return helper_reverse(...)` line, so deleting that line stops the recursion after the first swap (and the function returns `None`). The stored key for 2026-jan/w06/q10 says otherwise; see Part 6.
 
 ### 1.14 Files
 
@@ -492,13 +492,13 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 ### 2.1 `random`
 
 - **`randint(a, b)`** returns int from a to b, **both inclusive**. Trap: `randint(1,10)` can give 10; using `randint(0, len(L))` as an index can give an `IndexError`
-- **`randrange(a, b[, step])`** returns like `range`: **b excluded**. Trap: `randrange(1,10)` never gives 10; `randrange(50,100)` → 50–99; `randrange(1,100,10)` → 1, 11, …, 91
+- **`randrange(a, b[, step])`** works like `range`: **b excluded**. Trap: `randrange(1,10)` never gives 10; `randrange(50,100)` → 50–99; `randrange(1,100,10)` → 1, 11, …, 91
 - **`random()`** returns float in [0, 1). Trap: no arguments
 - **`uniform(a, b)`** returns float between a and b. Trap: not an index
 - **`choice(seq)`** returns one random element. Trap: `choice(0, n)` has the wrong arguments
 - **`choices(seq)`** returns list of k (default 1) random elements.
 - **`sample(seq, k)`** returns list of k **distinct** elements. Trap: `"".join(random.sample(word, len(word)))` jumbles a word
-- **`shuffle(list)`** returns reorders **in place**, returns `None`. Trap: can produce the original order
+- **`shuffle(list)`** reorders the list **in place** and returns `None`. Trap: can produce the original order
 
 `random.choice` works directly on a string: `random.choice(string.ascii_uppercase)` is the same as using `list(...)` (a "Lot Box" of A–Z). `random.select`, `random.range`, `random.movie` and `random.node` do not exist. `random` is the module for random numbers. Runs give different results (simulations vary run to run).
 
@@ -538,7 +538,7 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 | `datetime.date(2018,12,12)` | prints `2018-12-12` |
 | `datetime.datetime(2021,9,16)` | `2021-09-16 00:00:00` (midnight) |
 | `datetime(y, m, d, h, mi, s, µs)` | argument order; the last is **microseconds**; `.month` etc. are attributes |
-| `datetime.datetime.utcnow()` | UTC time (with `import datetime`, the class is `datetime.datetime`) |
+| `datetime.datetime.utcnow()` | UTC time (with `import datetime`, the class is `datetime.datetime`); deprecated since Python 3.12 in favour of `datetime.now(timezone.utc)` |
 | `.weekday()` | Monday = **0** … Sunday = 6 |
 | `.isoweekday()` | Monday = **1** … Sunday = 7 |
 | `date + timedelta(days=i)` | moves the date; `date(2024,2,29) + timedelta(days=1)` → `2024-03-01`; adding `timedelta(days=99)` to the birth date gives the 100th day (MiSeDol) |
@@ -562,7 +562,7 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 | Function | Returns |
 |---|---|
 | `calendar.month(y, m)` | formatted string of one month (year first: `month(2021,10)`) |
-| `calendar.prmonth` / `printmonth` | prints a month, returns nothing |
+| `calendar.prmonth(y, m)` | prints a month, returns nothing (there is no `printmonth`) |
 | `calendar.calendar(y)` | whole-year calendar string |
 | `calendar.prcal(y)` | prints the whole year |
 | `calendar.isleap(y)` | Boolean |
@@ -710,7 +710,7 @@ Calendar results that appear on cards:
   - A **lexicon and rule-based** sentiment tool. A lexicon is a dictionary of words with sentiment scores (positive or negative orientation).
   - It accounts for the **intensity** of emotion ("good" vs "very good!!!").
   - `SentimentIntensityAnalyzer()` → `.polarity_scores(text)` gives `neg`, `neu`, `pos` and **`compound`**. The compound score is normalised to **−1…+1**, so 1.5 is impossible.
-  - In the cards' code, compound > 0 means Positive.
+  - In the cards' code, compound > 0 means Positive. VADER's own documented thresholds are compound ≥ 0.05 positive, ≤ −0.05 negative, and neutral in between.
   - It is often used with **pandas DataFrames**: `df['Sentiment'] = df['Review'].apply(get_sentiment)` adds a column of labels.
 - **Sentiment analysis** decides whether text is positive, negative or neutral. A factual sentence ("SCCI labs … deals with research in Social Computing") is **neutral**.
 - **TextBlob**: `TextBlob(text).sentiment.polarity` runs −1…+1, and 0.0 = neutral. Corpus-level sentiment smooths local noise.
@@ -725,7 +725,7 @@ Calendar results that appear on cards:
 | `nx.Graph()` / `nx.DiGraph()` | undirected / **directed** graph (capital D and G) |
 | `G.add_node(1)`, `G.add_nodes_from(iterable)` | add nodes; list, set or dict keys all work |
 | `G.add_edge(u, v[, weight=w])`, `G.add_edges_from([...])` | add edges; a repeated `(2,1)` after `(1,2)` is the same edge |
-| `G.nodes()`, `G.edges()` | nodes / edges (empty graph → `[]`); `len(G.nodes)` = number of nodes |
+| `G.nodes()`, `G.edges()` | nodes / edges (empty graph → `[]` on the cards; current NetworkX prints `NodeView(())`); `len(G.nodes)` = number of nodes |
 | `G.neighbors(n)` | directly connected nodes |
 | `G.degree(n)` | degree of a node |
 | `G.out_degree(n)`, `G.in_edges(n)`, `G.out_edges(n)` | directed versions; edges come back as tuples |
@@ -752,7 +752,7 @@ Calendar results that appear on cards:
 ### 2.12 Selenium (browser automation)
 
 - `selenium` is **the** browser-automation library. It is open source and used for testing web apps, load/performance testing and web data extraction.
-  - It runs on many browsers (Chrome, Firefox, Edge, Safari) and platforms (Linux, Mac OS X, iOS).
+  - It runs on many browsers (Chrome, Firefox, Edge, Safari) and platforms (Linux, Mac OS X; the cards also list iOS, though mobile automation really needs Appium).
   - It automates the **web only**. Native mobile apps need Appium.
 - The recommended import is `from selenium import webdriver`, then `driver = webdriver.Firefox()` or `webdriver.Chrome()`.
   - A WebDriver launches and controls a browser session.
@@ -767,7 +767,7 @@ Calendar results that appear on cards:
   from selenium.webdriver.common.by import By
   ```
   Then:
-  - `webdriver.Chrome('path_to_chromedriver.exe')`.
+  - `webdriver.Chrome('path_to_chromedriver.exe')` (old style; Selenium 4.10+ needs `webdriver.Chrome(service=Service(path))` or no path at all).
   - `WebDriverWait(driver, 10).until(ec.presence_of_element_located((By.XPATH, xpath)))` with `xpath = f"//span[contains(@title, '{name}')]"`.
   - `target.click()`.
   - `driver.find_element(By.CLASS_NAME, "_1Plpp")`.
@@ -922,7 +922,7 @@ Calendar results that appear on cards:
   - 3×3 solution: `8 1 6 / 3 5 7 / 4 9 2`. Filling `6 a 8 / b 5 c / 2 d 4` → a, b, c, d = 1, 7, 3, 9.
   - Order 1 is trivial and **order 2 is impossible**. The course algorithm (odd N) needs **N odd**.
   - The sum of two magic squares is magic. The transpose of a magic square is magic, with the same sums. Scaling every entry (×π) or subtracting a constant (−e) keeps it magic.
-  - Course (Siamese) algorithm:
+  - The lecture's algorithm (a rotated variant of the Siamese method, which classically starts in the top-middle cell):
     1. Put 1 at row n/2, column n−1.
     2. The next number goes to (i−1, j+1), wrapping around the edges. The statement "(i+1, j−1)" is **false**.
   - The prototype fills the matrix with zeros, so empty cells are easy to spot.
@@ -1132,7 +1132,7 @@ Calendar results that appear on cards:
   - **Barabási–Albert** model → **scale-free** networks. Erdős–Rényi = `gnp_random_graph`.
   - Counting nodes, edges and neighbours from pictures. Edges `(1,2),(2,1),(2,3),(3,4),(4,1),(3,1)` → a square with a 1–3 diagonal.
 - **Area estimation (Monte Carlo)**:
-  - Throw random points over a known region. Sub-area ≈ (points in the sub-region / all points) × total area.
+  - Throw random points over a known region. In principle, sub-area ≈ (points in the sub-region / all points) × total area. **The lecture code and the stored keys divide by the points in the rest of the country instead** (see 7.3 and Part 6); use that version on the exam.
   - It works for irregular shapes. More points mean less random variation and better accuracy (the law of large numbers), though it is not efficient everywhere.
   - Cards: 5400 km² with 23 state points → 1774.3 km² (the key divides by 70); India 10400 km² → Maharashtra 2657.77 km² (divides by 90).
   - Quarter circle: a point is inside if x² + y² ≤ r² (correct code → −1).
@@ -1432,7 +1432,7 @@ Each of these cards has a stored key that is wrong, ambiguous or depends on an o
   - Fact: Only compression reduces storage.
 - **2023-jan/w04/q02 magic square N**
   - Stored key: "N should be odd"
-  - Fact: True for the course (Siamese) algorithm. Even-order magic squares exist (4×4), except order 2.
+  - Fact: True for the lecture's (Siamese-style) algorithm. Even-order magic squares exist (4×4), except order 2.
 - **2019-jan/w11/q07, 2019-jul/w11/q04 "18 June 2017 (Thursday)"**
   - Stored key: weekday 3
   - Fact: 18 June 2017 was a Sunday (2020-jan/w11/q09 uses Sunday → 6). Answer from the card's stated weekday.
@@ -1837,7 +1837,7 @@ Source: the solution PDFs in `JyRaGa/NPTELWhisperer/solution pdfs/` (weeks 4–8
 - **Week 11: Sundays in a month.** `sum(1 for week in calendar.monthcalendar(y, m) if week[6] != 0)` (index 6 = Sunday, 0 = a padding day)
 - **Week 12: PageRank transfer (A → B only).** A gives all its rank to B: prints `0, rank_a + rank_b`
 - **Week 12: Mutual PageRank exchange (A ↔ B).** Each gives its rank to the other, so the ranks swap: `rank_b, rank_a`
-- **Week 12: Three-page PageRank update.** A splits between B and C, and B and C both point to C: prints `0, rank_a // 2, rank_a // 2 + rank_b + rank_c`
+- **Week 12: Three-page PageRank update.** A splits its rank between B and C, B passes all of its rank to C, and C keeps its own (no out-link): prints `0, rank_a // 2, rank_a // 2 + rank_b + rank_c`
 
 New Python facts from these:
 - `dict.get(key, default)` as a counter.
@@ -1852,7 +1852,7 @@ New Python facts from these:
 
 ## Part 8 — Exam-day sheet: numbers, formulas and conventions
 
-This collects in one place the values the exam reuses with changed data. Nothing here replaces the full sections; each line points back to them.
+This collects in one place the values the exam reuses with changed data. Nothing here replaces the full sections; use the Contents links above to find the details for any line.
 
 ### Boundaries: included or excluded?
 
@@ -2015,7 +2015,7 @@ print(3 * 1 ** 3, 2 ** 3 ** 2)
 3 512
 ```
 
-** binds tighter than *, and ** groups right to left: 2 ** 9.
+`**` binds tighter than `*`, and `**` groups right to left: `2 ** 3 ** 2` is `2 ** 9`.
 
 </details>
 
@@ -2193,7 +2193,8 @@ Sorted by character code: space, !, capitals, then small letters.
 **16. (Week 3) Which values can this return?**
 
 ```python
-print(list(range(1, 10, 3)))  # the values random.randrange(1, 10, 3) can return
+# the values random.randrange(1, 10, 3) can return:
+print(list(range(1, 10, 3)))
 ```
 
 <details><summary>Answer</summary>
@@ -2296,17 +2297,19 @@ Pigeonhole: 2 per weekday fits 14 people; the 15th makes 3.
 
 </details>
 
-**22. (Week 4) How many leap years are in [2000, 2024)?**
+**22. (Week 4) How many leap years are in [2000, 2024), and is 1900 a leap year?**
 
 ```python
 import calendar
-print(calendar.leapdays(2000, 2024), calendar.isleap(1900))
+print(calendar.leapdays(2000, 2024))
+print(calendar.isleap(1900))
 ```
 
 <details><summary>Answer</summary>
 
 ```text
-6 False
+6
+False
 ```
 
 leapdays excludes the end year; 1900 is divisible by 100 but not 400.
@@ -2372,7 +2375,8 @@ A function with no return gives None.
 
 ```python
 a = [4, 3, 1, 2]
-print(sum(1 for i in range(4) for j in range(i + 1, 4) if a[i] > a[j]))
+pairs = [(i, j) for i in range(4) for j in range(i + 1, 4)]
+print(sum(1 for i, j in pairs if a[i] > a[j]))
 ```
 
 <details><summary>Answer</summary>
@@ -2492,13 +2496,15 @@ The tuple cannot change, but the list inside it can.
 **33. (Week 8) What is printed?**
 
 ```python
-print(sorted('listen') == sorted('silent'), sum(map(ord, 'ad')) == sum(map(ord, 'bc')))
+print(sorted('listen') == sorted('silent'))
+print(sum(map(ord, 'ad')) == sum(map(ord, 'bc')))
 ```
 
 <details><summary>Answer</summary>
 
 ```text
-True True
+True
+True
 ```
 
 Sorted letters decide anagrams; equal ASCII sums do not.
@@ -2652,13 +2658,15 @@ The same counting-out loop as FLAMES.
 
 ```python
 import calendar, datetime
-print(calendar.weekday(2024, 1, 1), datetime.date(2024, 1, 1).isoweekday())
+print(calendar.weekday(2024, 1, 1))
+print(datetime.date(2024, 1, 1).isoweekday())
 ```
 
 <details><summary>Answer</summary>
 
 ```text
-0 1
+0
+1
 ```
 
 1 Jan 2024 was a Monday: weekday() counts from 0, isoweekday() from 1.
@@ -2669,13 +2677,16 @@ print(calendar.weekday(2024, 1, 1), datetime.date(2024, 1, 1).isoweekday())
 
 ```python
 import datetime
-print((datetime.date(2024, 3, 1) - datetime.date(2024, 2, 1)).days, datetime.date(2024, 2, 1).strftime('%j'))
+feb1 = datetime.date(2024, 2, 1)
+print((datetime.date(2024, 3, 1) - feb1).days)
+print(feb1.strftime('%j'))
 ```
 
 <details><summary>Answer</summary>
 
 ```text
-29 032
+29
+032
 ```
 
 2024 is a leap year; %j is the day of the year.
