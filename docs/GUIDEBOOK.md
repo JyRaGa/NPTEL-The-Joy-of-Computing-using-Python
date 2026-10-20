@@ -3863,7 +3863,7 @@ A card-by-card check matched every card's question, correct answer and stored ex
   - Week 8: `2021-jul/w08/q03`, `2021-jul/w08/q04`, `2021-jul/w08/q06`, `2021-jul/w08/q09`
   - Week 9: `2021-jul/w09/q03`, `2021-jul/w09/q10`
   - Week 10: `2021-jan/w10/q08`, `2021-jan/w10/q09`, `2021-jul/w10/q04`, `2021-jul/w10/q05`, `2021-jul/w10/q06`, `2021-jul/w10/q07`, `2021-jul/w10/q09`, `2021-jul/w10/q10`
-- 125 cards in 25 2026-jul case studies: 24 whose program is shown only as an image, and one story with no program. Two of them, marked below, are filed on the site under the wrong story:
+- 125 cards in 25 2026-jul case studies: 24 whose program is shown only as an image, and one story with no program:
   - `2026-jul/w02/q06`–`q10`: Ordering Food at a School Cafeteria
   - `2026-jul/w02/q16`–`q20`: Morning Exercise Counter
   - `2026-jul/w03/q06`–`q10`: Managing Participants for a Workshop
@@ -3871,14 +3871,14 @@ A card-by-card check matched every card's question, correct answer and stored ex
   - `2026-jul/w04/q16`–`q20`: Movie Guessing Game
   - `2026-jul/w05/q01`–`q05`: Community Library Book Tracker
   - `2026-jul/w05/q06`–`q10`: Rock–Paper–Scissors Championship
-  - `2026-jul/w05/q11`–`q15`: Library Book Search System (the site shows these under Rock–Paper–Scissors)
+  - `2026-jul/w05/q11`–`q15`: Library Book Search System
   - `2026-jul/w06/q01`–`q05`: Secret Notice Encoder
   - `2026-jul/w06/q06`–`q10`: Tic-Tac-Toe Winner Checker
   - `2026-jul/w06/q16`–`q20`: Recursive Binary Search for Student Roll Numbers
   - `2026-jul/w07/q01`–`q05`: Drone Surveillance Route
   - `2026-jul/w07/q06`–`q10`: Mini Snake and Ladder Tournament
   - `2026-jul/w07/q11`–`q15`: Food Delivery Pickup Locations
-  - `2026-jul/w07/q16`–`q20`: Smart Heritage City Explorer, a story with no program (the site shows these under Food Delivery)
+  - `2026-jul/w07/q16`–`q20`: Smart Heritage City Explorer, a story with no program
   - `2026-jul/w08/q06`–`q10`: Lucky Draw Betting Game
   - `2026-jul/w08/q11`–`q15`: Secure Access Puzzle Generator
   - `2026-jul/w08/q16`–`q20`: Customer Feedback Analysis

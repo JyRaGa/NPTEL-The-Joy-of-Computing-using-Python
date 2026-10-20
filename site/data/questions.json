@@ -10316,7 +10316,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Programming Beyond Coding, Why Every Professional Can Benefit",
+   "code": null
+  },
   "text": "Which statement best captures the professor's reason for learning programming despite the availability of many applications?",
   "code": null,
   "images": [],
@@ -10360,7 +10363,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Programming Beyond Coding, Why Every Professional Can Benefit",
+   "code": null
+  },
   "text": "According to the professor, why have multiple programming languages evolved over time?",
   "code": null,
   "images": [],
@@ -10404,7 +10410,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Programming Beyond Coding, Why Every Professional Can Benefit",
+   "code": null
+  },
   "text": "What was the primary purpose of the hand-gesture classroom activity?",
   "code": null,
   "images": [],
@@ -10448,7 +10457,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Programming Beyond Coding, Why Every Professional Can Benefit",
+   "code": null
+  },
   "text": "According to the professor, what is the most effective way to become proficient in programming?",
   "code": null,
   "images": [],
@@ -10492,7 +10504,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Programming Beyond Coding, Why Every Professional Can Benefit",
+   "code": null
+  },
   "text": "Which conclusion would Riya most likely draw after attending the session?",
   "code": null,
   "images": [],
@@ -10536,7 +10551,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Teaching a Robot Efficiently – The Power of Loops A robotics club is programming a small robot to train for a fitness challenge. The robot must move forward and then return to its starting position. On every round, it should travel a little farther than before. Initially, one student writes separate instructions for every movement: move forward, pause, move backward, pause, and repeats this pattern many times with different distances.",
+   "code": null
+  },
   "text": "Why did the second student recommend using a loop instead of writing every movement instruction separately?",
   "code": null,
   "images": [],
@@ -10580,7 +10598,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Teaching a Robot Efficiently – The Power of Loops A robotics club is programming a small robot to train for a fitness challenge. The robot must move forward and then return to its starting position. On every round, it should travel a little farther than before. Initially, one student writes separate instructions for every movement: move forward, pause, move backward, pause, and repeats this pattern many times with different distances.",
+   "code": null
+  },
   "text": "In the improved program, what is the primary purpose of using a variable for the travel distance?",
   "code": null,
   "images": [],
@@ -10624,7 +10645,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Teaching a Robot Efficiently – The Power of Loops A robotics club is programming a small robot to train for a fitness challenge. The robot must move forward and then return to its starting position. On every round, it should travel a little farther than before. Initially, one student writes separate instructions for every movement: move forward, pause, move backward, pause, and repeats this pattern many times with different distances.",
+   "code": null
+  },
   "text": "The instructor later replaces the fixed starting distance with another variable. What is the main advantage of this change?",
   "code": null,
   "images": [],
@@ -10668,7 +10692,10 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Teaching a Robot Efficiently – The Power of Loops A robotics club is programming a small robot to train for a fitness challenge. The robot must move forward and then return to its starting position. On every round, it should travel a little farther than before. Initially, one student writes separate instructions for every movement: move forward, pause, move backward, pause, and repeats this pattern many times with different distances.",
+   "code": null
+  },
   "text": "Suppose a student removes the statement that updates the distance variable inside the loop. Which outcome is most likely?",
   "code": null,
   "images": [],
@@ -10712,12 +10739,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Teaching a Robot Efficiently – The Power of Loops A robotics club is programming a small robot to train for a fitness challenge. The robot must move forward and then return to its starting position. On every round, it should travel a little farther than before. Initially, one student writes separate instructions for every movement: move forward, pause, move backward, pause, and repeats this pattern many times with different distances.",
+   "code": null
+  },
   "text": "Which statement best summarizes the role of loops in programming?",
   "code": null,
-  "images": [
-   "quizzes/2026-jul/img/2026-jul-w01-p04-1.png"
-  ],
+  "images": [],
   "crops": [],
   "options": [
    {
@@ -10758,7 +10786,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Understanding a Scratch Program A student is learning Scratch and creates the program shown in the figure below. The sprite starts from its initial position and executes each block from top to bottom exactly once. The student expects the sprite to follow the path specified by the movement and direction blocks. Study the Scratch program carefully that is presented below and answer the following questions based on the program shown.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p04-1.png"
+   ]
+  },
   "text": "Which Scratch block determines the direction of the sprite before its final movement of 10 steps?",
   "code": null,
   "images": [],
@@ -10802,7 +10836,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Understanding a Scratch Program A student is learning Scratch and creates the program shown in the figure below. The sprite starts from its initial position and executes each block from top to bottom exactly once. The student expects the sprite to follow the path specified by the movement and direction blocks. Study the Scratch program carefully that is presented below and answer the following questions based on the program shown.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p04-1.png"
+   ]
+  },
   "text": "What is the purpose of the turn 15 degrees block in this program?",
   "code": null,
   "images": [],
@@ -10846,7 +10886,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Understanding a Scratch Program A student is learning Scratch and creates the program shown in the figure below. The sprite starts from its initial position and executes each block from top to bottom exactly once. The student expects the sprite to follow the path specified by the movement and direction blocks. Study the Scratch program carefully that is presented below and answer the following questions based on the program shown.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p04-1.png"
+   ]
+  },
   "text": "Suppose the point in direction 90° block is removed while keeping all other blocks unchanged. Which statement is most likely to be true?",
   "code": null,
   "images": [],
@@ -10890,7 +10936,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Understanding a Scratch Program A student is learning Scratch and creates the program shown in the figure below. The sprite starts from its initial position and executes each block from top to bottom exactly once. The student expects the sprite to follow the path specified by the movement and direction blocks. Study the Scratch program carefully that is presented below and answer the following questions based on the program shown.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p04-1.png"
+   ]
+  },
   "text": "Which Scratch blocks in the program only change the sprite's position and never its direction?",
   "code": null,
   "images": [],
@@ -10934,12 +10986,16 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Understanding a Scratch Program A student is learning Scratch and creates the program shown in the figure below. The sprite starts from its initial position and executes each block from top to bottom exactly once. The student expects the sprite to follow the path specified by the movement and direction blocks. Study the Scratch program carefully that is presented below and answer the following questions based on the program shown.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p04-1.png"
+   ]
+  },
   "text": "A student accidentally swaps the positions of the turn 15 degrees block and the point in direction 90° block. What is the most likely effect?",
   "code": null,
-  "images": [
-   "quizzes/2026-jul/img/2026-jul-w01-p06-1.png"
-  ],
+  "images": [],
   "crops": [],
   "options": [
    {
@@ -10980,7 +11036,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Evaluating a Scratch-Based Game Scoring System A student is developing a simple game in Scratch to reward players based on their performance. The Scratch program shown in the figure keeps track of three variables: score, counter, and bonus.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p06-1.png"
+   ]
+  },
   "text": "Why does the program use the expression counter mod 2 = 0?",
   "code": null,
   "images": [],
@@ -11024,7 +11086,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Evaluating a Scratch-Based Game Scoring System A student is developing a simple game in Scratch to reward players based on their performance. The Scratch program shown in the figure keeps track of three variables: score, counter, and bonus.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p06-1.png"
+   ]
+  },
   "text": "Which variable is updated in every iteration of the repeat loop, regardless of the outcome of the if-else condition?",
   "code": null,
   "images": [],
@@ -11068,7 +11136,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Evaluating a Scratch-Based Game Scoring System A student is developing a simple game in Scratch to reward players based on their performance. The Scratch program shown in the figure keeps track of three variables: score, counter, and bonus.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p06-1.png"
+   ]
+  },
   "text": "What is the purpose of the statement change score by bonus placed after the repeat loop?",
   "code": null,
   "images": [],
@@ -11112,7 +11186,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Evaluating a Scratch-Based Game Scoring System A student is developing a simple game in Scratch to reward players based on their performance. The Scratch program shown in the figure keeps track of three variables: score, counter, and bonus.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p06-1.png"
+   ]
+  },
   "text": "Suppose the statement change score by bonus is moved inside the repeat loop, immediately before the if condition. What would be the most likely effect?",
   "code": null,
   "images": [],
@@ -11156,7 +11236,13 @@
   "file": "quizzes/2026-jul/week-01.md",
   "kind": "case_study_pdf_md",
   "type": "single",
-  "context": null,
+  "context": {
+   "text": "Evaluating a Scratch-Based Game Scoring System A student is developing a simple game in Scratch to reward players based on their performance. The Scratch program shown in the figure keeps track of three variables: score, counter, and bonus.",
+   "code": null,
+   "images": [
+    "quizzes/2026-jul/img/2026-jul-w01-p06-1.png"
+   ]
+  },
   "text": "Which statement best describes how the Scratch program decides which message to display?",
   "code": null,
   "images": [],
@@ -45610,9 +45696,7 @@
   },
   "text": "Which of the following statements are correct?",
   "code": null,
-  "images": [
-   "quizzes/2026-jul/img/2026-jul-w05-p06-1.png"
-  ],
+  "images": [],
   "crops": [],
   "options": [
    {
@@ -45656,10 +45740,10 @@
   "kind": "case_study_pdf_md",
   "type": "single",
   "context": {
-   "text": "Rock–Paper–Scissors Championship A coding club is organizing a Rock–Paper–Scissors championship. The choices made by both players are stored in two lists. A dictionary is used to define which move defeats another. The program compares the choices in each round, updates the scores, and declares the overall winner. Study the following program and answer the questions.",
+   "text": "Library Book Search System A digital library stores book IDs in a sorted list. When a student searches for a book, the librarian first performs a Linear Search to locate the book. Later, the system uses a Binary Search to improve search efficiency on the same sorted list. Study the following program and answer the questions.",
    "code": null,
    "images": [
-    "quizzes/2026-jul/img/2026-jul-w05-p04-1.png"
+    "quizzes/2026-jul/img/2026-jul-w05-p06-1.png"
    ]
   },
   "text": "Why is the list book_ids arranged in ascending order?",
@@ -45706,10 +45790,10 @@
   "kind": "case_study_pdf_md",
   "type": "single",
   "context": {
-   "text": "Rock–Paper–Scissors Championship A coding club is organizing a Rock–Paper–Scissors championship. The choices made by both players are stored in two lists. A dictionary is used to define which move defeats another. The program compares the choices in each round, updates the scores, and declares the overall winner. Study the following program and answer the questions.",
+   "text": "Library Book Search System A digital library stores book IDs in a sorted list. When a student searches for a book, the librarian first performs a Linear Search to locate the book. Later, the system uses a Binary Search to improve search efficiency on the same sorted list. Study the following program and answer the questions.",
    "code": null,
    "images": [
-    "quizzes/2026-jul/img/2026-jul-w05-p04-1.png"
+    "quizzes/2026-jul/img/2026-jul-w05-p06-1.png"
    ]
   },
   "text": "What is the output of the program?",
@@ -45756,10 +45840,10 @@
   "kind": "case_study_pdf_md",
   "type": "single",
   "context": {
-   "text": "Rock–Paper–Scissors Championship A coding club is organizing a Rock–Paper–Scissors championship. The choices made by both players are stored in two lists. A dictionary is used to define which move defeats another. The program compares the choices in each round, updates the scores, and declares the overall winner. Study the following program and answer the questions.",
+   "text": "Library Book Search System A digital library stores book IDs in a sorted list. When a student searches for a book, the librarian first performs a Linear Search to locate the book. Later, the system uses a Binary Search to improve search efficiency on the same sorted list. Study the following program and answer the questions.",
    "code": null,
    "images": [
-    "quizzes/2026-jul/img/2026-jul-w05-p04-1.png"
+    "quizzes/2026-jul/img/2026-jul-w05-p06-1.png"
    ]
   },
   "text": "During the first iteration of the Binary Search loop, what is the value of mid?",
@@ -45806,10 +45890,10 @@
   "kind": "case_study_pdf_md",
   "type": "single",
   "context": {
-   "text": "Rock–Paper–Scissors Championship A coding club is organizing a Rock–Paper–Scissors championship. The choices made by both players are stored in two lists. A dictionary is used to define which move defeats another. The program compares the choices in each round, updates the scores, and declares the overall winner. Study the following program and answer the questions.",
+   "text": "Library Book Search System A digital library stores book IDs in a sorted list. When a student searches for a book, the librarian first performs a Linear Search to locate the book. Later, the system uses a Binary Search to improve search efficiency on the same sorted list. Study the following program and answer the questions.",
    "code": null,
    "images": [
-    "quizzes/2026-jul/img/2026-jul-w05-p04-1.png"
+    "quizzes/2026-jul/img/2026-jul-w05-p06-1.png"
    ]
   },
   "text": "Suppose the statement break on Line 9 is removed. Which statement is correct?",
@@ -45856,10 +45940,10 @@
   "kind": "case_study_pdf_md",
   "type": "multi",
   "context": {
-   "text": "Rock–Paper–Scissors Championship A coding club is organizing a Rock–Paper–Scissors championship. The choices made by both players are stored in two lists. A dictionary is used to define which move defeats another. The program compares the choices in each round, updates the scores, and declares the overall winner. Study the following program and answer the questions.",
+   "text": "Library Book Search System A digital library stores book IDs in a sorted list. When a student searches for a book, the librarian first performs a Linear Search to locate the book. Later, the system uses a Binary Search to improve search efficiency on the same sorted list. Study the following program and answer the questions.",
    "code": null,
    "images": [
-    "quizzes/2026-jul/img/2026-jul-w05-p04-1.png"
+    "quizzes/2026-jul/img/2026-jul-w05-p06-1.png"
    ]
   },
   "text": "Which of the following statements are correct?",
@@ -62172,11 +62256,8 @@
   "kind": "case_study_pdf_md",
   "type": "single",
   "context": {
-   "text": "Food Delivery Pickup Locations A food delivery company uses a map to display the locations of restaurants where delivery agents need to collect orders. Each restaurant is represented by a marker on the map. When a marker is clicked, the restaurant's name is displayed. The following Python program creates a map and places markers for three restaurants.",
-   "code": null,
-   "images": [
-    "quizzes/2026-jul/img/2026-jul-w07-p06-1.png"
-   ]
+   "text": "Smart Heritage City Explorer The tourism department of a heritage city has developed a Smart Heritage City Explorer to help visitors explore popular attractions. The city is represented as a matrix, where each cell corresponds to a location. Every morning, an inspection drone scans the city in a spiral order, starting from the outer boundary and moving towards the center to ensure that every location is inspected exactly once. Information about each attraction is stored in a dictionary containing the attraction's name, category, visitor rating, latitude, and longitude. When a visitor searches for an attraction, the application uses linear search if the attractions are stored in random order. If the attractions are sorted alphabetically, the application uses binary search to locate the attraction more efficiently. After an attraction is found, its latitude and longitude are used to place a marker on a Google Map so that visitors can easily navigate to the destination. The application also includes a Treasure Trail game. Visitors move across 25 checkpoints using dice rolls. Some checkpoints contain ladders that move visitors ahead, while others contain snakes that move them backward. If a dice roll takes a visitor beyond the final checkpoint, that move is ignored. The developers use appropriate data structures and algorithms so that the application remains efficient and easy to maintain.",
+   "code": null
   },
   "text": "The attractions are stored in random order. Which searching technique is most appropriate for finding a particular attraction?",
   "code": null,
@@ -62222,11 +62303,8 @@
   "kind": "case_study_pdf_md",
   "type": "single",
   "context": {
-   "text": "Food Delivery Pickup Locations A food delivery company uses a map to display the locations of restaurants where delivery agents need to collect orders. Each restaurant is represented by a marker on the map. When a marker is clicked, the restaurant's name is displayed. The following Python program creates a map and places markers for three restaurants.",
-   "code": null,
-   "images": [
-    "quizzes/2026-jul/img/2026-jul-w07-p06-1.png"
-   ]
+   "text": "Smart Heritage City Explorer The tourism department of a heritage city has developed a Smart Heritage City Explorer to help visitors explore popular attractions. The city is represented as a matrix, where each cell corresponds to a location. Every morning, an inspection drone scans the city in a spiral order, starting from the outer boundary and moving towards the center to ensure that every location is inspected exactly once. Information about each attraction is stored in a dictionary containing the attraction's name, category, visitor rating, latitude, and longitude. When a visitor searches for an attraction, the application uses linear search if the attractions are stored in random order. If the attractions are sorted alphabetically, the application uses binary search to locate the attraction more efficiently. After an attraction is found, its latitude and longitude are used to place a marker on a Google Map so that visitors can easily navigate to the destination. The application also includes a Treasure Trail game. Visitors move across 25 checkpoints using dice rolls. Some checkpoints contain ladders that move visitors ahead, while others contain snakes that move them backward. If a dice roll takes a visitor beyond the final checkpoint, that move is ignored. The developers use appropriate data structures and algorithms so that the application remains efficient and easy to maintain.",
+   "code": null
   },
   "text": "Why does the inspection drone use a spiral traversal of the city matrix?",
   "code": null,
@@ -62272,11 +62350,8 @@
   "kind": "case_study_pdf_md",
   "type": "single",
   "context": {
-   "text": "Food Delivery Pickup Locations A food delivery company uses a map to display the locations of restaurants where delivery agents need to collect orders. Each restaurant is represented by a marker on the map. When a marker is clicked, the restaurant's name is displayed. The following Python program creates a map and places markers for three restaurants.",
-   "code": null,
-   "images": [
-    "quizzes/2026-jul/img/2026-jul-w07-p06-1.png"
-   ]
+   "text": "Smart Heritage City Explorer The tourism department of a heritage city has developed a Smart Heritage City Explorer to help visitors explore popular attractions. The city is represented as a matrix, where each cell corresponds to a location. Every morning, an inspection drone scans the city in a spiral order, starting from the outer boundary and moving towards the center to ensure that every location is inspected exactly once. Information about each attraction is stored in a dictionary containing the attraction's name, category, visitor rating, latitude, and longitude. When a visitor searches for an attraction, the application uses linear search if the attractions are stored in random order. If the attractions are sorted alphabetically, the application uses binary search to locate the attraction more efficiently. After an attraction is found, its latitude and longitude are used to place a marker on a Google Map so that visitors can easily navigate to the destination. The application also includes a Treasure Trail game. Visitors move across 25 checkpoints using dice rolls. Some checkpoints contain ladders that move visitors ahead, while others contain snakes that move them backward. If a dice roll takes a visitor beyond the final checkpoint, that move is ignored. The developers use appropriate data structures and algorithms so that the application remains efficient and easy to maintain.",
+   "code": null
   },
   "text": "Which information is essential for placing an attraction on the Google Map?",
   "code": null,
@@ -62322,11 +62397,8 @@
   "kind": "case_study_pdf_md",
   "type": "single",
   "context": {
-   "text": "Food Delivery Pickup Locations A food delivery company uses a map to display the locations of restaurants where delivery agents need to collect orders. Each restaurant is represented by a marker on the map. When a marker is clicked, the restaurant's name is displayed. The following Python program creates a map and places markers for three restaurants.",
-   "code": null,
-   "images": [
-    "quizzes/2026-jul/img/2026-jul-w07-p06-1.png"
-   ]
+   "text": "Smart Heritage City Explorer The tourism department of a heritage city has developed a Smart Heritage City Explorer to help visitors explore popular attractions. The city is represented as a matrix, where each cell corresponds to a location. Every morning, an inspection drone scans the city in a spiral order, starting from the outer boundary and moving towards the center to ensure that every location is inspected exactly once. Information about each attraction is stored in a dictionary containing the attraction's name, category, visitor rating, latitude, and longitude. When a visitor searches for an attraction, the application uses linear search if the attractions are stored in random order. If the attractions are sorted alphabetically, the application uses binary search to locate the attraction more efficiently. After an attraction is found, its latitude and longitude are used to place a marker on a Google Map so that visitors can easily navigate to the destination. The application also includes a Treasure Trail game. Visitors move across 25 checkpoints using dice rolls. Some checkpoints contain ladders that move visitors ahead, while others contain snakes that move them backward. If a dice roll takes a visitor beyond the final checkpoint, that move is ignored. The developers use appropriate data structures and algorithms so that the application remains efficient and easy to maintain.",
+   "code": null
   },
   "text": "In the Treasure Trail game, what should happen if a dice roll moves the visitor beyond checkpoint 25?",
   "code": null,
@@ -62372,11 +62444,8 @@
   "kind": "case_study_pdf_md",
   "type": "multi",
   "context": {
-   "text": "Food Delivery Pickup Locations A food delivery company uses a map to display the locations of restaurants where delivery agents need to collect orders. Each restaurant is represented by a marker on the map. When a marker is clicked, the restaurant's name is displayed. The following Python program creates a map and places markers for three restaurants.",
-   "code": null,
-   "images": [
-    "quizzes/2026-jul/img/2026-jul-w07-p06-1.png"
-   ]
+   "text": "Smart Heritage City Explorer The tourism department of a heritage city has developed a Smart Heritage City Explorer to help visitors explore popular attractions. The city is represented as a matrix, where each cell corresponds to a location. Every morning, an inspection drone scans the city in a spiral order, starting from the outer boundary and moving towards the center to ensure that every location is inspected exactly once. Information about each attraction is stored in a dictionary containing the attraction's name, category, visitor rating, latitude, and longitude. When a visitor searches for an attraction, the application uses linear search if the attractions are stored in random order. If the attractions are sorted alphabetically, the application uses binary search to locate the attraction more efficiently. After an attraction is found, its latitude and longitude are used to place a marker on a Google Map so that visitors can easily navigate to the destination. The application also includes a Treasure Trail game. Visitors move across 25 checkpoints using dice rolls. Some checkpoints contain ladders that move visitors ahead, while others contain snakes that move them backward. If a dice roll takes a visitor beyond the final checkpoint, that move is ignored. The developers use appropriate data structures and algorithms so that the application remains efficient and easy to maintain.",
+   "code": null
   },
   "text": "Which of the following statements are true about the Smart Heritage City Explorer?",
   "code": null,

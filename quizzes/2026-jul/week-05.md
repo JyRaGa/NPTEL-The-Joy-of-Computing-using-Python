@@ -135,7 +135,7 @@
 > Justification: The score dictionary is updated whenever a player wins a round, while wins_against is used only for lookups. One round ends in a draw, and score["Player A"] += 1 increments Player A's score by one.
 
 
-Library Book Search System A digital library stores book IDs in a sorted list. When a student searches for a book, the librarian first performs a Linear Search to locate the book. Later, the system uses a Binary Search to improve search efficiency on the same sorted list. Study the following program and answer the questions.
+## Scenario: Library Book Search System A digital library stores book IDs in a sorted list. When a student searches for a book, the librarian first performs a Linear Search to locate the book. Later, the system uses a Binary Search to improve search efficiency on the same sorted list. Study the following program and answer the questions.
 
 
 ![program / figure, page 6](img/2026-jul-w05-p06-1.png)

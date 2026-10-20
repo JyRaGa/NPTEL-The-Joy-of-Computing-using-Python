@@ -77,8 +77,8 @@ def parse_file(rel, kind):
         # Jul-2019 style files: only the first section is the question list
         if yt and line.startswith("## ") and qs:
             break
-        if kind == "case_study_pdf_md" and line.startswith("## Scenario"):
-            context = {"text": re.sub(r"^## Scenario:?\s*", "", line).strip(), "code": None, "only": None}
+        if kind == "case_study_pdf_md" and line.startswith(("## Scenario", "## Case Study")):
+            context = {"text": re.sub(r"^## (?:Scenario|Case Study):?\s*", "", line).strip(), "code": None, "only": None}
             cur = None
             continue
         m = head.match(line)
