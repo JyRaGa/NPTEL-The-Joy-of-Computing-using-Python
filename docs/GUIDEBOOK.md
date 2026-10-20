@@ -8,6 +8,8 @@ How to use it:
 - **Part 5** is the method for case/scenario questions, which give you the code or story in the exam.
 - **Part 6** lists cards whose stored answer key is doubtful, so you do not learn a wrong fact from them.
 - **Part 7** covers the lecture code, the programming assignments, the 2021 online programming tests, a recalled final exam paper and the exam pattern.
+- **Part 8** is the exam-day sheet: every number, formula and index convention on one screen.
+- **Part 9** is a self-test drill of 46 predict-the-output and variant questions. Each answer comes from running the code and is hidden until you open it.
 
 Sources used:
 - All the cards in `site/data/week-*.json`: question, code, options (including code inside options), case-study programs (`context.code`), key and explanation.
@@ -17,23 +19,83 @@ Sources used:
 - `index/explain/skipped.tsv` (answer-key disagreements).
 - For the 738 cards whose code or figure exists only as a page image: their explanations, which were written by reading those crops. The 46 such cards with no explanation were read directly from their crops in `quizzes/<term>/img/`.
 
-Week → topic map (the course order):
+Week → topics → where to read (every week also uses Parts 4–9):
 
-| Week | Topics |
-|---|---|
-| 0 | Aptitude maths (no Python) |
-| 1 | What programming is; Scratch |
-| 2 | Python basics: print, input, variables, operators, if/while/for, errors |
-| 3 | Lists, random, files, matplotlib, FizzBuzz, jumbled words, crowd computing / trimmed mean, genetic evolution |
-| 4 | Magic square, birthday paradox / pigeonhole, Dobble, Guess the Movie, leap years, datetime basics, list copies |
-| 5 | Dictionaries, Monty Hall, Rock-Paper-Scissors (secure version), speech recognition, linear/binary search, bubble sort, functions |
-| 6 | Recursion, ciphers (Caesar/substitution), Tic-Tac-Toe / min-max, strings, binary search (recursive) |
-| 7 | Turtle, PIL basics, gmplot/GPS, csv, snakes and ladders, spiral traversal, sets vs tuples, functions |
-| 8 | Tuples, gambling / lottery simulation, anagrams, ASCII, sentiment (NLTK/VADER), image enhancement (CLAHE, flip), isomorphic strings |
-| 9 | Stylometry, NLTK tokenising, NetworkX basics, six degrees of separation, area estimation (Monte Carlo), image pixels |
-| 10 | Strings in depth, FLAMES / Josephus, NumPy, image compression, pixel processing / quantisation |
-| 11 | Selenium (browser / WhatsApp automation), datetime, calendar, pytz, time |
-| 12 | PageRank (random walk, point distribution), directed graphs, graph types, Collatz conjecture |
+- **Week 0**: Aptitude maths (no Python). Read: [3.0 Week 0 aptitude maths](#30-week-0-aptitude-maths).
+- **Week 1**: What programming is; Scratch. Read: [1.1 Programs, languages, tools](#11-programs-languages-tools), [3.1 Week 1: Scratch](#31-week-1-scratch).
+- **Week 2**: Python basics: print, input, variables, operators, if/while/for, errors. Read: [1.2 print, input and type conversion](#12-print-input-and-type-conversion), [1.3 Names and keywords](#13-names-and-keywords), [1.4 Operators](#14-operators), [1.5 Control flow](#15-control-flow), [1.6 Errors you must recognise](#16-errors-you-must-recognise).
+- **Week 3**: Lists, random, files, matplotlib, FizzBuzz, jumbled words, crowd computing / trimmed mean, genetic evolution. Read: [1.8 Lists](#18-lists), [1.14 Files](#114-files), [2.1 random](#21-random), [2.2 Statistics](#22-statistics), [2.3 matplotlib.pyplot (as plt)](#23-matplotlibpyplot-as-plt), [3.2 Week 3 projects](#32-week-3-projects).
+- **Week 4**: Magic square, birthday paradox / pigeonhole, Dobble, Guess the Movie, leap years, datetime basics, list copies. Read: [3.3 Week 4 projects](#33-week-4-projects), [1.8 Lists](#18-lists), [2.4 datetime, time, calendar, pytz](#24-datetime-time-calendar-pytz).
+- **Week 5**: Dictionaries, Monty Hall, Rock-Paper-Scissors (secure version), speech recognition, linear/binary search, bubble sort, functions. Read: [1.11 Dictionaries](#111-dictionaries), [1.12 Functions](#112-functions), [1.15 Complexity facts](#115-complexity-facts), [2.13 Speech recognition](#213-speech-recognition), [3.4 Week 5 projects](#34-week-5-projects).
+- **Week 6**: Recursion, ciphers (Caesar/substitution), Tic-Tac-Toe / min-max, strings, recursive binary search. Read: [1.13 Recursion](#113-recursion), [1.7 Strings](#17-strings), [3.5 Week 6 projects](#35-week-6-projects).
+- **Week 7**: Turtle, PIL basics, gmplot/GPS, csv, snakes and ladders, spiral traversal, sets vs tuples, functions. Read: [2.8 turtle](#28-turtle), [2.7 PIL / Pillow (from PIL import Image)](#27-pil--pillow-from-pil-import-image), [2.9 gmplot, csv](#29-gmplot-csv), [1.10 Sets](#110-sets), [3.6 Week 7 projects](#36-week-7-projects).
+- **Week 8**: Tuples, gambling / lottery simulation, anagrams, ASCII, sentiment (NLTK/VADER), image enhancement (CLAHE, flip), isomorphic strings. Read: [1.9 Tuples](#19-tuples), [2.10 NLTK, VADER, TextBlob, pandas](#210-nltk-vader-textblob-pandas), [3.7 Week 8 projects](#37-week-8-projects).
+- **Week 9**: Stylometry, NLTK tokenising, NetworkX basics, six degrees of separation, area estimation (Monte Carlo), image pixels. Read: [2.10 NLTK, VADER, TextBlob, pandas](#210-nltk-vader-textblob-pandas), [2.11 NetworkX (import networkx as nx)](#211-networkx-import-networkx-as-nx), [3.8 Week 9 projects](#38-week-9-projects).
+- **Week 10**: Strings in depth, FLAMES / Josephus, NumPy, image compression, pixel processing / quantisation. Read: [1.7 Strings](#17-strings), [2.6 NumPy (import numpy as np)](#26-numpy-import-numpy-as-np), [2.7 PIL / Pillow (from PIL import Image)](#27-pil--pillow-from-pil-import-image), [3.9 Week 10 projects](#39-week-10-projects).
+- **Week 11**: Selenium (browser / WhatsApp automation), datetime, calendar, pytz, time. Read: [2.4 datetime, time, calendar, pytz](#24-datetime-time-calendar-pytz), [2.12 Selenium (browser automation)](#212-selenium-browser-automation), [3.10 Week 11 topics](#310-week-11-topics).
+- **Week 12**: PageRank (random walk, point distribution), directed graphs, graph types, Collatz conjecture. Read: [2.11 NetworkX (import networkx as nx)](#211-networkx-import-networkx-as-nx), [3.11 Week 12 topics](#311-week-12-topics).
+
+## Contents
+
+- [Part 1 — The Python language](#part-1--the-python-language)
+  - [1.1 Programs, languages, tools](#11-programs-languages-tools)
+  - [1.2 print, input and type conversion](#12-print-input-and-type-conversion)
+  - [1.3 Names and keywords](#13-names-and-keywords)
+  - [1.4 Operators](#14-operators)
+  - [1.5 Control flow](#15-control-flow)
+  - [1.6 Errors you must recognise](#16-errors-you-must-recognise)
+  - [1.7 Strings](#17-strings)
+  - [1.8 Lists](#18-lists)
+  - [1.9 Tuples](#19-tuples)
+  - [1.10 Sets](#110-sets)
+  - [1.11 Dictionaries](#111-dictionaries)
+  - [1.12 Functions](#112-functions)
+  - [1.13 Recursion](#113-recursion)
+  - [1.14 Files](#114-files)
+  - [1.15 Complexity facts](#115-complexity-facts)
+- [Part 2 — Libraries: what each part does](#part-2--libraries-what-each-part-does)
+  - [2.1 random](#21-random)
+  - [2.2 Statistics](#22-statistics)
+  - [2.3 matplotlib.pyplot (as plt)](#23-matplotlibpyplot-as-plt)
+  - [2.4 datetime, time, calendar, pytz](#24-datetime-time-calendar-pytz)
+  - [2.5 copy and operator](#25-copy-and-operator)
+  - [2.6 NumPy (import numpy as np)](#26-numpy-import-numpy-as-np)
+  - [2.7 PIL / Pillow (from PIL import Image)](#27-pil--pillow-from-pil-import-image)
+  - [2.8 turtle](#28-turtle)
+  - [2.9 gmplot, csv](#29-gmplot-csv)
+  - [2.10 NLTK, VADER, TextBlob, pandas](#210-nltk-vader-textblob-pandas)
+  - [2.11 NetworkX (import networkx as nx)](#211-networkx-import-networkx-as-nx)
+  - [2.12 Selenium (browser automation)](#212-selenium-browser-automation)
+  - [2.13 Speech recognition](#213-speech-recognition)
+- [Part 3 — Course topics and algorithms](#part-3--course-topics-and-algorithms)
+  - [3.0 Week 0 aptitude maths](#30-week-0-aptitude-maths)
+  - [3.1 Week 1: Scratch](#31-week-1-scratch)
+  - [3.2 Week 3 projects](#32-week-3-projects)
+  - [3.3 Week 4 projects](#33-week-4-projects)
+  - [3.4 Week 5 projects](#34-week-5-projects)
+  - [3.5 Week 6 projects](#35-week-6-projects)
+  - [3.6 Week 7 projects](#36-week-7-projects)
+  - [3.7 Week 8 projects](#37-week-8-projects)
+  - [3.8 Week 9 projects](#38-week-9-projects)
+  - [3.9 Week 10 projects](#39-week-10-projects)
+  - [3.10 Week 11 topics](#310-week-11-topics)
+  - [3.11 Week 12 topics](#311-week-12-topics)
+- [Part 4 — Edge cases and traps (all found on the cards)](#part-4--edge-cases-and-traps-all-found-on-the-cards)
+- [Part 5 — How to answer case/scenario questions](#part-5--how-to-answer-casescenario-questions)
+- [Part 6 — Doubtful answer keys (don't learn these as facts)](#part-6--doubtful-answer-keys-dont-learn-these-as-facts)
+- [Part 7 — Lecture code, programming assignments and the final exam](#part-7--lecture-code-programming-assignments-and-the-final-exam)
+  - [7.1 Exam pattern](#71-exam-pattern)
+  - [7.2 The recalled final exam (13 Dec, morning session, 34 questions)](#72-the-recalled-final-exam-13-dec-morning-session-34-questions)
+  - [7.3 How the lectures wrote the course programs](#73-how-the-lectures-wrote-the-course-programs)
+  - [7.4 Programming-assignment patterns (code you may be asked to trace)](#74-programming-assignment-patterns-code-you-may-be-asked-to-trace)
+  - [7.5 Current session (2026-jul) programming assignments](#75-current-session-2026-jul-programming-assignments)
+- [Part 8 — Exam-day sheet: numbers, formulas and conventions](#part-8--exam-day-sheet-numbers-formulas-and-conventions)
+  - [Boundaries: included or excluded?](#boundaries-included-or-excluded)
+  - [Index conventions](#index-conventions)
+  - [Formulas](#formulas)
+  - [Character codes and modules](#character-codes-and-modules)
+  - [Full forms](#full-forms)
+- [Part 9 — Self-test drill](#part-9--self-test-drill)
 
 ---
 
@@ -101,15 +163,13 @@ Week → topic map (the course order):
 
 ### 1.4 Operators
 
-| Operator | Meaning | Card examples |
-|---|---|---|
-| `/` | true division, always a float | `30/4` → 7.5 |
-| `//` | floor (integer) division | `30//4` → 7, `5//2` → 2 |
-| `%` | remainder (modulo); the result takes the **sign of the divisor** | `100%90` → 10, `10%5` → 0, `17 % -5` → **-3**; `n % 2 == 0` tests even; `n % 5` is always 0–4 |
-| `**` | power; binds tighter than `*` | `3*1**3` → 3 |
-| `^` | bitwise XOR (not power) | `a=a^b; b=a^b; a=a^b` swaps a and b |
-| `==` vs `=` | compare vs assign | `if (x = 0):` → SyntaxError |
-| `+=` | in-place add; no space inside | `i + = 1` → SyntaxError |
+- **`/`**: true division, always a float. Examples: `30/4` → 7.5
+- **`//`**: floor (integer) division. Examples: `30//4` → 7, `5//2` → 2
+- **`%`**: remainder (modulo); the result takes the **sign of the divisor**. Examples: `100%90` → 10, `10%5` → 0, `17 % -5` → **-3**; `n % 2 == 0` tests even; `n % 5` is always 0–4
+- **`**`**: power; binds tighter than `*`. Examples: `3*1**3` → 3
+- **`^`**: bitwise XOR (not power). Examples: `a=a^b; b=a^b; a=a^b` swaps a and b
+- **`==` vs `=`**: compare vs assign. Examples: `if (x = 0):` → SyntaxError
+- **`+=`**: in-place add; no space inside. Examples: `i + = 1` → SyntaxError
 
 - `3 == 3.0` is `True`. `c = a > b` stores a bool (`False` for 3 > 4).
 - `int + float` → float (`4.5 + 15` → 19.5).
@@ -203,7 +263,7 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 | `casefold()` | aggressive lower case (`'hello PYTHON'` → `'hello python'`) |
 | `capitalize()` | first letter upper, rest lower |
 | `replace(old, new[, count])` | replaces all, or only the first `count` (`replace('Madras','Chennai',2)` replaces the first two only) |
-| `index(sub[, start, end])` | first position; **`ValueError`** if not found (`'Hello'.index('ell')` → 1; `index('o',5,10)` searches only 5–9) |
+| `index(sub[, start, end])` | first position; **`ValueError`** if not found (`'Hello'.index('ell')` → 1; `index('o',5,10)` searches only positions 5–9: on `'Python Programming'` it returns 9, on `'PythonProgramming'` it returns 8) |
 | `find(sub)` | first position, or **-1** if not found |
 | `split(sep)` | list of pieces; the separator is removed (`"What will have so will".split('a')` → `'Wh'`, `'t will h'`, `'ve so will'`) |
 | `strip()` | removes leading/trailing whitespace |
@@ -233,18 +293,16 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 - Lists are ordered, changeable and **allow duplicates**. No size is given at creation, they grow freely, and they are indexed by integers. `[]` is empty (even if named `This_is_not_List`).
 - Methods:
 
-| Method | Does | Card fact |
-|---|---|---|
-| `append(x)` | adds **one** item at the end | `[1,2,3,4].append([5,6,7,8])` → length **5** |
-| `extend(list)` | adds each item | flat list |
-| `insert(i, x)` | puts `x` at index `i` | 3rd item → `insert(2, x)`; `insert(-3, 999)` goes before the third-from-last; `insert(len(L), x)` = append; `insert(0, x)` in a loop builds a reversed list |
-| `remove(x)` | deletes the first `x` | `ValueError` if absent |
-| `pop(i)` | removes and **returns** the item at `i` (last by default) | |
-| `clear()` | empties the list | |
-| `count(x)` | occurrences | |
-| `index(x)` | first position | `[4,6,7,4,6,2,1].index(7)` → 2 |
-| `sort()` | ascending, **in place**, returns `None`; capitals before small letters | `['Practice','makes','man','perfect.','the']` |
-| `reverse()` | reverses in place | |
+- **`append(x)`**: adds **one** item at the end. `[1,2,3,4].append([5,6,7,8])` → length **5**
+- **`extend(list)`**: adds each item. flat list
+- **`insert(i, x)`**: puts `x` at index `i`. 3rd item → `insert(2, x)`; `insert(-3, 999)` goes before the third-from-last; `insert(len(L), x)` = append; `insert(0, x)` in a loop builds a reversed list
+- **`remove(x)`**: deletes the first `x`. `ValueError` if absent
+- **`pop(i)`**: removes and **returns** the item at `i` (last by default).
+- **`clear()`**: empties the list.
+- **`count(x)`**: occurrences.
+- **`index(x)`**: first position. `[4,6,7,4,6,2,1].index(7)` → 2
+- **`sort()`**: ascending, **in place**, returns `None`; capitals before small letters. `['Practice','makes','man','perfect.','the']`
+- **`reverse()`**: reverses in place.
 
 - `sorted(x)` returns a new list; `x.sorted()` does not exist.
 - `len`, `sum`, `min`, `max` and `in` work on lists.
@@ -433,16 +491,14 @@ A program with a syntax error prints **nothing**, because Python rejects it befo
 
 ### 2.1 `random`
 
-| Function | Returns | Trap |
-|---|---|---|
-| `randint(a, b)` | int from a to b, **both inclusive** | `randint(1,10)` can give 10; using `randint(0, len(L))` as an index can give an `IndexError` |
-| `randrange(a, b[, step])` | like `range`: **b excluded** | `randrange(1,10)` never gives 10; `randrange(50,100)` → 50–99; `randrange(1,100,10)` → 1, 11, …, 91 |
-| `random()` | float in [0, 1) | no arguments |
-| `uniform(a, b)` | float between a and b | not an index |
-| `choice(seq)` | one random element | `choice(0, n)` has the wrong arguments |
-| `choices(seq)` | list of k (default 1) random elements | |
-| `sample(seq, k)` | list of k **distinct** elements | `"".join(random.sample(word, len(word)))` jumbles a word |
-| `shuffle(list)` | reorders **in place**, returns `None` | can produce the original order |
+- **`randint(a, b)`** returns int from a to b, **both inclusive**. Trap: `randint(1,10)` can give 10; using `randint(0, len(L))` as an index can give an `IndexError`
+- **`randrange(a, b[, step])`** returns like `range`: **b excluded**. Trap: `randrange(1,10)` never gives 10; `randrange(50,100)` → 50–99; `randrange(1,100,10)` → 1, 11, …, 91
+- **`random()`** returns float in [0, 1). Trap: no arguments
+- **`uniform(a, b)`** returns float between a and b. Trap: not an index
+- **`choice(seq)`** returns one random element. Trap: `choice(0, n)` has the wrong arguments
+- **`choices(seq)`** returns list of k (default 1) random elements.
+- **`sample(seq, k)`** returns list of k **distinct** elements. Trap: `"".join(random.sample(word, len(word)))` jumbles a word
+- **`shuffle(list)`** returns reorders **in place**, returns `None`. Trap: can produce the original order
 
 `random.choice` works directly on a string: `random.choice(string.ascii_uppercase)` is the same as using `list(...)` (a "Lot Box" of A–Z). `random.select`, `random.range`, `random.movie` and `random.node` do not exist. `random` is the module for random numbers. Runs give different results (simulations vary run to run).
 
@@ -1338,60 +1394,162 @@ The method:
 
 Each of these cards has a stored key that is wrong, ambiguous or depends on an odd reading. The correct fact is given beside it.
 
-| Card | Stored key | The fact |
-|---|---|---|
-| 2024-jan/w05/q01 Monty Hall, 4 doors, host opens 1 goat, switch | 3/4 | Switching to one specific remaining door wins 3/8 (staying wins 1/4). |
-| 2021-jul/w08/q07 pandas | `tiger.DataFrames(data)` | The class is `DataFrame` (singular). |
-| 2021-jul/w03/q06 "mean of a list" | `statistics.median(a)` | The mean is `statistics.mean(a)`; median is a different measure. |
-| 2018-jul/w10/q06 `np.zeros(3,3)` | 3×3 zeros | Needs a tuple: `np.zeros((3,3))`; `zeros(3,3)` raises an error. |
-| 2018-jul/w10/q07 `a.shape()` | `(2,3)` | `shape` is an attribute: `a.shape` is `(2,3)`, and `a.shape()` is a TypeError (see 2025-jul/w05/q06). |
-| 2022-jul/w10/q04 `b = np.array([[1, 2]]), [3, 4]` | `[[4, 6]]` | The source line is garbled. For `np.array([[1,2],[3,4]])`, `np.sum(b)` = 10 and `axis=0` gives `[4 6]`. |
-| 2023-jul/w04/q04@gpt random letters grid | "A magic square of size n" | The code prints an n×n grid of random letters; it is not a magic square. |
-| 2023-jul/w06/q04@gpt `return num*(num-1)` | "product of first n terms" | It returns n×(n−1); there is no recursive call. |
-| 2023-jul/w06/q06@gpt `L[-1]*recursive(L[:-1])` | "infinite loop" | It reaches `[]` and `L[-1]` raises IndexError. |
-| 2020-sep/w06/q06, 2023-jan/w06/q09, 2024-jul/w06/q09 missing base case | "infinite loop" / "runs infinitely" | Conceptually yes; in Python it stops with RecursionError (2021-jan/w06/q09). |
-| 2023-jul/w06/q03@gpt | includes "recursive code is easier to debug" | A debatable statement that the key accepts. |
-| 2022-jul/w08/q04 storing a million images | Compression; Enhancement | Only compression reduces storage. |
-| 2023-jan/w04/q02 magic square N | "N should be odd" | True for the course (Siamese) algorithm. Even-order magic squares exist (4×4), except order 2. |
-| 2019-jan/w11/q07, 2019-jul/w11/q04 "18 June 2017 (Thursday)" | weekday 3 | 18 June 2017 was a Sunday (2020-jan/w11/q09 uses Sunday → 6). Answer from the card's stated weekday. |
-| Binary search counts: 1000/1024 → 10, 256 → 9, 2048 → ≈11 | mixed | With the usual code the worst case is ⌊log₂ n⌋ + 1 checks (1024 → 11); the cards round inconsistently. Follow each card's own convention. |
-| 2019-jul/w12/q07 vs 2021-jul/w12/q08 (random walk vs point distribution iterations) | "None of the above" vs "Statement b is correct" | The two sessions disagree. |
-| 2024-jan/w12/q10 Collatz of 5 | 6 | 5 → 16 → 8 → 4 → 2 → 1 is 5 steps. The lecture's `collatz()` starts `count=1`, so it counts the numbers including the start (6). Expect the lecture convention when a question says "the program". |
-| 2018-jul/w09/q01, 2019-jul/w09/q05 area estimation | divides by 70 / 90 | This is the **lecture formula**: `AreaCalculate.py` counts country-coloured and state-coloured pixels separately and computes `(state points / rest-of-country points) × total area`. Use it on exams. A strict share-of-all-points reading would divide by 93. |
-| 2026-jul/w09/q05 | includes "len(tokens) returns the number of unique words" | `len(tokens)` is all tokens; `len(freq)` is unique. |
-| 2026-jul/w09/q10 | includes "Every node must be connected to every other node" | False for a general graph. |
-| 2026-jul/w09/q15 | includes "Every pair of users must have a direct friendship for a path to exist" | False: paths can go through others (q12 on the same card set). |
-| 2026-jul/w09/q20 | includes "getpixel() changes the color of a pixel" | `getpixel` reads; `putpixel` changes (q16–17). |
-| 2026-jul/w08/q20 | includes "stores the sentiment score directly in the Review column" | The labels go into a new `Sentiment` column (q18). The NPTELWhisperer week-8 solution selects only "reviews in a DataFrame" and "labels via `get_sentiment()`". |
-| 2021-jul/w05/q09 | "0" | The code prints "Element is not present in the given list" (108 is not in 1–100). |
-| 2018-jul/w09/q04, 2019-jan/w09/q04 | `scipy.misc.read` | The legacy function was `scipy.misc.imread` (removed from modern SciPy). |
-| Selenium `find_element_by_*` cards | as keyed | Selenium 3 names; Selenium 4 uses `find_element(By.…, …)`. |
-| 2020-sep/w11/q07 day of the week | Sunday-first list indexed by `calendar.weekday` | Off by one: `weekday` has Monday = 0. |
-| 2025-jan/w01/q10 Scratch parabola | stops 18 steps along x | The trace ends at x = 17. |
-| 2025-jan/w02/q08 infinite loop | "update `a` before the if" | The pictured code has no such `if`. The real risk is a negative `n` (`-1 // 10 == -1`). |
-| 2024-jan/w02/q07 multiplication table | prints the table | As printed, `i += 1` is indented deeper than `print`, which is an IndentationError. |
-| 2025-jan/w02/q03 decimal input | in(input()); int(input()) | `a = int(a)` is not a decimal reader either. |
-| 2020-jan/w04/q05 dashes for a movie name | option A only | `for ch in range(len(ch))` also prints one dash per letter. |
-| 2020-sep/w04/q03 Lot Box | `choice(list(ascii_uppercase))` only | `choice(string.ascii_uppercase)` gives the same result. |
-| 2021-jan/w04/q09@portal guesses for a 5-letter title | 53,130 | No clear basis: 53,130 = C(25,5); tracing gives at most 22 letter guesses. |
-| 2022-jan/w04/q02 leap-year program | option D | All four programs mishandle century years such as 1900. |
-| 2025-jan/w04/q04 valid magic squares | A, C | D (the first square × π) is also magic; the Jul-2024 version accepts it. |
-| 2024-jul/w05/q01 add a dict key | D | C (the same line ending in `;`) is also valid Python. |
-| 2022-jan/w06/q06 recursion without a base case on a list | infinite loop | `L[-1]` on `[]` raises IndexError. |
-| 2022-jul/w06/q05 binary search code | one option | Options C and D are identical code. |
-| 2026-jan/w06/q10 removing the final `return helper_reverse(...)` | still reversed, None returned | Without the recursive call only the first swap happens (D). |
-| 2026-jan/w06/q14 when the game stops | a win | Reaching nine turns also ends the loop. |
-| 2019-jul/w07/q06 spiral order in 5×5 | …(1,4),(2,4) | A spiral goes on to (1,5) after (1,4). |
-| 2026-jul/w07/q20 heritage explorer | B, C | D (markers placed by latitude/longitude) is also true. |
-| 2026-jan/w08/q10 lottery losses | low win probability | 0.1 × 900 − 0.9 × 100 = 0, so the game is fair on average; the key is just the best option offered. |
-| 2024-jan/w10/q09 random matrix in [0,1) | `np.random.rand()` only | `np.random.random((r, c))` also works. |
-| 2022-jul/w11/q04, 2021-jul/w11/q05 current date and time | `now()` | `datetime.today()` also returns the current date and time. |
-| 2025-jan/w11/q05 modified linear search | "Found at index 3" | The loop prints `Checking 3`, `Checking 1`, then `Found at index 3`. |
-| 2024-jul/w11/q04 press Enter in Selenium | `Keys.RETURN` | `send_keys(Keys.ENTER)` also presses Enter. |
-| 2019-jul/w12/q06 Collatz of 9 | A | Options A and D list the same sequence (NPTEL zero-weighted the question). |
-| 2019-jul/w12/q03 what a page's rank depends on | rank of pages it refers to + rank of pages referring to it | Only the pages **referring to it** matter (B, D). |
-| 2020-jan/w12/q04 vs 2022-jul/w12/q07 random node | "none of the above" vs `random.choice(A.nodes())` | Depends on the NetworkX version (`G.nodes()` is a view now); `random.choice(list(G.nodes()))` always works. |
-| 2022-jul/w12/q08 not true about Collatz | A, C | B ("steps are independent of the number") is also not true. |
+- **2024-jan/w05/q01 Monty Hall, 4 doors, host opens 1 goat, switch**
+  - Stored key: 3/4
+  - Fact: Switching to one specific remaining door wins 3/8 (staying wins 1/4).
+- **2021-jul/w08/q07 pandas**
+  - Stored key: `tiger.DataFrames(data)`
+  - Fact: The class is `DataFrame` (singular).
+- **2021-jul/w03/q06 "mean of a list"**
+  - Stored key: `statistics.median(a)`
+  - Fact: The mean is `statistics.mean(a)`; median is a different measure.
+- **2018-jul/w10/q06 `np.zeros(3,3)`**
+  - Stored key: 3×3 zeros
+  - Fact: Needs a tuple: `np.zeros((3,3))`; `zeros(3,3)` raises an error.
+- **2018-jul/w10/q07 `a.shape()`**
+  - Stored key: `(2,3)`
+  - Fact: `shape` is an attribute: `a.shape` is `(2,3)`, and `a.shape()` is a TypeError (see 2025-jul/w05/q06).
+- **2022-jul/w10/q04 `b = np.array([[1, 2]]), [3, 4]`**
+  - Stored key: `[[4, 6]]`
+  - Fact: The source line is garbled. For `np.array([[1,2],[3,4]])`, `np.sum(b)` = 10 and `axis=0` gives `[4 6]`.
+- **2023-jul/w04/q04@gpt random letters grid**
+  - Stored key: "A magic square of size n"
+  - Fact: The code prints an n×n grid of random letters; it is not a magic square.
+- **2023-jul/w06/q04@gpt `return num*(num-1)`**
+  - Stored key: "product of first n terms"
+  - Fact: It returns n×(n−1); there is no recursive call.
+- **2023-jul/w06/q06@gpt `L[-1]*recursive(L[:-1])`**
+  - Stored key: "infinite loop"
+  - Fact: It reaches `[]` and `L[-1]` raises IndexError.
+- **2020-sep/w06/q06, 2023-jan/w06/q09, 2024-jul/w06/q09 missing base case**
+  - Stored key: "infinite loop" / "runs infinitely"
+  - Fact: Conceptually yes; in Python it stops with RecursionError (2021-jan/w06/q09).
+- **2023-jul/w06/q03@gpt**
+  - Stored key: includes "recursive code is easier to debug"
+  - Fact: A debatable statement that the key accepts.
+- **2022-jul/w08/q04 storing a million images**
+  - Stored key: Compression; Enhancement
+  - Fact: Only compression reduces storage.
+- **2023-jan/w04/q02 magic square N**
+  - Stored key: "N should be odd"
+  - Fact: True for the course (Siamese) algorithm. Even-order magic squares exist (4×4), except order 2.
+- **2019-jan/w11/q07, 2019-jul/w11/q04 "18 June 2017 (Thursday)"**
+  - Stored key: weekday 3
+  - Fact: 18 June 2017 was a Sunday (2020-jan/w11/q09 uses Sunday → 6). Answer from the card's stated weekday.
+- **Binary search counts: 1000/1024 → 10, 256 → 9, 2048 → ≈11**
+  - Stored key: mixed
+  - Fact: With the usual code the worst case is ⌊log₂ n⌋ + 1 checks (1024 → 11); the cards round inconsistently. Follow each card's own convention.
+- **2019-jul/w12/q07 vs 2021-jul/w12/q08 (random walk vs point distribution iterations)**
+  - Stored key: "None of the above" vs "Statement b is correct"
+  - Fact: The two sessions disagree.
+- **2024-jan/w12/q10 Collatz of 5**
+  - Stored key: 6
+  - Fact: 5 → 16 → 8 → 4 → 2 → 1 is 5 steps. The lecture's `collatz()` starts `count=1`, so it counts the numbers including the start (6). Expect the lecture convention when a question says "the program".
+- **2018-jul/w09/q01, 2019-jul/w09/q05 area estimation**
+  - Stored key: divides by 70 / 90
+  - Fact: This is the **lecture formula**: `AreaCalculate.py` counts country-coloured and state-coloured pixels separately and computes `(state points / rest-of-country points) × total area`. Use it on exams. A strict share-of-all-points reading would divide by 93.
+- **2026-jul/w09/q05**
+  - Stored key: includes "len(tokens) returns the number of unique words"
+  - Fact: `len(tokens)` is all tokens; `len(freq)` is unique.
+- **2026-jul/w09/q10**
+  - Stored key: includes "Every node must be connected to every other node"
+  - Fact: False for a general graph.
+- **2026-jul/w09/q15**
+  - Stored key: includes "Every pair of users must have a direct friendship for a path to exist"
+  - Fact: False: paths can go through others (q12 on the same card set).
+- **2026-jul/w09/q20**
+  - Stored key: includes "getpixel() changes the color of a pixel"
+  - Fact: `getpixel` reads; `putpixel` changes (q16–17).
+- **2026-jul/w08/q20**
+  - Stored key: includes "stores the sentiment score directly in the Review column"
+  - Fact: The labels go into a new `Sentiment` column (q18). The NPTELWhisperer week-8 solution selects only "reviews in a DataFrame" and "labels via `get_sentiment()`".
+- **2021-jul/w05/q09**
+  - Stored key: "0"
+  - Fact: The code prints "Element is not present in the given list" (108 is not in 1–100).
+- **2018-jul/w09/q04, 2019-jan/w09/q04**
+  - Stored key: `scipy.misc.read`
+  - Fact: The legacy function was `scipy.misc.imread` (removed from modern SciPy).
+- **Selenium `find_element_by_*` cards**
+  - Stored key: as keyed
+  - Fact: Selenium 3 names; Selenium 4 uses `find_element(By.…, …)`.
+- **2020-sep/w11/q07 day of the week**
+  - Stored key: Sunday-first list indexed by `calendar.weekday`
+  - Fact: Off by one: `weekday` has Monday = 0.
+- **2025-jan/w01/q10 Scratch parabola**
+  - Stored key: stops 18 steps along x
+  - Fact: The trace ends at x = 17.
+- **2025-jan/w02/q08 infinite loop**
+  - Stored key: "update `a` before the if"
+  - Fact: The pictured code has no such `if`. The real risk is a negative `n` (`-1 // 10 == -1`).
+- **2024-jan/w02/q07 multiplication table**
+  - Stored key: prints the table
+  - Fact: As printed, `i += 1` is indented deeper than `print`, which is an IndentationError.
+- **2025-jan/w02/q03 decimal input**
+  - Stored key: in(input()); int(input())
+  - Fact: `a = int(a)` is not a decimal reader either.
+- **2020-jan/w04/q05 dashes for a movie name**
+  - Stored key: option A only
+  - Fact: `for ch in range(len(ch))` also prints one dash per letter.
+- **2020-sep/w04/q03 Lot Box**
+  - Stored key: `choice(list(ascii_uppercase))` only
+  - Fact: `choice(string.ascii_uppercase)` gives the same result.
+- **2021-jan/w04/q09@portal guesses for a 5-letter title**
+  - Stored key: 53,130
+  - Fact: No clear basis: 53,130 = C(25,5); tracing gives at most 22 letter guesses.
+- **2022-jan/w04/q02 leap-year program**
+  - Stored key: option D
+  - Fact: All four programs mishandle century years such as 1900.
+- **2025-jan/w04/q04 valid magic squares**
+  - Stored key: A, C
+  - Fact: D (the first square × π) is also magic; the Jul-2024 version accepts it.
+- **2024-jul/w05/q01 add a dict key**
+  - Stored key: D
+  - Fact: C (the same line ending in `;`) is also valid Python.
+- **2022-jan/w06/q06 recursion without a base case on a list**
+  - Stored key: infinite loop
+  - Fact: `L[-1]` on `[]` raises IndexError.
+- **2022-jul/w06/q05 binary search code**
+  - Stored key: one option
+  - Fact: Options C and D are identical code.
+- **2026-jan/w06/q10 removing the final `return helper_reverse(...)`**
+  - Stored key: still reversed, None returned
+  - Fact: Without the recursive call only the first swap happens (D).
+- **2026-jan/w06/q14 when the game stops**
+  - Stored key: a win
+  - Fact: Reaching nine turns also ends the loop.
+- **2019-jul/w07/q06 spiral order in 5×5**
+  - Stored key: …(1,4),(2,4)
+  - Fact: A spiral goes on to (1,5) after (1,4).
+- **2026-jul/w07/q20 heritage explorer**
+  - Stored key: B, C
+  - Fact: D (markers placed by latitude/longitude) is also true.
+- **2026-jan/w08/q10 lottery losses**
+  - Stored key: low win probability
+  - Fact: 0.1 × 900 − 0.9 × 100 = 0, so the game is fair on average; the key is just the best option offered.
+- **2024-jan/w10/q09 random matrix in [0,1)**
+  - Stored key: `np.random.rand()` only
+  - Fact: `np.random.random((r, c))` also works.
+- **2022-jul/w11/q04, 2021-jul/w11/q05 current date and time**
+  - Stored key: `now()`
+  - Fact: `datetime.today()` also returns the current date and time.
+- **2025-jan/w11/q05 modified linear search**
+  - Stored key: "Found at index 3"
+  - Fact: The loop prints `Checking 3`, `Checking 1`, then `Found at index 3`.
+- **2024-jul/w11/q04 press Enter in Selenium**
+  - Stored key: `Keys.RETURN`
+  - Fact: `send_keys(Keys.ENTER)` also presses Enter.
+- **2019-jul/w12/q06 Collatz of 9**
+  - Stored key: A
+  - Fact: Options A and D list the same sequence (NPTEL zero-weighted the question).
+- **2019-jul/w12/q03 what a page's rank depends on**
+  - Stored key: rank of pages it refers to + rank of pages referring to it
+  - Fact: Only the pages **referring to it** matter (B, D).
+- **2020-jan/w12/q04 vs 2022-jul/w12/q07 random node**
+  - Stored key: "none of the above" vs `random.choice(A.nodes())`
+  - Fact: Depends on the NetworkX version (`G.nodes()` is a view now); `random.choice(list(G.nodes()))` always works.
+- **2022-jul/w12/q08 not true about Collatz**
+  - Stored key: A, C
+  - Fact: B ("steps are independent of the number") is also not true.
 
 Cards with no stored answer, or whose answer is only a picture, are not listed one by one. Their concepts are covered in Parts 1–3: the spiral/turtle figure outputs (w07), plot shapes (w08) and the 2020-sep for-loop rewrite (w02).
 
@@ -1656,32 +1814,30 @@ Syntax seen here:
 
 Source: the solution PDFs in `JyRaGa/NPTELWhisperer/solution pdfs/` (weeks 4–8 and 10–12; there are no files for weeks 1–3 or 9). Their MCQ answers match the 2026-jul cards covered in Parts 3–5.
 
-| Week | Task | Solution idea and the Python it uses |
-|---|---|---|
-| 4 | Max–min temperature difference | `a = [int(x) for x in input().split()]`; `max(a) - min(a)`, or 0 for empty input; `print(..., end='')` (no trailing newline) |
-| 4 | Prime checker | `a < 2` → False; otherwise test divisors `range(2, int(a ** 0.5) + 1)` and `break` at the first one |
-| 4 | Duplicate product IDs | `len(items) != len(set(items))`: a set drops duplicates, so a shorter set means a repeat |
-| 5 | Smallest number with the highest frequency | Count with `freq[num] = freq.get(num, 0) + 1`; `max(freq.values())`; candidates `[n for n, c in freq.items() if c == max_freq]`; `min(candidates)` |
-| 5 | First duplicate elements in order | Two sets, `seen` and `added`: a number already in `seen` and not yet in `added` is appended once. Print `-1` if none, else `print(*result)` |
-| 5 | Elements appearing exactly twice | The same frequency dict, keep `count == 2`, `sort()`, `-1` if none |
-| 6 | Count letters recursively | `if not s: return 0`; `return (1 if s[0].isalpha() else 0) + count_alpha(s[1:])` |
-| 6 | List length recursively (no `len`) | `if not lst: return 0`; `return 1 + count_boxes(lst[1:])` |
-| 6 | Maximum recursively (no `max`) | Base `len(temps) == 1` → `temps[0]`; else compare `temps[0]` with `find_max(temps[1:])` |
-| 7 | Attraction ratings directory | Each line splits into words: name = `" ".join(line[:-1])`, rating = `line[-1]`; answer with `attractions.get(target, -1)` |
-| 7 | Landmark linear search | `landmarks.index(target)` inside `try`, and `except ValueError: print(-1)` |
-| 7 | Second highest value | `arr.sort()`; `arr[-2]` |
-| 8 | Elevator floor tracker | `sum(map(int, input().split()))` |
-| 8 | Online quiz scoring | `score += 10 if int(x) == 1 else -2` (a conditional expression inside `+=`) |
-| 8 | Employee ID pattern match (isomorphic strings) | Equal lengths and `len(set(s1)) == len(set(s2)) == len(set(zip(s1, s2)))`: the number of distinct characters on each side equals the number of distinct pairs only for a one-to-one mapping |
-| 10 | Treasure-hunt elimination (Josephus) | `explorers = list(range(1, n+1))`; `idx = (idx + k - 1) % len(explorers)`; `explorers.pop(idx)` until one is left |
-| 10 | Temperature sensor grouping (quantisation) | Keep readings in 0–255; group = `value // 32` (0–7); print the sum of the groups |
-| 10 | Warehouse product-code matching (FLAMES count) | `a, b = [list(x) for x in input().split()]`; for each `ch` in a copy `a[:]`, if `ch in b`, remove it once from both; answer `len(a) + len(b)`. Looping over the copy `a[:]` is what makes removal during the loop safe |
-| 11 | Review word count | `search, *reviews = input().split()` (star unpacking: the first word, then the rest as a list); `reviews.count(search)` |
-| 11 | Hotel stay duration | `datetime.strptime(x, '%Y-%m-%d')` parses a date string; `abs((d2 - d1).days)` |
-| 11 | Sundays in a month | `sum(1 for week in calendar.monthcalendar(y, m) if week[6] != 0)` (index 6 = Sunday, 0 = a padding day) |
-| 12 | PageRank transfer (A → B only) | A gives all its rank to B: prints `0, rank_a + rank_b` |
-| 12 | Mutual PageRank exchange (A ↔ B) | Each gives its rank to the other, so the ranks swap: `rank_b, rank_a` |
-| 12 | Three-page PageRank update | A splits between B and C, and B and C both point to C: prints `0, rank_a // 2, rank_a // 2 + rank_b + rank_c` |
+- **Week 4: Max–min temperature difference.** `a = [int(x) for x in input().split()]`; `max(a) - min(a)`, or 0 for empty input; `print(..., end='')` (no trailing newline)
+- **Week 4: Prime checker.** `a < 2` → False; otherwise test divisors `range(2, int(a ** 0.5) + 1)` and `break` at the first one
+- **Week 4: Duplicate product IDs.** `len(items) != len(set(items))`: a set drops duplicates, so a shorter set means a repeat
+- **Week 5: Smallest number with the highest frequency.** Count with `freq[num] = freq.get(num, 0) + 1`; `max(freq.values())`; candidates `[n for n, c in freq.items() if c == max_freq]`; `min(candidates)`
+- **Week 5: First duplicate elements in order.** Two sets, `seen` and `added`: a number already in `seen` and not yet in `added` is appended once. Print `-1` if none, else `print(*result)`
+- **Week 5: Elements appearing exactly twice.** The same frequency dict, keep `count == 2`, `sort()`, `-1` if none
+- **Week 6: Count letters recursively.** `if not s: return 0`; `return (1 if s[0].isalpha() else 0) + count_alpha(s[1:])`
+- **Week 6: List length recursively (no `len`).** `if not lst: return 0`; `return 1 + count_boxes(lst[1:])`
+- **Week 6: Maximum recursively (no `max`).** Base `len(temps) == 1` → `temps[0]`; else compare `temps[0]` with `find_max(temps[1:])`
+- **Week 7: Attraction ratings directory.** Each line splits into words: name = `" ".join(line[:-1])`, rating = `line[-1]`; answer with `attractions.get(target, -1)`
+- **Week 7: Landmark linear search.** `landmarks.index(target)` inside `try`, and `except ValueError: print(-1)`
+- **Week 7: Second highest value.** `arr.sort()`; `arr[-2]`
+- **Week 8: Elevator floor tracker.** `sum(map(int, input().split()))`
+- **Week 8: Online quiz scoring.** `score += 10 if int(x) == 1 else -2` (a conditional expression inside `+=`)
+- **Week 8: Employee ID pattern match (isomorphic strings).** Equal lengths and `len(set(s1)) == len(set(s2)) == len(set(zip(s1, s2)))`: the number of distinct characters on each side equals the number of distinct pairs only for a one-to-one mapping
+- **Week 10: Treasure-hunt elimination (Josephus).** `explorers = list(range(1, n+1))`; `idx = (idx + k - 1) % len(explorers)`; `explorers.pop(idx)` until one is left
+- **Week 10: Temperature sensor grouping (quantisation).** Keep readings in 0–255; group = `value // 32` (0–7); print the sum of the groups
+- **Week 10: Warehouse product-code matching (FLAMES count).** `a, b = [list(x) for x in input().split()]`; for each `ch` in a copy `a[:]`, if `ch in b`, remove it once from both; answer `len(a) + len(b)`. Looping over the copy `a[:]` is what makes removal during the loop safe
+- **Week 11: Review word count.** `search, *reviews = input().split()` (star unpacking: the first word, then the rest as a list); `reviews.count(search)`
+- **Week 11: Hotel stay duration.** `datetime.strptime(x, '%Y-%m-%d')` parses a date string; `abs((d2 - d1).days)`
+- **Week 11: Sundays in a month.** `sum(1 for week in calendar.monthcalendar(y, m) if week[6] != 0)` (index 6 = Sunday, 0 = a padding day)
+- **Week 12: PageRank transfer (A → B only).** A gives all its rank to B: prints `0, rank_a + rank_b`
+- **Week 12: Mutual PageRank exchange (A ↔ B).** Each gives its rank to the other, so the ranks swap: `rank_b, rank_a`
+- **Week 12: Three-page PageRank update.** A splits between B and C, and B and C both point to C: prints `0, rank_a // 2, rank_a // 2 + rank_b + rank_c`
 
 New Python facts from these:
 - `dict.get(key, default)` as a counter.
@@ -1691,3 +1847,896 @@ New Python facts from these:
 - `zip(s1, s2)` pairs characters position by position, and a `set` of those pairs counts the distinct mappings.
 - `try/except ValueError` around `list.index`.
 - Iterating over a copy `a[:]` while removing from `a`.
+
+---
+
+## Part 8 — Exam-day sheet: numbers, formulas and conventions
+
+This collects in one place the values the exam reuses with changed data. Nothing here replaces the full sections; each line points back to them.
+
+### Boundaries: included or excluded?
+
+- `range(a, b)`, `randrange(a, b)`, slices `s[a:b]`, `np.random.randint(a, b)`: **b excluded**.
+- `random.randint(a, b)`, Scratch `pick random a to b`: **both included**.
+- `calendar.leapdays(y1, y2)`: y1 included, **y2 excluded**.
+- Slice defaults: start 0, end len. `s[::-1]` reverses. `L[-1]` is the last item.
+- A random float: `random.random()` and `np.random.rand()` give [0, 1).
+
+### Index conventions
+
+- `calendar.weekday()`, `date.weekday()`: **Monday = 0** … Sunday = 6.
+- `date.isoweekday()`: Monday = 1 … Sunday = 7.
+- `strftime('%w')`: **Sunday = 0**.
+- `calendar.monthcalendar()` rows: index 0 = Monday … 4 = Friday, 5 = Saturday, 6 = Sunday; 0 = a day outside the month.
+- `calendar.monthrange(y, m)` → (weekday of the 1st, number of days).
+- `shortest_path_length(G, source, target)`: 2nd argument = source.
+- `GoogleMapPlotter(lat, lng, zoom)`.
+- `barbell_graph(m1, m2)`: m1 per clique, m2 in the path.
+- `gnp_random_graph(n, p)`: n nodes, edge probability p.
+- `np.sum(a, axis=0)`: column sums; `axis=1`: row sums.
+- `im.size`: (width, height). `pixels[x, y]`: x = column, y = row.
+
+### Formulas
+
+| Topic | Formula / value |
+|---|---|
+| Sum 1…n | n(n+1)/2 (10 → 55) |
+| Sum of the first n odd numbers | n² (10 → 100, 27 → 729) |
+| Magic constant | n(n²+1)/2: 3 → 15, 4 → 34, 5 → 65, 6 → 111, 7 → 175, 8 → 260, 11 → 671; Ramanujan's square = 139 |
+| Pigeonhole (guarantee 2 share) | k categories → k + 1 (months 13, weekdays 8, days 366, 48 half-hours → 49) |
+| Pigeonhole (guarantee 3 share) | 2k + 1 (48 half-hours → 97) |
+| Birthday paradox | ≈ 50% at 23 people; ≈ 90% near 40 |
+| Jumbled word with n distinct letters | n! − 1 ways to pose it |
+| Movie titles of length L | 26^L (3 → 17576) |
+| Dobble comparisons | k × k (8 vs 10 symbols → 80) |
+| Monty Hall (3 doors) | switch 2/3, stay 1/3 |
+| Rock-Paper-Scissors | 9 combinations, 3 draws |
+| Linear search | worst n, average successful (n+1)/2 |
+| Binary search | about log₂ n; usual code worst case ⌊log₂ n⌋ + 1 (256 → 9, 1024 → 11); the cards also accept 1000/1024 → 10 |
+| Bubble sort | n − 1 passes, n − 1 comparisons per pass, swaps = inversions |
+| Tic-Tac-Toe | 8 winning lines; the centre is on 4, a corner on 3, an edge on 2 |
+| Caesar cipher | at most 26 tries |
+| Turtle polygon | turn 360/n: triangle 120°, square 90°, hexagon 60°, octagon 45°; star 144° |
+| Scratch full rotation | repeats × turn = 360 (turn 30 → 12, turn 18 → 20) |
+| Complete graph | n(n−1)/2 edges, each degree n − 1 |
+| Degrees | sum of degrees = 2 × edges (always even) |
+| Degree of separation | average shortest path length: complete graph → 1, path of 6 → 2.333, ring of 9 → 2.5 |
+| Area estimation | (points in region ÷ reference points) × reference area (the lecture divides by the rest-of-country points) |
+| Expected value of a bet | P(win) × prize − cost (1/10 × 500 − 100 = −50) |
+| Josephus | J(1) = 1, J(n) = (J(n−1) + k − 1) % n + 1 (25, 3 → 14) |
+| Collatz | even → n/2, odd → 3n+1; steps 5 → 5, 6 → 8, 7 → 16, 8 → 3, 9 → 19, 75 → 14 (the lecture counts the numbers, +1) |
+| Leap year | divisible by 4 and not by 100, or by 400 (1900 no, 2000 yes, 2100 no) |
+| Quantisation | value // 32 → 0–7 (31 → 0, 223 → 6) |
+| Pixel average | (r + g + b) // 3; `> 127` = bright, so 127 is dark |
+| VADER compound / TextBlob polarity | −1 … +1 |
+
+### Character codes and modules
+
+- `ord('A')` = 65, `ord('a')` = 97, the case gap = 32, `ord('f')` = 102. Sort order: space < `!` < digits < UPPER < lower.
+- `string.ascii_letters` = 52 letters (a–z then A–Z); `ascii_lowercase`, `ascii_uppercase`, `digits`.
+- Libraries by job:
+  - Graphs: `matplotlib.pyplot`. Maps: `gmplot`. Images: `PIL` (Pillow); CLAHE: `cv2`.
+  - Text: `nltk` (VADER inside it), `textblob`. Networks: `networkx`; visual tool: Gephi.
+  - Browser: `selenium`. Dates: `datetime`, `calendar`; zones: `pytz`. Speech: `speech_recognition` (WAV/AIFF/FLAC).
+  - Arrays: `numpy`. Trimmed mean: `scipy.stats.trim_mean`.
+  - Animation / drawing: `turtle`. Copies: `copy.deepcopy`. Sorting key: `operator.itemgetter`.
+
+### Full forms
+
+- NLTK = Natural Language Toolkit.
+- VADER = Valence Aware Dictionary and sEntiment Reasoner.
+- PIL = Python Imaging Library.
+- CSV = comma-separated values.
+- CLAHE = Contrast Limited Adaptive Histogram Equalisation.
+- FLAMES = Friends, Love, Affection, Marriage, Enemies, Siblings.
+- WAV = Waveform Audio File Format.
+- Scratch files: `.sb`. Python files: `.py`.
+
+---
+
+## Part 9 — Self-test drill
+
+Cover the answer, predict it, then open it. Every answer below was produced by running the code (Python 3), so it is exact.
+
+**1. (Week 2) What is printed?**
+
+```python
+print('new' 'line')
+```
+
+<details><summary>Answer</summary>
+
+```text
+newline
+```
+
+Adjacent string literals are joined before anything runs.
+
+</details>
+
+**2. (Week 2) The user types 5. What is printed?**
+
+```python
+c = '5'  # what input() returns
+print(c * 3)
+```
+
+<details><summary>Answer</summary>
+
+```text
+555
+```
+
+input() gives a string; str * int repeats it.
+
+</details>
+
+**3. (Week 2) What is printed?**
+
+```python
+print(17 % -5, -17 % 5)
+```
+
+<details><summary>Answer</summary>
+
+```text
+-3 3
+```
+
+% takes the sign of the divisor.
+
+</details>
+
+**4. (Week 2) What is printed?**
+
+```python
+print(-7 // 2, 7 // -2)
+```
+
+<details><summary>Answer</summary>
+
+```text
+-4 -4
+```
+
+// rounds down (towards minus infinity), not towards zero.
+
+</details>
+
+**5. (Week 2) What is printed?**
+
+```python
+print(3 * 1 ** 3, 2 ** 3 ** 2)
+```
+
+<details><summary>Answer</summary>
+
+```text
+3 512
+```
+
+** binds tighter than *, and ** groups right to left: 2 ** 9.
+
+</details>
+
+**6. (Week 2) What is printed?**
+
+```python
+print(int(3.79) + int(-2.9))
+```
+
+<details><summary>Answer</summary>
+
+```text
+1
+```
+
+int() cuts the decimals off towards zero: 3 + (-2).
+
+</details>
+
+**7. (Week 2) What happens?**
+
+```python
+x = 'a'
+print(x + 1)
+```
+
+<details><summary>Answer</summary>
+
+```text
+TypeError: can only concatenate str (not "int") to str
+```
+
+A string and an int cannot be added.
+
+</details>
+
+**8. (Week 2) What is printed?**
+
+```python
+print(bool('False'), bool(0), bool([]), bool(' '))
+```
+
+<details><summary>Answer</summary>
+
+```text
+True False False True
+```
+
+Any non-empty string is truthy, even 'False' and ' '.
+
+</details>
+
+**9. (Week 2) What is printed?**
+
+```python
+for i in range(5, -1, -2):
+    print(i, end=' ')
+```
+
+<details><summary>Answer</summary>
+
+```text
+5 3 1 
+```
+
+range stops before -1, stepping by -2.
+
+</details>
+
+**10. (Week 2) What is printed?**
+
+```python
+print(list(range(10, 0, -3)))
+```
+
+<details><summary>Answer</summary>
+
+```text
+[10, 7, 4, 1]
+```
+
+The stop value 0 is never reached.
+
+</details>
+
+**11. (Week 2) What is printed?**
+
+```python
+for i in range(3):
+    if i == 5:
+        break
+else:
+    print('done')
+```
+
+<details><summary>Answer</summary>
+
+```text
+done
+```
+
+The loop's else runs because no break happened.
+
+</details>
+
+**12. (Week 3) What is printed?**
+
+```python
+L = [1, 2, 3, 4]
+L.append([5, 6])
+print(len(L), L[-1])
+```
+
+<details><summary>Answer</summary>
+
+```text
+5 [5, 6]
+```
+
+append adds the whole list as one item.
+
+</details>
+
+**13. (Week 3) What is printed?**
+
+```python
+L = [1, 2, 3, 4, 5]
+L.insert(-2, 99)
+print(L)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[1, 2, 3, 99, 4, 5]
+```
+
+A negative index in insert puts the item before that position from the end.
+
+</details>
+
+**14. (Week 3) What is printed?**
+
+```python
+L = [3, 1, 2]
+print(L.sort(), L)
+```
+
+<details><summary>Answer</summary>
+
+```text
+None [1, 2, 3]
+```
+
+sort() works in place and returns None.
+
+</details>
+
+**15. (Week 3) What is printed?**
+
+```python
+print(sorted('Hi! a'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+[' ', '!', 'H', 'a', 'i']
+```
+
+Sorted by character code: space, !, capitals, then small letters.
+
+</details>
+
+**16. (Week 3) Which values can this return?**
+
+```python
+print(list(range(1, 10, 3)))  # the values random.randrange(1, 10, 3) can return
+```
+
+<details><summary>Answer</summary>
+
+```text
+[1, 4, 7]
+```
+
+randrange follows range: the stop value is excluded.
+
+</details>
+
+**17. (Week 3) What is printed?**
+
+```python
+s = 'abcdef'
+print(s[-2:], s[:-2], s[::-2])
+```
+
+<details><summary>Answer</summary>
+
+```text
+ef abcd fdb
+```
+
+Negative indexes count from the end; a step of -2 goes backwards.
+
+</details>
+
+**18. (Week 4) What is printed?**
+
+```python
+a = [1, 2, 3]
+b = a
+b.append(4)
+print(a)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[1, 2, 3, 4]
+```
+
+b = a makes two names for one list.
+
+</details>
+
+**19. (Week 4) What is printed?**
+
+```python
+a = [[1, 2], [3, 4]]
+b = a.copy()
+b[0][1] = 99
+b[1] = [0, 0]
+print(a)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[[1, 99], [3, 4]]
+```
+
+A shallow copy shares the inner lists, but replacing b[1] does not touch a.
+
+</details>
+
+**20. (Week 4) What is the magic constant of an 8 x 8 magic square?**
+
+```python
+n = 8
+print(n * (n * n + 1) // 2)
+```
+
+<details><summary>Answer</summary>
+
+```text
+260
+```
+
+n(n^2 + 1)/2.
+
+</details>
+
+**21. (Week 4) Minimum people to guarantee 3 share a weekday?**
+
+```python
+k = 7
+print(2 * k + 1)
+```
+
+<details><summary>Answer</summary>
+
+```text
+15
+```
+
+Pigeonhole: 2 per weekday fits 14 people; the 15th makes 3.
+
+</details>
+
+**22. (Week 4) How many leap years are in [2000, 2024)?**
+
+```python
+import calendar
+print(calendar.leapdays(2000, 2024), calendar.isleap(1900))
+```
+
+<details><summary>Answer</summary>
+
+```text
+6 False
+```
+
+leapdays excludes the end year; 1900 is divisible by 100 but not 400.
+
+</details>
+
+**23. (Week 5) What is printed?**
+
+```python
+d = {1: 'a', 1.0: 'b', True: 'c'}
+print(d)
+```
+
+<details><summary>Answer</summary>
+
+```text
+{1: 'c'}
+```
+
+1, 1.0 and True are the same key; the first key object stays, the last value wins.
+
+</details>
+
+**24. (Week 5) What is printed?**
+
+```python
+def f(x, L=[]):
+    L.append(x)
+    return L
+f(1)
+print(f(2))
+```
+
+<details><summary>Answer</summary>
+
+```text
+[1, 2]
+```
+
+The default list is created once and shared between calls.
+
+</details>
+
+**25. (Week 5) What is printed?**
+
+```python
+def f():
+    pass
+print(f())
+```
+
+<details><summary>Answer</summary>
+
+```text
+None
+```
+
+A function with no return gives None.
+
+</details>
+
+**26. (Week 5) Bubble sort: how many swaps to sort [4, 3, 1, 2]?**
+
+```python
+a = [4, 3, 1, 2]
+print(sum(1 for i in range(4) for j in range(i + 1, 4) if a[i] > a[j]))
+```
+
+<details><summary>Answer</summary>
+
+```text
+5
+```
+
+Swaps = number of out-of-order pairs (inversions).
+
+</details>
+
+**27. (Week 5) Worst-case comparisons of binary search on 100 sorted items?**
+
+```python
+import math
+print(math.floor(math.log2(100)) + 1)
+```
+
+<details><summary>Answer</summary>
+
+```text
+7
+```
+
+floor(log2 n) + 1 checks with the usual code.
+
+</details>
+
+**28. (Week 6) What is printed?**
+
+```python
+def r(n):
+    if n == 0:
+        return 0
+    return n % 10 + r(n // 10)
+print(r(4096))
+```
+
+<details><summary>Answer</summary>
+
+```text
+19
+```
+
+It adds the digits recursively.
+
+</details>
+
+**29. (Week 6) Caesar shift +3: what is 'XYZ'?**
+
+```python
+print(''.join(chr((ord(c) - 65 + 3) % 26 + 65) for c in 'XYZ'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+ABC
+```
+
+% 26 wraps past Z.
+
+</details>
+
+**30. (Week 7) What is printed?**
+
+```python
+print(len({1, 2, 2, 3}), type(('a')).__name__, type(('a',)).__name__)
+```
+
+<details><summary>Answer</summary>
+
+```text
+3 str tuple
+```
+
+A set drops duplicates; ('a') is just a string; ('a',) is a tuple.
+
+</details>
+
+**31. (Week 8) What happens?**
+
+```python
+t = ('a', 'b')
+print(t + ('c'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+TypeError: can only concatenate tuple (not "str") to tuple
+```
+
+('c') is a string, so a tuple cannot be joined with it.
+
+</details>
+
+**32. (Week 8) What is printed?**
+
+```python
+t = (1, 2, [3])
+t[2].append(4)
+print(t)
+```
+
+<details><summary>Answer</summary>
+
+```text
+(1, 2, [3, 4])
+```
+
+The tuple cannot change, but the list inside it can.
+
+</details>
+
+**33. (Week 8) What is printed?**
+
+```python
+print(sorted('listen') == sorted('silent'), sum(map(ord, 'ad')) == sum(map(ord, 'bc')))
+```
+
+<details><summary>Answer</summary>
+
+```text
+True True
+```
+
+Sorted letters decide anagrams; equal ASCII sums do not.
+
+</details>
+
+**34. (Week 9) Degree of separation of a path of 5 nodes?**
+
+```python
+n = 5
+pairs = [(i, j) for i in range(n) for j in range(i + 1, n)]
+print(sum(j - i for i, j in pairs) / len(pairs))
+```
+
+<details><summary>Answer</summary>
+
+```text
+2.0
+```
+
+Average shortest path over all 10 pairs.
+
+</details>
+
+**35. (Week 9) Edges in a complete graph of 7 nodes, and nodes in star_graph(5)?**
+
+```python
+n = 7
+print(n * (n - 1) // 2, 5 + 1)
+```
+
+<details><summary>Answer</summary>
+
+```text
+21 6
+```
+
+n(n-1)/2; star_graph(n) has a centre plus n leaves.
+
+</details>
+
+**36. (Week 10) What happens?**
+
+```python
+s = 'hello'
+print(s.find('z'))
+print(s.index('z'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+-1
+ValueError: substring not found
+```
+
+find returns -1; index raises an error.
+
+</details>
+
+**37. (Week 10) What is printed?**
+
+```python
+s = 'hello'
+s.replace('l', 'L')
+print(s)
+```
+
+<details><summary>Answer</summary>
+
+```text
+hello
+```
+
+Strings are immutable; the result was not assigned.
+
+</details>
+
+**38. (Week 10) What is printed?**
+
+```python
+print('#'.join('JOC'), '-'.join(['a', '', 'b']))
+```
+
+<details><summary>Answer</summary>
+
+```text
+J#O#C a--b
+```
+
+join puts the separator between items only.
+
+</details>
+
+**39. (Week 10) What is printed?**
+
+```python
+import numpy as np
+a = np.array([[1, 2], [3, 4]])
+print(np.sum(a, axis=0), np.sum(a, axis=1), a.shape)
+```
+
+<details><summary>Answer</summary>
+
+```text
+[4 6] [3 7] (2, 2)
+```
+
+axis=0 adds down the columns, axis=1 across the rows.
+
+</details>
+
+**40. (Week 10) What is the shape?**
+
+```python
+import numpy as np
+print((np.array([1, 2, 3]) * np.array([[1], [2]])).shape)
+```
+
+<details><summary>Answer</summary>
+
+```text
+(2, 3)
+```
+
+Broadcasting (3,) with (2,1) gives (2,3).
+
+</details>
+
+**41. (Week 10) Josephus: 7 people, every 3rd eliminated. Who survives?**
+
+```python
+people = list(range(1, 8)); i = 0
+while len(people) > 1:
+    i = (i + 3 - 1) % len(people)
+    people.pop(i)
+print(people[0])
+```
+
+<details><summary>Answer</summary>
+
+```text
+4
+```
+
+The same counting-out loop as FLAMES.
+
+</details>
+
+**42. (Week 11) What is printed?**
+
+```python
+import calendar, datetime
+print(calendar.weekday(2024, 1, 1), datetime.date(2024, 1, 1).isoweekday())
+```
+
+<details><summary>Answer</summary>
+
+```text
+0 1
+```
+
+1 Jan 2024 was a Monday: weekday() counts from 0, isoweekday() from 1.
+
+</details>
+
+**43. (Week 11) What is printed?**
+
+```python
+import datetime
+print((datetime.date(2024, 3, 1) - datetime.date(2024, 2, 1)).days, datetime.date(2024, 2, 1).strftime('%j'))
+```
+
+<details><summary>Answer</summary>
+
+```text
+29 032
+```
+
+2024 is a leap year; %j is the day of the year.
+
+</details>
+
+**44. (Week 11) What is printed?**
+
+```python
+import calendar
+print(calendar.monthrange(2023, 2))
+```
+
+<details><summary>Answer</summary>
+
+```text
+(calendar.WEDNESDAY, 28)
+```
+
+(weekday of the 1st, number of days); 1 Feb 2023 was a Wednesday. Python 3.12+ shows the weekday as calendar.WEDNESDAY, which equals 2; older versions print (2, 28).
+
+</details>
+
+**45. (Week 12) Collatz: how many steps does 6 take to reach 1?**
+
+```python
+n, steps = 6, 0
+while n != 1:
+    n = n // 2 if n % 2 == 0 else 3 * n + 1
+    steps += 1
+print(steps)
+```
+
+<details><summary>Answer</summary>
+
+```text
+8
+```
+
+6, 3, 10, 5, 16, 8, 4, 2, 1. The lecture version (count starts at 1) would say 9.
+
+</details>
+
+**46. (Week 12) One point-distribution round. A links to B and C, B links to C, C links to A. Each page starts with 1.0. New ranks?**
+
+```python
+links = {'A': ['B', 'C'], 'B': ['C'], 'C': ['A']}
+rank = {p: 1.0 for p in links}
+new = {p: 0.0 for p in links}
+for p, outs in links.items():
+    for q in outs:
+        new[q] += rank[p] / len(outs)
+print(new)
+```
+
+<details><summary>Answer</summary>
+
+```text
+{'A': 1.0, 'B': 0.5, 'C': 1.5}
+```
+
+Each page splits its rank equally over its out-links; the total stays 3.0.
+
+</details>
