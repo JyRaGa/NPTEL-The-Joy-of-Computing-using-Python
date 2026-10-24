@@ -7230,7 +7230,7 @@
   "text": "What does the cat say after executing the following code?\n(Scratch blocks as shown: `set [x] to (2)` → `repeat (20)` { `if <((x) mod (2)) = (0)> then` { `say (x)` · `wait (1) seconds` } · `change [x] by (1)` })",
   "code": null,
   "images": [
-   "quizzes/2022-jul/img/Jul-2022-W1-Q6.jpg"
+   "quizzes/2022-jul/img/Jul-2022-W1-Q6-blocks.jpg"
   ],
   "crops": [],
   "options": [
@@ -7664,7 +7664,7 @@
   "text": "Predict the output of the following:",
   "code": null,
   "images": [
-   "quizzes/2023-jan/img/Jan-2023-W1-Q6.jpg"
+   "quizzes/2023-jan/img/Jan-2023-W1-Q6-blocks.jpg"
   ],
   "crops": [],
   "options": [
@@ -8510,9 +8510,7 @@
   "context": null,
   "text": "Knowing how to write a piece of code could help us get things done fast. Choose the areas where we can implement coding.?",
   "code": null,
-  "images": [
-   "quizzes/2024-jan/img/Jan-2024-W1-Q6-Q10-intro.jpg"
-  ],
+  "images": [],
   "crops": [],
   "options": [
    {
@@ -8556,13 +8554,16 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": {
-   "text": "Problem Introduction:",
-   "code": null
+   "text": "Problem Introduction:\nThe provided image depicts a scene from a presentation featuring The Famous Cat at Scratch attempting to play football with a Boomerang ball disguised as a volleyball. The unexpected return of the ball leads to a humorous outcome.\nAccompanying is the set of code blocks that achieve what is stated above [Not necessarily in sequence of execution]. Answer the questions that follow:",
+   "code": null,
+   "images": [
+    "quizzes/2024-jan/img/Jan-2024-W1-intro-scene.jpg"
+   ]
   },
   "text": "The block of code displayed here is meant for the cat, what is the functionality of this code?\n(Scratch blocks: `move (10) steps` · `wait (1) seconds` · `turn ↻ (15) degrees` · `wait (1) seconds` · `move (10) steps` · `wait (1) seconds` · `turn ↺ (15) degrees` — wait values read as \"1\"; may be \".1\", see image)",
   "code": null,
   "images": [
-   "quizzes/2024-jan/img/Jan-2024-W1-Q7-Q10.jpg"
+   "quizzes/2024-jan/img/Jan-2024-W1-Q6-blocks.jpg"
   ],
   "crops": [],
   "options": [
@@ -8605,12 +8606,17 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": {
-   "text": "Problem Introduction:",
-   "code": null
+   "text": "Problem Introduction:\nThe provided image depicts a scene from a presentation featuring The Famous Cat at Scratch attempting to play football with a Boomerang ball disguised as a volleyball. The unexpected return of the ball leads to a humorous outcome.\nAccompanying is the set of code blocks that achieve what is stated above [Not necessarily in sequence of execution]. Answer the questions that follow:",
+   "code": null,
+   "images": [
+    "quizzes/2024-jan/img/Jan-2024-W1-intro-scene.jpg"
+   ]
   },
   "text": "The block of code displayed here makes the cat rotate out of impact from the boomeranging ball, how many complete rotations does the cat make?\n(Scratch blocks: `repeat (3)` { `repeat (4)` { `wait (.15) seconds` · `turn ↺ (90) degrees` } })",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2024-jan/img/Jan-2024-W1-Q7-blocks.jpg"
+  ],
   "crops": [],
   "options": [
    {
@@ -8652,12 +8658,17 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": {
-   "text": "Problem Introduction:",
-   "code": null
+   "text": "Problem Introduction:\nThe provided image depicts a scene from a presentation featuring The Famous Cat at Scratch attempting to play football with a Boomerang ball disguised as a volleyball. The unexpected return of the ball leads to a humorous outcome.\nAccompanying is the set of code blocks that achieve what is stated above [Not necessarily in sequence of execution]. Answer the questions that follow:",
+   "code": null,
+   "images": [
+    "quizzes/2024-jan/img/Jan-2024-W1-intro-scene.jpg"
+   ]
   },
   "text": "The block of code displayed here makes the cat rotate out of impact from the boomeranging ball, how many loops are there in total?\n(same blocks as Q7: `repeat (3)` { `repeat (4)` { `wait (.15) seconds` · `turn ↺ (90) degrees` } })",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2024-jan/img/Jan-2024-W1-Q7-blocks.jpg"
+  ],
   "crops": [],
   "options": [
    {
@@ -8699,12 +8710,17 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": {
-   "text": "Problem Introduction:",
-   "code": null
+   "text": "Problem Introduction:\nThe provided image depicts a scene from a presentation featuring The Famous Cat at Scratch attempting to play football with a Boomerang ball disguised as a volleyball. The unexpected return of the ball leads to a humorous outcome.\nAccompanying is the set of code blocks that achieve what is stated above [Not necessarily in sequence of execution]. Answer the questions that follow:",
+   "code": null,
+   "images": [
+    "quizzes/2024-jan/img/Jan-2024-W1-intro-scene.jpg"
+   ]
   },
   "text": "The block of code displayed here is meant for the ball, how many loops are there in total?\n(Scratch blocks: `repeat (2)` { `move (10) steps` · `turn ↻ (15) degrees` · `wait (.1) seconds` · `move (75) steps` · `wait (.1) seconds` · `turn ↺ (15) degrees` · `wait (.1) seconds` · `move (65) steps` · `wait (.1) seconds` · `turn ↺ (90) degrees` · `wait (.1) seconds` · `move (50) steps` · `wait (.1) seconds` · `turn ↺ (90) degrees` } — \"65\" could be \"55\"/\"85\", blurry; see image)",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2024-jan/img/Jan-2024-W1-Q9-blocks.jpg"
+  ],
   "crops": [],
   "options": [
    {
@@ -8746,12 +8762,17 @@
   "kind": "youtube_transcription",
   "type": "multi",
   "context": {
-   "text": "Problem Introduction:",
-   "code": null
+   "text": "Problem Introduction:\nThe provided image depicts a scene from a presentation featuring The Famous Cat at Scratch attempting to play football with a Boomerang ball disguised as a volleyball. The unexpected return of the ball leads to a humorous outcome.\nAccompanying is the set of code blocks that achieve what is stated above [Not necessarily in sequence of execution]. Answer the questions that follow:",
+   "code": null,
+   "images": [
+    "quizzes/2024-jan/img/Jan-2024-W1-intro-scene.jpg"
+   ]
   },
   "text": "The block of code displayed here is meant for the ball, if the value beside repeat would have been 1 instead of 2, Select all the statements that explain the situation.\n(same ball script as Q9, `repeat (2)`)",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2024-jan/img/Jan-2024-W1-Q9-blocks.jpg"
+  ],
   "crops": [],
   "options": [
    {

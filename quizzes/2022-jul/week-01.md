@@ -36,7 +36,7 @@
 
 **6) What does the cat say after executing the following code?**
 
-![W1 Q6](img/Jul-2022-W1-Q6.jpg)
+![W1 Q6](img/Jul-2022-W1-Q6-blocks.jpg)
 
 (Scratch blocks as shown: `set [x] to (2)` → `repeat (20)` { `if <((x) mod (2)) = (0)> then` { `say (x)` · `wait (1) seconds` } · `change [x] by (1)` })
 - [ ] All-natural numbers between 1-20. (Both inclusive)

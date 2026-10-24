@@ -38,11 +38,11 @@
 
 **Problem Introduction:**
 
-The provided image depicts a scene from a presentation featuring The Famous Cat at Scratch attempting to play football with a Boomerang ball disguised as a volleyball. The unexpected return of the ball leads to a humorous outcome.
+**The provided image depicts a scene from a presentation featuring The Famous Cat at Scratch attempting to play football with a Boomerang ball disguised as a volleyball. The unexpected return of the ball leads to a humorous outcome.**
 
-Accompanying is the set of code blocks that achieve what is stated above [Not necessarily in sequence of execution]. Answer the questions that follow:
+**Accompanying is the set of code blocks that achieve what is stated above [Not necessarily in sequence of execution]. Answer the questions that follow:**
 
-![W1 problem introduction + Q6](img/Jan-2024-W1-Q6-Q10-intro.jpg)
+![W1 problem introduction](img/Jan-2024-W1-intro-scene.jpg)
 
 (Scratch blocks visible in the recording; part of `define Boomerang` is covered by a "SUBSCRIBED" overlay — see image and Q9/Q10 below for the full ball script)
 - `when I receive [Ball Kicked ▾]` → `Boomerang` → `broadcast [Ball has hit cat's face ▾]`
@@ -53,15 +53,18 @@ Accompanying is the set of code blocks that achieve what is stated above [Not ne
 
 **6) The block of code displayed here is meant for the cat, what is the functionality of this code?**
 
+![W1 Q6 blocks](img/Jan-2024-W1-Q6-blocks.jpg)
+
 (Scratch blocks: `move (10) steps` · `wait (1) seconds` · `turn ↻ (15) degrees` · `wait (1) seconds` · `move (10) steps` · `wait (1) seconds` · `turn ↺ (15) degrees` — wait values read as "1"; may be ".1", see image)
 - [ ] It brings the ball closer to the cat.
 - [x] It makes the cat appear like kicking the ball.
 - [ ] It makes the cat tumble and rotate
 - [ ] The code throws an error.
 
-![W1 Q7–Q10 blocks](img/Jan-2024-W1-Q7-Q10.jpg)
 
 **7) The block of code displayed here makes the cat rotate out of impact from the boomeranging ball, how many complete rotations does the cat make?**
+
+![W1 Q7 blocks](img/Jan-2024-W1-Q7-blocks.jpg)
 
 (Scratch blocks: `repeat (3)` { `repeat (4)` { `wait (.15) seconds` · `turn ↺ (90) degrees` } })
 - [ ] One
@@ -71,6 +74,8 @@ Accompanying is the set of code blocks that achieve what is stated above [Not ne
 
 **8) The block of code displayed here makes the cat rotate out of impact from the boomeranging ball, how many loops are there in total?**
 
+![W1 Q7 blocks](img/Jan-2024-W1-Q7-blocks.jpg)
+
 (same blocks as Q7: `repeat (3)` { `repeat (4)` { `wait (.15) seconds` · `turn ↺ (90) degrees` } })
 - [ ] One
 - [x] Two
@@ -79,6 +84,8 @@ Accompanying is the set of code blocks that achieve what is stated above [Not ne
 
 **9) The block of code displayed here is meant for the ball, how many loops are there in total?**
 
+![W1 Q9 blocks](img/Jan-2024-W1-Q9-blocks.jpg)
+
 (Scratch blocks: `repeat (2)` { `move (10) steps` · `turn ↻ (15) degrees` · `wait (.1) seconds` · `move (75) steps` · `wait (.1) seconds` · `turn ↺ (15) degrees` · `wait (.1) seconds` · `move (65) steps` · `wait (.1) seconds` · `turn ↺ (90) degrees` · `wait (.1) seconds` · `move (50) steps` · `wait (.1) seconds` · `turn ↺ (90) degrees` } — "65" could be "55"/"85", blurry; see image)
 - [ ] One
 - [x] Two
@@ -86,6 +93,8 @@ Accompanying is the set of code blocks that achieve what is stated above [Not ne
 - [ ] Four
 
 **10) The block of code displayed here is meant for the ball, if the value beside repeat would have been 1 instead of 2, Select all the statements that explain the situation.**
+
+![W1 Q9 blocks](img/Jan-2024-W1-Q9-blocks.jpg)
 
 (same ball script as Q9, `repeat (2)`)
 - [x] The Ball would not have returned to Cat.

@@ -36,7 +36,7 @@
 
 **6) Predict the output of the following:**
 
-![W1 Q6](img/Jan-2023-W1-Q6.jpg)
+![W1 Q6](img/Jan-2023-W1-Q6-blocks.jpg)
 - [ ] 0
 - [ ] 100
 - [ ] 20

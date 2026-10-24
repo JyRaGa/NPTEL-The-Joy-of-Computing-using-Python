@@ -92,6 +92,8 @@ def parse_file(rel, kind):
                 only = re.search(r"questions?\s+([\d\s,&and-]+)", t, re.I)
                 context = {"text": t, "code": textwrap.dedent("\n".join(pending["code"])).strip("\n") or None,
                            "only": [int(n) for n in re.findall(r"\d+", only.group(1))] if only else None}
+                if pending.get("images"):
+                    context["images"] = pending["images"]
                 pending = {"text": [], "code": []}
             ctx = context if context and (context["only"] is None or num in context["only"]) else None
             cur = {"num": num, "text": [re.sub(r"^\(M[CS]Q\)\s*", "", strip_md(m.group(2)))], "code": [], "options": [],
@@ -101,6 +103,10 @@ def parse_file(rel, kind):
             continue
         if between and line.startswith("**") and line.endswith("**") and len(line) > 4:
             pending["text"].append(line.strip("*").strip())
+            continue
+        # 2024-jan: the scene picture under a "Problem Introduction" header belongs to the scenario, not the question above it
+        if between and pending["text"] and MD_IMG.search(line):
+            pending.setdefault("images", []).extend(img_path(p, rel) for p in MD_IMG.findall(line))
             continue
         if cur is None:
             # 2026-jul: the scenario's program is an image placed before Q1
