@@ -250,7 +250,7 @@ Accepted answer(s): 󰁣; 󰁯; 󰁵; 󰁲; 󰁳; 󰁥; 󰁳; [; "; C; S; 1; 0; 
 
 ![page crop](img/w05-q01-p23.png)
 
-### Q2. What is the probability of Monty not opening the door with goat, given the
+### Q2. What is the probability of Monty not opening the door with goat, given the hypothesis that you initially chose the door which has car ?
 
 - [x] 0
 - [ ] 0.5
@@ -276,7 +276,7 @@ in line 10, so that there is high chance that
 
 ![page crop](img/w05-q03-p24.png)
 
-### Q4. Given that you have a sorted list of 2048 elemets,what is the maximum number of
+### Q4. Given that you have a sorted list of 2048 elemets,what is the maximum number of comparisons to search such an element using linear search ? Can binary search do it in less number of comparisons ?
 
 - [ ] Yes, binary search can do it more efficiently, linear search takes 1024 comparisons
 - [x] Yes, binary search can do it more efficiently, linear search takes 2048 comparisons
@@ -379,10 +379,9 @@ Accepted answer(s): [; 1; ,; 2; ,; 3; ,; 4; ,; 7; ]
 
 ![page crop](img/w05-q09-p26.png)
 
-### Q10. (question text in image)
+### Q10. How many swaps are performed in iteration 3 for bubble sorting list [5,4,3,2,1]? Enter 0 if the list is sorted in less than 3 iterations.
 
-- [ ] How many swaps are performed in iteration 3 for bubble sorting list [5,4,3,2,1]? Enter 0 if 2
-> Accepted answer (not matched to a printed option): (Type: Numeric) 2
+Accepted answer(s): (Type: Numeric) 2
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w05-q10-p26.png)

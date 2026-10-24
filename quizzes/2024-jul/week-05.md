@@ -28,9 +28,7 @@
 
 ![page crop](img/w05-q02-p43.png)
 
-### Q3. What should be replaced with
-in line 10, so that there is high chance that
-is equal to 2 ?
+### Q3. What should be replaced with ? in line 10, so that there is high chance that final_choice is equal to 2 ?
 
 - [x] True
 - [x] (2**90) % 2 == 0
@@ -110,7 +108,6 @@ element using binary search ? Also what is the number of comparisons to search s
 ![page crop](img/w05-q09-p47.png)
 
 ### Q10. How many swaps are performed in iteration 3 for bubble sorting list [4,3,2,1]? Enter 0 if the list is sorted in less than 3 iterations.
-1
 
 Accepted answer(s): (Type: Numeric) 1
 > Yes, the answer is correct. Score: 1

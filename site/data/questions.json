@@ -42384,7 +42384,7 @@
   "kind": "portal_print_parsed",
   "type": "multi",
   "context": null,
-  "text": "What should be replaced with\nin line 10, so that there is high chance that\nis equal to 2 ?",
+  "text": "What should be replaced with ? in line 10, so that there is high chance that final_choice is equal to 2 ?",
   "code": null,
   "images": [],
   "crops": [
@@ -42417,7 +42417,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what should be replaced with in line 10 so that there is high chance that is equal to 2",
+  "norm": "what should be replaced with in line 10 so that there is high chance that final choice is equal to 2",
   "norm_options": [
    "2 90 2 0",
    "2 90 len doors 1",
@@ -42713,7 +42713,7 @@
   "kind": "portal_print_parsed",
   "type": "numeric",
   "context": null,
-  "text": "How many swaps are performed in iteration 3 for bubble sorting list [4,3,2,1]? Enter 0 if the list is sorted in less than 3 iterations.\n1",
+  "text": "How many swaps are performed in iteration 3 for bubble sorting list [4,3,2,1]? Enter 0 if the list is sorted in less than 3 iterations.",
   "code": null,
   "images": [],
   "crops": [
@@ -42724,7 +42724,7 @@
   "answer": "1",
   "answer_source": "official",
   "explanation": null,
-  "norm": "how many swaps are performed in iteration 3 for bubble sorting list 4 3 2 1 enter 0 if the list is sorted in less than 3 iterations 1",
+  "norm": "how many swaps are performed in iteration 3 for bubble sorting list 4 3 2 1 enter 0 if the list is sorted in less than 3 iterations",
   "norm_options": []
  },
  {
@@ -42758,7 +42758,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What is the probability of Monty not opening the door with goat, given the",
+  "text": "What is the probability of Monty not opening the door with goat, given the hypothesis that you initially chose the door which has car ?",
   "code": null,
   "images": [],
   "crops": [
@@ -42788,7 +42788,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what is the probability of monty not opening the door with goat given the",
+  "norm": "what is the probability of monty not opening the door with goat given the hypothesis that you initially chose the door which has car",
   "norm_options": [
    "0",
    "0 33",
@@ -42861,7 +42861,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Given that you have a sorted list of 2048 elemets,what is the maximum number of",
+  "text": "Given that you have a sorted list of 2048 elemets,what is the maximum number of comparisons to search such an element using linear search ? Can binary search do it in less number of comparisons ?",
   "code": null,
   "images": [],
   "crops": [
@@ -42890,7 +42890,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "given that you have a sorted list of 2048 elemets what is the maximum number of",
+  "norm": "given that you have a sorted list of 2048 elemets what is the maximum number of comparisons to search such an element using linear search can binary search do it in less number of comparisons",
   "norm_options": [
    "no binary search may may not do it more efficiently linear search takes 1024 comparisons",
    "no binary search will take more comparisons linear search takes 2048 comparisons",
@@ -43103,28 +43103,21 @@
   "num": 10,
   "file": "quizzes/2025-jan/week-05.md",
   "kind": "portal_print_parsed",
-  "type": "single",
+  "type": "numeric",
   "context": null,
-  "text": "(question text in image)",
+  "text": "How many swaps are performed in iteration 3 for bubble sorting list [5,4,3,2,1]? Enter 0 if the list is sorted in less than 3 iterations.",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2025-jan/img/w05-q10-p26.png",
    "quizzes/2025-jan/img/w05-q10-p27.png"
   ],
-  "options": [
-   {
-    "text": "How many swaps are performed in iteration 3 for bubble sorting list [5,4,3,2,1]? Enter 0 if 2",
-    "img": null
-   }
-  ],
-  "answer": [],
+  "options": [],
+  "answer": "2",
   "answer_source": "official",
   "explanation": null,
-  "norm": "question text in image",
-  "norm_options": [
-   "how many swaps are performed in iteration 3 for bubble sorting list 5 4 3 2 1 enter 0 if 2"
-  ]
+  "norm": "how many swaps are performed in iteration 3 for bubble sorting list 5 4 3 2 1 enter 0 if the list is sorted in less than 3 iterations",
+  "norm_options": []
  },
  {
   "id": "2025-jul/w05/q01",
