@@ -96,7 +96,6 @@ word[2] = 'n'
 
 print(word)
 ```
-(snippet shown from line 3)
 - [ ] Pynhon
 - [ ] Pnthon
 - [ ] Python

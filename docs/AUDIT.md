@@ -93,21 +93,21 @@ These are heuristics: a flag means "look at this", not "this is wrong".
 ## Week 10
 
 - **high** · Q14 · text mentions “image”; no image, crop or code on the card · `2023-jan/w10/q04` · `quizzes/2023-jan/week-10.md`
-- **high** · Q59 · text mentions “image”; no image, crop or code on the card · `2021-jul/w10/q01` · `quizzes/2021-jul/week-10.md`
-- **high** · Q62 · identical options: 2 · `2021-jul/w10/q04` · `quizzes/2021-jul/week-10.md`
+- **high** · Q60 · text mentions “image”; no image, crop or code on the card · `2021-jul/w10/q01` · `quizzes/2021-jul/week-10.md`
+- **high** · Q63 · identical options: 2 · `2021-jul/w10/q04` · `quizzes/2021-jul/week-10.md`
 - **med** · Q9 · text refers to “picture” but the card has no image, crop or code · `2019-jul/w10/q07` · `quizzes/2019-jul/week-10.md`
-- **med** · Q93 · text refers to “given below” but the card has no image, crop or code · `2024-jan/w10/q05` · `quizzes/2024-jan/week-10.md`
-- **low** · Q45 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2020-sep/w10/q07` · `quizzes/2020-sep/week-10.md`
-- **low** · Q46 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2020-sep/w10/q08` · `quizzes/2020-sep/week-10.md`
-- **low** · Q58 · text mentions “Image”; card has an image/crop, check it shows what the text describes · `2021-jan/w10/q10@portal` · `quizzes/2021-jan/week-10-portal-print.md`
-- **low** · Q107 · text mentions “images”; card has an image/crop, check it shows what the text describes · `2024-jul/w10/q09` · `quizzes/2024-jul/week-10.md`
-- **low** · Q114 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2025-jan/w10/q06` · `quizzes/2025-jan/week-10.md`
-- **low** · Q129 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jan/w10/q11` · `quizzes/2026-jan/week-10.md`
-- **low** · Q131 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jan/w10/q13` · `quizzes/2026-jan/week-10.md`
-- **low** · Q133 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jan/w10/q15` · `quizzes/2026-jan/week-10.md`
-- **low** · Q148 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jul/w10/q15` · `quizzes/2026-jul/week-10.md`
-- **low** · Q149 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jul/w10/q16` · `quizzes/2026-jul/week-10.md`
-- **low** · Q150 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jul/w10/q17` · `quizzes/2026-jul/week-10.md`
+- **med** · Q94 · text refers to “given below” but the card has no image, crop or code · `2024-jan/w10/q05` · `quizzes/2024-jan/week-10.md`
+- **low** · Q46 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2020-sep/w10/q07` · `quizzes/2020-sep/week-10.md`
+- **low** · Q47 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2020-sep/w10/q08` · `quizzes/2020-sep/week-10.md`
+- **low** · Q59 · text mentions “Image”; card has an image/crop, check it shows what the text describes · `2021-jan/w10/q10@portal` · `quizzes/2021-jan/week-10-portal-print.md`
+- **low** · Q108 · text mentions “images”; card has an image/crop, check it shows what the text describes · `2024-jul/w10/q09` · `quizzes/2024-jul/week-10.md`
+- **low** · Q115 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2025-jan/w10/q06` · `quizzes/2025-jan/week-10.md`
+- **low** · Q130 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jan/w10/q11` · `quizzes/2026-jan/week-10.md`
+- **low** · Q132 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jan/w10/q13` · `quizzes/2026-jan/week-10.md`
+- **low** · Q134 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jan/w10/q15` · `quizzes/2026-jan/week-10.md`
+- **low** · Q149 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jul/w10/q15` · `quizzes/2026-jul/week-10.md`
+- **low** · Q150 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jul/w10/q16` · `quizzes/2026-jul/week-10.md`
+- **low** · Q151 · text mentions “image”; card has an image/crop, check it shows what the text describes · `2026-jul/w10/q17` · `quizzes/2026-jul/week-10.md`
 
 ## Week 11
 

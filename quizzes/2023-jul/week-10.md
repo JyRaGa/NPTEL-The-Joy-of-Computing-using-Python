@@ -33,62 +33,55 @@
 
 **4) Which code snippet represents replacing all vowels with '_' in a string?**
 
-Option A
-```python
- 1  s='The joy of Computing'
- 2
- 3  s.replace('a', '_')
- 4  s.replace('e', '_')
- 5  s.replace('i', '_')
- 6  s.replace('i', '_')
- 7  s.replace('o', '_')
- 8  s.replace('u', '_')
- 9
-10  print(s)
-```
-- [ ] (Option A)
+- [ ] Option A
+  ```python
+  s='The joy of Computing'
 
-Option B
-```python
- 1  s='The joy of Computing'
- 2
- 3  s.replace('_', 'a')
- 4  s.replace('_', 'e')
- 5  s.replace('_', 'i')
- 6  s.replace('_', 'o')
- 7  s.replace('_', 'u')
- 8
- 9  print(s)
-```
-- [ ] (Option B)
+  s.replace('a', '_')
+  s.replace('e', '_')
+  s.replace('i', '_')
+  s.replace('i', '_')
+  s.replace('o', '_')
+  s.replace('u', '_')
 
-Option C
-```python
- 1  s='The joy of Computing'
- 2
- 3  s = s.replace('_', 'a')
- 4  s = s.replace('_', 'e')
- 5  s = s.replace('_', 'i')
- 6  s = s.replace('_', 'o')
- 7  s = s.replace('_', 'u')
- 8
- 9  print(s)
-```
-- [ ] (Option C)
+  print(s)
+  ```
+- [ ] Option B
+  ```python
+  s='The joy of Computing'
 
-Option D
-```python
- 1  s='The joy of Computing'
- 2
- 3  s = s.replace('a', '_')
- 4  s = s.replace('e', '_')
- 5  s = s.replace('i', '_')
- 6  s = s.replace('o', '_')
- 7  s = s.replace('u', '_')
- 8
- 9  print(s)
-```
-- [x] (Option D)
+  s.replace('_', 'a')
+  s.replace('_', 'e')
+  s.replace('_', 'i')
+  s.replace('_', 'o')
+  s.replace('_', 'u')
+
+  print(s)
+  ```
+- [ ] Option C
+  ```python
+  s='The joy of Computing'
+
+  s = s.replace('_', 'a')
+  s = s.replace('_', 'e')
+  s = s.replace('_', 'i')
+  s = s.replace('_', 'o')
+  s = s.replace('_', 'u')
+
+  print(s)
+  ```
+- [x] Option D
+  ```python
+  s='The joy of Computing'
+
+  s = s.replace('a', '_')
+  s = s.replace('e', '_')
+  s = s.replace('i', '_')
+  s = s.replace('o', '_')
+  s = s.replace('u', '_')
+
+  print(s)
+  ```
 
 (Option A lists 'i' twice; transcribed as shown.)
 
@@ -134,47 +127,40 @@ Option D
 - [ ] [3 4]
 - [ ] None of the above
 
-**8) What is the correct way to display the transpose of a matrix?** (checkboxes: more than one can be selected)
+**8) What is the correct way to display the transpose of a matrix?**
 
-Option A
-```python
-import numpy as np
+- [ ] Option A
+  ```python
+  import numpy as np
 
-b = np.array([[1,2],[3,4]])
+  b = np.array([[1,2],[3,4]])
 
-print(b.T())
-```
-- [ ] (Option A)
+  print(b.T())
+  ```
+- [x] Option B
+  ```python
+  import numpy as np
 
-Option B
-```python
-import numpy as np
+  b = np.array([[1,2],[3,4]])
 
-b = np.array([[1,2],[3,4]])
+  print(b.transpose())
+  ```
+- [x] Option C
+  ```python
+  import numpy as np
 
-print(b.transpose())
-```
-- [x] (Option B)
+  b = np.array([[1,2],[3,4]])
 
-Option C
-```python
-import numpy as np
+  print(b.T)
+  ```
+- [ ] Option D
+  ```python
+  import numpy as np
 
-b = np.array([[1,2],[3,4]])
+  b = np.array([[1,2],[3,4]])
 
-print(b.T)
-```
-- [x] (Option C)
-
-Option D
-```python
-import numpy as np
-
-b = np.array([[1,2],[3,4]])
-
-print(b.transpose)
-```
-- [ ] (Option D)
+  print(b.transpose)
+  ```
 
 **9) Are Lossy and Lossless compressions the same?**
 - [ ] Yes, they are identical.

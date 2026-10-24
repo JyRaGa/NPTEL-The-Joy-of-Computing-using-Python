@@ -58979,22 +58979,25 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "Which of the following program will draw a hexagon?\nOption A",
-  "code": " 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(3):\n 6\n 7      pen.right(60)\n 8      pen.forward(60)\n 9\n10  turtle.done()",
+  "text": "Which of the following program will draw a hexagon?",
+  "code": null,
   "images": [],
   "crops": [],
   "options": [
    {
-    "text": "(Option A)",
-    "img": null
+    "text": "Option A",
+    "img": null,
+    "code": "import turtle\n\npen = turtle.Turtle()\n\nfor i in range(3):\n\n    pen.right(60)\n    pen.forward(60)\n\nturtle.done()"
    },
    {
-    "text": "(Option B)",
-    "img": null
+    "text": "Option B",
+    "img": null,
+    "code": "import turtle\n\npen = turtle.Turtle()\n\nfor i in range(3):\n\n    pen.right(60)\n    pen.forward(60)\n    pen.right(60)\n    pen.forward(60)\n\nturtle.done()"
    },
    {
-    "text": "(Option C)",
-    "img": null
+    "text": "Option C",
+    "img": null,
+    "code": "import turtle\n\npen = turtle.Turtle()\n\nfor i in range(6):\n\n    pen.right(30)\n    pen.forward(30)\n\nturtle.done()"
    }
   ],
   "answer": [
@@ -59002,7 +59005,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "which of the following program will draw a hexagon option a 1 import turtle 2 3 pen turtle turtle 4 5 for i in range 3 6 7 pen right 60 8 pen forward 60 9 10 turtle done",
+  "norm": "which of the following program will draw a hexagon",
   "norm_options": [
    "option a",
    "option b",
@@ -59062,10 +59065,7 @@
   "file": "quizzes/2023-jul/week-07.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": " 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(3):\n 6\n 7      pen.right(60)\n 8      pen.forward(60)\n 9      pen.right(60)\n10      pen.forward(60)\n11\n12  turtle.done()\n\n 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(6):\n 6\n 7      pen.right(30)\n 8      pen.forward(30)\n 9\n10  turtle.done()"
-  },
+  "context": null,
   "text": "Which of the following library is used to render data on google maps?",
   "code": null,
   "images": [],
@@ -59153,10 +59153,7 @@
   "file": "quizzes/2023-jul/week-07.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": " 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(3):\n 6\n 7      pen.right(60)\n 8      pen.forward(60)\n 9      pen.right(60)\n10      pen.forward(60)\n11\n12  turtle.done()\n\n 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(6):\n 6\n 7      pen.right(30)\n 8      pen.forward(30)\n 9\n10  turtle.done()"
-  },
+  "context": null,
   "text": "What is the output of the following code?\nOptions (images):",
   "code": " 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(3):\n 6\n 7      pen.right(60)\n 8      pen.forward(60)\n 9      pen.penup()\n10      pen.right(60)\n11      pen.forward(60)\n12      pen.pendown()\n13\n14\n15  turtle.done()",
   "images": [],
@@ -59243,10 +59240,7 @@
   "file": "quizzes/2023-jul/week-07.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": " 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(3):\n 6\n 7      pen.right(60)\n 8      pen.forward(60)\n 9      pen.right(60)\n10      pen.forward(60)\n11\n12  turtle.done()\n\n 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(6):\n 6\n 7      pen.right(30)\n 8      pen.forward(30)\n 9\n10  turtle.done()"
-  },
+  "context": null,
   "text": "Which turtle command is equivalent to lifting up a pen.",
   "code": null,
   "images": [],
@@ -59334,10 +59328,7 @@
   "file": "quizzes/2023-jul/week-07.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": " 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(3):\n 6\n 7      pen.right(60)\n 8      pen.forward(60)\n 9      pen.right(60)\n10      pen.forward(60)\n11\n12  turtle.done()\n\n 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(6):\n 6\n 7      pen.right(30)\n 8      pen.forward(30)\n 9\n10  turtle.done()"
-  },
+  "context": null,
   "text": "Why do we use functions?",
   "code": null,
   "images": [],
@@ -59425,10 +59416,7 @@
   "file": "quizzes/2023-jul/week-07.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": " 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(3):\n 6\n 7      pen.right(60)\n 8      pen.forward(60)\n 9      pen.right(60)\n10      pen.forward(60)\n11\n12  turtle.done()\n\n 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(6):\n 6\n 7      pen.right(30)\n 8      pen.forward(30)\n 9\n10  turtle.done()"
-  },
+  "context": null,
   "text": "Library used to import images?",
   "code": null,
   "images": [],
@@ -59514,10 +59502,7 @@
   "file": "quizzes/2023-jul/week-07.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": " 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(3):\n 6\n 7      pen.right(60)\n 8      pen.forward(60)\n 9      pen.right(60)\n10      pen.forward(60)\n11\n12  turtle.done()\n\n 1  import turtle\n 2\n 3  pen = turtle.Turtle()\n 4\n 5  for i in range(6):\n 6\n 7      pen.right(30)\n 8      pen.forward(30)\n 9\n10  turtle.done()"
-  },
+  "context": null,
   "text": "In snakes and ladder what can be the ways to track ladders and snakes?",
   "code": null,
   "images": [],
@@ -80806,7 +80791,7 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "State True or False.\n**numpy.asanyarray(input) converts input to an ndarray. Here, input can be scalars, lists, lists of tuples, tuples, tuples of tuple[…]** (the rest of the line is cut off at the frame edge)",
+  "text": "State True or False.\nnumpy.asanyarray(input) converts input to an ndarray. Here, input can be scalars, lists, lists of tuples, tuples, tuples of tuples, tuples of lists.",
   "code": null,
   "images": [],
   "crops": [],
@@ -80825,7 +80810,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "state true or false numpy asanyarray input converts input to an ndarray here input can be scalars lists lists of tuples tuples tuples of tuple the rest of the line is cut off at the frame edge",
+  "norm": "state true or false numpy asanyarray input converts input to an ndarray here input can be scalars lists lists of tuples tuples tuples of tuples tuples of lists",
   "norm_options": [
    "false",
    "true"
@@ -81172,7 +81157,11 @@
     "img": null
    },
    {
-    "text": "[2,4,6] [[123] [246] [369]]",
+    "text": "[2,4,6]",
+    "img": null
+   },
+   {
+    "text": "[[1 2 3] [2 4 6] [3 6 9]]",
     "img": null
    },
    {
@@ -81180,13 +81169,16 @@
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   2
+  ],
   "answer_source": "official",
   "explanation": null,
   "norm": "predict the output",
   "norm_options": [
+   "1 2 3 2 4 6 3 6 9",
    "1 4 9",
-   "2 4 6 123 246 369",
+   "2 4 6",
    "error"
   ]
  },
@@ -81211,7 +81203,11 @@
     "img": null
    },
    {
-    "text": "[2,4,6] [[123] [246] [369]]",
+    "text": "[2,4,6]",
+    "img": null
+   },
+   {
+    "text": "[[1 2 3] [2 4 6] [3 6 9]]",
     "img": null
    },
    {
@@ -81220,14 +81216,15 @@
    }
   ],
   "answer": [
-   2
+   3
   ],
   "answer_source": "official",
   "explanation": null,
   "norm": "predict the output",
   "norm_options": [
+   "1 2 3 2 4 6 3 6 9",
    "1 4 9",
-   "2 4 6 123 246 369",
+   "2 4 6",
    "error"
   ]
  },
@@ -84229,7 +84226,7 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "The output of the following program will be?\n(snippet shown from line 3)",
+  "text": "The output of the following program will be?",
   "code": "word = 'Python'\nword[2] = 'n'\n\nprint(word)",
   "images": [],
   "crops": [],
@@ -84256,7 +84253,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "the output of the following program will be snippet shown from line 3 word python word 2 n print word",
+  "norm": "the output of the following program will be word python word 2 n print word",
   "norm_options": [
    "error",
    "pnthon",
@@ -84623,26 +84620,30 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "Which code snippet represents replacing all vowels with '_' in a string?\nOption A",
-  "code": " 1  s='The joy of Computing'\n 2\n 3  s.replace('a', '_')\n 4  s.replace('e', '_')\n 5  s.replace('i', '_')\n 6  s.replace('i', '_')\n 7  s.replace('o', '_')\n 8  s.replace('u', '_')\n 9\n10  print(s)",
+  "text": "Which code snippet represents replacing all vowels with '_' in a string?",
+  "code": null,
   "images": [],
   "crops": [],
   "options": [
    {
-    "text": "(Option A)",
-    "img": null
+    "text": "Option A",
+    "img": null,
+    "code": "s='The joy of Computing'\n\ns.replace('a', '_')\ns.replace('e', '_')\ns.replace('i', '_')\ns.replace('i', '_')\ns.replace('o', '_')\ns.replace('u', '_')\n\nprint(s)"
    },
    {
-    "text": "(Option B)",
-    "img": null
+    "text": "Option B",
+    "img": null,
+    "code": "s='The joy of Computing'\n\ns.replace('_', 'a')\ns.replace('_', 'e')\ns.replace('_', 'i')\ns.replace('_', 'o')\ns.replace('_', 'u')\n\nprint(s)"
    },
    {
-    "text": "(Option C)",
-    "img": null
+    "text": "Option C",
+    "img": null,
+    "code": "s='The joy of Computing'\n\ns = s.replace('_', 'a')\ns = s.replace('_', 'e')\ns = s.replace('_', 'i')\ns = s.replace('_', 'o')\ns = s.replace('_', 'u')\n\nprint(s)"
    },
    {
-    "text": "(Option D)",
-    "img": null
+    "text": "Option D",
+    "img": null,
+    "code": "s='The joy of Computing'\n\ns = s.replace('a', '_')\ns = s.replace('e', '_')\ns = s.replace('i', '_')\ns = s.replace('o', '_')\ns = s.replace('u', '_')\n\nprint(s)"
    }
   ],
   "answer": [
@@ -84650,7 +84651,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "which code snippet represents replacing all vowels with in a string option a 1 s the joy of computing 2 3 s replace a 4 s replace e 5 s replace i 6 s replace i 7 s replace o 8 s replace u 9 10 print s",
+  "norm": "which code snippet represents replacing all vowels with in a string",
   "norm_options": [
    "option a",
    "option b",
@@ -84687,10 +84688,7 @@
   "file": "quizzes/2023-jul/week-10.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": "1  s='The joy of Computing'\n2\n3  s.replace('_', 'a')\n4  s.replace('_', 'e')\n5  s.replace('_', 'i')\n6  s.replace('_', 'o')\n7  s.replace('_', 'u')\n8\n9  print(s)\n\n1  s='The joy of Computing'\n2\n3  s = s.replace('_', 'a')\n4  s = s.replace('_', 'e')\n5  s = s.replace('_', 'i')\n6  s = s.replace('_', 'o')\n7  s = s.replace('_', 'u')\n8\n9  print(s)\n\n1  s='The joy of Computing'\n2\n3  s = s.replace('a', '_')\n4  s = s.replace('e', '_')\n5  s = s.replace('i', '_')\n6  s = s.replace('o', '_')\n7  s = s.replace('u', '_')\n8\n9  print(s)"
-  },
+  "context": null,
   "text": "What will be the output of the following list slicing.",
   "code": "1  s = 'The Joy of Computing'\n2\n3  print(s[3:12])",
   "images": [],
@@ -84779,10 +84777,7 @@
   "file": "quizzes/2023-jul/week-10.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": "1  s='The joy of Computing'\n2\n3  s.replace('_', 'a')\n4  s.replace('_', 'e')\n5  s.replace('_', 'i')\n6  s.replace('_', 'o')\n7  s.replace('_', 'u')\n8\n9  print(s)\n\n1  s='The joy of Computing'\n2\n3  s = s.replace('_', 'a')\n4  s = s.replace('_', 'e')\n5  s = s.replace('_', 'i')\n6  s = s.replace('_', 'o')\n7  s = s.replace('_', 'u')\n8\n9  print(s)\n\n1  s='The joy of Computing'\n2\n3  s = s.replace('a', '_')\n4  s = s.replace('e', '_')\n5  s = s.replace('i', '_')\n6  s = s.replace('o', '_')\n7  s = s.replace('u', '_')\n8\n9  print(s)"
-  },
+  "context": null,
   "text": "What does the following code represent?",
   "code": " 1  s = 'Sheher mein'\n 2  a = 'aeiouAEIOU'\n 3  for i in range(len(s)):\n 4      if(s.index(s[i])%2 == 0):\n 5          print(i)\n 6          if(s[i] in a):\n 7              s = s.replace(s[i], '_')\n 8\n 9\n10  print(s)",
   "images": [],
@@ -84871,10 +84866,7 @@
   "file": "quizzes/2023-jul/week-10.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": "1  s='The joy of Computing'\n2\n3  s.replace('_', 'a')\n4  s.replace('_', 'e')\n5  s.replace('_', 'i')\n6  s.replace('_', 'o')\n7  s.replace('_', 'u')\n8\n9  print(s)\n\n1  s='The joy of Computing'\n2\n3  s = s.replace('_', 'a')\n4  s = s.replace('_', 'e')\n5  s = s.replace('_', 'i')\n6  s = s.replace('_', 'o')\n7  s = s.replace('_', 'u')\n8\n9  print(s)\n\n1  s='The joy of Computing'\n2\n3  s = s.replace('a', '_')\n4  s = s.replace('e', '_')\n5  s = s.replace('i', '_')\n6  s = s.replace('o', '_')\n7  s = s.replace('u', '_')\n8\n9  print(s)"
-  },
+  "context": null,
   "text": "What will be the output of the following code?",
   "code": "1  import numpy as np\n2\n3  b = np.array([[1,2],[3,4]])\n4\n5  print(np.sum(b, axis = 1))",
   "images": [],
@@ -84963,30 +84955,31 @@
   "file": "quizzes/2023-jul/week-10.md",
   "kind": "youtube_transcription",
   "type": "multi",
-  "context": {
-   "text": "",
-   "code": "1  s='The joy of Computing'\n2\n3  s.replace('_', 'a')\n4  s.replace('_', 'e')\n5  s.replace('_', 'i')\n6  s.replace('_', 'o')\n7  s.replace('_', 'u')\n8\n9  print(s)\n\n1  s='The joy of Computing'\n2\n3  s = s.replace('_', 'a')\n4  s = s.replace('_', 'e')\n5  s = s.replace('_', 'i')\n6  s = s.replace('_', 'o')\n7  s = s.replace('_', 'u')\n8\n9  print(s)\n\n1  s='The joy of Computing'\n2\n3  s = s.replace('a', '_')\n4  s = s.replace('e', '_')\n5  s = s.replace('i', '_')\n6  s = s.replace('o', '_')\n7  s = s.replace('u', '_')\n8\n9  print(s)"
-  },
-  "text": "What is the correct way to display the transpose of a matrix?** (checkboxes: more than one can be selected)\nOption A",
-  "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.T())",
+  "context": null,
+  "text": "What is the correct way to display the transpose of a matrix?",
+  "code": null,
   "images": [],
   "crops": [],
   "options": [
    {
-    "text": "(Option A)",
-    "img": null
+    "text": "Option A",
+    "img": null,
+    "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.T())"
    },
    {
-    "text": "(Option B)",
-    "img": null
+    "text": "Option B",
+    "img": null,
+    "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.transpose())"
    },
    {
-    "text": "(Option C)",
-    "img": null
+    "text": "Option C",
+    "img": null,
+    "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.T)"
    },
    {
-    "text": "(Option D)",
-    "img": null
+    "text": "Option D",
+    "img": null,
+    "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.transpose)"
    }
   ],
   "answer": [
@@ -84995,7 +84988,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "what is the correct way to display the transpose of a matrix checkboxes more than one can be selected option a import numpy as np b np array 1 2 3 4 print b t",
+  "norm": "what is the correct way to display the transpose of a matrix",
   "norm_options": [
    "option a",
    "option b",
@@ -85032,10 +85025,7 @@
   "file": "quizzes/2023-jul/week-10.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.transpose())\n\nimport numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.T)\n\nimport numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.transpose)"
-  },
+  "context": null,
   "text": "Are Lossy and Lossless compressions the same?",
   "code": null,
   "images": [],
@@ -85123,10 +85113,7 @@
   "file": "quizzes/2023-jul/week-10.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.transpose())\n\nimport numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.T)\n\nimport numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.transpose)"
-  },
+  "context": null,
   "text": "What is the shape of the following numpy array?\n`numpy.array([ [1,2,3], [4,5,6] ])`",
   "code": null,
   "images": [],
@@ -85214,10 +85201,7 @@
   "file": "quizzes/2023-jul/week-10.md",
   "kind": "youtube_transcription",
   "type": "single",
-  "context": {
-   "text": "",
-   "code": "import numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.transpose())\n\nimport numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.T)\n\nimport numpy as np\n\nb = np.array([[1,2],[3,4]])\n\nprint(b.transpose)"
-  },
+  "context": null,
   "text": "What will be the output of the following code?",
   "code": "1  import numpy as np\n2\n3  a = np.array([[8,9,20],[10,31,22]])\n4  b = np.array([[1,2,3],[4,5,6]])\n5\n6  print(a-b)",
   "images": [],
@@ -85765,7 +85749,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What will be the output of the following Python code?\ns = \"Hello, World!\"\nprint (s[7:12 ])\n\"World\"",
+  "text": "What will be the output of the following Python code?",
   "code": null,
   "images": [],
   "crops": [
@@ -85773,6 +85757,10 @@
    "quizzes/2024-jul/img/w10-q01-p72.png"
   ],
   "options": [
+   {
+    "text": "\"World\"",
+    "img": null
+   },
    {
     "text": "\"World!\"",
     "img": null
@@ -85786,13 +85774,16 @@
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   0
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what will be the output of the following python code s hello world print s 7 12 world",
+  "norm": "what will be the output of the following python code",
   "norm_options": [
    "orld",
    "worl",
+   "world",
    "world"
   ]
  },

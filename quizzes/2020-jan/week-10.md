@@ -61,9 +61,9 @@ python?
 ### Q6. Predict the output
 
 - [ ] [1,4,9]
-- [ ] [2,4,6] [[123] [246] [369]]
+- [ ] [2,4,6]
+- [x] [[1 2 3] [2 4 6] [3 6 9]]
 - [ ] error
-> Accepted answer (not matched to a printed option): [[123]; [246]; [369]]
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w10-q06-p62.png)
@@ -73,7 +73,8 @@ python?
 ### Q7. Predict the output
 
 - [ ] [1,4,9]
-- [ ] [2,4,6] [[123] [246] [369]]
+- [ ] [2,4,6]
+- [ ] [[1 2 3] [2 4 6] [3 6 9]]
 - [x] error
 > No, the answer is incorrect. Score: 0
 

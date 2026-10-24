@@ -73,52 +73,47 @@ turtle.done()
 
 **4) Which of the following program will draw a hexagon?**
 
-Option A
-```python
- 1  import turtle
- 2
- 3  pen = turtle.Turtle()
- 4
- 5  for i in range(3):
- 6
- 7      pen.right(60)
- 8      pen.forward(60)
- 9
-10  turtle.done()
-```
-- [ ] (Option A)
+- [ ] Option A
+  ```python
+  import turtle
 
-Option B
-```python
- 1  import turtle
- 2
- 3  pen = turtle.Turtle()
- 4
- 5  for i in range(3):
- 6
- 7      pen.right(60)
- 8      pen.forward(60)
- 9      pen.right(60)
-10      pen.forward(60)
-11
-12  turtle.done()
-```
-- [x] (Option B)
+  pen = turtle.Turtle()
 
-Option C
-```python
- 1  import turtle
- 2
- 3  pen = turtle.Turtle()
- 4
- 5  for i in range(6):
- 6
- 7      pen.right(30)
- 8      pen.forward(30)
- 9
-10  turtle.done()
-```
-- [ ] (Option C)
+  for i in range(3):
+
+      pen.right(60)
+      pen.forward(60)
+
+  turtle.done()
+  ```
+- [x] Option B
+  ```python
+  import turtle
+
+  pen = turtle.Turtle()
+
+  for i in range(3):
+
+      pen.right(60)
+      pen.forward(60)
+      pen.right(60)
+      pen.forward(60)
+
+  turtle.done()
+  ```
+- [ ] Option C
+  ```python
+  import turtle
+
+  pen = turtle.Turtle()
+
+  for i in range(6):
+
+      pen.right(30)
+      pen.forward(30)
+
+  turtle.done()
+  ```
 
 (Only three code blocks are shown for this question in the recording.)
 

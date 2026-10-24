@@ -2,7 +2,7 @@
 
 2334 questions from 215 files. Types: {'single': 2117, 'reveal': 79, 'multi': 127, 'numeric': 11}. Answer sources: {'uploader': 1294, 'official': 1000, 'reviewed': 40}.
 
-76 files with issues:
+74 files with issues:
 
 - `quizzes/2018-jul/week-03.md`: no answer: Q3
 - `quizzes/2018-jul/week-04.md`: no answer: Q2; no parsed options (reveal): Q6
@@ -16,7 +16,6 @@
 - `quizzes/2020-jan/week-06.md`: no answer: Q3, Q5
 - `quizzes/2020-jan/week-07.md`: no answer: Q6, Q7; no parsed options (reveal): Q2, Q3, Q5, Q9, Q10
 - `quizzes/2020-jan/week-08.md`: 9 questions, expected 10; no answer: Q3, Q4; no parsed options (reveal): Q5, Q6
-- `quizzes/2020-jan/week-10.md`: no answer: Q6
 - `quizzes/2020-sep/week-01.md`: no answer: Q5, Q7, Q10; no parsed options (reveal): Q3, Q4
 - `quizzes/2020-sep/week-02.md`: no answer: Q10; no parsed options (reveal): Q3, Q6, Q7
 - `quizzes/2020-sep/week-03.md`: no parsed options (reveal): Q2, Q10
@@ -65,7 +64,6 @@
 - `quizzes/2024-jul/week-05.md`: no answer: Q1
 - `quizzes/2024-jul/week-07.md`: no answer: Q6
 - `quizzes/2024-jul/week-08.md`: no answer: Q3, Q8
-- `quizzes/2024-jul/week-10.md`: no answer: Q1
 - `quizzes/2024-jul/week-11.md`: no answer: Q10
 - `quizzes/2024-jul/week-12.md`: no answer: Q1; no parsed options (reveal): Q2
 - `quizzes/2025-jan/week-01.md`: no answer: Q3; no parsed options (reveal): Q2, Q9

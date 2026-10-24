@@ -6,14 +6,11 @@
 > gireesh218@gmail.com  · Due on 2024-10-02, 23:59 IST.
 
 ### Q1. What will be the output of the following Python code?
-s = "Hello, World!"
-print (s[7:12 ])
-"World"
 
+- [x] "World"
 - [ ] "World!"
 - [ ] "Worl"
 - [ ] "orld"
-> Accepted answer (not matched to a printed option): "World"
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w10-q01-p71.png)

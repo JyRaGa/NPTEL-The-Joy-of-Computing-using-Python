@@ -50,7 +50,7 @@ print (a[1,2] + b[1,2])
 - [x] "nohtyP"
 
 **6) State True or False.**
-**numpy.asanyarray(input) converts input to an ndarray. Here, input can be scalars, lists, lists of tuples, tuples, tuples of tuple[…]** (the rest of the line is cut off at the frame edge)
+**numpy.asanyarray(input) converts input to an ndarray. Here, input can be scalars, lists, lists of tuples, tuples, tuples of tuples, tuples of lists.**
 - [x] True
 - [ ] False
 
