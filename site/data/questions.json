@@ -93178,7 +93178,7 @@
    "text": "Note: use the following convention for the rest of the assignment.",
    "code": null
   },
-  "text": "What will be the output if the system date is 10 December 2021(Friday)?\n(Line 1 is hidden in the recording.)",
+  "text": "What will be the output if the system date is 10 December 2021(Friday)?",
   "code": "2  from datetime import datetime as dt\n3\n4  day = dt.today()\n5\n6  print(day.weekday())",
   "images": [],
   "crops": [],
@@ -93205,7 +93205,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "what will be the output if the system date is 10 december 2021 friday line 1 is hidden in the recording 2 from datetime import datetime as dt 3 4 day dt today 5 6 print day weekday",
+  "norm": "what will be the output if the system date is 10 december 2021 friday 2 from datetime import datetime as dt 3 4 day dt today 5 6 print day weekday",
   "norm_options": [
    "3",
    "4",
@@ -93815,7 +93815,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Which Python library is commonly used for automating web browsers for tasks like",
+  "text": "Which Python library is commonly used for automating web browsers for tasks like testing or web scraping?",
   "code": null,
   "images": [],
   "crops": [
@@ -93844,7 +93844,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which python library is commonly used for automating web browsers for tasks like",
+  "norm": "which python library is commonly used for automating web browsers for tasks like testing or web scraping",
   "norm_options": [
    "chrome",
    "datetime",
@@ -94000,7 +94000,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "How can you get the current local date and time in Python using the datetime",
+  "text": "How can you get the current local date and time in Python using the datetime module?",
   "code": null,
   "images": [],
   "crops": [
@@ -94025,7 +94025,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "how can you get the current local date and time in python using the datetime",
+  "norm": "how can you get the current local date and time in python using the datetime module",
   "norm_options": [
    "datetime date today",
    "datetime datetime now",
@@ -94041,7 +94041,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Which function from the calendar module can be used to create a formatted string",
+  "text": "Which function from the calendar module can be used to create a formatted string representing a month's calendar?",
   "code": null,
   "images": [],
   "crops": [
@@ -94066,7 +94066,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which function from the calendar module can be used to create a formatted string",
+  "norm": "which function from the calendar module can be used to create a formatted string representing a month s calendar",
   "norm_options": [
    "calendar month",
    "calendar monthcalendar",
@@ -94221,7 +94221,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Using the datetime module, how can you print the current date 7 times, each time",
+  "text": "Using the datetime module, how can you print the current date 7 times, each time increasing the day by 1 from the current date?",
   "code": null,
   "images": [],
   "crops": [
@@ -94249,7 +94249,7 @@
   "answer": [],
   "answer_source": "official",
   "explanation": null,
-  "norm": "using the datetime module how can you print the current date 7 times each time",
+  "norm": "using the datetime module how can you print the current date 7 times each time increasing the day by 1 from the current date",
   "norm_options": [
    "for i in range 7 print datetime date now add days i",
    "for i in range 7 print datetime date today datetime timedelta days i",
@@ -94312,7 +94312,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Which of the following is the best locator strategy in Selenium in terms of",
+  "text": "Which of the following is the best locator strategy in Selenium in terms of performance?",
   "code": null,
   "images": [],
   "crops": [
@@ -94341,7 +94341,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following is the best locator strategy in selenium in terms of",
+  "norm": "which of the following is the best locator strategy in selenium in terms of performance",
   "norm_options": [
    "find element by class name",
    "find element by id",
@@ -94358,7 +94358,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Selenium WebDriver can be used to automate both web and native mobile",
+  "text": "Selenium WebDriver can be used to automate both web and native mobile applications on Android and iOS.",
   "code": null,
   "images": [],
   "crops": [
@@ -94380,7 +94380,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "selenium webdriver can be used to automate both web and native mobile",
+  "norm": "selenium webdriver can be used to automate both web and native mobile applications on android and ios",
   "norm_options": [
    "false",
    "true"
@@ -94441,7 +94441,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What will be the output of the following Python code, which performs a modified",
+  "text": "What will be the output of the following Python code, which performs a modified linear search?",
   "code": null,
   "images": [],
   "crops": [
@@ -94467,11 +94467,11 @@
    }
   ],
   "answer": [
-   3
+   1
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what will be the output of the following python code which performs a modified",
+  "norm": "what will be the output of the following python code which performs a modified linear search",
   "norm_options": [
    "checking 3 checking 1 found at index 3",
    "checking 3 checking 8 checking 1 checking 7 found at index 3",
@@ -99112,7 +99112,7 @@
     "img": null
    },
    {
-    "text": "Statement b is correct",
+    "text": "None of the above",
     "img": null
    }
   ],
@@ -99123,8 +99123,8 @@
   "explanation": null,
   "norm": "consider the following statements a random walk method requires a lesser number of iterations to calculate accurate pagerank as compared to points distribution method b points distribution method requires lesser number of iterations to calculate accurate pagerank as compare to random walk method",
   "norm_options": [
+   "none of the above",
    "statement a is correct",
-   "statement b is correct",
    "statement b is correct"
   ]
  },
@@ -101609,14 +101609,14 @@
   "type": "reveal",
   "context": null,
   "text": "Read the given code. Enter the number of elements in incoming_edges_D(NAT)\nAnswer entered: `2`",
-  "code": "import networkx as nx\nimport matplotlib.pyplot as plt\n\n# Create a weighted directed graph\nG = nx.DiGraph()\n\n# Add edges with weights\nG.add_edge('A', 'B', weight=3)\nG.add_edge('A', 'C', weight=2)\nG.add_edge('B', 'D', weight=5)\nG.add_edge('C', 'D', weight=1)\nG.add_edge('D', 'E', weight=4)\n\n                                    ← (a blank dark bar appears here in the portal's code image)\n\n# Display incoming edges for node 'D'\nincoming_edges_D = G.in_edges('D')\nprint(\"Incoming Edges to Node 'D':\", incoming_edges_D)",
+  "code": "import networkx as nx\nimport matplotlib.pyplot as plt\n\n# Create a weighted directed graph\nG = nx.DiGraph()\n\n# Add edges with weights\nG.add_edge('A', 'B', weight=3)\nG.add_edge('A', 'C', weight=2)\nG.add_edge('B', 'D', weight=5)\nG.add_edge('C', 'D', weight=1)\nG.add_edge('D', 'E', weight=4)\n\n\n# Display incoming edges for node 'D'\nincoming_edges_D = G.in_edges('D')\nprint(\"Incoming Edges to Node 'D':\", incoming_edges_D)",
   "images": [],
   "crops": [],
   "options": [],
   "answer": [],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "read the given code enter the number of elements in incoming edges d nat answer entered 2 import networkx as nx import matplotlib pyplot as plt create a weighted directed graph g nx digraph add edges with weights g add edge a b weight 3 g add edge a c weight 2 g add edge b d weight 5 g add edge c d weight 1 g add edge d e weight 4 a blank dark bar appears here in the portal s code image display incoming edges for node d incoming edges d g in edges d print incoming edges to node d incoming edges d",
+  "norm": "read the given code enter the number of elements in incoming edges d nat answer entered 2 import networkx as nx import matplotlib pyplot as plt create a weighted directed graph g nx digraph add edges with weights g add edge a b weight 3 g add edge a c weight 2 g add edge b d weight 5 g add edge c d weight 1 g add edge d e weight 4 display incoming edges for node d incoming edges d g in edges d print incoming edges to node d incoming edges d",
   "norm_options": []
  },
  {
@@ -102247,7 +102247,7 @@
   "kind": "portal_print_parsed",
   "type": "reveal",
   "context": null,
-  "text": "Which of the following graphs is generated by the given Python code using the",
+  "text": "Which of the following graphs is generated by the given Python code using the networkx module?",
   "code": null,
   "images": [],
   "crops": [
@@ -102259,7 +102259,7 @@
   "answer": [],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which of the following graphs is generated by the given python code using the",
+  "norm": "which of the following graphs is generated by the given python code using the networkx module",
   "norm_options": []
  },
  {
@@ -102317,7 +102317,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Observe the following graph generated using the networkx module. How many",
+  "text": "Observe the following graph generated using the networkx module. How many edges does this graph contain?",
   "code": null,
   "images": [],
   "crops": [
@@ -102347,7 +102347,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "observe the following graph generated using the networkx module how many",
+  "norm": "observe the following graph generated using the networkx module how many edges does this graph contain",
   "norm_options": [
    "6",
    "7",
@@ -102364,7 +102364,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What does nx.cycle graph(4) generate?",
+  "text": "What does nx.cycle_graph(4) generate?",
   "code": null,
   "images": [],
   "crops": [
@@ -102410,7 +102410,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Observe the following graph generated using the networkx module. What type of",
+  "text": "Observe the following graph generated using the networkx module. What type of graph is this?",
   "code": null,
   "images": [],
   "crops": [
@@ -102440,7 +102440,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "observe the following graph generated using the networkx module what type of",
+  "norm": "observe the following graph generated using the networkx module what type of graph is this",
   "norm_options": [
    "barbell graph",
    "ladder graph",
@@ -102597,7 +102597,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Which technique is used in the PageRank algorithm to determine the rank of a web",
+  "text": "Which technique is used in the PageRank algorithm to determine the rank of a web page?",
   "code": null,
   "images": [],
   "crops": [
@@ -102626,7 +102626,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which technique is used in the pagerank algorithm to determine the rank of a web",
+  "norm": "which technique is used in the pagerank algorithm to determine the rank of a web page",
   "norm_options": [
    "data scraping",
    "depth first search",
@@ -102643,7 +102643,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "In the PageRank algorithm, what happens when a page receives multiple inbound",
+  "text": "In the PageRank algorithm, what happens when a page receives multiple inbound links from highly ranked pages?",
   "code": null,
   "images": [],
   "crops": [
@@ -102673,7 +102673,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in the pagerank algorithm what happens when a page receives multiple inbound",
+  "norm": "in the pagerank algorithm what happens when a page receives multiple inbound links from highly ranked pages",
   "norm_options": [
    "it is considered less relevant",
    "its rank decreases due to increased server load",

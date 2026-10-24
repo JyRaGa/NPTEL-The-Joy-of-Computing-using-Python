@@ -45,7 +45,6 @@ G.add_edge('B', 'D', weight=5)
 G.add_edge('C', 'D', weight=1)
 G.add_edge('D', 'E', weight=4)
 
-                                    ← (a blank dark bar appears here in the portal's code image)
 
 # Display incoming edges for node 'D'
 incoming_edges_D = G.in_edges('D')

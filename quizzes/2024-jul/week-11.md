@@ -5,7 +5,7 @@
 
 > gireesh218@gmail.com  · Due on 2024-10-09, 23:59 IST.
 
-### Q1. Which Python library is commonly used for automating web browsers for tasks like
+### Q1. Which Python library is commonly used for automating web browsers for tasks like testing or web scraping?
 
 - [ ] datetime
 - [x] selenium
@@ -47,7 +47,7 @@
 
 ![page crop](img/w11-q04-p77.png)
 
-### Q5. How can you get the current local date and time in Python using the datetime
+### Q5. How can you get the current local date and time in Python using the datetime module?
 
 - [ ] datetime.date.today()
 - [x] datetime.datetime.now()
@@ -56,7 +56,7 @@
 
 ![page crop](img/w11-q05-p77.png)
 
-### Q6. Which function from the calendar module can be used to create a formatted string
+### Q6. Which function from the calendar module can be used to create a formatted string representing a month's calendar?
 
 - [ ] calendar.printmonth()
 - [x] calendar.month()
@@ -97,7 +97,7 @@
 
 ![page crop](img/w11-q09-p78.png)
 
-### Q10. Using the datetime module, how can you print the current date 7 times, each time
+### Q10. Using the datetime module, how can you print the current date 7 times, each time increasing the day by 1 from the current date?
 
 - [ ] for i in range(7): print(datetime.datetime.now() + datetime.timedelta(days=i))
 - [ ] for i in range(7): print(datetime.date.today() + datetime.timedelta(days=i))

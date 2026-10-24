@@ -15,7 +15,7 @@
 
 ![page crop](img/w11-q01-p54.png)
 
-### Q2. Which of the following is the best locator strategy in Selenium in terms of
+### Q2. Which of the following is the best locator strategy in Selenium in terms of performance?
 
 - [ ] find_element_by_name()
 - [x] find_element_by_id()
@@ -25,7 +25,7 @@
 
 ![page crop](img/w11-q02-p54.png)
 
-### Q3. Selenium WebDriver can be used to automate both web and native mobile
+### Q3. Selenium WebDriver can be used to automate both web and native mobile applications on Android and iOS.
 
 - [ ] True
 - [x] False
@@ -45,12 +45,12 @@
 
 ![page crop](img/w11-q04-p55.png)
 
-### Q5. What will be the output of the following Python code, which performs a modified
+### Q5. What will be the output of the following Python code, which performs a modified linear search?
 
 - [ ] Checking 3 Checking 8 Checking 1 Found at index 3
-- [ ] Checking 3 Checking 1 Found at index 3
+- [x] Checking 3 Checking 1 Found at index 3
 - [ ] Checking 3 Checking 8 Checking 1 Checking 7 Found at index 3
-- [x] Found at index 3
+- [ ] Found at index 3
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w11-q05-p55.png)

@@ -27,3 +27,12 @@
 {"gid": "2023-jul/w09/q10@gpt", "text": "Networkx in Python is used for", "code": null}
 {"gid": "2023-jul/w09/q04", "text": "What is the output of the following code?", "options": [{"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.A.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.B.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.C.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.D.PNG"}], "answer": [3]}
 {"gid": "2026-jan/w09/q08", "options": ["A sharply peaked word-length distribution", "Identical sentiment to all authors", "A broader, less consistent distribution", "No visible plot"]}
+{"gid": "2023-jul/w11/q01", "context": null}
+{"gid": "2023-jul/w11/q07", "context": null}
+{"gid": "2023-jul/w11/q10", "context": null}
+{"gid": "2023-jan/w12/q07", "text": "Identify the type of graph:", "images": [], "crops": ["quizzes/2023-jul/img/nb/w12-50.png"]}
+{"gid": "2023-jan/w12/q03", "images": ["quizzes/2023-jan/img/Jan-2023-W12-Q3-graph.png"]}
+{"gid": "2023-jan/w12/q08", "images": ["quizzes/2023-jan/img/Jan-2023-W12-Q8-graph.png"]}
+{"gid": "2023-jan/w12/q05", "images": [], "options": [{"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.B.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.C.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.D.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.A.PNG"}], "answer": [2]}
+{"gid": "2023-jan/w12/q10", "images": [], "options": [{"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/W12Q6a.png"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/W12Q6b.png"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/W12Q6c.png"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/W12Q6d.png"}], "answer": [0]}
+{"gid": "2023-jul/w12/q07", "text": "What will be the G.out_degree(3) for the following graph(G) ?"}

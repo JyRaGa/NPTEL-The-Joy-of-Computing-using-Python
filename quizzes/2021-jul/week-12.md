@@ -53,7 +53,7 @@ a) Random Walk method requires a lesser number of iterations to calculate accura
 b) Points Distribution method requires lesser number of iterations to calculate accurate PageRank as compare to Random Walk method
 - Statement a is correct
 - Statement b is correct
-- Statement b is correct  ✅
+- None of the above  ✅
 
 **9. In the web graph, nodes are the web pages. What are the edges?**
 

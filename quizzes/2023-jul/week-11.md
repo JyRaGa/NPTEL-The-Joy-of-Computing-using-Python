@@ -72,7 +72,6 @@ time.time()
 5
 6  print(day.weekday())
 ```
-(Line 1 is hidden in the recording.)
 - [ ] 5
 - [ ] 3
 - [x] 4
