@@ -211,7 +211,7 @@ def main():
         fk = next((k for k in [gid, *g["members"]] if k in fixes), None)
         fx = fixes.get(fk)
         if fx:
-            for k in ("text", "code", "images", "crops", "type", "note", "explanation"):
+            for k in ("text", "context", "code", "images", "crops", "type", "note", "explanation"):
                 if k in fx:
                     g[k] = fx[k]
             if "options" in fx:

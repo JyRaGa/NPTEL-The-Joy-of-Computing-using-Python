@@ -6,9 +6,7 @@
 
 **1) The Chaupar game, also known as Pachisi, involves a player moving their pieces around a cross-shaped board based on the throw of dice (or cowrie shells). The objective is to reach the centre of the board. The steps required to implement the game are given below**
 
-![W7 Q1 board and Q5 snake pattern](img/Jan-2024-W7-Q1-Q5.jpg)
-
-(Board image: a cross with four arms, each three columns of eight squares numbered 0–23 along the path, centre square "24".)
+![W7 Q1 board](img/Jan-2024-W7-Q1-board.png)
 
 **Arrange them in correct order of implementation. The answer should be a sequence with the step numbers (Example :132)**
 
@@ -76,7 +74,7 @@ Answer entered: `7`
 
 **5) Like the spiral pattern, the matrix can be printed in many patterns and forms. In the snake pattern, the elements of the row are first printed from left to right and then the elements of the next row are printed from right to left and so on.**
 
-(Image: 3×4 matrix with arrows — row 0 `15 23 8 7` →, row 1 `18 5 12 9` ←, row 2 `89 24 28 90` →; see image above)
+![W7 Q5 snake pattern](img/Jan-2024-W7-Q5-snake.png)
 
 **A crucial step in the algorithm to print the snake pattern is to check the row parity (remainder when the row number is divided by 2). Identify the correct statements regarding this step. (Assume the normal row indexing in a matrix starting from 0) [MSQ]**
 - [x] When parity is 0, we print the elements of the row from left to right

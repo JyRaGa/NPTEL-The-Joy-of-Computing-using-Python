@@ -59605,17 +59605,17 @@
   "kind": "youtube_transcription",
   "type": "reveal",
   "context": null,
-  "text": "The Chaupar game, also known as Pachisi, involves a player moving their pieces around a cross-shaped board based on the throw of dice (or cowrie shells). The objective is to reach the centre of the board. The steps required to implement the game are given below\n(Board image: a cross with four arms, each three columns of eight squares numbered 0–23 along the path, centre square \"24\".)\nArrange them in correct order of implementation. The answer should be a sequence with the step numbers (Example :132)\n1.Roll the dice (or simulate the throw of cowrie shells) to determine the number of steps the player can take. Move the player's piece based on the dice roll. Check if the new position is within the board limits. If it is, proceed; otherwise, stay at the current position.\n2.Create a cross-shaped board with four arms, each having three columns of eight squares. Initialize the player's position to be inside the board at position 0. Define the centre of the board (position 24) as the goal.\n3. Check if the player has reached or exceeded the centre of the board (position 24). If the player has reached the centre, declare them the winner. If not, proceed to the next players turn and roll the die again and repeat the steps for each player\nAnswer entered: `213`",
+  "text": "The Chaupar game, also known as Pachisi, involves a player moving their pieces around a cross-shaped board based on the throw of dice (or cowrie shells). The objective is to reach the centre of the board. The steps required to implement the game are given below\nArrange them in correct order of implementation. The answer should be a sequence with the step numbers (Example :132)\n1.Roll the dice (or simulate the throw of cowrie shells) to determine the number of steps the player can take. Move the player's piece based on the dice roll. Check if the new position is within the board limits. If it is, proceed; otherwise, stay at the current position.\n2.Create a cross-shaped board with four arms, each having three columns of eight squares. Initialize the player's position to be inside the board at position 0. Define the centre of the board (position 24) as the goal.\n3. Check if the player has reached or exceeded the centre of the board (position 24). If the player has reached the centre, declare them the winner. If not, proceed to the next players turn and roll the die again and repeat the steps for each player\nAnswer entered: `213`",
   "code": null,
   "images": [
-   "quizzes/2024-jan/img/Jan-2024-W7-Q1-Q5.jpg"
+   "quizzes/2024-jan/img/Jan-2024-W7-Q1-board.png"
   ],
   "crops": [],
   "options": [],
   "answer": [],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "the chaupar game also known as pachisi involves a player moving their pieces around a cross shaped board based on the throw of dice or cowrie shells the objective is to reach the centre of the board the steps required to implement the game are given below board image a cross with four arms each three columns of eight squares numbered 0 23 along the path centre square 24 arrange them in correct order of implementation the answer should be a sequence with the step numbers example 132 1 roll the dice or simulate the throw of cowrie shells to determine the number of steps the player can take move the player s piece based on the dice roll check if the new position is within the board limits if it is proceed otherwise stay at the current position 2 create a cross shaped board with four arms each having three columns of eight squares initialize the player s position to be inside the board at position 0 define the centre of the board position 24 as the goal 3 check if the player has reached or exceeded the centre of the board position 24 if the player has reached the centre declare them the winner if not proceed to the next players turn and roll the die again and repeat the steps for each player answer entered 213",
+  "norm": "the chaupar game also known as pachisi involves a player moving their pieces around a cross shaped board based on the throw of dice or cowrie shells the objective is to reach the centre of the board the steps required to implement the game are given below arrange them in correct order of implementation the answer should be a sequence with the step numbers example 132 1 roll the dice or simulate the throw of cowrie shells to determine the number of steps the player can take move the player s piece based on the dice roll check if the new position is within the board limits if it is proceed otherwise stay at the current position 2 create a cross shaped board with four arms each having three columns of eight squares initialize the player s position to be inside the board at position 0 define the centre of the board position 24 as the goal 3 check if the player has reached or exceeded the centre of the board position 24 if the player has reached the centre declare them the winner if not proceed to the next players turn and roll the die again and repeat the steps for each player answer entered 213",
   "norm_options": []
  },
  {
@@ -59711,9 +59711,11 @@
   "kind": "youtube_transcription",
   "type": "multi",
   "context": null,
-  "text": "Like the spiral pattern, the matrix can be printed in many patterns and forms. In the snake pattern, the elements of the row are first printed from left to right and then the elements of the next row are printed from right to left and so on.\n(Image: 3×4 matrix with arrows — row 0 `15 23 8 7` →, row 1 `18 5 12 9` ←, row 2 `89 24 28 90` →; see image above)\nA crucial step in the algorithm to print the snake pattern is to check the row parity (remainder when the row number is divided by 2). Identify the correct statements regarding this step. (Assume the normal row indexing in a matrix starting from 0) [MSQ]",
+  "text": "Like the spiral pattern, the matrix can be printed in many patterns and forms. In the snake pattern, the elements of the row are first printed from left to right and then the elements of the next row are printed from right to left and so on.\nA crucial step in the algorithm to print the snake pattern is to check the row parity (remainder when the row number is divided by 2). Identify the correct statements regarding this step. (Assume the normal row indexing in a matrix starting from 0) [MSQ]",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2024-jan/img/Jan-2024-W7-Q5-snake.png"
+  ],
   "crops": [],
   "options": [
    {
@@ -59739,7 +59741,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "like the spiral pattern the matrix can be printed in many patterns and forms in the snake pattern the elements of the row are first printed from left to right and then the elements of the next row are printed from right to left and so on image 3 4 matrix with arrows row 0 15 23 8 7 row 1 18 5 12 9 row 2 89 24 28 90 see image above a crucial step in the algorithm to print the snake pattern is to check the row parity remainder when the row number is divided by 2 identify the correct statements regarding this step assume the normal row indexing in a matrix starting from 0 msq",
+  "norm": "like the spiral pattern the matrix can be printed in many patterns and forms in the snake pattern the elements of the row are first printed from left to right and then the elements of the next row are printed from right to left and so on a crucial step in the algorithm to print the snake pattern is to check the row parity remainder when the row number is divided by 2 identify the correct statements regarding this step assume the normal row indexing in a matrix starting from 0 msq",
   "norm_options": [
    "when parity is 0 we print the elements of the row from left to right",
    "when parity is 0 we print the elements of the row from right to left",
@@ -60094,7 +60096,7 @@
   "kind": "portal_print_parsed",
   "type": "numeric",
   "context": null,
-  "text": "In a game of Snakes and Ladders, a player is currently on square 96. There is a snake on square 99 that sends the player back to\nsquare 78. If the player wishes to reach square 100 in one dice throw, what number must they roll on the dice?\n4",
+  "text": "In a game of Snakes and Ladders, a player is currently on square 96. There is a snake on square 99 that sends the player back to\nsquare 78. If the player wishes to reach square 100 in one dice throw, what number must they roll on the dice?",
   "code": null,
   "images": [],
   "crops": [
@@ -60105,7 +60107,7 @@
   "answer": "4",
   "answer_source": "official",
   "explanation": null,
-  "norm": "in a game of snakes and ladders a player is currently on square 96 there is a snake on square 99 that sends the player back to square 78 if the player wishes to reach square 100 in one dice throw what number must they roll on the dice 4",
+  "norm": "in a game of snakes and ladders a player is currently on square 96 there is a snake on square 99 that sends the player back to square 78 if the player wishes to reach square 100 in one dice throw what number must they roll on the dice",
   "norm_options": []
  },
  {

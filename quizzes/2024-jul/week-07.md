@@ -39,7 +39,6 @@
 
 ### Q4. In a game of Snakes and Ladders, a player is currently on square 96. There is a snake on square 99 that sends the player back to
 square 78. If the player wishes to reach square 100 in one dice throw, what number must they roll on the dice?
-4
 
 Accepted answer(s): (Type: Numeric) 4
 > Yes, the answer is correct. Score: 1
