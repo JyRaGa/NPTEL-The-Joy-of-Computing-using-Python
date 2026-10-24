@@ -66,7 +66,7 @@ Hint: Search the internet for more info, if needed.
 
 - [x] It will not work if the cipher text is too small.
 - [ ] It works flawlessly.
-- [ ] It will not work if the encrypted text was previously encrypted using a different cipher, which could have removed patterns in common English.
+- [x] It will not work if the encrypted text was previously encrypted using a different cipher, which could have removed patterns in common English.
 - [ ] The frequency analysis method doesn’t work at all for Substitution Cipher
 > Yes, the answer is correct. Score: 1
 

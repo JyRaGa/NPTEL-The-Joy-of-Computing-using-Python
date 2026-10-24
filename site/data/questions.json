@@ -52182,7 +52182,7 @@
   "num": 6,
   "file": "quizzes/2024-jul/week-06.md",
   "kind": "portal_print_parsed",
-  "type": "single",
+  "type": "multi",
   "context": null,
   "text": "What are drawbacks of using frequency analysis to decrypt a message that has been encrypted using Substitution Cipher?",
   "code": null,
@@ -52209,7 +52209,8 @@
    }
   ],
   "answer": [
-   0
+   0,
+   2
   ],
   "answer_source": "official",
   "explanation": null,
@@ -52452,7 +52453,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Assertion (A): If a recursive function doesn’t have a base case, it may never stop.",
+  "text": "Assertion (A): If a recursive function doesn’t have a base case, it may never stop.\nReason (R): Recursion means that a function calls itself.",
   "code": null,
   "images": [],
   "crops": [
@@ -52482,7 +52483,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "assertion a if a recursive function doesn t have a base case it may never stop",
+  "norm": "assertion a if a recursive function doesn t have a base case it may never stop reason r recursion means that a function calls itself",
   "norm_options": [
    "a is false but r is true",
    "a is true but r is false",
@@ -52545,7 +52546,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "In English, the letter ‘z’ usually appears far less often than most letters. Now",
+  "text": "In English, the letter ‘z’ usually appears far less often than most letters. Now imagine applying a Substitution Cipher to a large body of English text, where ‘z’ is replaced by ‘r’, and every other letter is also mapped to a unique letter. After encryption, which letter is likely to be the least frequent in the new text?\nHint: Search the internet for more info, if needed.",
   "code": null,
   "images": [],
   "crops": [
@@ -52574,7 +52575,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in english the letter z usually appears far less often than most letters now",
+  "norm": "in english the letter z usually appears far less often than most letters now imagine applying a substitution cipher to a large body of english text where z is replaced by r and every other letter is also mapped to a unique letter after encryption which letter is likely to be the least frequent in the new text hint search the internet for more info if needed",
   "norm_options": [
    "e",
    "it is not possible to determine",
@@ -52591,7 +52592,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "If you have a large ciphertext produced by a simple substitution cipher on an",
+  "text": "If you have a large ciphertext produced by a simple substitution cipher on an English text, can you determine the original message by examining how often each letter appears?\nHint: Search the internet for more info, if needed.",
   "code": null,
   "images": [],
   "crops": [
@@ -52613,7 +52614,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "if you have a large ciphertext produced by a simple substitution cipher on an",
+  "norm": "if you have a large ciphertext produced by a simple substitution cipher on an english text can you determine the original message by examining how often each letter appears hint search the internet for more info if needed",
   "norm_options": [
    "no it cannot be done",
    "yes it can be done"
@@ -52628,7 +52629,7 @@
   "kind": "portal_print_parsed",
   "type": "multi",
   "context": null,
-  "text": "Suppose you suspect that a piece of ciphertext was produced using a simple sub-",
+  "text": "Suppose you suspect that a piece of ciphertext was produced using a simple substitution cipher. Under which circumstances might frequency analysis fail to yield accurate results?",
   "code": null,
   "images": [],
   "crops": [
@@ -52654,7 +52655,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "suppose you suspect that a piece of ciphertext was produced using a simple sub",
+  "norm": "suppose you suspect that a piece of ciphertext was produced using a simple substitution cipher under which circumstances might frequency analysis fail to yield accurate results",
   "norm_options": [
    "the ciphertext is short",
    "the ciphertext is very long",
@@ -52670,7 +52671,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "If variable dict_name is a non-empty dictionary, what does dict name.values() re-",
+  "text": "If variable dict_name is a non-empty dictionary, what does dict name.values() return?",
   "code": null,
   "images": [],
   "crops": [
@@ -52699,7 +52700,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "if variable dict name is a non empty dictionary what does dict name values re",
+  "norm": "if variable dict name is a non empty dictionary what does dict name values return",
   "norm_options": [
    "returns a list of all the items in the dictionary",
    "returns a list of all the keys in the dictionary",
@@ -52716,7 +52717,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Assertion (A): A Caesar Cipher is a type of Substitution Cipher.",
+  "text": "Assertion (A): A Caesar Cipher is a type of Substitution Cipher.\nReason (R): In a Caesar Cipher, each letter in the plaintext is replaced by a letter at a fixed shift in the alphabet.",
   "code": null,
   "images": [],
   "crops": [
@@ -52745,7 +52746,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "assertion a a caesar cipher is a type of substitution cipher",
+  "norm": "assertion a a caesar cipher is a type of substitution cipher reason r in a caesar cipher each letter in the plaintext is replaced by a letter at a fixed shift in the alphabet",
   "norm_options": [
    "a is false but r is true",
    "a is true but r is false",
@@ -52762,7 +52763,7 @@
   "kind": "portal_print_parsed",
   "type": "multi",
   "context": null,
-  "text": "Which outcome generally follows from providing a proper base case in a recursive",
+  "text": "Which outcome generally follows from providing a proper base case in a recursive function?",
   "code": null,
   "images": [],
   "crops": [
@@ -52793,7 +52794,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which outcome generally follows from providing a proper base case in a recursive",
+  "norm": "which outcome generally follows from providing a proper base case in a recursive function",
   "norm_options": [
    "it allows the function to keep calling itself indefinitely",
    "it ensures recursion depth is always constant",
@@ -52810,7 +52811,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "In a standard 3×3 Tic-Tac-Toe board, how many distinct winning lines (rows,",
+  "text": "In a standard 3×3 Tic-Tac-Toe board, how many distinct winning lines (rows, columns, or diagonals) pass through the center square?",
   "code": null,
   "images": [],
   "crops": [
@@ -52840,7 +52841,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "in a standard 3 3 tic tac toe board how many distinct winning lines rows",
+  "norm": "in a standard 3 3 tic tac toe board how many distinct winning lines rows columns or diagonals pass through the center square",
   "norm_options": [
    "2",
    "3",

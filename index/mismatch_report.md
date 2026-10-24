@@ -1,6 +1,6 @@
 # Parse mismatch report
 
-2334 questions from 215 files. Types: {'single': 2118, 'reveal': 79, 'multi': 126, 'numeric': 11}. Answer sources: {'uploader': 1294, 'official': 1000, 'reviewed': 40}.
+2334 questions from 215 files. Types: {'single': 2117, 'reveal': 79, 'multi': 127, 'numeric': 11}. Answer sources: {'uploader': 1294, 'official': 1000, 'reviewed': 40}.
 
 77 files with issues:
 
