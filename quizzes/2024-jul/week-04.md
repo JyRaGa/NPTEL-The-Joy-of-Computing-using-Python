@@ -132,7 +132,6 @@ to 36?
 
 ### Q5. What is the minimum number of people required to ensure that at least two of them share the same 30-minute birth interval? The
 intervals start from 12:00 AM and each interval lasts for half an hour.
-49
 
 Accepted answer(s): (Type: Numeric) 49
 > Yes, the answer is correct. Score: 1
@@ -143,7 +142,6 @@ Accepted answer(s): (Type: Numeric) 49
 Ramanujan’s magic square ?
 If yes, enter 0, else enter the absolute difference between the two.
 Hint: Search the about Ramanujan’s magic square.
-105
 
 Accepted answer(s): (Type: Numeric) 105
 > Yes, the answer is correct. Score: 1

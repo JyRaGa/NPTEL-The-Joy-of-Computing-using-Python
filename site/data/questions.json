@@ -34177,7 +34177,7 @@
   "kind": "portal_print_parsed",
   "type": "numeric",
   "context": null,
-  "text": "What is the minimum number of people required to ensure that at least two of them share the same 30-minute birth interval? The\nintervals start from 12:00 AM and each interval lasts for half an hour.\n49",
+  "text": "What is the minimum number of people required to ensure that at least two of them share the same 30-minute birth interval? The\nintervals start from 12:00 AM and each interval lasts for half an hour.",
   "code": null,
   "images": [],
   "crops": [
@@ -34187,7 +34187,7 @@
   "answer": "49",
   "answer_source": "official",
   "explanation": null,
-  "norm": "what is the minimum number of people required to ensure that at least two of them share the same 30 minute birth interval the intervals start from 12 00 am and each interval lasts for half an hour 49",
+  "norm": "what is the minimum number of people required to ensure that at least two of them share the same 30 minute birth interval the intervals start from 12 00 am and each interval lasts for half an hour",
   "norm_options": []
  },
  {
@@ -34199,7 +34199,7 @@
   "kind": "portal_print_parsed",
   "type": "numeric",
   "context": null,
-  "text": "Calculate the magic constant for 4x4 square, where all elements are distinct numbers from 1 to 16, is it same as the magic constant for\nRamanujan’s magic square ?\nIf yes, enter 0, else enter the absolute difference between the two.\nHint: Search the about Ramanujan’s magic square.\n105",
+  "text": "Calculate the magic constant for 4x4 square, where all elements are distinct numbers from 1 to 16, is it same as the magic constant for\nRamanujan’s magic square ?\nIf yes, enter 0, else enter the absolute difference between the two.\nHint: Search the about Ramanujan’s magic square.",
   "code": null,
   "images": [],
   "crops": [
@@ -34210,7 +34210,7 @@
   "answer": "105",
   "answer_source": "official",
   "explanation": null,
-  "norm": "calculate the magic constant for 4x4 square where all elements are distinct numbers from 1 to 16 is it same as the magic constant for ramanujan s magic square if yes enter 0 else enter the absolute difference between the two hint search the about ramanujan s magic square 105",
+  "norm": "calculate the magic constant for 4x4 square where all elements are distinct numbers from 1 to 16 is it same as the magic constant for ramanujan s magic square if yes enter 0 else enter the absolute difference between the two hint search the about ramanujan s magic square",
   "norm_options": []
  },
  {
@@ -34537,7 +34537,7 @@
   "num": 5,
   "file": "quizzes/2025-jan/week-04.md",
   "kind": "portal_print_parsed",
-  "type": "single",
+  "type": "numeric",
   "context": null,
   "text": "(question text in image)",
   "code": null,
@@ -34545,19 +34545,12 @@
   "crops": [
    "quizzes/2025-jan/img/w04-q05-p20.png"
   ],
-  "options": [
-   {
-    "text": "What is the minimum number of people required to ensure that at least three of them share",
-    "img": null
-   }
-  ],
-  "answer": [],
+  "options": [],
+  "answer": "97",
   "answer_source": "official",
   "explanation": null,
   "norm": "question text in image",
-  "norm_options": [
-   "what is the minimum number of people required to ensure that at least three of them share"
-  ]
+  "norm_options": []
  },
  {
   "id": "2025-jan/w04/q06",
@@ -34566,7 +34559,7 @@
   "num": 6,
   "file": "quizzes/2025-jan/week-04.md",
   "kind": "portal_print_parsed",
-  "type": "single",
+  "type": "numeric",
   "context": null,
   "text": "(question text in image)",
   "code": null,
@@ -34574,19 +34567,12 @@
   "crops": [
    "quizzes/2025-jan/img/w04-q06-p20.png"
   ],
-  "options": [
-   {
-    "text": "Calculate the magic constant for 5x5 square, where all elements are distinct numbers from",
-    "img": null
-   }
-  ],
-  "answer": [],
+  "options": [],
+  "answer": "74",
   "answer_source": "official",
   "explanation": null,
   "norm": "question text in image",
-  "norm_options": [
-   "calculate the magic constant for 5x5 square where all elements are distinct numbers from"
-  ]
+  "norm_options": []
  },
  {
   "id": "2025-jan/w04/q07",
@@ -34696,7 +34682,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "If all possible pairs of prime numbers between 0 and 10, are given to n1 and n2, for",
+  "text": "If all possible pairs of prime numbers between 0 and 10, are given to n1 and n2, for how many pairs would mystery2 print ”Completed” ?",
   "code": null,
   "images": [],
   "crops": [
@@ -34725,7 +34711,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "if all possible pairs of prime numbers between 0 and 10 are given to n1 and n2 for",
+  "norm": "if all possible pairs of prime numbers between 0 and 10 are given to n1 and n2 for how many pairs would mystery2 print completed",
   "norm_options": [
    "it will not print completed for any pair",
    "it will print completed for all pairs of primes between 0 and 20",
@@ -34742,7 +34728,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "If numbers of pairs of primes which result in mystery2 to print ”Completed” are",
+  "text": "If numbers of pairs of primes which result in mystery2 to print ”Completed” are lesser than 1, Can we edit the code in mystery2() so that ”Completed” is always printed for any pair of primes ?",
   "code": null,
   "images": [],
   "crops": [
@@ -34772,7 +34758,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "if numbers of pairs of primes which result in mystery2 to print completed are",
+  "norm": "if numbers of pairs of primes which result in mystery2 to print completed are lesser than 1 can we edit the code in mystery2 so that completed is always printed for any pair of primes",
   "norm_options": [
    "no it is logically not possible",
    "yes we can change decrease the threshold for length of list2 in the last if block",

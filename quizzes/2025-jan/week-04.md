@@ -256,16 +256,14 @@ Accepted answer(s): 3; 8; 1; 0; 1; 3; ⎡; ⎤; 5; 2; 1; 6; 1; 1; ⎢; ⎥; ⎢;
 
 ### Q5. (question text in image)
 
-- [ ] What is the minimum number of people required to ensure that at least three of them share
-> Accepted answer (not matched to a printed option): (Type: Numeric) 97
+Accepted answer(s): (Type: Numeric) 97
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w04-q05-p20.png)
 
 ### Q6. (question text in image)
 
-- [ ] Calculate the magic constant for 5x5 square, where all elements are distinct numbers from
-> Accepted answer (not matched to a printed option): (Type: Numeric) 74
+Accepted answer(s): (Type: Numeric) 74
 > No, the answer is incorrect. Score: 0
 
 ![page crop](img/w04-q06-p20.png)
@@ -293,7 +291,7 @@ Accepted answer(s): 3; 8; 1; 0; 1; 3; ⎡; ⎤; 5; 2; 1; 6; 1; 1; ⎢; ⎥; ⎢;
 
 ![page crop](img/w04-q08-p21.png)
 
-### Q9. If all possible pairs of prime numbers between 0 and 10, are given to n1 and n2, for
+### Q9. If all possible pairs of prime numbers between 0 and 10, are given to n1 and n2, for how many pairs would mystery2 print ”Completed” ?
 
 - [ ] It will print ”Completed” only for pairs (2,3)(7,2),(2,5), and for the remaining it would not print ”Completed”.
 - [ ] It will print ”Completed” only for pair (2,3), and for the remaining other pairs of primes it would not print ”Completed”.
@@ -303,7 +301,7 @@ Accepted answer(s): 3; 8; 1; 0; 1; 3; ⎡; ⎤; 5; 2; 1; 6; 1; 1; ⎢; ⎥; ⎢;
 
 ![page crop](img/w04-q09-p21.png)
 
-### Q10. If numbers of pairs of primes which result in mystery2 to print ”Completed” are
+### Q10. If numbers of pairs of primes which result in mystery2 to print ”Completed” are lesser than 1, Can we edit the code in mystery2() so that ”Completed” is always printed for any pair of primes ?
 
 - [ ] Yes, we can change the logic for setting flag variable to False.
 - [ ] No, it is logically not possible.
