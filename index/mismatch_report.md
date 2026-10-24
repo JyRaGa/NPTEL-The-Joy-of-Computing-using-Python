@@ -1,6 +1,6 @@
 # Parse mismatch report
 
-2334 questions from 215 files. Types: {'single': 2121, 'reveal': 79, 'multi': 126, 'numeric': 8}. Answer sources: {'uploader': 1294, 'official': 1000, 'reviewed': 40}.
+2334 questions from 215 files. Types: {'single': 2120, 'reveal': 79, 'multi': 126, 'numeric': 9}. Answer sources: {'uploader': 1294, 'official': 1000, 'reviewed': 40}.
 
 77 files with issues:
 
@@ -61,7 +61,7 @@
 - `quizzes/2024-jan/week-12.md`: no parsed options (reveal): Q5, Q10
 - `quizzes/2024-jul/week-01.md`: no parsed options (reveal): Q2, Q9
 - `quizzes/2024-jul/week-02.md`: no parsed options (reveal): Q2
-- `quizzes/2024-jul/week-03.md`: no answer: Q4, Q10
+- `quizzes/2024-jul/week-03.md`: no answer: Q4
 - `quizzes/2024-jul/week-05.md`: no answer: Q1
 - `quizzes/2024-jul/week-07.md`: no answer: Q6
 - `quizzes/2024-jul/week-08.md`: no answer: Q3, Q8

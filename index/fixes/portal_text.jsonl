@@ -2,3 +2,5 @@
 {"gid": "2018-jul/w02/q06@portal", "text": "What is the value stored in the variable answer at the end of executing the following\nsnippet?"}
 {"gid": "2018-jul/w02/q09@portal", "text": "What happens when the following code is executed?"}
 {"gid": "2018-jul/w05/q04", "text": "What does the following snippet do when a list 'a' is passed to it?"}
+{"gid": "2018-jul/w03/q03", "text": "What does the following snippet print:"}
+{"gid": "2018-jul/w03/q02", "options": [{"code": "for i in range(10):\n    print(i)"}, {"code": "for i in range(11):\n    print(i)"}, {"code": "for i in range(1,10):\n    print i"}, {"code": "for i in range(1,11):\n    print(i)"}]}

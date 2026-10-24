@@ -19,7 +19,6 @@
 
 ### Q2. In the below code -
 For what value of n does the program print 21 ?
-7
 
 Accepted answer(s): (Type: Numeric) 7
 > Yes, the answer is correct. Score: 1
@@ -105,10 +104,10 @@ is incorrect, Can you make changes to code such that this option is true ?
 ![page crop](img/w03-q09-p33.png)
 
 ### Q10. What does the code in question 8, calculate ?
+Can you say what the values of k and b are if n = 10294343763482 x 10²³⁰⁹ .
+If values of k and b are different, enter 0, else enter value of k
 
-- [ ] 2309 Can you say what the values of k and b are if n = 10294343763482 x 10
-- [ ] . If values of k and b are different, enter 0, else enter value of k 56
-> Accepted answer (not matched to a printed option): (Type: Numeric) 56
+Accepted answer(s): (Type: Numeric) 56
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w03-q10-p33.png)

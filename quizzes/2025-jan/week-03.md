@@ -16,7 +16,7 @@
 ![page crop](img/w03-q01-p13.png)
 
 ### Q2. In the below code -
-45
+For what value of n does the program print 10 ?
 
 Accepted answer(s): (Type: Numeric) 5
 > No, the answer is incorrect. Score: 0

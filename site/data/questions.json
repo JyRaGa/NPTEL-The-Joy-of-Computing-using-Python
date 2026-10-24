@@ -25341,7 +25341,7 @@
   "kind": "portal_print_parsed",
   "type": "numeric",
   "context": null,
-  "text": "In the below code -\nFor what value of n does the program print 21 ?\n7",
+  "text": "In the below code -\nFor what value of n does the program print 21 ?",
   "code": null,
   "images": [],
   "crops": [
@@ -25352,7 +25352,7 @@
   "answer": "7",
   "answer_source": "official",
   "explanation": null,
-  "norm": "in the below code for what value of n does the program print 21 7",
+  "norm": "in the below code for what value of n does the program print 21",
   "norm_options": []
  },
  {
@@ -25665,32 +25665,20 @@
   "num": 10,
   "file": "quizzes/2024-jul/week-03.md",
   "kind": "portal_print_parsed",
-  "type": "single",
+  "type": "numeric",
   "context": null,
-  "text": "What does the code in question 8, calculate ?",
+  "text": "What does the code in question 8, calculate ?\nCan you say what the values of k and b are if n = 10294343763482 x 10²³⁰⁹ .\nIf values of k and b are different, enter 0, else enter value of k",
   "code": null,
   "images": [],
   "crops": [
    "quizzes/2024-jul/img/w03-q10-p33.png"
   ],
-  "options": [
-   {
-    "text": "2309 Can you say what the values of k and b are if n = 10294343763482 x 10",
-    "img": null
-   },
-   {
-    "text": ". If values of k and b are different, enter 0, else enter value of k 56",
-    "img": null
-   }
-  ],
-  "answer": [],
+  "options": [],
+  "answer": "56",
   "answer_source": "official",
   "explanation": null,
-  "norm": "what does the code in question 8 calculate",
-  "norm_options": [
-   "2309 can you say what the values of k and b are if n 10294343763482 x 10",
-   "if values of k and b are different enter 0 else enter value of k 56"
-  ]
+  "norm": "what does the code in question 8 calculate can you say what the values of k and b are if n 10294343763482 x 102309 if values of k and b are different enter 0 else enter value of k",
+  "norm_options": []
  },
  {
   "id": "2025-jan/w03/q01",
@@ -25749,7 +25737,7 @@
   "kind": "portal_print_parsed",
   "type": "numeric",
   "context": null,
-  "text": "In the below code -\n45",
+  "text": "In the below code -\nFor what value of n does the program print 10 ?",
   "code": null,
   "images": [],
   "crops": [
@@ -25760,7 +25748,7 @@
   "answer": "5",
   "answer_source": "official",
   "explanation": null,
-  "norm": "in the below code 45",
+  "norm": "in the below code for what value of n does the program print 10",
   "norm_options": []
  },
  {
