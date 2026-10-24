@@ -4,7 +4,7 @@
 - Portal: `noc22_cs122`, due 2022-09-21, 23:59 IST → **Jul-2022 session**
 - `[x]` = option ticked by the video author before submitting → unverified
 
-**1) Which of the following q43 the correct representation of tuples?** *(sic — "q43" as printed on the portal)*
+**1) Which of the following q43 the correct representation of tuples?**
 - [ ] [1,2,3,4]
 - [x] (1,2,3,4)
 - [x] ((1), (2), (3), (4))

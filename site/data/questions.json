@@ -66355,7 +66355,7 @@
   "kind": "youtube_transcription",
   "type": "multi",
   "context": null,
-  "text": "Which of the following q43 the correct representation of tuples?** *(sic — \"q43\" as printed on the portal)*",
+  "text": "Which of the following q43 the correct representation of tuples?",
   "code": null,
   "images": [],
   "crops": [],
@@ -66383,7 +66383,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "which of the following q43 the correct representation of tuples sic q43 as printed on the portal",
+  "norm": "which of the following q43 the correct representation of tuples",
   "norm_options": [
    "1 2 3 4",
    "1 2 3 4",
@@ -69202,7 +69202,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What will be the effect of the following Python code on the graph?",
+  "text": "Which statement is correct about the following program?",
   "code": null,
   "images": [],
   "crops": [
@@ -69232,7 +69232,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what will be the effect of the following python code on the graph",
+  "norm": "which statement is correct about the following program",
   "norm_options": [
    "both b and c",
    "the graph will go down when guess and pick are the same",
@@ -69341,7 +69341,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "While converting an image into black and white, can it be converted back into a colored",
+  "text": "While converting an image into black and white, can it be converted back into a colored image?",
   "code": null,
   "images": [],
   "crops": [
@@ -69362,7 +69362,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "while converting an image into black and white can it be converted back into a colored",
+  "norm": "while converting an image into black and white can it be converted back into a colored image",
   "norm_options": [
    "false",
    "true"
@@ -69377,7 +69377,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "What will be the output of the following Python code?\nConverting lowercase letters into uppercase.",
+  "text": "What will be the output of the following Python code?",
   "code": null,
   "images": [],
   "crops": [
@@ -69385,6 +69385,10 @@
    "quizzes/2025-jan/img/w08-q10-p43.png"
   ],
   "options": [
+   {
+    "text": "Converting lowercase letters into uppercase.",
+    "img": null
+   },
    {
     "text": "Converting uppercase letters into lowercase.",
     "img": null
@@ -69398,11 +69402,14 @@
     "img": null
    }
   ],
-  "answer": [],
+  "answer": [
+   0
+  ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "what will be the output of the following python code converting lowercase letters into uppercase",
+  "norm": "what will be the output of the following python code",
   "norm_options": [
+   "converting lowercase letters into uppercase",
    "converting uppercase letters into lowercase",
    "error",
    "returns the same word"

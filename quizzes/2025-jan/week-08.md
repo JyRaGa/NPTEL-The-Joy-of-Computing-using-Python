@@ -59,7 +59,7 @@
 
 ![page crop](img/w08-q05-p41.png)
 
-### Q6. What will be the effect of the following Python code on the graph?
+### Q6. Which statement is correct about the following program?
 
 - [ ] The graph will go up when guess and pick are the same.
 - [ ] The graph will go down when guess and pick are the same.
@@ -91,7 +91,7 @@
 
 ![page crop](img/w08-q08-p42.png)
 
-### Q9. While converting an image into black and white, can it be converted back into a colored
+### Q9. While converting an image into black and white, can it be converted back into a colored image?
 
 - [ ] True
 - [x] False
@@ -100,12 +100,11 @@
 ![page crop](img/w08-q09-p42.png)
 
 ### Q10. What will be the output of the following Python code?
-Converting lowercase letters into uppercase.
 
+- [x] Converting lowercase letters into uppercase.
 - [ ] Converting uppercase letters into lowercase.
 - [ ] Returns the same word.
 - [ ] Error.
-> Accepted answer (not matched to a printed option): Converting lowercase letters into uppercase.
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w08-q10-p42.png)
