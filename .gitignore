@@ -2,4 +2,4 @@ __pycache__/
 *.pyc
 .vercel/
 .impeccable/
-.claude/launch.json
+.claude/
