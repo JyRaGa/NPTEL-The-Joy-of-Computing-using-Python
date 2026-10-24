@@ -124,7 +124,7 @@ def main(weeks=None):
                 if not skipped:
                     missed.append(g["id"])
                     continue
-            stems = [(p, tidy(im, top=k > 0)) for k, (p, im) in enumerate(stems)]
+            stems = [(p, im if isinstance(ov.get(p), list) else tidy(im, top=k > 0)) for k, (p, im) in enumerate(stems)]  # a [top, bottom] band is already exact
             stems = [(p, im) for p, im in stems if im.height > 20 and (ink_rows(im.convert("L")) > 10 or isinstance(ov.get(p), list))]  # drop blank page tails
             if not any(b[1] - b[0] >= 50 for _, im in stems for b in bands(im.convert("L"))) and not forced:
                 text_only += 1  # the stem is just the question's own words

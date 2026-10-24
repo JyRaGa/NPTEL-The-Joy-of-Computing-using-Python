@@ -129,7 +129,7 @@ def parse_file(rel, kind):
             continue
         am = ANSWER.match(s)
         if am:
-            cur["answer"] = ["ABCDEFGH".index(c) for c in re.findall(r"[A-H]", am.group(1).upper())]
+            cur["answer"] = ["ABCDEFGH".index(c) for c in re.findall(r"\b[A-H]\b", am.group(1).upper())]  # "C and D": the A of "AND" is not an option
             continue
         if s.startswith("> Justification:") or s.startswith("> Explanation:"):
             cur["explanation"] = re.sub(r"^> \w+:\s*", "", s)

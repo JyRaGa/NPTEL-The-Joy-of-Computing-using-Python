@@ -49,7 +49,7 @@ print(nx.is_connected(G))
 
 **7) How many neighbors does node 4 have?**
 
-![W9 Q7](img/Jan-2023-W9-Q7.jpg)
+![W9 Q7](img/Jan-2023-W9-Q7-graph.png)
 - [ ] 1
 - [x] 2
 - [ ] 3

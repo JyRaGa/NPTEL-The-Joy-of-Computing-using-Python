@@ -17,3 +17,13 @@
 {"gid": "2022-jul/w07/q09", "images": []}
 {"gid": "2023-jul/w07/q10@gpt", "code": null}
 {"gid": "2023-jul/w07/q05", "context": null}
+{"gid": "2025-jan/w09/q09", "text": "A complete graph will have __ degree of separation"}
+{"gid": "2023-jan/w09/q03", "text": "In which of the following ways can we create a string in python?"}
+{"gid": "2025-jan/w09/q02", "text": "What is the key difference between lists and tuples in Python, and when would you choose one over the other?"}
+{"gid": "2025-jan/w09/q06", "text": "Which of the following is always true for a connected undirected graph with at least one edge?"}
+{"gid": "2025-jan/w09/q07", "text": "What is the primary difference between using single quotes, double quotes, and triple quotes to create strings in Python?"}
+{"gid": "2024-jul/w09/q09", "text": "Given the following Python code, what is printed in the end?"}
+{"gid": "2023-jul/w09/q06", "text": "How many neighbors does node 3 have?"}
+{"gid": "2023-jul/w09/q10@gpt", "text": "Networkx in Python is used for", "code": null}
+{"gid": "2023-jul/w09/q04", "text": "What is the output of the following code?", "options": [{"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.A.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.B.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.C.PNG"}, {"text": "", "img": "quizzes/2022-jan/img/noc22_cs31/JOC_W9_Q4.D.PNG"}], "answer": [3]}
+{"gid": "2026-jan/w09/q08", "options": ["A sharply peaked word-length distribution", "Identical sentiment to all authors", "A broader, less consistent distribution", "No visible plot"]}

@@ -3,7 +3,6 @@
 - Source: <https://www.youtube.com/watch?v=fPG7vktKT6Y> · Techies Talk · published 2022-09-21
 - Portal: `noc22_cs122`, due 2022-09-28, 23:59 IST → **Jul-2022 session**
 - `[x]` = option ticked by the video author before submitting → unverified
-- Graph images for Q6, Q8, Q10 (top to bottom): ![W9 graphs](img/Jul-2022-W9-Q6-Q8-Q10.jpg)
 
 **1) Which of the following ways can help to identify the author of a book?**
 - [x] Books coverage
@@ -48,7 +47,7 @@ G = nx.gnp_random_graph(5, 1)
 
 **6) How many neighbors does node 4 have?**
 
-(graph image — see first panel of the linked image: nodes 1, 2, 3, 4)
+![W9 Q6](img/Jul-2022-W9-Q6.png)
 - [ ] 1
 - [x] 2
 - [ ] 3
@@ -62,7 +61,7 @@ G = nx.gnp_random_graph(5, 1)
 
 **8) How many nodes and edges does the following graph have?**
 
-(graph image — see second panel of the linked image)
+![W9 Q8](img/Jul-2022-W9-Q8.png)
 - [ ] 5,5
 - [ ] 2,5
 - [x] 5,2
@@ -76,7 +75,7 @@ G = nx.gnp_random_graph(5, 1)
 
 **10) Degree of separation for the following graph is**
 
-(graph image — see third panel of the linked image)
+![W9 Q10](img/Jul-2022-W9-Q10.png)
 - [x] 1
 - [ ] 2
 - [ ] 3

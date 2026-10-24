@@ -63,7 +63,10 @@
 
 **9. What will the following statement print?**
 
-- print(im.getpixel(coordinate))
+```python
+print(im.getpixel(coordinate))
+```
+
 - Prints the coordinate of a particular pixel
 - Prints the pixel RGB value specified by coordinate variable that contains both x and y value  ✅
 - Error message

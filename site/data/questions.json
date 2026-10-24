@@ -71097,10 +71097,8 @@
    }
   ],
   "answer": [
-   0,
    1,
-   2,
-   3
+   2
   ],
   "answer_source": "official",
   "explanation": "- A. Incorrect. The original Review column is not modified. - B. Correct. Lines 4–12 create a Pandas DataFrame named reviews. - C. Correct. Line 23 applies the get_sentiment() function to every review. - D. Incorrect. Classification is based on the compound sentiment score, not the length of the review.",
@@ -74473,14 +74471,10 @@
   "type": "single",
   "context": null,
   "text": "What will the following statement print?",
-  "code": null,
+  "code": "print(im.getpixel(coordinate))",
   "images": [],
   "crops": [],
   "options": [
-   {
-    "text": "print(im.getpixel(coordinate))",
-    "img": null
-   },
    {
     "text": "Prints the coordinate of a particular pixel",
     "img": null
@@ -74495,14 +74489,13 @@
    }
   ],
   "answer": [
-   2
+   1
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "what will the following statement print",
+  "norm": "what will the following statement print print im getpixel coordinate",
   "norm_options": [
    "error message",
-   "print im getpixel coordinate",
    "prints the coordinate of a particular pixel",
    "prints the pixel rgb value specified by coordinate variable that contains both x and y value"
   ]
@@ -75226,9 +75219,11 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "How many neighbors does node 4 have?\n(graph image — see first panel of the linked image: nodes 1, 2, 3, 4)",
+  "text": "How many neighbors does node 4 have?",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2022-jul/img/Jul-2022-W9-Q6.png"
+  ],
   "crops": [],
   "options": [
    {
@@ -75253,7 +75248,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "how many neighbors does node 4 have graph image see first panel of the linked image nodes 1 2 3 4",
+  "norm": "how many neighbors does node 4 have",
   "norm_options": [
    "1",
    "2",
@@ -75314,9 +75309,11 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "How many nodes and edges does the following graph have?\n(graph image — see second panel of the linked image)",
+  "text": "How many nodes and edges does the following graph have?",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2022-jul/img/Jul-2022-W9-Q8.png"
+  ],
   "crops": [],
   "options": [
    {
@@ -75341,7 +75338,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "how many nodes and edges does the following graph have graph image see second panel of the linked image",
+  "norm": "how many nodes and edges does the following graph have",
   "norm_options": [
    "2 2",
    "2 5",
@@ -75402,9 +75399,11 @@
   "kind": "youtube_transcription",
   "type": "single",
   "context": null,
-  "text": "Degree of separation for the following graph is\n(graph image — see third panel of the linked image)",
+  "text": "Degree of separation for the following graph is",
   "code": null,
-  "images": [],
+  "images": [
+   "quizzes/2022-jul/img/Jul-2022-W9-Q10.png"
+  ],
   "crops": [],
   "options": [
    {
@@ -75429,7 +75428,7 @@
   ],
   "answer_source": "uploader",
   "explanation": null,
-  "norm": "degree of separation for the following graph is graph image see third panel of the linked image",
+  "norm": "degree of separation for the following graph is",
   "norm_options": [
    "1",
    "2",
@@ -75720,7 +75719,7 @@
   "text": "How many neighbors does node 4 have?",
   "code": null,
   "images": [
-   "quizzes/2023-jan/img/Jan-2023-W9-Q7.jpg"
+   "quizzes/2023-jan/img/Jan-2023-W9-Q7-graph.png"
   ],
   "crops": [],
   "options": [
@@ -78961,7 +78960,6 @@
    }
   ],
   "answer": [
-   0,
    2,
    3
   ],
@@ -79213,7 +79211,6 @@
    }
   ],
   "answer": [
-   0,
    2,
    3
   ],
@@ -79450,7 +79447,6 @@
    }
   ],
   "answer": [
-   0,
    2,
    3
   ],
@@ -79702,7 +79698,6 @@
    }
   ],
   "answer": [
-   0,
    1,
    3
   ],
