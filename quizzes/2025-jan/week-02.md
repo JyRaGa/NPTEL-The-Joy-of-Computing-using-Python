@@ -5,7 +5,7 @@
 
 > bhargavi111gm@gmail.com · Due on 2025-02-05, 23:59 IST.
 
-### Q1. Statement: If a variable is assigned a value once, the value in the variable cannot
+### Q1. Statement: If a variable is assigned a value once, the value in the variable cannot be changed in the variable.
 
 - [ ] False, the variable stores all values it was assigned.
 - [x] False, the variable stores the value from the latest assignment.
@@ -28,7 +28,7 @@
 - [x] in(input())
 - [ ] float(input())
 - [x] int(input())
-- [ ] a = input() a = int(a)
+- [x] a = input() a = int(a)
 > Yes, the answer is correct. Score: 1
 
 ![page crop](img/w02-q03-p9.png)
@@ -55,7 +55,7 @@
 
 ![page crop](img/w02-q05-p10.png)
 
-### Q6. Which loop is used to perform a set of repetitive tasks without a condition by default
+### Q6. Which loop is used to perform a set of repetitive tasks without a condition by default in Python?
 
 - [ ] while loop
 - [x] for loop
@@ -88,7 +88,7 @@
 
 ![page crop](img/w02-q08-p11.png)
 
-### Q9. For which of the following values of name and age variables does the following
+### Q9. For which of the following values of name and age variables does the following code print ”You are lucky”?
 
 - [x] aryan, 20
 - [ ] arjun, 19

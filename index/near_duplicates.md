@@ -52,6 +52,7 @@
 - `2023-jan/w11/q06` vs `2023-jul/w12/q03@gpt`
 - `2023-jul/w07/q10` vs `2025-jan/w07/q10`
 - `2023-jul/w08/q03@gpt` vs `2025-jan/w08/q01`
+- `2024-jul/w02/q09` vs `2025-jan/w02/q09`
 - `2024-jul/w02/q10` vs `2025-jan/w02/q10`
 - `2024-jul/w03/q01` vs `2025-jan/w03/q01`
 - `2024-jul/w03/q07` vs `2025-jan/w03/q07`

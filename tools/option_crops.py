@@ -18,6 +18,13 @@ BOXES = {
     "2024-jul/w01/q09": [("w01-q09-p13", (45, 55, 905, 405)), ("w01-q09-p14", (45, 55, 650, 795)), ("w01-q09-p15", (45, 45, 905, 365)), ("w01-q09-p15", (60, 405, 905, 715))],
     "2025-jan/w01/q02": [("w01-q02-p1", (70, 42, 330, 220)), ("w01-q02-p1", (66, 230, 320, 388)), ("w01-q02-p2", (73, 82, 320, 262)), ("w01-q02-p2", (73, 262, 320, 438))],
     "2025-jan/w01/q09": [("w01-q09-p5", (40, 110, 928, 630)), ("w01-q09-p5", (40, 652, 928, 1176)), ("w01-q09-p5", (40, 1192, 928, 1712)), ("w01-q09-p6", (24, 110, 928, 628))],
+    "2020-sep/w02/q04": [("w02-q04-p13", (47, 255, 108, 275)), ("w02-q04-p13", (47, 292, 108, 317)), ("w02-q04-p13", (47, 339, 100, 366)), ("w02-q04-p13", (47, 384, 93, 412))],
+    "2020-sep/w02/q06": [("w02-q06-p14", (80, 315, 410, 377)), ("w02-q06-p14", (80, 389, 410, 452)), ("w02-q06-p14", (80, 487, 410, 550)), ("w02-q06-p14", (72, 572, 410, 634))],
+}
+# cards that had no options parsed at all also need the key from the page's "Accepted Answers"
+EXTRA = {
+    "2020-sep/w02/q04": {"type": "single"},  # the source lists every option twice and ticks both copies
+    "2020-sep/w02/q06": {"type": "single", "answer": [2], "badge": "official"},
 }
 
 
@@ -35,7 +42,7 @@ def main():
             dst.parent.mkdir(exist_ok=True)
             Image.open(ROOT / "quizzes" / term / "img" / f"{page}.png").crop(box).save(dst)
             out.append({"text": "", "img": dst.relative_to(ROOT).as_posix()})
-        rows.append({"gid": card, "options": out})
+        rows.append({"gid": card, "options": out, **EXTRA.get(card, {})})
     (ROOT / "index" / "fixes" / "optimg.jsonl").write_text("".join(json.dumps(r) + "\n" for r in rows), encoding="utf-8")
     print(f"{sum(isinstance(o, dict) for r in rows for o in r['options'])} option pictures for {len(rows)} cards")
 

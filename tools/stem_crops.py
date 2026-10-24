@@ -107,7 +107,7 @@ def main(weeks=None):
             continue
         for g in json.loads(f.read_text(encoding="utf-8")):
             forced = any(isinstance(ov.get(p), (int, list)) for p in g["crops"])
-            if not (bare(g) and g["crops"] and (forced or POINTS_AT.search(g["text"] or ""))):
+            if not (g["crops"] and (forced or bare(g) and POINTS_AT.search(g["text"] or ""))):  # an override is a hand check, so it wins over bare()
                 continue
             stems, skipped = [], False  # (path, image) of everything above the first option radio
             for p in g["crops"]:

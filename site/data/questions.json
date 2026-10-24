@@ -17511,7 +17511,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Statement: If a variable is assigned a value once, the value in the variable cannot",
+  "text": "Statement: If a variable is assigned a value once, the value in the variable cannot be changed in the variable.",
   "code": null,
   "images": [],
   "crops": [
@@ -17540,7 +17540,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "statement if a variable is assigned a value once the value in the variable cannot",
+  "norm": "statement if a variable is assigned a value once the value in the variable cannot be changed in the variable",
   "norm_options": [
    "false the variable stores all values it was assigned",
    "false the variable stores the value from the latest assignment",
@@ -17606,7 +17606,8 @@
   ],
   "answer": [
    0,
-   2
+   2,
+   3
   ],
   "answer_source": "official",
   "explanation": null,
@@ -17720,7 +17721,7 @@
   "kind": "portal_print_parsed",
   "type": "single",
   "context": null,
-  "text": "Which loop is used to perform a set of repetitive tasks without a condition by default",
+  "text": "Which loop is used to perform a set of repetitive tasks without a condition by default in Python?",
   "code": null,
   "images": [],
   "crops": [
@@ -17749,7 +17750,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "which loop is used to perform a set of repetitive tasks without a condition by default",
+  "norm": "which loop is used to perform a set of repetitive tasks without a condition by default in python",
   "norm_options": [
    "do while loop",
    "for loop",
@@ -17857,7 +17858,7 @@
   "kind": "portal_print_parsed",
   "type": "multi",
   "context": null,
-  "text": "For which of the following values of name and age variables does the following",
+  "text": "For which of the following values of name and age variables does the following code print ”You are lucky”?",
   "code": null,
   "images": [],
   "crops": [
@@ -17887,7 +17888,7 @@
   ],
   "answer_source": "official",
   "explanation": null,
-  "norm": "for which of the following values of name and age variables does the following",
+  "norm": "for which of the following values of name and age variables does the following code print you are lucky",
   "norm_options": [
    "aakash 16",
    "anand 18",
